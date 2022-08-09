@@ -32,6 +32,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        debug: true,
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -48,16 +49,26 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+
         },
       }),
     ],
   ],
+  plugins: ['tailwind-loader'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      algolia: {
+        apiKey: '481c294cd5afa8803f32c1b027d0806f',
+        indexName: 'dev_getfexr',
+        appId: 'AJ4WOFLLGX',
+        contextualSearch: true,
+        searchPagePath: false,
+      },
       navbar: {
-        title: 'My Site',
+        hideOnScroll: true,
+        title: 'Fexr',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -78,7 +89,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
@@ -94,7 +105,7 @@ const config = {
             items: [
               {
                 label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
                 label: 'Discord',
