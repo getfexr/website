@@ -1,41 +1,49 @@
 import React from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-
-import styles from './index.module.css';
+import { Hero, Button } from '@algolia/ui-library';
+import Layout from '@theme/Layout';
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import FexrLogo from '../components/FexrLogo';
 
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
+  const { withBaseUrl } = useBaseUrlUtils();
   return (
-    <header className="bg-blue-500">
-      <div className="container mx-auto text-center py-24">
-        <h1 className="text-4xl font-bold text-white">{siteConfig.title}</h1>
-        <p className="text-xl py-6 text-white">{siteConfig.tagline}</p>
-
-        <div className="py-10">
-          <Link
-            className="bg-white rounded-md text-gray-500 px-4 py-2"
-            to="/docs/intro"
+    <div className="uil-pb-24">
+      <Hero
+        id="hero-apply"
+        title=<FexrLogo width="50%" />
+        background="orbInside"
+        cta={[
+          <Button
+            key="get-started"
+            href={withBaseUrl('docs/what-is-docsearch')}
           >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
+            Get started
+          </Button>,
+          <Button
+            key="apply"
+            href={withBaseUrl('apply')}
+            background="blue"
+            color="white"
+            className="apply-button"
+          >
+            Apply
+          </Button>,
+        ]}
+      />
+    </div>
   );
 }
 
 export default function Home() {
-  const {siteConfig} = useDocusaurusContext();
+  const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      wrapperClassName='tailwind'
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
-      <HomepageHeader/>
+      wrapperClassName="tailwind"
+      description={`${siteConfig.tagline}`}
+    >
+      <HomepageHeader />
       <main>
         <HomepageFeatures />
       </main>
