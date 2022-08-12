@@ -128,6 +128,49 @@ function AppStores() {
   );
 }
 
+function Stats() {
+  const stats = [
+    {
+      label: 'label',
+      value: 'value',
+    },
+    {
+      label: 'label2',
+      value: 'value',
+    },
+  ];
+  return (
+    <div className="pt-4 pb-12 md:pb-16">
+      <div className="relative">
+        <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
+          <div className="max-w-4xl mx-auto">
+            <dl
+              className={(function className() {
+                return `rounded-lg shadow-xl lg:grid showcase lg:grid-cols-${stats.length}`;
+              }())}
+            >
+              { stats.map((stat) => (
+                <div className="flex flex-col border-b p-6 text-center lg:border-0 showcase-border">
+                  <dt
+                    className="order-2 mt-2 text-lg leading-6 font-medium text-description"
+                  >
+                    { stat.label }
+                  </dt>
+                  <dd
+                    className="order-1 text-5xl leading-none font-extrabold text-indigo-600"
+                  >
+                    { stat.value }
+                  </dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
@@ -142,7 +185,9 @@ export default function HomepageFeatures() {
             </div>
           </div>
         </div>
+
         <Description />
+        <Stats />
       </div>
     </section>
   );
