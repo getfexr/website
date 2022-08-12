@@ -112,9 +112,6 @@ html[data-theme='dark'] .main-logo {
   height: 100%;
   padding: 0 1rem;
   transform: skewY(calc(-1 * (var(--hero-skew))));
-
-  color: #0a141c;
-  opacity: 0.6;
 }
 
 @keyframes gradient {

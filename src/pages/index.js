@@ -1,6 +1,6 @@
 import React from 'react';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { Hero, Button, Heading1 } from '@algolia/ui-library';
+import { Hero, Button } from '@algolia/ui-library';
 import Layout from '@theme/Layout';
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
@@ -11,7 +11,10 @@ function HomepageHeader() {
     <div className="uil-pb-24">
       <div className="hero">
         <div className="hero__content">
-          <Heading1>e21e21</Heading1>
+          <h1 className="mt-50 text-black text-4xl sm:text-8xl break-normal">
+            Your priv** keys only
+            in your pocket.
+          </h1>
         </div>
       </div>
       <Hero
