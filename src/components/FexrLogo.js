@@ -1,14 +1,15 @@
-import PropTypes from 'prop-types';
-import React from 'react';
+import PropTypes from "prop-types";
+import React from "react";
 
-function FexrLogo({width}) {
+function FexrLogo({ width }) {
   FexrLogo.propTypes = {
-    width : PropTypes.string.isRequired,
+    width: PropTypes.string.isRequired,
   };
   return (
     <img
-  src = "./img/logo.png"
-  width = {width} className = "inline-block"
+      src="./img/logo.png"
+      width={width}
+      className="inline-block"
       alt="Fexr Logo"
     />
   );

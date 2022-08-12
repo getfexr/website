@@ -1,36 +1,45 @@
-import {InlineLink} from '@algolia/ui-library';
-import {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
-import React from 'react';
+import { InlineLink } from "@algolia/ui-library";
+import { useBaseUrlUtils } from "@docusaurus/useBaseUrl";
+import React from "react";
 
-import styles from './styles.module.css';
+import styles from "./styles.module.css";
 
 function Description() {
   return (
-      <div className = "py-2 overflow-hidden"><
-          div className =
-              "relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
-          <div className = "relative">
-          <h3 className =
-               "text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-              Crypto Wallet and On -
-          Chain Verifiable Claims using DID.<
-              /h3>
+    <div className="py-2 overflow-hidden">
+      <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
+        <div className="relative">
+          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
+            Crypto Wallet and On - Chain Verifiable Claims using DID.
+          </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
-            Get your decentralized wallet that can be used to store and verify claims,
-            RBT and more with your decentralized identity.
+            Get your decentralized wallet that can be used to store and verify
+            claims, RBT and more with your decentralized identity.
           </p>
-          </div>
-      </div><
-      /div>
+        </div>
+      </div>
+    </div>
   );
 }
 
 const icons = {
   apple() {
-    return (<svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" role="img" xmlns="http:/ /
+    return (
+      <svg
+        className="ml-2 -mr-1 w-5 h-5"
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        role="img"
+        xmlns="http:/ /
               www.w3.org / 2000 /
-              svg " viewBox=" 0 0 384 512 "><path fill=" currentColor
-                                          " d=" M318 .7 268.7c -
+              svg "
+        viewBox=" 0 0 384 512 "
+      >
+        <path
+          fill=" currentColor
+                                          "
+          d=" M318 .7 268.7c -
           .2 - 36.7 16.4 - 64.4 50 - 84.8 - 18.8 - 26.9 - 47.2 - 41.7 - 84.7 -
           44.6 - 35.5 - 2.8 - 74.3 20.7 - 88.5 20.7 - 15 0 - 49.4 - 19.7 -
           76.4 -
@@ -39,18 +48,40 @@ const icons = {
           82.5 102.6 - 119.3 - 65.2 - 30.7 - 61.7 - 90 - 61.7 - 91.9zm - 56.6 -
           164.2c27.3 - 32.4 24.8 - 61.9 24 - 72.5 - 24.1 1.4 - 52 16.4 -
           67.9 34.9 - 17.5 19.8 - 27.8 44.3 - 25.6 71.9 26.1 2 49.9 -
-          11.4 69.5 - 34.3z " /></svg>
-  );
-}
-, google() {
+          11.4 69.5 - 34.3z "
+        />
+      </svg>
+    );
+  },
+  google() {
     return (
-      <svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <path fill="currentColor" xmlns="http://www.w3.org/2000/svg" d="M12.786 12.316a.5.5 0 0 0-.152-.355L2.705 2.352a.5.5 0 0 0-.822.201 1.926 1.926 0 0 0-.106.614v18.151c0 .376.106.729.314 1.049a.502.502 0 0 0 .773.082l9.775-9.775a.505.505 0 0 0 .147-.358zM13.352 11.265a.498.498 0 0 0 .702-.005l2.525-2.525a.502.502 0 0 0-.113-.792L4.624 1.458a.502.502 0 0 0-.632.158.502.502 0 0 0 .061.649l9.299 9zM21.217 10.544l-2.924-1.602a.503.503 0 0 0-.594.085l-2.915 2.915a.5.5 0 0 0 .006.712l2.906 2.813a.503.503 0 0 0 .588.079l2.933-1.606c.63-.345 1.006-.98 1.006-1.698s-.376-1.353-1.006-1.698zM14.071 13.351a.5.5 0 0 0-.701.006l-8.32 8.32a.498.498 0 0 0 .594.791l10.804-5.916a.499.499 0 0 0 .107-.798l-2.484-2.403z" />
+      <svg
+        className="ml-2 -mr-1 w-5 h-5"
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="apple"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          d="M12.786 12.316a.5.5 0 0 0-.152-.355L2.705 2.352a.5.5 0 0 0-.822.201 1.926 1.926 0 0 0-.106.614v18.151c0 .376.106.729.314 1.049a.502.502 0 0 0 .773.082l9.775-9.775a.505.505 0 0 0 .147-.358zM13.352 11.265a.498.498 0 0 0 .702-.005l2.525-2.525a.502.502 0 0 0-.113-.792L4.624 1.458a.502.502 0 0 0-.632.158.502.502 0 0 0 .061.649l9.299 9zM21.217 10.544l-2.924-1.602a.503.503 0 0 0-.594.085l-2.915 2.915a.5.5 0 0 0 .006.712l2.906 2.813a.503.503 0 0 0 .588.079l2.933-1.606c.63-.345 1.006-.98 1.006-1.698s-.376-1.353-1.006-1.698zM14.071 13.351a.5.5 0 0 0-.701.006l-8.32 8.32a.498.498 0 0 0 .594.791l10.804-5.916a.499.499 0 0 0 .107-.798l-2.484-2.403z"
+        />
       </svg>
     );
   },
   windows() {
-    return (<svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 24 24"><path fill="currentColor" d="M22 2 11.2 3.6v8l10.8-.1V2zM10.2 12.5 2 12.4v6.8l8.1 1.1.1-7.8zM2 4.8v6.8h8.1V3.7L2 4.8zm9.1 7.7v7.9L22 22v-9.4l-10.9-.1z" /></svg>);
+    return (
+      <svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M22 2 11.2 3.6v8l10.8-.1V2zM10.2 12.5 2 12.4v6.8l8.1 1.1.1-7.8zM2 4.8v6.8h8.1V3.7L2 4.8zm9.1 7.7v7.9L22 22v-9.4l-10.9-.1z"
+        />
+      </svg>
+    );
   },
   fuchsia() {
     return (
@@ -95,47 +126,59 @@ c-12.5,0-22.7-10.2-22.7-22.7s10.2-22.7,22.7-22.7s22.7,10.2,22.7,22.7S231.5,105.1
 function AppStores() {
   const stores = [
     {
-      store: 'Apple Store',
+      store: "Apple Store",
       icon: icons.apple,
     },
     {
-      store: 'Google Play',
+      store: "Google Play",
       icon: icons.google,
     },
     {
-      store: 'Mac OS',
+      store: "Mac OS",
       icon: icons.apple,
       comingSoon: true,
     },
     {
-      store: 'Windows',
+      store: "Windows",
       icon: icons.windows,
       comingSoon: true,
     },
     {
-      store: 'Fuchsia OS',
+      store: "Fuchsia OS",
       icon: icons.fuchsia,
       comingSoon: true,
     },
     {
-      store: 'F-Droid',
+      store: "F-Droid",
       icon: icons.fdroid,
       comingSoon: true,
     },
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Features</h2>
-      <p className="mb-16 text-lg text-gray-500">Get insights to dig down into what&apos;s powering your growth the most.</p>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">
+        Features
+      </h2>
+      <p className="mb-16 text-lg text-gray-500">
+        Get insights to dig down into what&apos;s powering your growth the most.
+      </p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
-        { stores.map((store) => (
-          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-sm px-6 py-3.5 w-48">
+        {stores.map((store) => (
+          <button
+            key={store.store}
+            type="button"
+            className="app-button font-medium font-sm rounded-lg text-sm px-6 py-3.5 w-48"
+          >
             <div className="grid grid-cols-1 gap-1 place-items-center">
-              { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Avaiable on</span> }
+              {store.comingSoon ? (
+                <span className="inline">Coming soon</span>
+              ) : (
+                <span className="inline">Avaiable on</span>
+              )}
               <div className="h-full grid-cols-2 w-full gap-1">
-                <strong>{ store.store }</strong>
-                { store.icon ? <store.icon /> : null }
+                <strong>{store.store}</strong>
+                {store.icon ? <store.icon /> : null}
               </div>
             </div>
           </button>
@@ -148,12 +191,12 @@ function AppStores() {
 function Stats() {
   const stats = [
     {
-      label: 'label',
-      value: 'value',
+      label: "label",
+      value: "value",
     },
     {
-      label: 'label2',
-      value: 'value',
+      label: "label2",
+      value: "value",
     },
   ];
   return (
@@ -164,27 +207,26 @@ function Stats() {
             <dl
               className={(function className() {
                 return `rounded-lg shadow-xl lg:grid showcase lg:grid-cols-${stats.length} gap-1`;
-              }())}
+              })()}
             >
-              { stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col border-b p-6 text-center showcase-border">
-                  <dt
-                    className="order-2 mt-2 text-lg leading-6 font-medium text-description"
-                  >
-                    { stat.label }
+              {stats.map((stat) => (
+                <div
+                  key={stat.label}
+                  className="flex flex-col border-b p-6 text-center showcase-border"
+                >
+                  <dt className="order-2 mt-2 text-lg leading-6 font-medium text-description">
+                    {stat.label}
                   </dt>
-                  <dd
-                    className="order-1 text-5xl leading-none font-extrabold text-indigo-600"
-                  >
-                    { stat.value }
+                  <dd className="order-1 text-5xl leading-none font-extrabold text-indigo-600">
+                    {stat.value}
                   </dd>
                 </div>
-              ))
-}
-</dl>
-          </div></div>
-      </div><
-    /div>
+              ))}
+            </dl>
+          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -192,7 +234,7 @@ function HowItWorks() {
   const { withBaseUrl } = useBaseUrlUtils();
   const steps = [
     {
-      title: 'Create an account',
+      title: "Create an account",
       description: (
         <span>
           We leverage the&nbsp;
@@ -203,14 +245,15 @@ function HowItWorks() {
             Algolia Crawler&nbsp;
           </InlineLink>
           to index every section of your documentation.
-        </span>),
+        </span>
+      ),
       image: {
-        src: withBaseUrl('img/scraping.svg'),
-        alt: 'Create an account',
+        src: withBaseUrl("img/scraping.svg"),
+        alt: "Create an account",
       },
     },
     {
-      title: 'Create an account2',
+      title: "Create an account2",
       description: (
         <span>
           We leverage the&nbsp;
@@ -221,10 +264,11 @@ function HowItWorks() {
             Algolia Crawler&nbsp;
           </InlineLink>
           to index every section of your documentation.
-        </span>),
+        </span>
+      ),
       image: {
-        src: withBaseUrl('img/scraping.svg'),
-        alt: 'Create an account',
+        src: withBaseUrl("img/scraping.svg"),
+        alt: "Create an account",
       },
     },
   ];
@@ -236,20 +280,21 @@ function HowItWorks() {
             <h2 className="text-3xl leading-9 font-extrabold text-gray-900 md:text-4xl md:leading-10">
               How it works
             </h2>
-    <p className = "mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-        We scrape your documentation, configure the Algolia
-application and send you the snippet you&apos;ll have to integrate.
+            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+              We scrape your documentation, configure the Algolia application
+              and send you the snippet you&apos;ll have to integrate.
             </p>
           </div>
         </div>
 
         <div className="py-16">
           <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
-            <div className={(function className() {
-              return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
-            }())}
+            <div
+              className={(function className() {
+                return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
+              })()}
             >
-              { steps.map((step) => (
+              {steps.map((step) => (
                 <div key={step.title}>
                   <div className="flex items-center justify-center">
                     <img
@@ -268,11 +313,9 @@ application and send you the snippet you&apos;ll have to integrate.
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
@@ -280,18 +323,23 @@ application and send you the snippet you&apos;ll have to integrate.
 
 export default function HomepageFeatures() {
   return (
-      <section className = {styles.features}><div className = "container">
-      <div className = "p-8 bg-amber-300">
-      <div className = "grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
-      <div className = "p-4 rounded-md flex items-center justify-center">
-      <AppStores />
-      </div>
+    <section className={styles.features}>
+      <div className="container">
+        <div className="p-8 bg-amber-300">
+          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
+            <div className="p-4 rounded-md flex items-center justify-center">
+              <AppStores />
+            </div>
             <div className="p-4 bg-blue-400 rounded-md flex items-center justify-center">
               Placeholder for image
             </div>
-      </div>
+          </div>
         </div>
 
-      <Description /><Stats /><HowItWorks /></div>
-    </section>);
+        <Description />
+        <Stats />
+        <HowItWorks />
+      </div>
+    </section>
+  );
 }
