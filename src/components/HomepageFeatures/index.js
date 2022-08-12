@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
+import { InlineLink } from '@algolia/ui-library';
+
 import styles from './styles.module.css';
 
 function Description() {
@@ -150,7 +153,7 @@ function Stats() {
               }())}
             >
               { stats.map((stat) => (
-                <div className="flex flex-col border-b p-6 text-center showcase-border">
+                <div key={stat.label} className="flex flex-col border-b p-6 text-center showcase-border">
                   <dt
                     className="order-2 mt-2 text-lg leading-6 font-medium text-description"
                   >
@@ -166,6 +169,96 @@ function Stats() {
             </dl>
           </div>
         </div>
+      </div>
+    </div>
+  );
+}
+
+function HowItWorks() {
+  const { withBaseUrl } = useBaseUrlUtils();
+  const steps = [
+    {
+      title: 'Create an account',
+      description: (
+        <span>
+          We leverage the&nbsp;
+          <InlineLink
+            target="_blank"
+            href="https://www.algolia.com/products/search-and-discovery/crawler/"
+          >
+            Algolia Crawler&nbsp;
+          </InlineLink>
+          to index every section of your documentation.
+        </span>),
+      image: {
+        src: withBaseUrl('img/scraping.svg'),
+        alt: 'Create an account',
+      },
+    },
+    {
+      title: 'Create an account2',
+      description: (
+        <span>
+          We leverage the&nbsp;
+          <InlineLink
+            target="_blank"
+            href="https://www.algolia.com/products/search-and-discovery/crawler/"
+          >
+            Algolia Crawler&nbsp;
+          </InlineLink>
+          to index every section of your documentation.
+        </span>),
+      image: {
+        src: withBaseUrl('img/scraping.svg'),
+        alt: 'Create an account',
+      },
+    },
+  ];
+  return (
+    <div className="diagonal-box py-16 bg-gray-200 overflow-hidden">
+      <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
+        <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
+          <div className="max-w-4xl mx-auto text-center">
+            <h2 className="text-3xl leading-9 font-extrabold text-gray-900 md:text-4xl md:leading-10">
+              How it works
+            </h2>
+            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+              We scrape your documentation, configure the Algolia
+              application and send you the snippet you&apos;ll have to integrate.
+            </p>
+          </div>
+        </div>
+
+        <div className="py-16">
+          <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
+            <div className={(function className() {
+              return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
+            }())}
+            >
+              { steps.map((step) => (
+                <div key={step.title}>
+                  <div className="flex items-center justify-center">
+                    <img
+                      className="h-200"
+                      src={step.image.src}
+                      alt={step.image.alt}
+                    />
+                  </div>
+                  <div className="mt-10 lg:mt-0 p-4">
+                    <h5 className="text-lg leading-6 font-medium text-gray-900">
+                      1. Scraping
+                    </h5>
+                    <p className="mt-2 text-base leading-6 text-gray-600">
+                      {step.description}
+                    </p>
+                  </div>
+                </div>
+              ))}
+
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
@@ -188,6 +281,7 @@ export default function HomepageFeatures() {
 
         <Description />
         <Stats />
+        <HowItWorks />
       </div>
     </section>
   );
