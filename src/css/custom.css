@@ -124,3 +124,7 @@ html[data-theme='dark'] .main-logo {
 	}
 }
 
+.showcase-border {
+  border-bottom: 1px solid rgba(243, 244, 246, 1);
+  border-left: 1px solid rgba(243, 244, 246, 1);
+}

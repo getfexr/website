@@ -146,11 +146,11 @@ function Stats() {
           <div className="max-w-4xl mx-auto">
             <dl
               className={(function className() {
-                return `rounded-lg shadow-xl lg:grid showcase lg:grid-cols-${stats.length}`;
+                return `rounded-lg shadow-xl lg:grid showcase lg:grid-cols-${stats.length} gap-1`;
               }())}
             >
               { stats.map((stat) => (
-                <div className="flex flex-col border-b p-6 text-center lg:border-0 showcase-border">
+                <div className="flex flex-col border-b p-6 text-center showcase-border">
                   <dt
                     className="order-2 mt-2 text-lg leading-6 font-medium text-description"
                   >
