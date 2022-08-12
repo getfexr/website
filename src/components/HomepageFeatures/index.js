@@ -1,34 +1,48 @@
+import {InlineLink} from '@algolia/ui-library';
+import {useBaseUrlUtils} from '@docusaurus/useBaseUrl';
 import React from 'react';
-
-import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
-import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
 
 function Description() {
   return (
-    <div className="py-2 overflow-hidden">
-      <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
-        <div className="relative">
-          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Crypto Wallet and On-Chain Verifiable Claims using DID.
-          </h3>
+      <div className = "py-2 overflow-hidden"><
+          div className =
+              "relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
+          <div className = "relative">
+          <h3 className =
+               "text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
+              Crypto Wallet and On -
+          Chain Verifiable Claims using DID.<
+              /h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
             Get your decentralized wallet that can be used to store and verify claims,
             RBT and more with your decentralized identity.
           </p>
-        </div>
-      </div>
-    </div>
+          </div>
+      </div><
+      /div>
   );
 }
 
 const icons = {
   apple() {
-    return (<svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" /></svg>
-    );
-  },
-  google() {
+    return (<svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" role="img" xmlns="http:/ /
+              www.w3.org / 2000 /
+              svg " viewBox=" 0 0 384 512 "><path fill=" currentColor
+                                          " d=" M318 .7 268.7c -
+          .2 - 36.7 16.4 - 64.4 50 - 84.8 - 18.8 - 26.9 - 47.2 - 41.7 - 84.7 -
+          44.6 - 35.5 - 2.8 - 74.3 20.7 - 88.5 20.7 - 15 0 - 49.4 - 19.7 -
+          76.4 -
+          19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2 -
+          .6 43 - 17.9 75.8 - 17.9 31.8 0 48.3 17.9 76.4 17.9 48.6 - .7 90.4 -
+          82.5 102.6 - 119.3 - 65.2 - 30.7 - 61.7 - 90 - 61.7 - 91.9zm - 56.6 -
+          164.2c27.3 - 32.4 24.8 - 61.9 24 - 72.5 - 24.1 1.4 - 52 16.4 -
+          67.9 34.9 - 17.5 19.8 - 27.8 44.3 - 25.6 71.9 26.1 2 49.9 -
+          11.4 69.5 - 34.3z " /></svg>
+  );
+}
+, google() {
     return (
       <svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
         <path fill="currentColor" xmlns="http://www.w3.org/2000/svg" d="M12.786 12.316a.5.5 0 0 0-.152-.355L2.705 2.352a.5.5 0 0 0-.822.201 1.926 1.926 0 0 0-.106.614v18.151c0 .376.106.729.314 1.049a.502.502 0 0 0 .773.082l9.775-9.775a.505.505 0 0 0 .147-.358zM13.352 11.265a.498.498 0 0 0 .702-.005l2.525-2.525a.502.502 0 0 0-.113-.792L4.624 1.458a.502.502 0 0 0-.632.158.502.502 0 0 0 .061.649l9.299 9zM21.217 10.544l-2.924-1.602a.503.503 0 0 0-.594.085l-2.915 2.915a.5.5 0 0 0 .006.712l2.906 2.813a.503.503 0 0 0 .588.079l2.933-1.606c.63-.345 1.006-.98 1.006-1.698s-.376-1.353-1.006-1.698zM14.071 13.351a.5.5 0 0 0-.701.006l-8.32 8.32a.498.498 0 0 0 .594.791l10.804-5.916a.499.499 0 0 0 .107-.798l-2.484-2.403z" />
@@ -165,12 +179,12 @@ function Stats() {
                     { stat.value }
                   </dd>
                 </div>
-              ))}
-            </dl>
-          </div>
-        </div>
-      </div>
-    </div>
+              ))
+}
+</dl>
+          </div></div>
+      </div><
+    /div>
   );
 }
 
@@ -222,9 +236,9 @@ function HowItWorks() {
             <h2 className="text-3xl leading-9 font-extrabold text-gray-900 md:text-4xl md:leading-10">
               How it works
             </h2>
-            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
-              We scrape your documentation, configure the Algolia
-              application and send you the snippet you&apos;ll have to integrate.
+    <p className = "mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+        We scrape your documentation, configure the Algolia
+application and send you the snippet you&apos;ll have to integrate.
             </p>
           </div>
         </div>
@@ -266,23 +280,18 @@ function HowItWorks() {
 
 export default function HomepageFeatures() {
   return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="p-8 bg-amber-300">
-          <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
-            <div className="p-4 rounded-md flex items-center justify-center">
-              <AppStores />
-            </div>
+      <section className = {styles.features}><div className = "container">
+      <div className = "p-8 bg-amber-300">
+      <div className = "grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
+      <div className = "p-4 rounded-md flex items-center justify-center">
+      <AppStores />
+      </div>
             <div className="p-4 bg-blue-400 rounded-md flex items-center justify-center">
               Placeholder for image
             </div>
-          </div>
+      </div>
         </div>
 
-        <Description />
-        <Stats />
-        <HowItWorks />
-      </div>
-    </section>
-  );
+      <Description /><Stats /><HowItWorks /></div>
+    </section>);
 }
