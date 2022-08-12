@@ -10,8 +10,8 @@ function HomepageHeader() {
   return (
     <div className="uil-pb-24">
       <div className="hero">
-        <div className="hero__content px-8 py lg:px-28 lg:py-76">
-          <h1 className="mt-50 text-black text-4xl sm:text-8xl xl:text-9xl break-normal">
+        <div className="hero__content px-8 mt-20 lg:px-28 lg:py-76">
+          <h1 className="mt-50 text-black text-4xl sm:text-8xl break-normal">
             Your priv** keys only
             in your pocket.
           </h1>
