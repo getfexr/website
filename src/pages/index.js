@@ -1,18 +1,21 @@
 import React from 'react';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { Hero, Button } from '@algolia/ui-library';
+import { Hero, Button, Heading1 } from '@algolia/ui-library';
 import Layout from '@theme/Layout';
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import FexrLogo from '../components/FexrLogo';
 
 function HomepageHeader() {
   const { withBaseUrl } = useBaseUrlUtils();
   return (
     <div className="uil-pb-24">
+      <div className="hero">
+        <div className="hero__content">
+          <Heading1>e21e21</Heading1>
+        </div>
+      </div>
       <Hero
         id="hero-apply"
-        title=<FexrLogo width="50%" />
         background="orbInside"
         cta={[
           <Button

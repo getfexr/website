@@ -12,6 +12,9 @@
   --ifm-color-primary: var(--nebula-500);
   --ifm-footer-background-color: var(--grey-100);
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
+  --inverse-color: black;
+
+  --hero-skew: -10deg;
 }
 
 html[data-theme='dark'] {
@@ -23,6 +26,12 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #0a141c;
   --ifm-navbar-background-color: #21243d;
   --ifm-menu-color-background-active: #21243d;
+  --inverse-color: white;
+}
+
+.app-button {
+  background-color: var(--inverse-color);
+  color: var(--ifm-background-color);
 }
 
 /* Prism in docusaurus.config.js is responsible for rest of the colors */
@@ -79,3 +88,44 @@ svg {
 html[data-theme='dark'] .main-logo {
   color: #fff;
 }
+
+/* Animation */
+.hero {
+	background: linear-gradient(-45deg, #007AFF, #FF0000
+  ,#ffcb57
+  /* , var(--ifm-background-color) */
+  /* , var(--inverse-color) */
+    );
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 70vh;
+  box-shadow: 0 30px 40px rgba(0,0,0,.1);
+  transform: skewY(var(--hero-skew));
+  transform-origin: 0 0;
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  padding: 0 1rem;
+  transform: skewY(calc(-1 * (var(--hero-skew))));
+
+  color: #0a141c;
+  opacity: 0.6;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
