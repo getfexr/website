@@ -2,11 +2,11 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Roadmap
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
-## Getting Started
+## Story before Fexr
 
 Get started by **creating a new site**.
 
