@@ -71,10 +71,10 @@ const config = {
         searchPagePath: false,
       },
       navbar: {
-        hideOnScroll: true,
+        hideOnScroll: false,
         title: 'Fexr',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Fexr Logo',
           src: 'img/logo.svg',
         },
         items: [

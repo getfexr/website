@@ -7,7 +7,7 @@ import styles from './styles.module.css';
 
 function Description() {
   return (
-    <div className="py-2 overflow-hidden">
+    <div className="py- mt-10 overflow-hidden">
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
@@ -111,7 +111,7 @@ function AppStores() {
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900">Features</h2>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Features</h2>
       <p className="mb-16 text-lg text-gray-500">Get insights to dig down into what&apos;s powering your growth the most.</p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
@@ -215,14 +215,14 @@ function HowItWorks() {
     },
   ];
   return (
-    <div className="diagonal-box py-16 bg-gray-200 overflow-hidden">
+    <div className="diagonal-box py-16 dark:bg-gray-800 bg-gray-200 overflow-hidden">
       <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl leading-9 font-extrabold text-gray-900 md:text-4xl md:leading-10">
+            <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
               How it works
             </h2>
-            <p className="mt-4 max-w-2xl text-xl leading-7 text-gray-500 lg:mx-auto">
+            <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
               We scrape your documentation, configure the Algolia
               application and send you the snippet you&apos;ll have to integrate.
             </p>
@@ -245,10 +245,10 @@ function HowItWorks() {
                     />
                   </div>
                   <div className="mt-10 lg:mt-0 p-4">
-                    <h5 className="text-lg leading-6 font-medium text-gray-900">
-                      1. Scraping
+                    <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900">
+                      {step.title}
                     </h5>
-                    <p className="mt-2 text-base leading-6 text-gray-600">
+                    <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
                       {step.description}
                     </p>
                   </div>
@@ -268,7 +268,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="p-8 bg-amber-300">
+        <div className="p-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
             <div className="p-4 rounded-md flex items-center justify-center">
               <AppStores />
