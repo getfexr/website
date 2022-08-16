@@ -12,8 +12,6 @@
   --ifm-color-primary: var(--nebula-500);
   --ifm-footer-background-color: var(--grey-100);
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
-  --inverse-color: black;
-
   --hero-skew: -10deg;
 }
 
@@ -26,11 +24,9 @@ html[data-theme='dark'] {
   --ifm-footer-background-color: #0a141c;
   --ifm-navbar-background-color: #21243d;
   --ifm-menu-color-background-active: #21243d;
-  --inverse-color: white;
 }
 
 .app-button {
-  background-color: var(--inverse-color);
   color: var(--ifm-background-color);
 }
 
@@ -58,20 +54,12 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.tailwind *,
-.tailwind ::before,
-.tailwind ::after {
-  border-width: 0;
-  border-style: solid;
-}
-
 .tailwind ol,
 .tailwind ul {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 
 svg {
   display: inline-block;
@@ -92,10 +80,7 @@ html[data-theme='dark'] .main-logo {
 /* Animation */
 .hero {
 	background: linear-gradient(-45deg, #007AFF, #FF0000
-  ,#ffcb57
-  /* , var(--ifm-background-color) */
-  /* , var(--inverse-color) */
-    );
+  ,#ffcb57);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
   box-shadow: 0 30px 40px rgba(0,0,0,.1);
@@ -124,7 +109,15 @@ html[data-theme='dark'] .main-logo {
 	}
 }
 
-.showcase-border {
-  border-bottom: 1px solid rgba(243, 244, 246, 1);
-  border-left: 1px solid rgba(243, 244, 246, 1);
+
+html[data-theme='dark'] .showcase-border {
+  border-color: rgba(55, 65, 81, 1);
+}
+
+.diagonal-box {
+  transform: skewY(-6deg);
+}
+
+.diagonal-content {
+  transform: skewY(6deg);
 }

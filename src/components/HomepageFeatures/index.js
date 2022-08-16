@@ -116,7 +116,7 @@ function AppStores() {
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
         { stores.map((store) => (
-          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-sm px-6 py-3.5 w-48">
+          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100">
             <div className="grid grid-cols-1 gap-1 place-items-center">
               { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Avaiable on</span> }
               <div className="h-full grid-cols-2 w-full gap-1">
@@ -148,12 +148,10 @@ function Stats() {
         <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
           <div className="max-w-4xl mx-auto">
             <dl
-              className={(function className() {
-                return `rounded-lg shadow-xl lg:grid showcase lg:grid-cols-${stats.length} gap-1`;
-              }())}
+              className="rounded-lg shadow-xl md:grid bg-white dark:bg-gray-900 grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
             >
               { stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col border-b p-6 text-center showcase-border">
+                <div key={stat.label} className="flex flex-col p-6 text-center">
                   <dt
                     className="order-2 mt-2 text-lg leading-6 font-medium text-description"
                   >
@@ -267,7 +265,7 @@ function HowItWorks() {
 export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
-      <div className="container">
+      <div className="w-full">
         <div className="p-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
             <div className="p-4 rounded-md flex items-center justify-center">
