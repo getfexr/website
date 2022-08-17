@@ -8,6 +8,7 @@ export default class WavesHeader extends React.Component {
     let width = canvas.clientWidth;
     let height = canvas.clientHeight;
     let bandThickness = height / 7;
+    let resized = false;
 
     const resize = () => {
       ctx = canvas.getContext('2d');
@@ -15,7 +16,9 @@ export default class WavesHeader extends React.Component {
       height = canvas.clientHeight;
       canvas.height = height;
       canvas.width = width;
-      ctx.scale(2, 2);
+      bandThickness = height / 7;
+      ctx.scale(9, 2);
+      resized = true;
     };
 
     const drawWaves = () => {
@@ -67,6 +70,18 @@ export default class WavesHeader extends React.Component {
       }
 
       const draw = () => {
+        if (resized) {
+          const points = 40;
+          waves.forEach((wave, i) => {
+            wave.forEach((point, j) => {
+              // eslint-disable-next-line no-param-reassign
+              point.x = ((j * width) / points) - 50;
+              // eslint-disable-next-line no-param-reassign
+              point.y = bandThickness * i + 25;
+            });
+          });
+          resized = false;
+        }
         ctx.clearRect(0, 0, width, height);
 
         for (let i = 0; i < waves.length; i += 1) {
