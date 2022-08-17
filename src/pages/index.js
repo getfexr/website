@@ -9,7 +9,7 @@ import WavesHeader from '@site/src/components/HomepageFeatures/WavesHeader';
 function HomepageHeader() {
   const { withBaseUrl } = useBaseUrlUtils();
   return (
-    <div className="uil-pb-24" id="waves-header">
+    <div className="uil-pb-24 min-h-screen" id="waves-header">
       <WavesHeader />
       <div>
         <div className="px-8 pt-40 mb-20 lg:px-28 lg:py-76">

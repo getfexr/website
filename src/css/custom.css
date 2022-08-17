@@ -80,7 +80,7 @@ html[data-theme='dark'] .main-logo {
 .canvas-bg {
   z-index: -1;
   position: absolute;
-  top: -140px;
+  top: -40px;
   left: 0;
 }
 
