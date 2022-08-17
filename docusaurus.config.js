@@ -79,10 +79,15 @@ const config = {
         },
         items: [
           {
-            type: 'doc',
-            docId: 'intro',
+            type: 'dropdown',
             position: 'left',
-            label: 'Tutorial',
+            label: 'For Developers',
+            items: [
+              {
+                label: 'Introduction',
+                to: 'docs/intro',
+              },
+            ],
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -99,7 +104,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: 'Developers',
                 to: '/docs/intro',
               },
             ],
