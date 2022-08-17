@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Validate Permission
+# ValidatePermission()
 
 Docusaurus can manage multiple versions of your docs.
 

@@ -1,8 +1,8 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
-# Invalidate Permission
+# InitiatePayment()
 
 Let's translate `docs/intro.md` to French.
 

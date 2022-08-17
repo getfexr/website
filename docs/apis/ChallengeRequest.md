@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 ---
 
-# Initiate Payment
+# ChallengeRequest()
 
 Let's translate `docs/intro.md` to French.
 
