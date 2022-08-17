@@ -116,7 +116,7 @@ function AppStores() {
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
         { stores.map((store) => (
-          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100">
+          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80" disabled={store.comingSoon}>
             <div className="grid grid-cols-1 gap-1 place-items-center">
               { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Avaiable on</span> }
               <div className="h-full grid-cols-2 w-full gap-1">
@@ -262,7 +262,105 @@ function HowItWorks() {
   );
 }
 
+function DemoImage() {
+  const { withBaseUrl } = useBaseUrlUtils();
+
+  return (
+    <div className="py-16 lg:py-24">
+      <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
+        <div className="text-center">
+          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
+            It’s all about keyboards
+          </h3>
+          <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
+            Once users become familiar with a system they will become better
+            and faster at doing what they need to. DocSearch offers
+            accelerators to experts.
+          </p>
+          <div className="pt-12 items-center justify-center flex">
+            <img
+              className="w-full max-w-screen image-rendering-pixel"
+              src={withBaseUrl('img/fexr-architecture.svg')}
+              alt="keyboard-shortcuts"
+            />
+          </div>
+        </div>
+        <div className="pt-16 w-5/6 mx-auto">
+          <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+            <li>
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-lg leading-6 font-medium">
+                    Keyboard Shortcut & Navigation
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-description">
+                    We aim at keeping the experience as smooth as your
+                    interaction with an IDE, which explains the Ctrl+K (⌘+K
+                    on macOS) keyboard shortcut to open the search modal.
+                  </p>
+                </div>
+              </div>
+            </li>
+            <li className="mt-10 md:mt-0">
+              <div className="flex">
+                <div className="flex-shrink-0">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <svg
+                      className="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div className="ml-4">
+                  <h4 className="text-lg leading-6 font-medium">
+                    Accessibility
+                  </h4>
+                  <p className="mt-2 text-base leading-6 text-description">
+                    We have released this version with our best efforts on
+                    addressing accessibility issues and we are willing to
+                    make further changes. We'd like to work closely with an
+                    expert in accessibility. Please contact us if you are
+                    interested.
+                  </p>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function HomepageFeatures() {
+  const { withBaseUrl } = useBaseUrlUtils();
+
   return (
     <section className={styles.features}>
       <div className="w-full">
@@ -271,8 +369,12 @@ export default function HomepageFeatures() {
             <div className="p-4 rounded-md flex items-center justify-center">
               <AppStores />
             </div>
-            <div className="p-4 bg-blue-400 rounded-md flex items-center justify-center">
-              Placeholder for image
+            <div className="p-4 rounded-md flex items-center justify-center">
+              <img
+                className=""
+                src={withBaseUrl('img/homePageCreativeNoBG.svg')}
+                alt="keyboard-shortcuts"
+              />
             </div>
           </div>
         </div>
@@ -280,6 +382,7 @@ export default function HomepageFeatures() {
         <Description />
         <Stats />
         <HowItWorks />
+        <DemoImage />
       </div>
     </section>
   );
