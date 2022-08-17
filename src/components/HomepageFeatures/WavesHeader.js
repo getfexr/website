@@ -4,16 +4,17 @@ import React from 'react';
 export default class WavesHeader extends React.Component {
   componentDidMount() {
     const canvas = document.getElementById('canvas');
+    const parent = document.getElementById('waves-header');
     let ctx = canvas.getContext('2d');
     let width = canvas.clientWidth;
-    let height = canvas.clientHeight;
+    let height = parent.offsetHeight;
     let bandThickness = height / 7;
     let resized = false;
 
     const resize = () => {
       ctx = canvas.getContext('2d');
       width = canvas.clientWidth;
-      height = canvas.clientHeight;
+      height = parent.offsetHeight;
       canvas.height = height;
       canvas.width = width;
       bandThickness = height / 7;
@@ -134,7 +135,7 @@ export default class WavesHeader extends React.Component {
 
   render() {
     return (
-      <canvas id="canvas" className="w-full" />
+      <canvas id="canvas" className="w-full canvas-bg diagonal-box" />
     );
   }
 }

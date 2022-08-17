@@ -77,38 +77,12 @@ html[data-theme='dark'] .main-logo {
   color: #fff;
 }
 
-/* Animation */
-.hero {
-	background: linear-gradient(-45deg, #007AFF, #FF0000
-  ,#ffcb57);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-  box-shadow: 0 30px 40px rgba(0,0,0,.1);
-  transform: skewY(var(--hero-skew));
-  transform-origin: 0 0;
+.canvas-bg {
+  z-index: -1;
+  position: absolute;
+  top: -140px;
+  left: 0;
 }
-
-.hero__content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  transform: skewY(calc(-1 * (var(--hero-skew))));
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}
-
 
 html[data-theme='dark'] .showcase-border {
   border-color: rgba(55, 65, 81, 1);

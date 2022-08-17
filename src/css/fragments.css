@@ -982,7 +982,7 @@
   padding-bottom: 48px;
 }
 .uil-pv-80 {
-  padding-top: 80px;
+  padding-top: 10px;
   padding-bottom: 80px;
 }
 @media (min-width: 960px) {
@@ -1005,7 +1005,7 @@
 }
 @media (min-width: 1200px) {
   .lg\:uil-pv-120 {
-    padding-top: 120px;
+    padding-top: 20px;
     padding-bottom: 120px;
   }
 }

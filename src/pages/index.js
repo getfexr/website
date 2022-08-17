@@ -4,13 +4,15 @@ import { Hero, Button } from '@algolia/ui-library';
 import Layout from '@theme/Layout';
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import WavesHeader from '@site/src/components/HomepageFeatures/WavesHeader';
 
 function HomepageHeader() {
   const { withBaseUrl } = useBaseUrlUtils();
   return (
-    <div className="uil-pb-24">
-      <div className="hero">
-        <div className="hero__content px-8 mt-40 mb-20 lg:px-28 lg:py-76">
+    <div className="uil-pb-24" id="waves-header">
+      <WavesHeader />
+      <div>
+        <div className="px-8 pt-40 mb-20 lg:px-28 lg:py-76">
           <h1 className="mt-50 text-black text-4xl sm:text-8xl break-normal">
             Your priv** keys only
             in your pocket.
@@ -18,8 +20,6 @@ function HomepageHeader() {
         </div>
       </div>
       <Hero
-        id="hero-apply"
-        background="orbInside"
         cta={[
           <Button
             key="get-started"
