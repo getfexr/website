@@ -8,7 +8,7 @@ const purposeOptions = [
 ];
 
 const responseOptions = [
-  'Is the project open source?',
+  'Our project is open source.',
   'I am authorised to represent my company in discussions with Fexr.',
 ];
 
@@ -20,6 +20,45 @@ function ApplyForm() {
   const [website, setWebsite] = useState('');
   const [purpose, setPurpose] = useState({});
   const [responseChecked, setResponseChecked] = useState({});
+  const [errorMessage, setError] = useState(false);
+
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [serverResponse, setServerResponse] = useState('');
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+
+    if (isSubmitting) {
+      return;
+    }
+    setIsSubmitting(true);
+    fetch('https://api.web3forms.com/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        website,
+        purpose: Object.keys(purpose),
+        response: Object.keys(responseChecked),
+        from_name: 'Fexr Apply Form',
+        subject: 'Application',
+        access_key: '6134bd07-a953-45f5-88a2-fb533a6ae5f2',
+      }),
+    }).then(async (res) => {
+      const respJson = await res.json();
+      if (respJson.success) {
+        setServerResponse('Application submitted successfully. We\'ll get back to you soon.');
+      } else {
+        setError('Error submitting application.');
+      }
+    }).catch(() => {
+      setError('Something went wrong.');
+    }).finally(() => {
+      setIsSubmitting(false);
+    });
+  };
 
   const handleSetEmail = (e) => {
     setEmail(e.target.value);
@@ -49,82 +88,86 @@ function ApplyForm() {
 
   return (
     <figure className="bg-slate-100 rounded-xl p-8 dark:bg-slate-800">
-      <form className="card-body form-control">
+      {(!errorMessage && !serverResponse)
+        && (
+          <form className="card-body form-control" onSubmit={handleFormSubmit}>
+            <div className="my-3">
+              <label
+                htmlFor="email"
+              >
+                Your email
+                <input
+                  name="email"
+                  type="email"
+                  placeholder="name@example.com"
+                  onChange={handleSetEmail}
+                  required
+                  className={inputClass}
+                />
+              </label>
+            </div>
 
-        <div className="my-3">
-          <label
-            htmlFor="email"
-          >
-            Your email
-            <input
-              name="email"
-              type="email"
-              placeholder="name@example.com"
-              onChange={handleSetEmail}
-              required
-              className={inputClass}
-            />
-          </label>
-        </div>
+            <div className="my-3">
+              <label
+                htmlFor="url"
+              >
+                Your Website
+                <input
+                  name="url"
+                  type="url"
+                  placeholder="https://example.com"
+                  required
+                  className={inputClass}
+                  onChange={handleSetWebsite}
+                />
+              </label>
+            </div>
 
-        <div className="my-3">
-          <label
-            htmlFor="url"
-          >
-            Your Website
-            <input
-              name="url"
-              type="url"
-              placeholder="https://example.com"
-              required
-              className={inputClass}
-              onChange={handleSetWebsite}
-            />
-          </label>
-        </div>
+            <div>
+              <div className="mb-9 mt-12 block">
+                How do you plan to integrate with Fexr?
+                {purposeOptions.map((opt) => (
+                  <div className="flex items-center gap-2" key={opt}>
+                    <label htmlFor={opt}>
+                      <input type="checkbox" className={checkBoxClass} name={opt} value={opt} onChange={handleSetPurpose} />
+                      {opt}
+                    </label>
+                  </div>
+                ))}
+              </div>
 
-        <div>
-          <div className="mb-9 mt-12 block">
-            How do you plan to integrate with Fexr?
-            {purposeOptions.map((opt) => (
-              <div className="flex items-center gap-2" key={opt}>
-                <label htmlFor={opt}>
-                  <input type="checkbox" className={checkBoxClass} name={opt} value={opt} onChange={handleSetPurpose} />
-                  {opt}
+            </div>
+
+            {responseOptions.map((value) => (
+              <div className="flex items-center gap-2" key={value}>
+                <label htmlFor={value}>
+                  <input type="checkbox" className={checkBoxClass} name={value} value={value} onChange={handleSetResponse} />
+                  {value}
                 </label>
               </div>
             ))}
-          </div>
 
-        </div>
+            <div className="mt-10">
+              <button
+                type="submit"
+                className={buttonClass}
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        )}
 
-        {responseOptions.map((value) => (
-          <div className="flex items-center gap-2" key={value}>
-            <label htmlFor={value}>
-              <input type="checkbox" className={checkBoxClass} name={value} value={value} onChange={handleSetResponse} />
-              {value}
-            </label>
-          </div>
-        ))}
-
-        <div className="mt-10">
-          <button
-            type="submit"
-            className={buttonClass}
-            onClick={function () {
-              console.log('button clicked');
-              console.log({
-                email,
-                website,
-                purpose: Object.keys(purpose),
-                response: Object.keys(responseChecked),
-              });
-            }}
-          >
-            Submit
-          </button>
-        </div>
-      </form>
+      {errorMessage && (
+      <div className="p-4 mb-4 text-sm text-red-700 bg-red-100 rounded-lg dark:bg-red-200 dark:text-red-800" role="alert">
+        {errorMessage}
+      </div>
+      )}
+      {serverResponse && (
+      <div className="p-4 mb-4 text-sm text-green-700 bg-green-100 rounded-lg dark:bg-green-200 dark:text-green-800" role="alert">
+        {serverResponse}
+      </div>
+      )}
     </figure>
   );
 }
