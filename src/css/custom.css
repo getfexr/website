@@ -22,6 +22,7 @@ body {
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
+  --doc-sidebar-width: 350px !important;
 }
 
 html[data-theme='dark'] {
