@@ -83,10 +83,12 @@ function AppStores() {
     {
       store: 'Apple Store',
       icon: icons.apple,
+      link: 'https://apps.apple.com/app/fexr-wallet/id1631128786',
     },
     {
       store: 'Google Play',
       icon: icons.google,
+      link: 'https://play.google.com/store/apps/details?id=com.getfexr.core',
     },
     {
       store: 'Mac OS',
@@ -116,7 +118,17 @@ function AppStores() {
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
         { stores.map((store) => (
-          <button key={store.store} type="button" className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80" disabled={store.comingSoon}>
+          <button
+            key={store.store}
+            type="button"
+            onClick={
+              (e) => {
+                e.preventDefault(); window.open(store.link, '_blank');
+              }
+            }
+            className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80"
+            disabled={store.comingSoon}
+          >
             <div className="grid grid-cols-1 gap-1 place-items-center">
               { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Avaiable on</span> }
               <div className="h-full grid-cols-2 w-full gap-1">
