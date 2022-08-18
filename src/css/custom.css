@@ -4,6 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Outfit';
+  src: url('/static/Outfit-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: 'Outfit';
+}
 /* You can override the default Infima variables here. */
 :root {
   --ifm-font-size-base: 16px;
@@ -13,6 +21,7 @@
   --ifm-footer-background-color: var(--grey-100);
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
   --hero-skew: -10deg;
+  --ifm-font-family-base: 'Outfit';
 }
 
 html[data-theme='dark'] {
@@ -94,4 +103,8 @@ html[data-theme='dark'] .showcase-border {
 
 .diagonal-content {
   transform: skewY(6deg);
+}
+
+.dropdown > .navbar__link:after {
+  display: none;
 }
