@@ -4,7 +4,7 @@ import React from 'react';
 export default class WavesHeader extends React.Component {
   componentDidMount() {
     const canvas = document.getElementById('canvas');
-    const parent = document.getElementById('waves-header');
+    const parent = canvas.parentElement;
     let ctx = canvas.getContext('2d');
     let width = canvas.clientWidth;
     let height = parent.offsetHeight;
