@@ -8,4 +8,7 @@ module.exports = {
     extend: {},
   },
   darkMode: ['class', '[data-theme="dark"]'],
+  corePlugins: {
+    preflight: false,
+  },
 };
