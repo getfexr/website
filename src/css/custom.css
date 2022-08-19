@@ -1,0 +1,96 @@
+@import './fragments.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('/static/Outfit-VariableFont_wght.ttf');
+}
+
+body {
+  font-family: 'Outfit';
+}
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-font-size-base: 16px;
+  --ifm-code-font-size: 90%;
+  --ifm-background-color: var(--white);
+  --ifm-color-primary: var(--nebula-500);
+  --ifm-footer-background-color: var(--grey-100);
+  --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
+  --hero-skew: -10deg;
+  --ifm-font-family-base: 'Outfit';
+  --doc-sidebar-width: 350px !important;
+}
+
+html[data-theme='dark'] {
+  --ifm-font-base-color: #dee0f2;
+  --ifm-navbar-link-hover-color: #8b9dff;
+  --ifm-link-color: #8b9dff;
+  --ifm-menu-color-active: #8b9dff;
+  --ifm-background-color: #0a141c;
+  --ifm-footer-background-color: #0a141c;
+  --ifm-navbar-background-color: #21243d;
+  --ifm-menu-color-background-active: #21243d;
+}
+
+.app-button {
+  color: var(--ifm-background-color);
+}
+
+/* Prism in docusaurus.config.js is responsible for rest of the colors */
+
+/* Tailwindcss */
+
+.tailwind dd,
+.tailwind dt {
+  margin: 0;
+}
+
+.tailwind ol,
+.tailwind ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  display: inline-block;
+}
+
+.main-logo {
+  color: #21243d;
+}
+
+.apply-button:hover {
+  color: #fff;
+}
+
+html[data-theme='dark'] .main-logo {
+  color: #fff;
+}
+
+.canvas-bg {
+  z-index: -1;
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+html[data-theme='dark'] .showcase-border {
+  border-color: rgba(55, 65, 81, 1);
+}
+
+.diagonal-box {
+  transform: skewY(-6deg);
+}
+
+.diagonal-content {
+  transform: skewY(6deg);
+}
+
+.dropdown > .navbar__link:after {
+  display: none;
+}
