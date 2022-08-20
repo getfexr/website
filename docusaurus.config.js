@@ -81,8 +81,12 @@ const config = {
             label: 'For Developers',
             items: [
               {
-                label: 'Introduction',
-                to: 'docs/intro',
+                label: 'Features',
+                to: 'docs/category/web3-authentication',
+              },
+              {
+                label: 'RPC APIs',
+                to: 'docs/category/rpc-apis',
               },
             ],
           },
@@ -132,12 +136,12 @@ const config = {
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/getfexr/website',
+                href: 'https://github.com/getfexr/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fexr. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Fexr`,
       },
       prism: {
         theme: defaultCodeTheme,

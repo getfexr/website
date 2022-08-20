@@ -2,13 +2,13 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+# Implementing User Authentication
 
 Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
 
 It builds your site as simple **static HTML, JavaScript and CSS files**.
 
-## Build your site
+## Configuring your environment for Sign in with Fexr
 
 Build your site **for production**:
 

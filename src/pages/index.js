@@ -23,7 +23,7 @@ function HomepageHeader() {
         cta={[
           <Button
             key="get-started"
-            href={withBaseUrl('docs/what-is-docsearch')}
+            href={withBaseUrl('docs/roadmap')}
           >
             Get started
           </Button>,

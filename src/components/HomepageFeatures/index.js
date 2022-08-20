@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-indent */
 import React from 'react';
 
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
@@ -113,8 +114,8 @@ function AppStores() {
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Features</h2>
-      <p className="mb-16 text-lg text-gray-500">Get insights to dig down into what&apos;s powering your growth the most.</p>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Download Fexr</h2>
+      <p className="mb-16 text-lg text-gray-500">Coming soon for all your screens.</p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
         { stores.map((store) => (
@@ -145,14 +146,14 @@ function AppStores() {
 
 function Stats() {
   const stats = [
-    {
-      label: 'label',
-      value: 'value',
-    },
-    {
-      label: 'label2',
-      value: 'value',
-    },
+    // {
+    //   label: 'label',
+    //   value: 'value',
+    // },
+    // {
+    //   label: 'label2',
+    //   value: 'value',
+    // },
   ];
   return (
     <div className="pt-4 pb-12 md:pb-16">
@@ -188,35 +189,20 @@ function HowItWorks() {
   const { withBaseUrl } = useBaseUrlUtils();
   const steps = [
     {
-      title: 'Create an account',
+      title: 'Privacy needs in web3, in one place',
       description: (
         <span>
-          We leverage the&nbsp;
-          <InlineLink
-            target="_blank"
-            href="https://www.algolia.com/products/search-and-discovery/crawler/"
-          >
-            Algolia Crawler&nbsp;
-          </InlineLink>
-          to index every section of your documentation.
+          
         </span>),
       image: {
         src: withBaseUrl('img/scraping.svg'),
-        alt: 'Create an account',
+        alt: 'Privacy needs in web3, in one place',
       },
     },
     {
-      title: 'Create an account2',
+      title: 'Signing & Verification (works offline)',
       description: (
         <span>
-          We leverage the&nbsp;
-          <InlineLink
-            target="_blank"
-            href="https://www.algolia.com/products/search-and-discovery/crawler/"
-          >
-            Algolia Crawler&nbsp;
-          </InlineLink>
-          to index every section of your documentation.
         </span>),
       image: {
         src: withBaseUrl('img/scraping.svg'),
@@ -230,11 +216,10 @@ function HowItWorks() {
         <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
-              How it works
+              Decentralised APIs, Built for everyone
             </h2>
             <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
-              We scrape your documentation, configure the Algolia
-              application and send you the snippet you&apos;ll have to integrate.
+              Web3 APIs from Fexr is one of the easiest SDKs to use blockchain at scale.
             </p>
           </div>
         </div>
@@ -282,12 +267,18 @@ function DemoImage() {
       <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
         <div className="text-center">
           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            It’s all about keyboards
+            Digital Asset Custody
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
-            Once users become familiar with a system they will become better
-            and faster at doing what they need to. DocSearch offers
-            accelerators to experts.
+            Owning a wallet or address is both a convenience and responsibility.
+            <InlineLink
+              target="_blank"
+              href="https://twitter.com/getfexr"
+            >
+              &nbsp;@getfexr
+            </InlineLink>
+            &nbsp;is making it easy for you, through&nbsp;
+            <InlineLink target="_blank" href="https://twitter.com/RubixChain">@RubixChain</InlineLink>
           </p>
           <div className="pt-12 items-center justify-center flex">
             <img
@@ -320,17 +311,17 @@ function DemoImage() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium">
-                    Keyboard Shortcut & Navigation
+                    About RubixChain
                   </h4>
                   <p className="mt-2 text-base leading-6 text-description">
-                    We aim at keeping the experience as smooth as your
-                    interaction with an IDE, which explains the Ctrl+K (⌘+K
-                    on macOS) keyboard shortcut to open the search modal.
+                     A deterministic state-machine that is designed to address the
+                     scale, cost, and privacy shortcomings of blockchain protocols that rely on
+                       one sequentially organized chain of all global transactions.
                   </p>
                 </div>
               </div>
             </li>
-            <li className="mt-10 md:mt-0">
+            {/* <li className="mt-10 md:mt-0">
               <div className="flex">
                 <div className="flex-shrink-0">
                   <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
@@ -351,18 +342,18 @@ function DemoImage() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium">
-                    Accessibility
+                    Image based public and private keys
                   </h4>
                   <p className="mt-2 text-base leading-6 text-description">
                     We have released this version with our best efforts on
                     addressing accessibility issues and we are willing to
-                    make further changes. We'd like to work closely with an
+                    make further changes.like to work closely with an
                     expert in accessibility. Please contact us if you are
                     interested.
                   </p>
                 </div>
               </div>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

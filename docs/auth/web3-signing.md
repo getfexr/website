@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Decentralised Signing  
 
 Documents are **groups of pages** connected through:
 
@@ -10,19 +10,17 @@ Documents are **groups of pages** connected through:
 - **previous/next navigation**
 - **versioning**
 
-## Create your first Doc
+## Image based keys
 
 Create a Markdown file at `docs/hello.md`:
 
 ```md title="docs/hello.md"
-# Hello
+# Computation
 
 This is my **first Docusaurus document**!
 ```
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
-
-## Configure the Sidebar
+## Computation
 
 Docusaurus automatically **creates a sidebar** from the `docs` folder.
 

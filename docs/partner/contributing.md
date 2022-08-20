@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Manage Docs Versions
+# Contributing to the project
 
 Docusaurus can manage multiple versions of your docs.
 
@@ -34,7 +34,7 @@ module.exports = {
       items: [
         // highlight-start
         {
-          type: 'docsVersionDropdown',
+          type: "docsVersionDropdown",
         },
         // highlight-end
       ],
