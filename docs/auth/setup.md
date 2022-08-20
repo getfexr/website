@@ -4,40 +4,16 @@ sidebar_position: 1
 
 # Setting up
 
-Add **Markdown or React** files to `src/pages` to create a **standalone page**:
+Compared to authentication flow of most of the web and mobile application today, each user is authenticated by the server of the application based on the credentials provided by the user for that application. This mainly involves password authentication and sometimes even two-factor authentication.
 
-- `src/pages/index.js` → `localhost:3000/`
-- `src/pages/foo.md` → `localhost:3000/foo`
-- `src/pages/foo/bar.js` → `localhost:3000/foo/bar`
+Blockchain based authentication provides a secure authentication flow which can be compared with or arguably better than two factor authentication. While one-click social logins of widely popular providers offers similar ways to authenticate users, they come with data privacy trade-offs and apps could be cut off from social login by the provider. Fexr provides a one-click, cryptographically-secure login flow using Rubix L1 open-source blockchain platform.
 
-# Create your first React Page
+## Configuring for Apps
 
-Create a file at `src/pages/my-react-page.js`:
+The public address is an easy way to identify a user and verify their ownership, even when the user does not have access to an email account. This could be useful for developers who want to build applications based on blockchain.
 
-```jsx title="src/pages/my-react-page.js"
-import React from 'react';
-import Layout from '@theme/Layout';
+**See supported [app development platforms](/docs/apis/platforms)**.
 
-export default function MyReactPage() {
-  return (
-    <Layout>
-      <h1>My React page</h1>
-      <p>This is a React page</p>
-    </Layout>
-  );
-}
-```
+## Handle User Authentication
 
-A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
-
-## Create your first Markdown Page
-
-Create a file at `src/pages/my-markdown-page.md`:
-
-```mdx title="src/pages/my-markdown-page.md"
-# My Markdown page
-
-This is a Markdown page
-```
-
-A new page is now available at [http://localhost:3000/my-markdown-page](http://localhost:3000/my-markdown-page).
+This simple mechanism allows us to provide a high level of account security without the need of complicated registrations, email confirmations and password recovery mechanisms.
