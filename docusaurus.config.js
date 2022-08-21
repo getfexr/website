@@ -106,7 +106,7 @@ const config = {
             items: [
               {
                 label: 'Developers',
-                to: '/docs/intro',
+                to: '/docs/roadmap',
               },
             ],
           },
