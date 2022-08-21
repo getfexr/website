@@ -2,6 +2,7 @@
   "label": "KYC on blockchain",
   "position": 3,
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "description": "Learn how Fexr is planning to implement KYC on blockchain"
   }
 }
