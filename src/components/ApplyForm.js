@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const purposeOptions = [
-  'Smart Lock',
+  'Web3 Authentication',
   'Payments on Blockchain',
   // 'Documents on Blockchain',
   'Tokenisation of Data',
