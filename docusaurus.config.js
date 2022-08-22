@@ -69,7 +69,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: false,
-        title: 'Fexr',
+        title: '',
         logo: {
           alt: 'Fexr Logo',
           src: 'img/logo.svg',
