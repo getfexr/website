@@ -191,21 +191,18 @@ function HowItWorks() {
     {
       title: 'Privacy needs in web3, in one place',
       description: (
-        <span>
-          
-        </span>),
+        <span />),
       image: {
-        src: withBaseUrl('img/scraping.svg'),
+        src: withBaseUrl('img/feature_privacy.svg'),
         alt: 'Privacy needs in web3, in one place',
       },
     },
     {
       title: 'Signing & Verification (works offline)',
       description: (
-        <span>
-        </span>),
+        <span />),
       image: {
-        src: withBaseUrl('img/scraping.svg'),
+        src: withBaseUrl('img/feature_verified.svg'),
         alt: 'Create an account',
       },
     },
@@ -234,13 +231,13 @@ function HowItWorks() {
                 <div key={step.title}>
                   <div className="flex items-center justify-center">
                     <img
-                      className="h-200"
+                      className="pl-12 h-200"
                       src={step.image.src}
                       alt={step.image.alt}
                     />
                   </div>
                   <div className="mt-10 lg:mt-0 p-4">
-                    <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900">
+                    <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900 text-center">
                       {step.title}
                     </h5>
                     <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
