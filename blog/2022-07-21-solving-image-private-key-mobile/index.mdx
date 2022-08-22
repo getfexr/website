@@ -1,8 +1,31 @@
 ---
 slug: solving-image-private-key-mobile
-title: Optimising image based private key for mobile and IoT computation
+title: Optimising image based public-private key pair generation for mobile and IoT computation
 authors: [allen]
 tags: [Blockchain, DID, App]
 ---
 
-Coming Soon.
+A private key, also known as a secret key, is a variable in cryptography that is used with an algorithm to encrypt and decrypt data.
+A private key is typically a long, randomly or pseudo-randomly generated sequence of bits that cannot be easily guessed. 
+The complexity and length of the private key determine how easily an attacker can execute a brute-force attack, where they try out 
+different keys until the right one is found. When we say image based private key, the private key is an image, which is generated using an 
+alg
+When we are using an image based private key, we need to make sure that the image is not compromised.
+When we 
+
+A private key is also used in asymmetric cryptography, which is also known as public key cryptography. In this case, the private key refers to the secret key of a public key pair. In public key cryptography, the private key is used for encryption and digital signatures. It works as follows for asymmetric cryptography:
+
+Generating a public-private key pair. Randomness is even more important for this process. Encryption application software is usually used to generate key pairs. It should require a source of randomness, such as mouse movement.
+Securely storing the private key. Once generated, the private key must be stored securely. Like the symmetric cryptography process, keys may be stored offline or on the computer used to generate, encrypt and decrypt data. Here, too, private keys should be protected with a password, encrypted or hashed for security.
+Key exchange. The private key of a public key pair should almost never be shared with others. Public key cryptography, including digital signatures, is typically used to securely share session keys used for symmetric encryption. However, other protocols for public key infrastructure are used to authoritatively share public keys between cooperating parties.
+Using the private key. The owner of a public key pair uses their private key for decrypting data that has been encrypted with the public key of the pair. Only the holder of the private key should be able to decrypt data encrypted with the public key. For digital signatures, the owner of the key pair uses their private key to encrypt the signature. In this way, anyone with access to the public key can decrypt the signature and verify that it was signed by the private key owner.
+Key management. Public key pairs are often generated with expiration dates, and key management is vital to maintaining access to data protected with a key pair. For example, an expired public key certificate, which depends on a public key pair, may cause browsers to flag access to a website as insecure. Secret keys should be stored with the highest security, and public key pairs should be managed to avoid compromise or issues related to key pair expiration.
+Advantages of private encryption keys
+Private key encryption provides several useful features. They include the following four benefits:
+
+More secure. Private keys that are longer and have greater entropy, or randomness, are more secure from brute-force or dictionary attacks.
+Faster. Symmetric key encryption is faster computationally than asymmetric encryption with its public-private key pairs.
+Best for encryption. Most cryptographic processes use private key encryption to encrypt data transmissions. They typically use a public key algorithm to securely share secret keys.
+Work for stream and block ciphers. Secret key ciphers -- the algorithm for encrypting and decrypting data -- generally fall into one of two categories: stream ciphers or block ciphers. A block cipher applies a private key and algorithm to a block of data simultaneously, whereas a stream cipher applies the key and algorithm one bit at a time.
+
+
