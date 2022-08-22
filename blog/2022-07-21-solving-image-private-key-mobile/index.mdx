@@ -5,27 +5,11 @@ authors: [allen]
 tags: [Blockchain, DID, App]
 ---
 
-A private key, also known as a secret key, is a variable in cryptography that is used with an algorithm to encrypt and decrypt data.
-A private key is typically a long, randomly or pseudo-randomly generated sequence of bits that cannot be easily guessed. 
-The complexity and length of the private key determine how easily an attacker can execute a brute-force attack, where they try out 
-different keys until the right one is found. When we say image based private key, the private key is an image, which is generated using an 
-alg
-When we are using an image based private key, we need to make sure that the image is not compromised.
-When we 
+When reading the heading there can be some doubts about the terms mentioned there, so I will start by giving a brief explanation about the terms. So the first question arising in this context will be about public-private key pair. As the name suggests, a public-private key pair is a pair of keys that are used to encrypt and decrypt data. The public key is used to encrypt the data and the private key is used to decrypt the data.In our blockchain scenario the private key is used to sign the data and the public key is used to verify the data. The public key is available to anyone and the private key is only available to the owner of the key. This is how a public-private key pair works.
 
-A private key is also used in asymmetric cryptography, which is also known as public key cryptography. In this case, the private key refers to the secret key of a public key pair. In public key cryptography, the private key is used for encryption and digital signatures. It works as follows for asymmetric cryptography:
+Since the first part, which explains about the public-private key pair is completed, we will now talk about how the public-private key pair becomes public-private key pair images and how it is generated. So the process begins by selecting a random 256*256 bit image and giving a random passphrase of the user's choice. The given image is converted to binary, the passphrase is hashed using SHA3-256 and is embedded with the image binary, using this set of binary digits a new image known as the DID image is created. From this DID image a new pair of images are created, one for the public key and one for the private key. These images are created using a complex patented algorithm known as Non-Linear Secret Sharing (NLSS) algorithm. The algorithm works based on some really complex mathematical equations. The program which generates the images iterates till a matching public and private key is found. These private and public key images are then used to sign and verify data. This is the basic generation of image based public-private key pair generation. 
 
-Generating a public-private key pair. Randomness is even more important for this process. Encryption application software is usually used to generate key pairs. It should require a source of randomness, such as mouse movement.
-Securely storing the private key. Once generated, the private key must be stored securely. Like the symmetric cryptography process, keys may be stored offline or on the computer used to generate, encrypt and decrypt data. Here, too, private keys should be protected with a password, encrypted or hashed for security.
-Key exchange. The private key of a public key pair should almost never be shared with others. Public key cryptography, including digital signatures, is typically used to securely share session keys used for symmetric encryption. However, other protocols for public key infrastructure are used to authoritatively share public keys between cooperating parties.
-Using the private key. The owner of a public key pair uses their private key for decrypting data that has been encrypted with the public key of the pair. Only the holder of the private key should be able to decrypt data encrypted with the public key. For digital signatures, the owner of the key pair uses their private key to encrypt the signature. In this way, anyone with access to the public key can decrypt the signature and verify that it was signed by the private key owner.
-Key management. Public key pairs are often generated with expiration dates, and key management is vital to maintaining access to data protected with a key pair. For example, an expired public key certificate, which depends on a public key pair, may cause browsers to flag access to a website as insecure. Secret keys should be stored with the highest security, and public key pairs should be managed to avoid compromise or issues related to key pair expiration.
-Advantages of private encryption keys
-Private key encryption provides several useful features. They include the following four benefits:
+Though the above process seems simple the inbound computation is really complex and cpu intensive. Performing such a cpu intensive task on a small device was really a challenge. The part where the key-pair generation requires high computation power is finding the matching public and private key images. The program reecursively checks for the matching public and private key images and if it finds one it returns the key images.  
 
-More secure. Private keys that are longer and have greater entropy, or randomness, are more secure from brute-force or dictionary attacks.
-Faster. Symmetric key encryption is faster computationally than asymmetric encryption with its public-private key pairs.
-Best for encryption. Most cryptographic processes use private key encryption to encrypt data transmissions. They typically use a public key algorithm to securely share secret keys.
-Work for stream and block ciphers. Secret key ciphers -- the algorithm for encrypting and decrypting data -- generally fall into one of two categories: stream ciphers or block ciphers. A block cipher applies a private key and algorithm to a block of data simultaneously, whereas a stream cipher applies the key and algorithm one bit at a time.
 
 
