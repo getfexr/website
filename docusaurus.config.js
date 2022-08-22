@@ -92,7 +92,7 @@ const config = {
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
-            href: 'https://github.com/getfexr/website',
+            href: 'https://github.com/getfexr/',
             label: 'GitHub',
             position: 'right',
           },
@@ -114,7 +114,7 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
+                label: 'Telegram',
                 to: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
               {
@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/getfexr',
               },
             ],
           },

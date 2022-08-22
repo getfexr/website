@@ -131,7 +131,7 @@ function AppStores() {
             disabled={store.comingSoon}
           >
             <div className="grid grid-cols-1 gap-1 place-items-center">
-              { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Avaiable on</span> }
+              { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Available on</span> }
               <div className="h-full grid-cols-2 w-full gap-1">
                 <strong>{ store.store }</strong>
                 { store.icon ? <store.icon /> : null }
