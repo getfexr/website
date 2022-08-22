@@ -90,7 +90,21 @@ const config = {
               },
             ],
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Community',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Roadmap',
+                to: 'docs/roadmap',
+              },
+            ],
+          },
           {
             href: 'https://github.com/getfexr/',
             label: 'GitHub',
@@ -115,11 +129,11 @@ const config = {
             items: [
               {
                 label: 'Telegram',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://t.me/getfexr',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/getfexr',
               },
               {
                 label: 'Twitter',
