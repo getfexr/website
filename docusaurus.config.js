@@ -36,7 +36,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        debug: true,
+        debug: false,
         docs: {
           path: 'developers',
           routeBasePath: 'developers',
