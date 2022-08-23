@@ -38,6 +38,8 @@ const config = {
       ({
         debug: true,
         docs: {
+          path: 'developers',
+          routeBasePath: 'developers',
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -82,11 +84,11 @@ const config = {
             items: [
               {
                 label: 'Features',
-                to: 'docs/category/web3-authentication',
+                to: 'developers/category/web3-authentication',
               },
               {
                 label: 'RPC APIs',
-                to: 'docs/category/rpc-apis',
+                to: 'developers/category/rpc-apis',
               },
             ],
           },
@@ -101,7 +103,7 @@ const config = {
               },
               {
                 label: 'Roadmap',
-                to: 'docs/roadmap',
+                to: 'developers/roadmap',
               },
             ],
           },
@@ -116,11 +118,11 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Developers',
             items: [
               {
-                label: 'Developers',
-                to: '/docs/roadmap',
+                label: 'Docs',
+                to: '/developers/roadmap',
               },
             ],
           },

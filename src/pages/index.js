@@ -23,7 +23,7 @@ function HomepageHeader() {
         cta={[
           <Button
             key="get-started"
-            href={withBaseUrl('docs/roadmap')}
+            href={withBaseUrl('developers/roadmap')}
           >
             Get started
           </Button>,
