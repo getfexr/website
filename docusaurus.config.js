@@ -38,6 +38,8 @@ const config = {
       ({
         debug: true,
         docs: {
+          path: 'developers',
+          routeBasePath: 'developers',
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -82,15 +84,29 @@ const config = {
             items: [
               {
                 label: 'Features',
-                to: 'docs/category/web3-authentication',
+                to: 'developers/category/web3-authentication',
               },
               {
                 label: 'RPC APIs',
-                to: 'docs/category/rpc-apis',
+                to: 'developers/category/rpc-apis',
               },
             ],
           },
-          { to: '/blog', label: 'Blog', position: 'left' },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Community',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'Roadmap',
+                to: 'developers/roadmap',
+              },
+            ],
+          },
           {
             href: 'https://github.com/getfexr/',
             label: 'GitHub',
@@ -102,11 +118,11 @@ const config = {
         style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Developers',
             items: [
               {
-                label: 'Developers',
-                to: '/docs/roadmap',
+                label: 'Docs',
+                to: '/developers/roadmap',
               },
             ],
           },
@@ -115,11 +131,11 @@ const config = {
             items: [
               {
                 label: 'Telegram',
-                to: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://t.me/getfexr',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discordapp.com/invite/getfexr',
               },
               {
                 label: 'Twitter',

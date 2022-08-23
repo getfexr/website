@@ -94,3 +94,7 @@ html[data-theme='dark'] .showcase-border {
 .dropdown > .navbar__link:after {
   display: none;
 }
+
+.navbar__brand {
+  margin-right: 0;
+}
