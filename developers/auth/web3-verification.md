@@ -10,7 +10,7 @@ sidebar_position: 3
     "request" : {
         "for_did": "Qm....",
         "display_name": "...",
-        "reason": "...",
+        "comment": "...",
         "from_did": "Qm....",
         "payload" : {
             "data": "...."

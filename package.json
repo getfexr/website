@@ -16,6 +16,7 @@
   "dependencies": {
     "@algolia/ui-library": "^5.86.0",
     "@docusaurus/core": "2.0.1",
+    "@docusaurus/plugin-google-gtag": "^2.0.1",
     "@docusaurus/preset-classic": "2.0.1",
     "@mdx-js/react": "^1.6.22",
     "clsx": "^1.2.1",

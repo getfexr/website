@@ -1,10 +1,12 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
-# Verifying Payments
+# Requesting Payments
 
-```json title="Example content in request QR for payment verification"
+Format for payment request data (QR, NFC)
+
+```json title="Example incoming payment request"
 {
     "type": "sync-v1",
     "request" : {
@@ -13,12 +15,6 @@ sidebar_position: 2
         "comment": "...",
         "from_did": "Qm....",
         "amount" : 0.001
-        "signature_type": "default",
-        "timestamp": "...."
-    },
-    "signature": {
-        "signature": "....",
-        "signer": "Qm....",
         "signature_type": "default",
         "timestamp": "...."
     },

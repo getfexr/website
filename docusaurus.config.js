@@ -36,7 +36,7 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
-        debug: true,
+        debug: false,
         docs: {
           path: 'developers',
           routeBasePath: 'developers',
@@ -53,6 +53,10 @@ const config = {
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-8WENR5WPXE',
+          anonymizeIP: true,
         },
       }),
     ],

@@ -6,6 +6,7 @@ specifiers:
   '@docusaurus/core': 2.0.1
   '@docusaurus/eslint-plugin': ^2.0.1
   '@docusaurus/module-type-aliases': 2.0.1
+  '@docusaurus/plugin-google-gtag': ^2.0.1
   '@docusaurus/preset-classic': 2.0.1
   '@mdx-js/react': ^1.6.22
   '@types/eslint': ^8.4.5
@@ -32,6 +33,7 @@ specifiers:
 dependencies:
   '@algolia/ui-library': 5.86.0_sfoxds7t5ydpegc3knd667wn6m
   '@docusaurus/core': 2.0.1_l7xcfafxesmqncudsgxbjwtvma
+  '@docusaurus/plugin-google-gtag': 2.0.1_l7xcfafxesmqncudsgxbjwtvma
   '@docusaurus/preset-classic': 2.0.1_l7xcfafxesmqncudsgxbjwtvma
   '@mdx-js/react': 1.6.22_react@17.0.2
   clsx: 1.2.1
