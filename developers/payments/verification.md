@@ -12,7 +12,10 @@ sidebar_position: 2
         "display_name": "...",
         "comment": "...",
         "from_did": "Qm....",
-        "amount" : 0.001
+        "payload" : {
+            "data": "....",
+            "amount": 0.000
+        },
         "signature_type": "default",
         "timestamp": "...."
     },
