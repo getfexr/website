@@ -12,7 +12,7 @@ Format for signing request data (QR, NFC)
     "request" : {
         "for_did": "Qm....",
         "display_name": "...",
-        "reason": "...",
+        "comment": "...",
         "from_did": "Qm....",
         "payload" : {
             "data": "...."
