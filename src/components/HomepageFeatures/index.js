@@ -114,8 +114,8 @@ function AppStores() {
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Download Fexr. It&apos;s fee-free</h2>
-      <p className="mb-16 text-lg text-gray-500">Coming soon for all your screens.</p>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Your priv** keys, only in your pocket</h2>
+      <p className="mb-16 text-lg text-gray-500">Download Fexr. It&apos;s fee-free. Coming soon for all your screens.</p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
         { stores.map((store) => (

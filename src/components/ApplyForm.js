@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 
 const purposeOptions = [
+  'Creator Economy',
   'Web3 Authentication',
   'Payments on Blockchain',
   // 'Documents on Blockchain',

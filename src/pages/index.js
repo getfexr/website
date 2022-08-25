@@ -14,8 +14,13 @@ function HomepageHeader() {
       <div>
         <div className="px-8 pt-40 mb-20 lg:px-28 lg:py-76">
           <h1 className="mt-50 text-black text-4xl sm:text-8xl break-normal">
-            Your priv** keys only
-            in your pocket.
+            Pay creators,
+            <br />
+            {' '}
+            businesses and
+            <br />
+            {' '}
+            developers, faster!
           </h1>
         </div>
       </div>
