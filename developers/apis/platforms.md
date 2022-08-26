@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Platforms
+# SDK Platforms
 
 Let's translate `docs/intro.md` to French.
 

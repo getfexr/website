@@ -91,8 +91,8 @@ const config = {
                 to: 'developers/category/web3-authentication',
               },
               {
-                label: 'RPC APIs',
-                to: 'developers/category/rpc-apis',
+                label: 'Web3 APIs',
+                to: 'developers/category/web3-apis',
               },
             ],
           },
