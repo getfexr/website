@@ -13,7 +13,6 @@ sidebar_position: 2
         "comment": "...",
         "from_did": "Qm....",
         "payload" : {
-            "data": "....",
             "amount": 0.000
         },
         "signature_type": "default",

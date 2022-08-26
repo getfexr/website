@@ -15,7 +15,6 @@ Format for payment request data (QR, NFC)
         "comment": "...",
         "from_did": "Qm....",
         "payload" : {
-            "data": "....",
             "amount": 0.000
         },
         "signature_type": "default",

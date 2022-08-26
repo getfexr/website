@@ -15,7 +15,7 @@ Format for signing request data (QR, NFC)
         "comment": "...",
         "from_did": "Qm....",
         "payload" : {
-            "data": "...."
+            "data": "actual content to be signed"
         },
         "signature_type": "default",
         "timestamp": "...."
