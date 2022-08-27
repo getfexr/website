@@ -25,8 +25,8 @@ sidebar_position: 3
         "timestamp": "...."
     },
     "theme": {
-        "gradient_color_one" : "#...",
-        "gradient_color_two" : "#...",
+        "color_one" : "#...",
+        "color_two" : "#...",
     }
 }
 ```
