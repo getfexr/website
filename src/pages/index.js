@@ -20,7 +20,7 @@ function HomepageHeader() {
             businesses and
             <br />
             {' '}
-            developers, faster!
+            developers, Fexr!
           </h1>
         </div>
       </div>
