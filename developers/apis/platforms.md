@@ -4,19 +4,42 @@ sidebar_position: 1
 
 # SDK Platforms
 
-Let's translate `docs/intro.md` to French.
+Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for developers to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/developers/partner/subnet-providers).
 
-## Javascript - NPM
+:::info
+Unlike monolithic blockchain, loved features in the 
+:::
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+## Javascript
 
-```js title="docusaurus.config.js"
-module.exports = {
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "fr"],
-  },
-};
+View library in [NPM](https://www.npmjs.com/package/fexr)
+
+
+Javascript library for Fexr contains important RPC APIs for validation and token transfers.
+
+### Installing
+
+```shell
+npm i --save fexr
+```
+or
+```shell
+yarn add fexr
+```
+
+### Add your Fexr credentials
+
+```js title="/src/fexr.js"
+import Fexr from 'fexr'
+
+const fexr = new Fexr({
+  did: 'Qm...'
+  usageId: 'F0-xxx-1125',
+});
+
+fexr.initializeApp();
+
+export default fexr;
 ```
 
 ## Python - PyPi
