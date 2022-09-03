@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable react/jsx-indent */
 import React from 'react';
 
@@ -308,7 +309,7 @@ function DemoImage() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium">
-                    About RubixChain
+                    Powered by RubixChain
                   </h4>
                   <p className="mt-2 text-base leading-6 text-description">
                      A deterministic state-machine that is designed to address the

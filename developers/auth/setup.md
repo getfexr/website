@@ -16,4 +16,4 @@ The public address is an easy way to identify a user and verify their ownership,
 
 ## Handle User Authentication
 
-This simple mechanism allows us to provide a high level of account security without the need of complicated registrations, email confirmations and password recovery mechanisms.
+This simple mechanism allows us to provide a high level of account security without the need of complicated registrations, email confirmations and password recovery mechanisms. Every time when an application wants to authenticate a user, it can send an authentication code to the user as a popup dialog or API request which will be signed and signature is shared back from Fexr SDK or even allowing signature exchange to be done manually by user (useful for cold wallet scenarios). Fexr took the development of payment services in web3 to simultaneously do payments over blockchain, works well with PoS requirements, also able to create secure cold wallet -  all on one app.

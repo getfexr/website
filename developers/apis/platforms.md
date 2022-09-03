@@ -7,7 +7,7 @@ sidebar_position: 1
 Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for developers to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/developers/partner/subnet-providers).
 
 :::info
-Unlike monolithic blockchain, loved features in the 
+
 :::
 
 ## Javascript
@@ -42,17 +42,46 @@ fexr.initializeApp();
 export default fexr;
 ```
 
-## Python - PyPi
+Please report any issues you faced while using the library [here](https://github.com/getfexr/fexr-js/issues/).
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+For contributing to the library, please visit [Github](https://github.com/getfexr/fexr-js/).
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+## Python
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+View library in [Pypi](https://www.npmjs.com/package/fexr)
+
+Javascript library for Fexr contains important RPC APIs for validation and token transfers.
+
+### Installing
+
+```shell
+npm i --save fexr
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+or
+
+```shell
+yarn add fexr
+```
+
+### Add your Fexr credentials
+
+```js title="/src/fexr.js"
+import Fexr from 'fexr'
+
+const fexr = new Fexr({
+  did: 'Qm...'
+  usageId: 'F0-xxx-1125',
+});
+
+fexr.initializeApp();
+
+export default fexr;
+```
+
+Please report any issues you faced while using the library [here](https://github.com/getfexr/fexr-js/issues/).
+
+For contributing to the library, please visit [Github](https://github.com/getfexr/fexr-js/).
 
 ## Dart - Pub
 
