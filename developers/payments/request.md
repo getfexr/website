@@ -15,15 +15,14 @@ Format for payment request data (QR, NFC)
         "comment": "...",
         "from_did": "Qm....",
         "payload" : {
-            "data": "....",
             "amount": 0.000
         },
         "signature_type": "default",
         "timestamp": "...."
     },
     "theme": {
-        "gradient_color_one" : "#...",
-        "gradient_color_two" : "#...",
+        "color_one" : "#...",
+        "color_two" : "#...",
     }
 }
 ```

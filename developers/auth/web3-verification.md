@@ -4,7 +4,9 @@ sidebar_position: 3
 
 # Decentralised Verification
 
-```json title="Example content in request QR for signature verification"
+Verification involved user signing the request coming from app builder and third party services. `signature` object is added to the signature request and shared back to the requested service for verifying signature with the public key of the user. This can be done even without ever using a Fexr service of app before. This puts user in control of the data they generate over Fexr during any kind of transaction.
+
+```json title="Format of verified (signed) request data (QR, NFC)"
 {
     "type": "sync-v1",
     "request" : {
@@ -25,8 +27,8 @@ sidebar_position: 3
         "timestamp": "...."
     },
     "theme": {
-        "gradient_color_one" : "#...",
-        "gradient_color_two" : "#...",
+        "color_one" : "#...",
+        "color_two" : "#...",
     }
 }
 ```

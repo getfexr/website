@@ -12,6 +12,12 @@ The following content is for **[DocSearch v3][2]**. If you are using **[DocSearc
 
 :::
 
+
+-----
+The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the 
+node, to which the connection must be established. When this challenge is received at the vm side the vm responds with a challenge response, which has the peer to peer connection status, which is a boolean value and a response code. 
+-----
+
 <Tabs
   groupId="language"
   defaultValue="js"

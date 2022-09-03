@@ -4,32 +4,84 @@ sidebar_position: 1
 
 # SDK Platforms
 
-Let's translate `docs/intro.md` to French.
+Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for developers to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/developers/partner/subnet-providers).
 
-## Javascript - NPM
+:::info
 
-Modify `docusaurus.config.js` to add support for the `fr` locale:
+:::
 
-```js title="docusaurus.config.js"
-module.exports = {
-  i18n: {
-    defaultLocale: "en",
-    locales: ["en", "fr"],
-  },
-};
+## Javascript
+
+View library in [NPM](https://www.npmjs.com/package/fexr)
+
+
+Javascript library for Fexr contains important RPC APIs for validation and token transfers.
+
+### Installing
+
+```shell
+npm i --save fexr
+```
+or
+```shell
+yarn add fexr
 ```
 
-## Python - PyPi
+### Add your Fexr credentials
 
-Copy the `docs/intro.md` file to the `i18n/fr` folder:
+```js title="/src/fexr.js"
+import Fexr from 'fexr'
 
-```bash
-mkdir -p i18n/fr/docusaurus-plugin-content-docs/current/
+const fexr = new Fexr({
+  did: 'Qm...'
+  usageId: 'F0-xxx-1125',
+});
 
-cp docs/intro.md i18n/fr/docusaurus-plugin-content-docs/current/intro.md
+fexr.initializeApp();
+
+export default fexr;
 ```
 
-Translate `i18n/fr/docusaurus-plugin-content-docs/current/intro.md` in French.
+Please report any issues you faced while using the library [here](https://github.com/getfexr/fexr-js/issues/).
+
+For contributing to the library, please visit [Github](https://github.com/getfexr/fexr-js/).
+
+## Python
+
+View library in [Pypi](https://www.npmjs.com/package/fexr)
+
+Javascript library for Fexr contains important RPC APIs for validation and token transfers.
+
+### Installing
+
+```shell
+npm i --save fexr
+```
+
+or
+
+```shell
+yarn add fexr
+```
+
+### Add your Fexr credentials
+
+```js title="/src/fexr.js"
+import Fexr from 'fexr'
+
+const fexr = new Fexr({
+  did: 'Qm...'
+  usageId: 'F0-xxx-1125',
+});
+
+fexr.initializeApp();
+
+export default fexr;
+```
+
+Please report any issues you faced while using the library [here](https://github.com/getfexr/fexr-js/issues/).
+
+For contributing to the library, please visit [Github](https://github.com/getfexr/fexr-js/).
 
 ## Dart - Pub
 

@@ -13,7 +13,6 @@ sidebar_position: 2
         "comment": "...",
         "from_did": "Qm....",
         "payload" : {
-            "data": "....",
             "amount": 0.000
         },
         "signature_type": "default",
@@ -26,8 +25,8 @@ sidebar_position: 2
         "timestamp": "...."
     },
     "theme": {
-        "gradient_color_one" : "#...",
-        "gradient_color_two" : "#...",
+        "color_one" : "#...",
+        "color_two" : "#...",
     }
 }
 ```
