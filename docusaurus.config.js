@@ -109,6 +109,10 @@ const config = {
                 label: 'Roadmap',
                 to: 'developers/roadmap',
               },
+              {
+                label: 'Partner',
+                href: '/developers/category/partner--contribute',
+              },
             ],
           },
           {
