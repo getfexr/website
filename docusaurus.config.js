@@ -84,6 +84,44 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
+            label: 'Accounts',
+            items: [
+              {
+                label: 'Wallet',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'Club',
+                to: 'developers/category/web3-apis',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Who we are',
+            items: [
+              {
+                label: 'About us',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'In the News',
+                to: 'developers/category/web3-apis',
+              },
+              {
+                label: 'Newsletter',
+                to: 'getrevue.co/profile/fexr',
+              },
+              {
+                label: 'Careers',
+                to: 'developers/category/web3-apis',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'right',
             label: 'For Developers',
             items: [
               {
@@ -98,7 +136,7 @@ const config = {
           },
           {
             type: 'dropdown',
-            position: 'left',
+            position: 'right',
             label: 'Community',
             items: [
               {
