@@ -1,16 +1,22 @@
 ---
-title: ChallengeRequest()
+title: fexr.validate
 ---
 
-import Tabs from "@theme/Tabs";
-import TabItem from "@theme/TabItem";
-import useBaseUrl from "@docusaurus/useBaseUrl";
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 :::info
 
 The following content is for **[DocSearch v3][2]**. If you are using **[DocSearch v2][3]**, see the **[legacy][4]** documentation.
 
 :::
+
+
+-----
+The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the 
+node, to which the connection must be established. When this challenge is received at the vm side the vm responds with a challenge response, which has the peer to peer connection status, which is a boolean value and a response code. 
+-----
 
 <Tabs
   groupId="language"
@@ -162,43 +168,43 @@ Allow translations of any raw text and aria-labels present in the DocSearch butt
 ```ts
 const translations: DocSearchTranslations = {
   button: {
-    buttonText: "Search",
-    buttonAriaLabel: "Search",
+    buttonText: 'Search',
+    buttonAriaLabel: 'Search',
   },
   modal: {
     searchBox: {
-      resetButtonTitle: "Clear the query",
-      resetButtonAriaLabel: "Clear the query",
-      cancelButtonText: "Cancel",
-      cancelButtonAriaLabel: "Cancel",
+      resetButtonTitle: 'Clear the query',
+      resetButtonAriaLabel: 'Clear the query',
+      cancelButtonText: 'Cancel',
+      cancelButtonAriaLabel: 'Cancel',
     },
     startScreen: {
-      recentSearchesTitle: "Recent",
-      noRecentSearchesText: "No recent searches",
-      saveRecentSearchButtonTitle: "Save this search",
-      removeRecentSearchButtonTitle: "Remove this search from history",
-      favoriteSearchesTitle: "Favorite",
-      removeFavoriteSearchButtonTitle: "Remove this search from favorites",
+      recentSearchesTitle: 'Recent',
+      noRecentSearchesText: 'No recent searches',
+      saveRecentSearchButtonTitle: 'Save this search',
+      removeRecentSearchButtonTitle: 'Remove this search from history',
+      favoriteSearchesTitle: 'Favorite',
+      removeFavoriteSearchButtonTitle: 'Remove this search from favorites',
     },
     errorScreen: {
-      titleText: "Unable to fetch results",
-      helpText: "You might want to check your network connection.",
+      titleText: 'Unable to fetch results',
+      helpText: 'You might want to check your network connection.',
     },
     footer: {
-      selectText: "to select",
-      selectKeyAriaLabel: "Enter key",
-      navigateText: "to navigate",
-      navigateUpKeyAriaLabel: "Arrow up",
-      navigateDownKeyAriaLabel: "Arrow down",
-      closeText: "to close",
-      closeKeyAriaLabel: "Escape key",
-      searchByText: "Search by",
+      selectText: 'to select',
+      selectKeyAriaLabel: 'Enter key',
+      navigateText: 'to navigate',
+      navigateUpKeyAriaLabel: 'Arrow up',
+      navigateDownKeyAriaLabel: 'Arrow down',
+      closeText: 'to close',
+      closeKeyAriaLabel: 'Escape key',
+      searchByText: 'Search by',
     },
     noResultsScreen: {
-      noResultsText: "No results for",
-      suggestedQueryText: "Try searching for",
-      reportMissingResultsText: "Believe this query should return results?",
-      reportMissingResultsLinkText: "Let us know.",
+      noResultsText: 'No results for',
+      suggestedQueryText: 'Try searching for',
+      reportMissingResultsText: 'Believe this query should return results?',
+      reportMissingResultsLinkText: 'Let us know.',
     },
   },
 };
@@ -252,7 +258,7 @@ When provided, an informative message wrapped with your link will be displayed o
 
 <div className="uil-ta-center">
   <img
-    src={useBaseUrl("img/assets/noResultsScreen.png")}
+    src={useBaseUrl('img/assets/noResultsScreen.png')}
     alt="No results screen with informative message"
   />
 </div>
@@ -283,14 +289,14 @@ docsearch({
   resultsFooterComponent({ state }) {
     return {
       // The HTML `tag`
-      type: "a",
+      type: 'a',
       ref: undefined,
       constructor: undefined,
       key: state.query,
       // Its props
       props: {
-        href: "https://docsearch.algolia.com/apply",
-        target: "_blank",
+        href: 'https://docsearch.algolia.com/apply',
+        target: '_blank',
         onClick: (event) => {
           console.log(event);
         },

@@ -107,6 +107,10 @@ const config = {
                 to: 'developers/category/web3-authentication',
               },
               {
+                label: 'Integrations',
+                to: 'developers/category/web3-authentication',
+              },
+              {
                 label: 'PoS Merchant Payments',
                 to: 'developers/category/web3-authentication',
               },
