@@ -84,6 +84,37 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
+            label: 'Benefits',
+            items: [
+              {
+                label: 'Cold Wallet',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'Access NFTs',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'Web3 Authentication',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'P2P Payments',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'On-Chain Passes',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'PoS Merchant Payments',
+                to: 'developers/category/web3-authentication',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
             label: 'Accounts',
             items: [
               {
@@ -149,6 +180,14 @@ const config = {
               },
               {
                 label: 'Partner',
+                href: '/developers/category/partner--contribute',
+              },
+              {
+                label: 'Security Programs',
+                href: '/developers/category/partner--contribute',
+              },
+              {
+                label: 'Become an Affiliate',
                 href: '/developers/category/partner--contribute',
               },
             ],

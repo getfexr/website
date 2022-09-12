@@ -152,7 +152,7 @@ function Stats() {
       value: '0.000',
     },
     {
-      label: 'to complete PoS transaction (beta)',
+      label: 'to complete a PoS transaction (beta)',
       value: '< 9 secs',
     },
   ];
