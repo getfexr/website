@@ -123,7 +123,7 @@ const config = {
               },
               {
                 label: 'Club',
-                to: 'developers/category/web3-apis',
+                to: 'https://fexr.club',
               },
             ],
           },
@@ -142,7 +142,7 @@ const config = {
               },
               {
                 label: 'Newsletter',
-                to: 'getrevue.co/profile/fexr',
+                to: 'https://getrevue.co/profile/fexr',
               },
               {
                 label: 'Careers',
