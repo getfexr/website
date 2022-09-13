@@ -40,6 +40,7 @@ const config = {
         docs: {
           path: 'developers',
           routeBasePath: 'developers',
+          lastVersion: 'current',
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -87,12 +88,28 @@ const config = {
             label: 'Benefits',
             items: [
               {
+                label: 'Institutuional Custody',
+                to: 'users/wallet/institutional',
+              },
+              {
+                label: 'On-Chain Passes',
+                to: 'users/wallet/passes',
+              },
+              {
+                label: 'Integrations',
+                to: 'users/wallet/integrations',
+              },
+              {
+                label: 'PoS Merchant Payments',
+                to: 'users/wallet/pos',
+              },
+              {
                 label: 'Cold Wallet',
-                to: 'developers/category/web3-authentication',
+                to: 'developers/payments/key-management',
               },
               {
                 label: 'Access NFTs',
-                to: 'developers/category/web3-authentication',
+                to: 'developers/on-chain/access-nft',
               },
               {
                 label: 'Web3 Authentication',
@@ -100,23 +117,7 @@ const config = {
               },
               {
                 label: 'P2P Payments',
-                to: 'developers/category/web3-authentication',
-              },
-              {
-                label: 'Institutuional Custody',
-                to: 'developers/category/web3-authentication',
-              },
-              {
-                label: 'On-Chain Passes',
-                to: 'developers/category/web3-authentication',
-              },
-              {
-                label: 'Integrations',
-                to: 'developers/category/web3-authentication',
-              },
-              {
-                label: 'PoS Merchant Payments',
-                to: 'developers/category/web3-authentication',
+                to: 'developers/payments/p2p',
               },
             ],
           },
@@ -127,11 +128,11 @@ const config = {
             items: [
               {
                 label: 'Wallet',
-                to: 'developers/category/web3-authentication',
+                to: 'users/wallet/overview',
               },
               {
                 label: 'Club',
-                to: 'https://fexr.club',
+                to: 'https://fexr.club/',
               },
             ],
           },
@@ -142,20 +143,20 @@ const config = {
             items: [
               {
                 label: 'About us',
-                to: 'developers/category/web3-authentication',
+                to: 'developers/partner/about-us',
               },
-              {
-                label: 'In the News',
-                to: 'developers/category/web3-apis',
-              },
+              // {
+              //   label: 'In the News',
+              //   to: 'https://www.google.com/search?q=Fexr+wallet+rubix&oq=Fexr+wallet+rubix&aqs=chrome..69i57j69i60l3.290j0j1&sourceid=chrome&ie=UTF-8',
+              // },
               {
                 label: 'Newsletter',
-                to: 'https://getrevue.co/profile/fexr',
+                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
               },
-              {
-                label: 'Careers',
-                to: 'developers/category/web3-apis',
-              },
+              // {
+              //   label: 'Careers',
+              //   to: 'developers/partner/contributing',
+              // },
             ],
           },
           {
@@ -190,14 +191,14 @@ const config = {
                 label: 'Partner',
                 href: '/developers/category/partner--contribute',
               },
-              {
-                label: 'Security Programs',
-                href: '/developers/category/partner--contribute',
-              },
-              {
-                label: 'Become an Affiliate',
-                href: '/developers/category/partner--contribute',
-              },
+              // {
+              //   label: 'Security Programs',
+              //   href: '/developers/category/partner--contribute',
+              // },
+              // {
+              //   label: 'Become an Affiliate',
+              //   href: '/developers/category/partner--contribute',
+              // },
             ],
           },
           {

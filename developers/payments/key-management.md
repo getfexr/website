@@ -1,7 +1,7 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Key Management
+# Key management and Cold wallet
 
 Coming Soon.
