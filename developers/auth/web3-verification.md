@@ -32,3 +32,5 @@ Verification involved user signing the request coming from app builder and third
     }
 }
 ```
+
+This data can be used to verify the author of the request. The `signature` object contains the signature of the payload, the signer's DID, the signature type and the timestamp. The `signature_type` is the same as the one used in the request. The `timestamp` is the same as the one used in the request. The `signer` is the DID of the user who signed the request. The `signature` is the signature of the payload.

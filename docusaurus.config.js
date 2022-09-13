@@ -103,6 +103,10 @@ const config = {
                 to: 'developers/category/web3-authentication',
               },
               {
+                label: 'Institutuional Custody',
+                to: 'developers/category/web3-authentication',
+              },
+              {
                 label: 'On-Chain Passes',
                 to: 'developers/category/web3-authentication',
               },

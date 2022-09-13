@@ -31,3 +31,7 @@ A sample request for third party auth approval is given below. SDK type is autom
     }
 }
 ```
+
+On prompt by the user to approve the request, the user will be shown a QR code or NFC tag to scan. The user will be shown a request card with the information provided by the requesting service. The user can then approve the request by signing the payload and returning the signed data to the requesting service.
+
+See next for the format of the signed data.
