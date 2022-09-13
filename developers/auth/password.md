@@ -2,6 +2,5 @@
 sidebar_position: 5
 ---
 
-# Password Manager
+# Going Passwodless
 
-Coming Soon.
