@@ -59,7 +59,7 @@ Comment is just a string, which can be used to pass a message.
 quorumList is the set of quorums which can be set for the transaction.
 
 
-## `Response`
+## Response
 
 When the InitRubixTxn function is called, the transaction is initiated and the transaction status is returned as response.
 
@@ -82,7 +82,7 @@ This status response return different code as per the status of the transaction.
 
 The message can be any error message or a info message.
 
-## `Sample Code`
+## Sample Code
 
 <Tabs
   groupId="language"
@@ -113,7 +113,7 @@ The message can be any error message or a info message.
 
 
 
-## `Example`
+## Example
 
 
 

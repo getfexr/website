@@ -47,7 +47,7 @@ DID or Decentralized Identity is the unique identity of each node. This value is
 Code is just an integer code number which is used as a identification code.
 
 
-## `Response`
+## Response
 
 When the challenge is received at the server/node side, the server/node responds with a challenge response,
 
@@ -64,7 +64,7 @@ This peer to peer connection status is a boolean value which indicates whether t
 
 This response code is an integer value which indicates the status of the connection.
 
-## `Sample Code`
+## Sample Code
 
 <Tabs
   groupId="language"
@@ -90,7 +90,7 @@ This response code is an integer value which indicates the status of the connect
 
 
 
-## `Example`
+## Example
 
 
 
