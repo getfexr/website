@@ -1,10 +1,10 @@
 ---
-title: fexr.invalidate
+title: fexr.rbt.pay
 ---
 
-import Tabs from '@theme/Tabs';
-import TabItem from '@theme/TabItem';
-import useBaseUrl from '@docusaurus/useBaseUrl';
+import Tabs from "@theme/Tabs";
+import TabItem from "@theme/TabItem";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 
 :::info
 
@@ -12,7 +12,7 @@ The following content is for **[DocSearch v3][2]**. If you are using **[DocSearc
 
 :::
 
-The fexr.invalidate challenge is passed to the server/node to disconnect from the node to which we are connected. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the disconnection is success or not.
+The fexr.validate challenge is passed to the server/node. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the connection is success or not. 
 
 
 <Tabs
@@ -26,13 +26,13 @@ The fexr.invalidate challenge is passed to the server/node to disconnect from th
 
 ## Parameters
 
-The input parameters for InValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we are already connected, we are trying to disconnect it.
+The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we want to establish a connection.
 
 ### `IP`
 
 > `type: string` | **required**
 
-proxyIP or the public IP address of the node or server is the mandatory input parameter for InValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
+proxyIP or the public IP address of the node or server is the mandatory input parameter for ValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
 
 ### `DID`
 
@@ -53,14 +53,14 @@ When the challenge is received at the server/node side, the server/node responds
 
 ### `p2pConnectionStatus`
 
-> `type: bool `
+> `type: string `
 
 This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
 
 
 ### `code`
 
-> `type: int `
+> `type: string `
 
 This response code is an integer value which indicates the status of the connection.
 
@@ -76,8 +76,8 @@ This response code is an integer value which indicates the status of the connect
 <TabItem value="flutter">
 
 ```js
-  PassportService().invalidatePermission("IP Address",
-                                      "DID", 404)
+  PassportService().validatePermission("IP Address",
+                                      "DID", 0)
                                   .then((p2pConnectionStatus value) => setState(() {
                                   _CONNECTED = value.connected;
                                 })
@@ -100,7 +100,7 @@ This response code is an integer value which indicates the status of the connect
 <div>
 
 ```ts
-Future<p2pConnectionStatus> invalidatePermission(
+Future<p2pConnectionStatus> validatePermission(
       String proxyIP, String dID, int code) async {
     p2pConnectionStatus response;
     final channel = ClientChannel(
@@ -118,17 +118,15 @@ Future<p2pConnectionStatus> invalidatePermission(
 
     try {
       response = await stub
-          .invalidatePermission(web3WalletPermission(dID: dID, code: code));
-
+          .validatePermission(web3WalletPermission(dID: dID, code: code, payload: ""));
       // result = response.toString();
     } catch (e) {
       return p2pConnectionStatus(
           connected: false, code: 404, message: e.toString());
     }
+    await channel.shutdown();
     return response;
-    // await channel.shutdown();
   }
-}
 ```
 
 </div>

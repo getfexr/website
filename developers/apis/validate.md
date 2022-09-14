@@ -54,14 +54,14 @@ When the challenge is received at the server/node side, the server/node responds
 
 ### `p2pConnectionStatus`
 
-> `type: string `
+> `type: bool `
 
 This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
 
 
 ### `code`
 
-> `type: string `
+> `type: int `
 
 This response code is an integer value which indicates the status of the connection.
 
