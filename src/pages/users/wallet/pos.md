@@ -2,6 +2,6 @@
 sidebar_position: 5
 ---
 
-# On-Chain Passes
+# POS
 
 Coming Soon.

@@ -2,6 +2,6 @@
 sidebar_position: 4
 ---
 
-# On-Chain Passes
+# Integration
 
 Coming Soon.
