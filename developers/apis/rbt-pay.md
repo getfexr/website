@@ -26,43 +26,61 @@ The fexr.validate challenge is passed to the server/node. The node/server respon
 
 ## Parameters
 
-The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we want to establish a connection.
+The input parameters for InitRubixTxn is the senderDID,receiverDID,amount to be transferred,comment and quorumList. When InitRubixTxn function is called the transaction is initiated and the transaction status is returned as response.
 
-### `IP`
+### `senderDID`
 
 > `type: string` | **required**
 
-proxyIP or the public IP address of the node or server is the mandatory input parameter for ValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
+senderDID is the unique ID of the sender of the transaction. This is a mandatory parameter.
 
-### `DID`
+### `receiverDID`
 
-> `type: string` | **optional**
+> `type: string` | **required**
 
-DID or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the DID will only be created after the first connection is established.
+receiverDID is the unique ID of the receiver of the transaction. This is a mandatory parameter.
 
-### `code`
+### `amount`
 
-> `type: int` | **required**
+> `type: double` | **required**
 
-Code is just an integer code number which is used as a identification code.
+Amount is the amount to be transferred from the sender to the receiver. This is a mandatory parameter.
+
+### `comment`
+
+> `type: string` | **required**
+
+Comment is just a string, which can be used to pass a message.
+
+### `quorumList`
+
+> `type: string` | **repeated**
+
+quorumList is the set of quorums which can be set for the transaction.
 
 
 ## `Response`
 
-When the challenge is received at the server/node side, the server/node responds with a challenge response,
+When the InitRubixTxn function is called, the transaction is initiated and the transaction status is returned as response.
 
-### `p2pConnectionStatus`
+### `tid`
 
-> `type: string `
+> `type: string ` | **required**
 
-This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
+This is the transactionId which is unique for each transaction.
 
 
-### `code`
+### `status`
 
-> `type: string `
+> `type: enum ` | **required**
 
-This response code is an integer value which indicates the status of the connection.
+This status response return different code as per the status of the transaction.
+
+### `message`
+
+> `type: string ` | **optional**
+
+The message can be any error message or a info message.
 
 ## `Sample Code`
 
@@ -76,13 +94,18 @@ This response code is an integer value which indicates the status of the connect
 <TabItem value="flutter">
 
 ```js
-  PassportService().validatePermission("IP Address",
-                                      "DID", 0)
-                                  .then((p2pConnectionStatus value) => setState(() {
-                                  _CONNECTED = value.connected;
-                                })
-                              )
-                            );
+  void rbtPay() {
+    txnPayload payload = txnPayload(
+        "senderDID",
+        "receiverDID",
+        0.1,
+        "comment",
+        "quorumList");
+
+    payload.fexrId = md5.convert(utf8.encode(payload.toString())).toString();
+    print(widget.wallet.wallet.gateway);
+    api.PayService().initRubixTxn(widget.wallet.wallet.gateway, payload);
+  }
 ```
 
 </TabItem>
@@ -100,9 +123,8 @@ This response code is an integer value which indicates the status of the connect
 <div>
 
 ```ts
-Future<p2pConnectionStatus> validatePermission(
-      String proxyIP, String dID, int code) async {
-    p2pConnectionStatus response;
+Future<void> initRubixTxn(String proxyIP, txnPayload txn) async {
+    print('initiatiing transfer for: ${txn.fexrId}');
     final channel = ClientChannel(
       proxyIP,
       port: Const.PORT,
@@ -114,18 +136,14 @@ Future<p2pConnectionStatus> validatePermission(
     );
 
     stub = POPServiceClient(channel,
-        options: CallOptions(timeout: Duration(seconds: 10)));
+        options: CallOptions(timeout: Duration(seconds: 1800)));
 
-    try {
-      response = await stub
-          .validatePermission(web3WalletPermission(dID: dID, code: code, payload: ""));
-      // result = response.toString();
-    } catch (e) {
-      return p2pConnectionStatus(
-          connected: false, code: 404, message: e.toString());
+    await for (var status in stub.initRubixTxn(txn)) {
+      putTxnStatus(status);
+      print("status: ${status.toString()}");
     }
+
     await channel.shutdown();
-    return response;
   }
 ```
 

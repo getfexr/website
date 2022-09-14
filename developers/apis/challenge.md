@@ -40,7 +40,7 @@ proxyIP or the public IP address of the node or server is the mandatory input pa
 
 DID or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the DID will only be created after the first connection is established.
 
-### `code`
+### `Code`
 
 > `type: int` | **required**
 
