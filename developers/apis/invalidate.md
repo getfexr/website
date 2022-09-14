@@ -14,307 +14,122 @@ The following content is for **[DocSearch v3][2]**. If you are using **[DocSearc
 
 <Tabs
   groupId="language"
-  defaultValue="js"
+  defaultValue="flutter"
   values={[
-    { label: 'JavaScript', value: 'js', },
-    { label: 'React', value: 'react', }
+    { label: 'Flutter', value: 'flutter', }
   ]
 }>
-<TabItem value="js">
+<TabItem value="flutter">
 
-## `container`
+## Parameters
 
-> `type: string | HTMLElement` | **required**
+The input parameters for InValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we are already connected, we are trying to disconnect it.
 
-The container for the DocSearch search box. You can either pass a [CSS selector][5] or an [Element][6]. If there are several containers matching the selector, DocSearch picks up the first one.
-
-## `environment`
-
-> `type: typeof window` | `default: window` | **optional**
-
-The environment in which your application is running.
-
-This is useful if you’re using DocSearch in a different context than window.
-
-</TabItem>
-</Tabs>
-
-## `appId`
+### `IP`
 
 > `type: string` | **required**
 
-Your Algolia application ID.
+proxyIP or the public IP address of the node or server is the mandatory input parameter for InValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
 
-## `apiKey`
-
-> `type: string` | **required**
-
-Your Algolia Search API key.
-
-## `indexName`
-
-> `type: string` | **required**
-
-Your Algolia index name.
-
-## `placeholder`
-
-> `type: string` | `default: "Search docs" | **optional**
-
-The placeholder of the input of the DocSearch pop-up modal.
-
-## `searchParameters`
-
-> `type: SearchParameters` | **optional**
-
-The [Algolia Search Parameters][7].
-
-## `transformItems`
-
-> `type: function` | `default: items => items` | **optional**
-
-Receives the items from the search response, and is called before displaying them. Should return a new array with the same shape as the original array. Useful for mapping over the items to transform, and remove or reorder them.
-
-<Tabs
-  groupId="language"
-  defaultValue="js"
-  values={[
-    { label: 'JavaScript', value: 'js', },
-    { label: 'React', value: 'react', }
-  ]
-}>
-<TabItem value="js">
-
-```js
-docsearch({
-  // ...
-  transformItems(items) {
-    return items.map((item) => ({
-      ...item,
-      content: item.content.toUpperCase(),
-    }));
-  },
-});
-```
-
-</TabItem>
-
-<TabItem value="react">
-
-```jsx
-<DocSearch
-  // ...
-  transformItems={(items) => {
-    return items.map((item) => ({
-      ...item,
-      content: item.content.toUpperCase(),
-    }));
-  }}
-/>
-```
-
-</TabItem>
-</Tabs>
-
-## `hitComponent`
-
-> `type: ({ hit, children }) => JSX.Element` | `default: Hit` | **optional**
-
-The component to display each item.
-
-See the [default implementation][8].
-
-## `transformSearchClient`
-
-> `type: function` | `default: searchClient => searchClient` | **optional**
-
-Useful for transforming the [Algolia Search Client][10], for example to [debounce search queries][9]
-
-## `disableUserPersonalization`
-
-> `type: boolean` | `default: false` | **optional**
-
-Disable saving recent searches and favorites to the local storage.
-
-## `initialQuery`
+### `DID`
 
 > `type: string` | **optional**
 
-The search input initial query.
+DID or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the DID will only be created after the first connection is established.
 
-## `navigator`
+### `code`
 
-> `type: Navigator` | **optional**
+> `type: int` | **required**
 
-An implementation of [Algolia Autocomplete][1]’s Navigator API to redirect the user when opening a link.
+Code is just an integer code number which is used as a identification code.
 
-Learn more on the [Navigator API][11] documentation.
 
-## `translations`
+## `Response`
 
-> `type: Partial<DocSearchTranslations>` | `default: docSearchTranslations` | **optional**
+When the challenge is received at the server/node side, the server/node responds with a challenge response,
 
-Allow translations of any raw text and aria-labels present in the DocSearch button or modal components.
+### `p2pConnectionStatus`
 
-<details><summary>docSearchTranslations</summary>
+> `type: string `
+
+This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
+
+
+### `code`
+
+> `type: string `
+
+This response code is an integer value which indicates the status of the connection.
+
+
+
+<Tabs
+  groupId="language"
+  defaultValue="flutter"
+  values={[
+    { label: 'Flutter', value: 'flutter', }
+  ]
+}>
+<TabItem value="flutter">
+
+```js
+  PassportService().invalidatePermission("IP Address",
+                                      "DID", 404)
+                                  .then((p2pConnectionStatus value) => setState(() {
+                                  _CONNECTED = value.connected;
+                                })
+                              )
+                            );
+```
+
+</TabItem>
+</Tabs>
+
+
+
+## `Example`
+
+
+
+
+
+<details><summary>Example</summary>
 <div>
 
 ```ts
-const translations: DocSearchTranslations = {
-  button: {
-    buttonText: 'Search',
-    buttonAriaLabel: 'Search',
-  },
-  modal: {
-    searchBox: {
-      resetButtonTitle: 'Clear the query',
-      resetButtonAriaLabel: 'Clear the query',
-      cancelButtonText: 'Cancel',
-      cancelButtonAriaLabel: 'Cancel',
-    },
-    startScreen: {
-      recentSearchesTitle: 'Recent',
-      noRecentSearchesText: 'No recent searches',
-      saveRecentSearchButtonTitle: 'Save this search',
-      removeRecentSearchButtonTitle: 'Remove this search from history',
-      favoriteSearchesTitle: 'Favorite',
-      removeFavoriteSearchButtonTitle: 'Remove this search from favorites',
-    },
-    errorScreen: {
-      titleText: 'Unable to fetch results',
-      helpText: 'You might want to check your network connection.',
-    },
-    footer: {
-      selectText: 'to select',
-      selectKeyAriaLabel: 'Enter key',
-      navigateText: 'to navigate',
-      navigateUpKeyAriaLabel: 'Arrow up',
-      navigateDownKeyAriaLabel: 'Arrow down',
-      closeText: 'to close',
-      closeKeyAriaLabel: 'Escape key',
-      searchByText: 'Search by',
-    },
-    noResultsScreen: {
-      noResultsText: 'No results for',
-      suggestedQueryText: 'Try searching for',
-      reportMissingResultsText: 'Believe this query should return results?',
-      reportMissingResultsLinkText: 'Let us know.',
-    },
-  },
-};
+Future<p2pConnectionStatus> invalidatePermission(
+      String proxyIP, String dID, int code) async {
+    p2pConnectionStatus response;
+    final channel = ClientChannel(
+      proxyIP,
+      port: Const.PORT,
+      options: ChannelOptions(
+        credentials: ChannelCredentials.insecure(),
+        codecRegistry:
+            CodecRegistry(codecs: const [GzipCodec(), IdentityCodec()]),
+      ),
+    );
+
+    stub = POPServiceClient(channel,
+        options: CallOptions(timeout: Duration(seconds: 10)));
+
+    try {
+      response = await stub
+          .invalidatePermission(web3WalletPermission(dID: dID, code: code));
+
+      // result = response.toString();
+    } catch (e) {
+      return p2pConnectionStatus(
+          connected: false, code: 404, message: e.toString());
+    }
+    return response;
+    // await channel.shutdown();
+  }
+}
 ```
 
 </div>
 </details>
-
-## `getMissingResultsUrl`
-
-> `type: ({ query: string }) => string` | **optional**
-
-Function to return the URL of your documentation repository.
-
-<Tabs
-  groupId="language"
-  defaultValue="js"
-  values={[
-    { label: 'JavaScript', value: 'js', },
-    { label: 'React', value: 'react', }
-  ]
-}>
-<TabItem value="js">
-
-```js
-docsearch({
-  // ...
-  getMissingResultsUrl({ query }) {
-    return `https://github.com/algolia/docsearch/issues/new?title=${query}`;
-  },
-});
-```
-
-</TabItem>
-
-<TabItem value="react">
-
-```jsx
-<DocSearch
-  // ...
-  getMissingResultsUrl={({ query }) => {
-    return `https://github.com/algolia/docsearch/issues/new?title=${query}`;
-  }}
-/>
-```
-
-</TabItem>
-</Tabs>
-
-When provided, an informative message wrapped with your link will be displayed on no results searches. The default text can be changed using the [translations](#translations) property.
-
-<div className="uil-ta-center">
-  <img
-    src={useBaseUrl('img/assets/noResultsScreen.png')}
-    alt="No results screen with informative message"
-  />
-</div>
-
-## `resultsFooterComponent`
-
-> `type: ({ state }) => JSX.Element` | **optional**
-
-The component to display below the search results.
-
-You get access to the [current state](https://github.com/algolia/autocomplete/blob/next/packages/autocomplete-core/src/types/AutocompleteState.ts) which allows you to retrieve the number of hits returned, the query etc.
-
-[You can find a working example without JSX in this sandbox](https://codesandbox.io/s/docsearch-v3-resultsfootercomponent-without-jsx-jperd5).
-
-<Tabs
-  groupId="language"
-  defaultValue="js"
-  values={[
-    { label: 'JavaScript', value: 'js', },
-    { label: 'React', value: 'react', }
-  ]
-}>
-<TabItem value="js">
-
-```js
-docsearch({
-  // ...
-  resultsFooterComponent({ state }) {
-    return {
-      // The HTML `tag`
-      type: 'a',
-      ref: undefined,
-      constructor: undefined,
-      key: state.query,
-      // Its props
-      props: {
-        href: 'https://docsearch.algolia.com/apply',
-        target: '_blank',
-        onClick: (event) => {
-          console.log(event);
-        },
-        // Raw text rendered in the HTML element
-        children: `${state.context.nbHits} hits found!`,
-      },
-      __v: null,
-    };
-  },
-});
-```
-
-</TabItem>
-
-<TabItem value="react">
-
-```jsx
-<DocSearch
-  // ...
-  resultsFooterComponent={({ state }) => {
-    return <h1>{state.context.nbHits} hits found</h1>;
-  }}
-/>
-```
 
 </TabItem>
 </Tabs>
