@@ -147,14 +147,14 @@ function AppStores() {
 
 function Stats() {
   const stats = [
-    // {
-    //   label: 'label',
-    //   value: 'value',
-    // },
-    // {
-    //   label: 'label2',
-    //   value: 'value',
-    // },
+    {
+      label: 'Gas fee per transaction',
+      value: '0.000',
+    },
+    {
+      label: 'to complete a PoS transaction (beta)',
+      value: '< 9 secs',
+    },
   ];
   return (
     <div className="pt-4 pb-12 md:pb-16">

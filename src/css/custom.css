@@ -97,4 +97,5 @@ html[data-theme='dark'] .showcase-border {
 
 .navbar__brand {
   margin-right: 0;
+  margin-left: 1rem;
 }

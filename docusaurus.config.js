@@ -40,6 +40,7 @@ const config = {
         docs: {
           path: 'developers',
           routeBasePath: 'developers',
+          lastVersion: 'current',
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -84,6 +85,83 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
+            label: 'Benefits',
+            items: [
+              {
+                label: 'Institutuional Custody',
+                to: 'users/wallet/institutional',
+              },
+              {
+                label: 'On-Chain Passes',
+                to: 'users/wallet/passes',
+              },
+              {
+                label: 'Integrations',
+                to: 'users/wallet/integrations',
+              },
+              {
+                label: 'PoS Merchant Payments',
+                to: 'users/wallet/pos',
+              },
+              {
+                label: 'Cold Wallet',
+                to: 'developers/payments/key-management',
+              },
+              {
+                label: 'Access NFTs',
+                to: 'developers/on-chain/access-nft',
+              },
+              {
+                label: 'Web3 Authentication',
+                to: 'developers/category/web3-authentication',
+              },
+              {
+                label: 'P2P Payments',
+                to: 'developers/payments/p2p',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Accounts',
+            items: [
+              {
+                label: 'Wallet',
+                to: 'users/wallet/overview',
+              },
+              {
+                label: 'Club',
+                to: 'https://fexr.club/',
+              },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'left',
+            label: 'Who we are',
+            items: [
+              {
+                label: 'About us',
+                to: 'developers/partner/about-us',
+              },
+              // {
+              //   label: 'In the News',
+              //   to: 'https://www.google.com/search?q=Fexr+wallet+rubix&oq=Fexr+wallet+rubix&aqs=chrome..69i57j69i60l3.290j0j1&sourceid=chrome&ie=UTF-8',
+              // },
+              {
+                label: 'Newsletter',
+                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
+              },
+              // {
+              //   label: 'Careers',
+              //   to: 'developers/partner/contributing',
+              // },
+            ],
+          },
+          {
+            type: 'dropdown',
+            position: 'right',
             label: 'For Developers',
             items: [
               {
@@ -98,7 +176,7 @@ const config = {
           },
           {
             type: 'dropdown',
-            position: 'left',
+            position: 'right',
             label: 'Community',
             items: [
               {
@@ -109,6 +187,18 @@ const config = {
                 label: 'Roadmap',
                 to: 'developers/roadmap',
               },
+              {
+                label: 'Partner',
+                href: '/developers/category/partner--contribute',
+              },
+              // {
+              //   label: 'Security Programs',
+              //   href: '/developers/category/partner--contribute',
+              // },
+              // {
+              //   label: 'Become an Affiliate',
+              //   href: '/developers/category/partner--contribute',
+              // },
             ],
           },
           {
