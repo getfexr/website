@@ -12,6 +12,9 @@ The following content is for **[DocSearch v3][2]**. If you are using **[DocSearc
 
 :::
 
+The fexr.invalidate challenge is passed to the server/node to disconnect from the node to which we are connected. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the disconnection is success or not.
+
+
 <Tabs
   groupId="language"
   defaultValue="flutter"
@@ -61,7 +64,7 @@ This peer to peer connection status is a boolean value which indicates whether t
 
 This response code is an integer value which indicates the status of the connection.
 
-
+## `Sample Code`
 
 <Tabs
   groupId="language"

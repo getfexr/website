@@ -27,23 +27,45 @@ The fexr.validate challenge is passed to the server/node. The node/server respon
 
 ## Parameters
 
+The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we want to establish a connection.
+
+### `IP`
+
+> `type: string` | **required**
+
+proxyIP or the public IP address of the node or server is the mandatory input parameter for ValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
+
 ### `DID`
 
-> `type: string | IP` | `type: string | DID` | `type: int | code ` 
+> `type: string` | **optional**
 
-The input parameters for ValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node, to which the connection must be established.
+DID or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the DID will only be created after the first connection is established.
+
+### `code`
+
+> `type: int` | **required**
+
+Code is just an integer code number which is used as a identification code.
+
 
 ## `Response`
 
-> `type: string | Peer to peer connection status` | `type: int | code `
+When the challenge is received at the server/node side, the server/node responds with a challenge response,
 
-When the challenge is received at the server/node side, the server/node responds with a challenge response, which comprises of the peer to peer connection status, a boolean value and a response code, an integer.
+### `p2pConnectionStatus`
+
+> `type: string `
+
+This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
+
+
+### `code`
+
+> `type: string `
+
+This response code is an integer value which indicates the status of the connection.
 
 ## `Sample Code`
-
-
-
-
 
 <Tabs
   groupId="language"
