@@ -8,7 +8,7 @@ Fexr allows you to setup your own node to serve Fexr APIs for your use-cases.
 
 ## Prerequisites
 
-### `Sky`
+### Sky
 
 Sky is a wrapper for Rubix Blockchain Protocol that helps to:
 
@@ -23,7 +23,7 @@ The latest Sky release can be found [here](https://github.com/getfexr/sky/releas
 
 ## Web3 Subnets
 
-### `Prerequisites for setting up Rubix Subnet`
+### Prerequisites for setting up Rubix Subnet
 
 Any computer or personal laptop with 8GB of RAM and a decent internet connection can seamlessly run a Rubix instance for Token transfers / become a validator / Mining node. In order to build a Rubix Subnet, 23 systems are required and they need not be in the same lan or any geographical location. These 23 systems can be spread over anywhere. 
 
@@ -46,7 +46,7 @@ Once Rubix Wallet/JAR is running in node, DID creation can be initiated
 `
 1. For JAR/CLI:
 
- ### `Download the following file using wget:`
+ ### Download the following file using wget:
  
 ```
 $ wget https://www.dropbox.com/s/s3twvapecq5dbsg/didcreateimag.png?dl=0 -O didcreateimag.png
@@ -54,7 +54,7 @@ $ wget https://www.dropbox.com/s/s3twvapecq5dbsg/didcreateimag.png?dl=0 -O didcr
 ```
 
 
-### `Run the following in screen:`
+### Run the following in screen:
 
 ```
 $ screen -dmS ipfs bash -c 'ipfs daemon'
@@ -64,7 +64,7 @@ $ screen -dmS rubixjar bash -c 'java -jar <path/to/rubixJar.jar>'
 
 ```
 
-### `Once Rubix Jar is running, run the following command`
+### Once Rubix Jar is running, run the following command
 
 ```
 $ curl --location --request POST 'http://localhost:1898/create' --form 'data="<Any Text>"' --form 'image=@"<path/to/didcreateimag.png/>"'
@@ -84,7 +84,7 @@ For Linux - home/<userName>/Rubix/DATA/
 
 ```
 
-### `Format of the file content will be :` 
+### Format of the file content will be : 
 
 
 
