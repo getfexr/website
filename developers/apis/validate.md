@@ -6,11 +6,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-:::info
 
-The following content is for **[DocSearch v3][2]**. If you are using **[DocSearch v2][3]**, see the **[legacy][4]** documentation.
-
-:::
 
 
 The fexr.validate challenge is passed to the server/node. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the connection is success or not. 
