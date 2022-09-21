@@ -1,5 +1,7 @@
 ---
 title: fexr.invalidate
+description: This page explains the fexr.invalidate API.
+keywords: [code, node, challenge, response, connection, type, value, indicates, servernode, parameters]
 ---
 
 import Tabs from '@theme/Tabs';

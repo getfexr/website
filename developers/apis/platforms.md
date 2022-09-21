@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: SDK Platforms
+description: This page gives the outline of various SDKs available for fexr.
+keywords: [fexr, library, shell, please, add, credentials, view, contributing, using, faced]
 ---
 
 # SDK Platforms

@@ -1,5 +1,7 @@
 ---
 title: fexr.validate
+description: This page explains the fexr.validate API.
+keywords: [code, node, challenge, validate, permission, connection, response, type, value, indicates, servernode, parameters, IP, DID, connection, status]
 ---
 
 import Tabs from '@theme/Tabs';
