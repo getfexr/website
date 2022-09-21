@@ -1,6 +1,10 @@
 ---
 sidebar_position: 2
+title: Prepare your node for Web3 APIs 
+description: This page describes how to prepare your node for Fexr APIs.
+keywords: [Web3, APIs, Subnets, Node, Fexr, Sky, Rubix, Blockchain, Wallet, Lite Wallet]
 ---
+
 
 # Prepare your node for Web3 APIs
 
