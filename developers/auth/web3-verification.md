@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+title: Decentralised Verification
+description: This page explains what is Decentralised Verification.
+keywords: [Decentralised, Verification, signature, public key, signer, timestamp]
 ---
 
 # Decentralised Verification

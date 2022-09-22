@@ -3,6 +3,8 @@ slug: Optimising-image-private-key-mobile
 title: Optimising image based private key for mobile and IoT computation
 authors: [allen]
 tags: [Blockchain, DID, App]
+description: Optimising image based private key for mobile and IoT computation
+keywords: [Blockchain, DID, App, Image, Private Key, Mobile, IoT, Computation, Optimisation, Rubix, Fexr, SHA3]
 ---
 
 When reading the heading there can be some doubts about the terms mentioned there, so I will start by giving a brief explanation about the terms. So the first question arising in this context will be about public-private key pair. As the name suggests, a public-private key pair is a pair of keys that are used to encrypt and decrypt data. The public key is used to encrypt the data and the private key is used to decrypt the data.In our blockchain scenario the private key is used to sign the data and the public key is used to verify the data. The public key is available to anyone and the private key is only available to the owner of the key. This is how a public-private key pair works.

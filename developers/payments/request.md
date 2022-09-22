@@ -1,5 +1,8 @@
 ---
 sidebar_position: 4
+title: Requesting Payments
+description: This page explains how to request payments.
+keywords: [Payments, Request, QR, NFC, data]
 ---
 
 # Requesting Payments

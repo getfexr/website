@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Setting up
+description: This page explains the steps to set up blockchain based authentication.
+keywords: [Fexr, Authentication, web, mobile, blockchain, login, cryptographically, secure, platform]
 ---
 
 # Setting up

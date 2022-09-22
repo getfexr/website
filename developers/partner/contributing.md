@@ -1,5 +1,8 @@
 ---
 sidebar_position: 100
+title: Contributing to the project
+description: This page explains how to contribute to the project.
+keywords: [Contributing, Project, Github, Issues, Pull Requests, Code, Documentation, Community, Fexr, Rubix, Blockchain,]
 ---
 
 # Contributing to the project
