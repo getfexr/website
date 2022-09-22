@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Subnet Partners
+description: This page explains what is Subnet Partners.
+keywords: [Subnet, Partners, Fexr, Rubix, Blockchain, performance, Club, access]
 ---
 
 # Subnet Partners

@@ -1,5 +1,7 @@
 ---
 title: fexr.rbt.pay
+description: This page explains the fexr.rbt.pay API.
+keywords: [fexr, library, rbt, pay, token, transfer, amount, code, response, challenge, connection, type, value, indicates, servernode, parameters]
 ---
 
 import Tabs from "@theme/Tabs";
@@ -8,7 +10,7 @@ import useBaseUrl from "@docusaurus/useBaseUrl";
 
 
 
-The fexr.validate challenge is passed to the server/node. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the connection is success or not. 
+The fexr.rbt.pay challenge is passed to the server/node to initiate the transfer of tokens to another node. The node/server responds with status of the transaction. The challenge response is received at the client which indicates whether the transaction is success or not.
 
 
 <Tabs

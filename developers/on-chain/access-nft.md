@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+title: Access NFTs
+description: This page explains what is Access NFTs.
+keywords: [Access, NFT, non-fungible, tokens, grant, communities, virtual, real worlds, tickets, experiences]
 ---
 
 # Access NFTs

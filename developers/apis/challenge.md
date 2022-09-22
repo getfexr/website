@@ -1,5 +1,7 @@
 ---
 title: fexr.challenge
+description: This page explains the fexr.challenge API.
+keywords: [challenge, connection, response, node, type, code, value, servernode, string, import]
 ---
 
 import Tabs from "@theme/Tabs";

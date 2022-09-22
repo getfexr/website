@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+title: Decentralised Signing
+description: This page explains what is Decentralised Signing.
+keywords: [Decentralised, Signing, payload, request, signature, QR, code, NFC, service, Fexr, app, web3]
 ---
 
 # Decentralised Signing
