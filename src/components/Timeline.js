@@ -2,14 +2,14 @@ import React from 'react';
 
 const timelineData = [
   {
-    title: 'Fexr is born',
-    description: 'Fexr is born',
-    date: '2021 January',
+    title: 'Hypergreen',
+    description: 'Wallet app refresh with new design, reward program, new onboarding, and more.',
+    date: '2022 Oct',
   },
   {
-    title: 'Fexr is born',
-    description: 'Fexr is born',
-    date: '2021 January',
+    title: 'POP',
+    description: 'Fexr is now available on the App Store and Google Play. Passport (DID) Oracles and Payments is focused.',
+    date: '2022 Mar',
   },
 ];
 
@@ -19,14 +19,13 @@ export default function Timeline() {
       <div>
         <div className="container mx-auto flex flex-col items-start xl:flex-row">
           <div className="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 xl:mt-12 px-8">
-            <p className="ml-2 font-black dark:font-normal text-orange-500 dark:text-yellow-300 uppercase tracking-loose">Working Process</p>
-            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Process of Fest</p>
+            <p className="ml-2 font-black dark:font-normal text-orange-500 dark:text-yellow-300 uppercase tracking-loose"></p>
+            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Process of Fexr</p>
             <p className="text-sm md:text-base dark:text-gray-50 mb-4">
-              Here’s your guide to the tech fest 2021 process. Go through all the steps to know the exact process of the
-              fest.
+              Here’s your guide to the development progress of Fexr. We are working hard to make Fexr the best Web3 payments platform for you.
             </p>
             <a
-              href="#"
+              href="https://github.com/getfexr"
               className="bg-transparent mr-auto dark:hover:bg-yellow-500 hover:bg-orange-500 text-orange-500 dark:text-yellow-300 dark:hover:text-black hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
             >
               View on Github

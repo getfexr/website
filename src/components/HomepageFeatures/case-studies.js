@@ -20,11 +20,11 @@ export default function CaseStudies() {
         </div>
         <div className="md:7/12 lg:w-1/2 text-lg">
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white">
-            Nuxt development is carried out by passionate developers
+            Web3 creators solving IP at scale
           </h2>
           <p className="my-8 text-gray-600 dark:text-gray-300">
             {' '}
-            Vitae error, quaerat officia delectus voluptatibus explicabo quo pariatur impedit, at reprehenderit aliquam a ipsum quas voluptatem. Quo pariatur asperiores eum amet.
+            bla bla
           </p>
           <div className="divide-y space-y-4 divide-gray-100 dark:divide-gray-800">
             <div className="mt-8 flex gap-4 md:items-center">
@@ -34,8 +34,8 @@ export default function CaseStudies() {
                 </svg>
               </div>
               <div className="w-5/6">
-                <h4 className="font-semibold text-lg text-gray-700 dark:text-indigo-300">Chat Anytime</h4>
-                <p className="text-gray-500 dark:text-gray-400">Asperiores nemo possimus nesciunt quam mollitia.</p>
+                <h4 className="font-semibold text-lg text-gray-700 dark:text-indigo-300">Read full case study</h4>
+                <p className="text-gray-500 dark:text-gray-400">Coming soon..</p>
               </div>
             </div>
             <div className="pt-4 flex gap-4 md:items-center">
