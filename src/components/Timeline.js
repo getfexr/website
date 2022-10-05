@@ -4,8 +4,8 @@ export default function Timeline() {
   return (
     <section>
       <div className="py-8">
-        <div className="container mx-auto flex flex-col items-start md:flex-row my-12 md:my-24">
-          <div className="flex flex-col w-full sticky md:top-36 lg:w-1/3 mt-2 md:mt-12 px-8">
+        <div className="container mx-auto flex flex-col items-start xl:flex-row my-12 md:my-24">
+          <div className="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 xl:mt-12 px-8">
             <p className="ml-2 text-yellow-300 uppercase tracking-loose">Working Process</p>
             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Process of Fest</p>
             <p className="text-sm md:text-base text-gray-50 mb-4">
@@ -20,7 +20,7 @@ export default function Timeline() {
 
             </a>
           </div>
-          <div className="ml-0 md:ml-12 lg:w-2/3 sticky">
+          <div className="ml-0 md:ml-12 xl:w-2/3 sticky">
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-10 h-full">
                 <div
