@@ -19,17 +19,17 @@ export default function Timeline() {
       <div>
         <div className="container mx-auto flex flex-col items-start xl:flex-row">
           <div className="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 xl:mt-12 px-8">
-            <p className="ml-2 text-yellow-300 uppercase tracking-loose">Working Process</p>
+            <p className="ml-2 font-black dark:font-normal text-orange-500 dark:text-yellow-300 uppercase tracking-loose">Working Process</p>
             <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Process of Fest</p>
-            <p className="text-sm md:text-base text-gray-50 mb-4">
+            <p className="text-sm md:text-base dark:text-gray-50 mb-4">
               Here’s your guide to the tech fest 2021 process. Go through all the steps to know the exact process of the
               fest.
             </p>
             <a
               href="#"
-              className="bg-transparent mr-auto hover:bg-yellow-300 text-yellow-300 hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
+              className="bg-transparent mr-auto dark:hover:bg-yellow-500 hover:bg-orange-500 text-orange-500 dark:text-yellow-300 dark:hover:text-black hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-yellow-300 hover:border-transparent"
             >
-              Explore Now
+              View on Github
 
             </a>
           </div>
@@ -37,10 +37,10 @@ export default function Timeline() {
             <div className="container mx-auto w-full h-full">
               <div className="relative wrap overflow-hidden p-10 h-full">
                 <div
-                  className="absolute h-full"
+                  className="absolute h-full border border-orange-500 border-2 border-solid"
                   style={{
                     right: '50%',
-                    border: '2px solid #FBBF24',
+                    // border: '2px solid #FBBF24',
                     borderRadius: '1%',
                   }}
                 />
@@ -70,10 +70,10 @@ export default function Timeline() {
                     }
                     >
                       <div className="order-1 w-5/12" />
-                      <div className={ `order-1 w-5/12 px-1 py-4 ${classNames.child[type]}`}>
-                        <p className="mb-3 text-base text-yellow-300">{ data.date }</p>
+                      <div className={`order-1 w-5/12 px-1 py-4 ${classNames.child[type]}`}>
+                        <p className="mb-3 text-base font-black dark:font-normal text-orange-500 dark:text-yellow-300">{ data.date }</p>
                         <h4 className="mb-3 font-bold text-lg md:text-2xl">{ data.title }</h4>
-                        <p className="text-sm md:text-base leading-snug text-gray-50 text-opacity-100">
+                        <p className="text-sm md:text-base leading-snug text-gray-500 dark:text-gray-50 text-opacity-100">
                           { data.description }
                         </p>
                       </div>
