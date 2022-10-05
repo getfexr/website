@@ -6,6 +6,7 @@ import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
+import CaseStudies from './case-studies';
 
 function Description() {
   return (
@@ -366,6 +367,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="w-full">
+        <CaseStudies />
         <div className="p-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
             <div className="p-4 rounded-md flex items-center justify-center">
