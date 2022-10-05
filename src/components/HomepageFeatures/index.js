@@ -6,6 +6,7 @@ import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
+import CaseStudies from './case-studies';
 
 function Description() {
   return (
@@ -128,12 +129,13 @@ function AppStores() {
                 e.preventDefault(); window.open(store.link, '_blank');
               }
             }
-            className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80"
+            className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80
+            cursor-pointer disabled:cursor-not-allowed"
             disabled={store.comingSoon}
           >
-            <div className="grid grid-cols-1 gap-1 place-items-center">
+            <div className="grid grid-cols-1 gap-1 place-items-center justify-center">
               { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Available on</span> }
-              <div className="h-full grid-cols-2 w-full gap-1">
+              <div className="h-full w-full flex mx-auto place-content-center">
                 <strong>{ store.store }</strong>
                 { store.icon ? <store.icon /> : null }
               </div>
@@ -365,6 +367,7 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="w-full">
+        <CaseStudies />
         <div className="p-8">
           <div className="grid lg:grid-cols-2 grid-cols-1 gap-4 lg:gap-8">
             <div className="p-4 rounded-md flex items-center justify-center">
