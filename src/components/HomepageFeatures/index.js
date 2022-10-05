@@ -128,7 +128,8 @@ function AppStores() {
                 e.preventDefault(); window.open(store.link, '_blank');
               }
             }
-            className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80"
+            className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80
+            cursor-pointer disabled:cursor-not-allowed"
             disabled={store.comingSoon}
           >
             <div className="grid grid-cols-1 gap-1 place-items-center justify-center">
