@@ -14,11 +14,10 @@ function Description() {
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Crypto Wallet and On-Chain Verifiable Claims using DID.
+            Crypto Wallet and On-Chain Verifiable Claims.
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
-            Get your decentralized wallet that can be used to store and verify claims,
-            RBT and more with your decentralized identity.
+            Get your decentralized wallet. Its Yours.
           </p>
         </div>
       </div>
@@ -116,7 +115,7 @@ function AppStores() {
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Your priv** keys, only in your pocket</h2>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Your s*cr*t, only in your pocket</h2>
       <p className="mb-16 text-lg text-gray-500">Download Fexr. It&apos;s fee-free. Coming soon for all your screens.</p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">

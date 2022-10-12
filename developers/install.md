@@ -1,6 +1,6 @@
 ---
 sidebar_position: 2
-title: First in Fexr? - Create your Address
+title: First in? - Create your Address
 description: Your address on the blockchain is your identity. This page explains how to create your address and connect a subnet provider to maintain availability of your address and blockchain transactions without going to a traditional exchange.
 keywords: [P2P, Peer to Peer, Payments, transfer, token, network, cryptocurrency, software, blockchain]
 ---

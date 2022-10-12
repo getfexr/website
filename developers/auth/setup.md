@@ -5,21 +5,19 @@ description: This page explains the steps to set up blockchain based authenticat
 keywords: [Fexr, Authentication, web, mobile, blockchain, login, cryptographically, secure, platform]
 ---
 
-## Setting up
-
 Compared to authentication flow of most of the web and mobile application today, each user is authenticated by the server of the application based on the credentials provided by the user for that application. This mainly involves password authentication and sometimes even two-factor authentication.
 
 Blockchain based authentication provides a secure authentication flow which can be compared with or arguably better than two factor authentication. While one-click social logins of widely popular providers offers similar ways to authenticate users, they come with data privacy trade-offs and apps could be cut off from social login by the provider. Fexr provides a one-click, cryptographically-secure login flow using Rubix L1 open-source blockchain platform.
 
 :::info
-For simplicity your Decentralised IDentity or Public Key is referred as **Address** in this documentation. Private Key is referred as **Secret** throughout Fexr documentation.
+For simplicity your Decentralised IDentity or Public Key is referred as **Address** in this documentation. Private Key is referred as **Secret** throughout Fexr products, services, and docs.
 :::
 
-## Configuring for Apps
+## Configuring your Apps
 
 The address (your public identity in the blockchain which is used to verify your actions addded in the blockchain) is an easy way to identify a user and verify their ownership, even when the user does not have access to their email or phone number. This is useful for developers who want to build applications based on blockchain.
 
-**See supported [app development platforms](/developers/apis/platforms)**.
+See supported [app development platforms](/developers/apis/platforms)
 
 ## Handle User Authentication
 
