@@ -8,10 +8,7 @@ import Tabs from "@theme/Tabs";
 import TabItem from "@theme/TabItem";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
-
-
 The fexr.rbt.pay challenge is passed to the server/node to initiate the transfer of tokens to another node. The node/server responds with status of the transaction. The challenge response is received at the client which indicates whether the transaction is success or not.
-
 
 <Tabs
   groupId="language"
@@ -24,19 +21,19 @@ The fexr.rbt.pay challenge is passed to the server/node to initiate the transfer
 
 ## Parameters
 
-The input parameters for InitRubixTxn is the senderDID,receiverDID,amount to be transferred,comment and quorumList. When InitRubixTxn function is called the transaction is initiated and the transaction status is returned as response.
+The input parameters for InitRubixTxn is the senderAddress,receiverAddress,amount to be transferred,comment and quorumList. When InitRubixTxn function is called the transaction is initiated and the transaction status is returned as response.
 
-### `senderDID`
-
-> `type: string` | **required**
-
-senderDID is the unique ID of the sender of the transaction. This is a mandatory parameter.
-
-### `receiverDID`
+### `senderAddress`
 
 > `type: string` | **required**
 
-receiverDID is the unique ID of the receiver of the transaction. This is a mandatory parameter.
+senderAddress is the unique ID of the sender of the transaction. This is a mandatory parameter.
+
+### `receiverAddress`
+
+> `type: string` | **required**
+
+receiverAddress is the unique ID of the receiver of the transaction. This is a mandatory parameter.
 
 ### `amount`
 
@@ -56,27 +53,25 @@ Comment is just a string, which can be used to pass a message.
 
 quorumList is the set of quorums which can be set for the transaction.
 
-
 ## Response
 
 When the InitRubixTxn function is called, the transaction is initiated and the transaction status is returned as response.
 
 ### `tid`
 
-> `type: string ` | **required**
+> `type: string` | **required**
 
 This is the transactionId which is unique for each transaction.
 
-
 ### `status`
 
-> `type: enum ` | **required**
+> `type: enum` | **required**
 
 This status response return different code as per the status of the transaction.
 
 ### `message`
 
-> `type: string ` | **optional**
+> `type: string` | **optional**
 
 The message can be any error message or a info message.
 
@@ -94,8 +89,8 @@ The message can be any error message or a info message.
 ```js
   void rbtPay() {
     txnPayload payload = txnPayload(
-        "senderDID",
-        "receiverDID",
+        "senderAddress",
+        "receiverAddress",
         0.1,
         "comment",
         "quorumList");
@@ -109,13 +104,7 @@ The message can be any error message or a info message.
 </TabItem>
 </Tabs>
 
-
-
 ## Example
-
-
-
-
 
 <details><summary>Example</summary>
 <div>
@@ -151,13 +140,3 @@ Future<void> initRubixTxn(String proxyIP, txnPayload txn) async {
 </TabItem>
 </Tabs>
 
-[1]: https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/
-[2]: https://github.com/algolia/docsearch/
-[3]: https://github.com/algolia/docsearch/tree/master
-[5]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
-[6]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
-[7]: https://www.algolia.com/doc/api-reference/search-api-parameters/
-[8]: https://github.com/algolia/docsearch/blob/main/packages/docsearch-react/src/Hit.tsx
-[9]: https://codesandbox.io/s/docsearch-v3-debounced-search-gnx87
-[10]: https://www.algolia.com/doc/api-client/getting-started/what-is-the-api-client/javascript/?client=javascript
-[11]: https://www.algolia.com/doc/ui-libraries/autocomplete/core-concepts/keyboard-navigation/

@@ -22,14 +22,11 @@ Connect your wallet to authenticate or sign third party accounts which are integ
 
 The latest Sky release can be found [here](https://github.com/getfexr/sky/releases/tag/0.1.0)
 
-
-
-
 ## Web3 Subnets
 
 ### Prerequisites for setting up Rubix Subnet
 
-Any computer or personal laptop with 8GB of RAM and a decent internet connection can seamlessly run a Rubix instance for Token transfers / become a validator / Mining node. In order to build a Rubix Subnet, 23 systems are required and they need not be in the same lan or any geographical location. These 23 systems can be spread over anywhere. 
+Any computer or personal laptop with 8GB of RAM and a decent internet connection can seamlessly run a Rubix instance for Token transfers / become a validator / Mining node. In order to build a Rubix Subnet, 23 systems are required and they need not be in the same lan or any geographical location. These 23 systems can be spread over anywhere.
 
 For smoother and faster configuration we recommend you to have the following installed:
 
@@ -46,40 +43,40 @@ One-click-setup tool of Rubix jar prerequisites are available according to the O
 
 You can follow the setup confirmation steps as mentioned in the above links too, once the setup is confirmed you can go ahead to download CLI/GUI Rubix Wallet
 
-Once Rubix Wallet/JAR is running in node, DID creation can be initiated
+Once Rubix Wallet/JAR is running in node, Address creation can be initiated
 `
+
 1. For JAR/CLI:
 
- ### Download the following file using wget:
- 
-```
-$ wget https://www.dropbox.com/s/s3twvapecq5dbsg/didcreateimag.png?dl=0 -O didcreateimag.png
+### Download the following file using wget
 
 ```
-
-
-### Run the following in screen:
+wget https://www.dropbox.com/s/s3twvapecq5dbsg/didcreateimag.png?dl=0 -O didcreateimag.png
 
 ```
-$ screen -dmS ipfs bash -c 'ipfs daemon'
+
+### Run the following in screen
+
+```
+screen -dmS ipfs bash -c 'ipfs daemon'
 
 
-$ screen -dmS rubixjar bash -c 'java -jar <path/to/rubixJar.jar>'
+screen -dmS rubixjar bash -c 'java -jar <path/to/rubixJar.jar>'
 
 ```
 
 ### Once Rubix Jar is running, run the following command
 
 ```
-$ curl --location --request POST 'http://localhost:1898/create' --form 'data="<Any Text>"' --form 'image=@"<path/to/didcreateimag.png/>"'
+curl --location --request POST 'http://localhost:1898/create' --form 'data="<Any Text>"' --form 'image=@"<path/to/didcreateimag.png/>"'
 
 ```
-You’ll get status as success on successful creation of DID, this process may take 5-20sec depending on network bandwidth
+
+You’ll get status as success on successful creation of Address, this process may take 5-20sec depending on network bandwidth
 
 Repeat the above steps in all of your 23 nodes. Do note that out of 23 nodes, one node will be sender and another one will be receiver node. The rest of the 21 are quorum nodes / members / validators.
 
-
-Once the setup is completed and 23 DIDs are created, create a new file called “quorumlist.json” (w/o quotes(“ ”) ) in DATA folder under Rubix, path is mentioned below:
+Once the setup is completed and 23 Addresss are created, create a new file called “quorumlist.json” (w/o quotes(“ ”) ) in DATA folder under Rubix, path is mentioned below:
 
 ```
 For Windows - C:\Rubix\DATA
@@ -88,9 +85,7 @@ For Linux - home/<userName>/Rubix/DATA/
 
 ```
 
-### Format of the file content will be : 
-
-
+### Format of the file content will be
 
 ```
 ["Qme8xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxq9gF",
@@ -118,20 +113,14 @@ For Linux - home/<userName>/Rubix/DATA/
 
 ```
 
- 
 Now your Rubix Subnet setup is completed, now  you can start with type 2 transactions and other operations.
-Where validators don't have enough unspent Proof Credits, they can stake RBT utility tokens instead for an equivalent value. It should be noted that the staking in PoP is quite different from PoS. The tokens are not permanently staked, but only till enough Proof Credits are earned to reach the threshold level. Since every Subnet does its own staking, the centralization & security risks associated with PoS protocols are mostly avoided. 
+Where validators don't have enough unspent Proof Credits, they can stake RBT utility tokens instead for an equivalent value. It should be noted that the staking in PoP is quite different from PoS. The tokens are not permanently staked, but only till enough Proof Credits are earned to reach the threshold level. Since every Subnet does its own staking, the centralization & security risks associated with PoS protocols are mostly avoided.
 
 When the outstanding proof credits are converted into RBT tokens, Quorum need to earn new proof credits before being eligible for ⍺ Quorum. Since nodes are in continuous competition with each other to convert the outstanding proof credits into RBT tokens, accumulation of proof credits in order to control the network is not possible. Hence, every node in the network gets equal opportunity to become a ⍺ Quorum member & there is no scope for concentration in Quorum powers. Thus eliminating the need for staking further obviates the need for rent seeking - a crucial bone of contention with PoS algorithms.
 
-
-
-
-
 ## Lite Wallet < > Node Connection
 
-The Lite Wallet is a mobile app that allows you to connect to your node and manage your node. The Lite Wallet is available on both Android and iOS. The connection between the node and the lite wallet happens through fexr-flutter in the mobile device end and Sky in the node end. The IP of the node is provided in the lite wallet and the connection is established. The connection is established through the fexr-flutter plugin which is a wrapper for the fexr RPC APIs. The fexr-flutter plugin is available in the pub.dev. For more information regarding fexr-flutter you can check [fexr-flutter](https://github.com/getfexr/fexr-flutter) 
-
+The Lite Wallet is a mobile app that allows you to connect to your node and manage your node. The Lite Wallet is available on both Android and iOS. The connection between the node and the lite wallet happens through fexr-flutter in the mobile device end and Sky in the node end. The IP of the node is provided in the lite wallet and the connection is established. The connection is established through the fexr-flutter plugin which is a wrapper for the fexr RPC APIs. The fexr-flutter plugin is available in the pub.dev. For more information regarding fexr-flutter you can check [fexr-flutter](https://github.com/getfexr/fexr-flutter)
 
 ## (optional) Rent Rubix nodes to setup your APIs
 

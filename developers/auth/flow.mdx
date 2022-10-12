@@ -2,7 +2,19 @@
 sidebar_position: 4
 title: Single Sign On for Enterprise
 description: This page explains the Sign in and Sign up flow with Fexr
-keywords: [Fexr, Sign in, Sign up, flow, validate, on-chain, Decentralized, DID, identity, Authenticating]
+keywords:
+  [
+    Fexr,
+    Sign in,
+    Sign up,
+    flow,
+    validate,
+    on-chain,
+    Decentralized,
+    Address,
+    identity,
+    Authenticating,
+  ]
 ---
 
 ### 1. Get Fexr
@@ -11,20 +23,16 @@ One app for everything. Fexr app function as a gateway for your identity in bloc
 
 ### 2. Create your Identity on Blockchain
 
-First time you open the app, You will be directed to create an identity on blockchain where the **keys are generated within your device. Private key never leaves the device unless you export or backup it manually**. Then app will ask you to choose a provider to host your main wallet. Some providers allow faster syncing and transaction at a monthly fare paid anually. Subnets vary on geographical location and bandwidth. You can look into stats of all the subnets on [Rubix Explorer](https://rubixexplorer.com).
-
+First time you open the app, You will be directed to create an identity on blockchain where the **keys are generated within your device. Secret key never leaves the device unless you export or backup it manually**. Then app will ask you to choose a provider to host your main wallet. Some providers allow faster syncing and transaction at a monthly fare paid anually. Subnets vary on geographical location and bandwidth. You can look into stats of all the subnets on [Rubix Explorer](https://rubixexplorer.com).
 
 ### 3. Prepare your app to validate
 
-Once your Fexr app is ready, you can view your on-chain identity key (Decentralized IDentity or DID) available across on the Rubix blockchain network. **Third party services only need to know your on-chain identity key (DID) and public key to authenticate your signature given the payload**. This allows anyone to verify your signature and your ownership by themselves, without requiring your credentials. You may use `Sign in Fexr` option in other apps to authenticate yourself to their service. At any point, services can verify your identity by validating the signatures you signed for them via Fexr app.
+Once your Fexr app is ready, you can view your on-chain identity key (Decentralized IDentity or Address) available across on the Rubix blockchain network. **Third party services only need to know your on-chain identity key (Address) and public key to authenticate your signature given the payload**. This allows anyone to verify your signature and your ownership by themselves, without requiring your credentials. You may use `Sign in Fexr` option in other apps to authenticate yourself to their service. At any point, services can verify your identity by validating the signatures you signed for them via Fexr app.
 
 ### 4. Challenge and validate
 
-This step is done by third party services you have authorised to validate your identity. **Third party services will send a challenge to your Fexr app to sign a payload**. Fexr app will sign the payload and send the signature back to the service. **The service will validate the signature by checking the public key of your identity key (DID) on the blockchain**. If the signature is valid, the service will consider you as authenticated and allow you to access their service.
+This step is done by third party services you have authorised to validate your identity. **Third party services will send a challenge to your Fexr app to sign a payload**. Fexr app will sign the payload and send the signature back to the service. **The service will validate the signature by checking the public key of your identity key (Address) on the blockchain**. If the signature is valid, the service will consider you as authenticated and allow you to access their service.
 
 **Authenticating Again**
 
 If you have already authenticated to a service, you can use `Sign in Fexr` option in other apps to authenticate yourself to their service. At any point, services can verify your identity by validating the signatures you signed for them via Fexr app.
-
-
-

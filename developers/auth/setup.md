@@ -10,7 +10,7 @@ Compared to authentication flow of most of the web and mobile application today,
 Blockchain based authentication provides a secure authentication flow which can be compared with or arguably better than two factor authentication. While one-click social logins of widely popular providers offers similar ways to authenticate users, they come with data privacy trade-offs and apps could be cut off from social login by the provider. Fexr provides a one-click, cryptographically-secure login flow using Rubix L1 open-source blockchain platform.
 
 :::info
-For simplicity your Decentralised IDentity or Public Key is referred as **Address** in this documentation. Private Key is referred as **Secret** throughout Fexr products, services, and docs.
+For simplicity your Decentralised IDentity or Public Key is referred as **Address** in this documentation. Secret Key is referred as **Secret** throughout Fexr products, services, and docs.
 :::
 
 ## Configuring your Apps

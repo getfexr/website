@@ -8,10 +8,7 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
-
-
 The fexr.invalidate challenge is passed to the server/node to disconnect from the node to which we are connected. The node/server responds with challenge response. The challenge response is received at the client which indicates whether the disconnection is success or not.
-
 
 <Tabs
   groupId="language"
@@ -24,7 +21,7 @@ The fexr.invalidate challenge is passed to the server/node to disconnect from th
 
 ## Parameters
 
-The input parameters for InValidatePermission is the IP,DID and a code. When this challenge is given to the server which is the node to which we are already connected, we are trying to disconnect it.
+The input parameters for InValidatePermission is the IP,Address and a code. When this challenge is given to the server which is the node to which we are already connected, we are trying to disconnect it.
 
 ### `IP`
 
@@ -32,11 +29,11 @@ The input parameters for InValidatePermission is the IP,DID and a code. When thi
 
 proxyIP or the public IP address of the node or server is the mandatory input parameter for InValidatePermission. It is using this public IP address the connection between the node and the wallet is established.
 
-### `DID`
+### `Address`
 
 > `type: string` | **optional**
 
-DID or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the DID will only be created after the first connection is established.
+Address or Decentralized Identity is the unique identity of each node. This value is an optional parameter because for a new node in the network the Address will only be created after the first connection is established.
 
 ### `code`
 
@@ -44,21 +41,19 @@ DID or Decentralized Identity is the unique identity of each node. This value is
 
 Code is just an integer code number which is used as a identification code.
 
-
 ## Response
 
 When the challenge is received at the server/node side, the server/node responds with a challenge response,
 
 ### `p2pConnectionStatus`
 
-> `type: bool `
+> `type: bool`
 
 This peer to peer connection status is a boolean value which indicates whether the connection is existing or not.
 
-
 ### `code`
 
-> `type: int `
+> `type: int`
 
 This response code is an integer value which indicates the status of the connection.
 
@@ -75,7 +70,7 @@ This response code is an integer value which indicates the status of the connect
 
 ```js
   PassportService().invalidatePermission("IP Address",
-                                      "DID", 404)
+                                      "Address", 404)
                                   .then((p2pConnectionStatus value) => setState(() {
                                   _CONNECTED = value.connected;
                                 })
@@ -86,20 +81,14 @@ This response code is an integer value which indicates the status of the connect
 </TabItem>
 </Tabs>
 
-
-
 ## Example
-
-
-
-
 
 <details><summary>Example</summary>
 <div>
 
 ```ts
 Future<p2pConnectionStatus> invalidatePermission(
-      String proxyIP, String dID, int code) async {
+      String proxyIP, String Address, int code) async {
     p2pConnectionStatus response;
     final channel = ClientChannel(
       proxyIP,
@@ -116,7 +105,7 @@ Future<p2pConnectionStatus> invalidatePermission(
 
     try {
       response = await stub
-          .invalidatePermission(web3WalletPermission(dID: dID, code: code));
+          .invalidatePermission(web3WalletPermission(Address: Address, code: code));
 
       // result = response.toString();
     } catch (e) {
@@ -134,14 +123,3 @@ Future<p2pConnectionStatus> invalidatePermission(
 
 </TabItem>
 </Tabs>
-
-[1]: https://www.algolia.com/doc/ui-libraries/autocomplete/introduction/what-is-autocomplete/
-[2]: https://github.com/algolia/docsearch/
-[3]: https://github.com/algolia/docsearch/tree/master
-[5]: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
-[6]: https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement
-[7]: https://www.algolia.com/doc/api-reference/search-api-parameters/
-[8]: https://github.com/algolia/docsearch/blob/main/packages/docsearch-react/src/Hit.tsx
-[9]: https://codesandbox.io/s/docsearch-v3-debounced-search-gnx87
-[10]: https://www.algolia.com/doc/api-client/getting-started/what-is-the-api-client/javascript/?client=javascript
-[11]: https://www.algolia.com/doc/ui-libraries/autocomplete/core-concepts/keyboard-navigation/
