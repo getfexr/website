@@ -1,8 +1,8 @@
 {
-  "label": "Passes, KYC on-chain",
-  "position": 3,
+  "label": "ZKPs using Fexr",
+  "position": 5,
   "link": {
     "type": "generated-index",
-    "description": "Learn how Fexr is planning to implement KYC on blockchain"
+    "description": "Learn how Fexr is planning Zero Knowledge verifications for the future blockchain agnostic world."
   }
 }
