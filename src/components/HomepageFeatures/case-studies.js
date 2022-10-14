@@ -1,5 +1,5 @@
-import React from "react";
-import { useBaseUrlUtils } from "@docusaurus/useBaseUrl";
+import React from 'react';
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 
 export default function CaseStudies() {
   const { withBaseUrl } = useBaseUrlUtils();
@@ -25,7 +25,7 @@ export default function CaseStudies() {
       <div className="space-y-6 justify-between text-gray-600 md:flex flex-row-reverse md:gap-6 md:space-y-0 lg:gap-12 lg:items-center">
         <div className="md:5/12 lg:w-1/2">
           <img
-            src={withBaseUrl("img/pie.svg")}
+            src={withBaseUrl('img/pie.svg')}
             alt="demonstration of the Fexr platform"
             loading="lazy"
             className="w-full"
@@ -33,10 +33,9 @@ export default function CaseStudies() {
         </div>
         <div className="md:7/12 lg:w-1/2 text-lg">
           <h2 className="text-3xl font-bold text-gray-900 md:text-4xl dark:text-white">
-            Connect your WebApp or DApp with Fexr Single Sign On component in minutes.
+            Connect your WebApp / DApp with Fexr Single Sign On component in minutes.
           </h2>
           <p className="my-8 text-gray-600 dark:text-gray-300">
-            {" "}
             Save time and money by using Fexr's SSO component. Authenticate your
             reomote employees, partners, and customers with their single Web3
             address.

@@ -1,11 +1,11 @@
 ---
 sidebar_position: 2
-title: Challenge Response
+title: Dynamic Challenge Response
 description: Learn how challenge response verify blockchain address owner in Fexr. 
 keywords: [Decentralised, Signing, payload, request, signature, QR, code, NFC, service, Fexr, app, web3]
 ---
 
-
+Challenge response for the Web3 era
 
 ## Using QR Code and optional NFC
 
