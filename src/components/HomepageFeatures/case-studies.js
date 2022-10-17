@@ -86,8 +86,8 @@ export default function CaseStudies() {
                 </h4>
                 <p className="text-gray-500 dark:text-gray-400">
                   <a href="blog/Optimising-image-private-key-mobile">Read more </a>
-                  on the signing security or try it
-                  <a href="https://fexr.club"> SSO in Fexr Club.</a>
+                  on the signing security or try 
+                  <a href="https://fexr.club"><b> SSO in Fexr Club.</b></a>
                 </p>
               </div>
             </div>

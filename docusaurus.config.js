@@ -176,6 +176,10 @@ const config = {
                 label: "Web3 APIs",
                 to: "developers/category/web3-apis",
               },
+              {
+                label: "Careers",
+                to: "careers",
+              },
             ],
           },
           {

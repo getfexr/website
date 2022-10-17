@@ -5,9 +5,9 @@ keywords: [careers, Blockchain, web3, flutter, dart, jobs, coding, learn, intern
 
 # Careers
 
-## 1. Flutter developers
+## Flutter developers
 
-Will be onboarded as Full Stack Developer to contribute in Sky, chain-agnostic communication bridge for Fexr built using dart and gRPC.
+- Selected candidate will be onboarded as Full Stack Developer to contribute to projects including Sky, a chain-agnostic communication bridge for Fexr built using dart and gRPC communication protocol.
 
 We are looking out for a Flutter Developer who will be running and designing product application features across various cross platform devices. Just like Lego boxes that fit on top of one another, we are looking out for someone who has experience using Flutter widgets that can be plugged together, customized and deployed anywhere. Someone who is passionate about code writing, solving technical errors and taking up full ownership of app development.
 
