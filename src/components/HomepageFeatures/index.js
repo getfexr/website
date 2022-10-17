@@ -280,16 +280,16 @@ function DemoImage() {
             &nbsp;is making it easy for you, through&nbsp;
             <InlineLink target="_blank" href="https://twitter.com/RubixChain">@RubixChain</InlineLink>
           </p>
-          <div className="pt-12 items-center justify-center flex">
+          {/* <div className="pt-12 items-center justify-center flex">
             <img
               className="w-full max-w-screen image-rendering-pixel"
               src={withBaseUrl('img/fexr-architecture.svg')}
               alt="keyboard-shortcuts"
             />
-          </div>
+          </div> */}
         </div>
         <div className="pt-16 w-5/6 mx-auto">
-          <ul className="md:grid md:grid-cols-2 md:col-gap-8 md:row-gap-10">
+          <ul className="md:grid md:col-gap-8 md:row-gap-10">
             <li>
               <div className="flex">
                 <div className="flex-shrink-0">
@@ -311,7 +311,7 @@ function DemoImage() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium">
-                    Powered by RubixChain
+                    Launched on RubixChain
                   </h4>
                   <p className="mt-2 text-base leading-6 text-description">
                      A deterministic state-machine that is designed to address the
