@@ -27,10 +27,10 @@ export default class WavesHeader extends React.Component {
       const waves = [];
 
       const COLORS = [
-        ['#390aad', '#2408a1'],
-        ['#279ED7', '#4e42f9'],
-        ['#FF7FFC', '#ea7d5d'],
-        ['#faf0a3', '#f58f8d'],
+        ['#0C4E32', '#00d4ff'],
+        ['#0B8456', '#00d4ff'],
+        ['#17BD80', '#00d4ff'],
+        ['#12DA91', '#00d4ff'],
         // ['#fff', '#fff'],
       ];
 

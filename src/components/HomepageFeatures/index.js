@@ -164,7 +164,7 @@ function Stats() {
         <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
           <div className="max-w-4xl mx-auto">
             <dl
-              className="rounded-lg shadow-xl md:grid bg-white dark:bg-gray-900 grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
+              className="rounded-lg shadow-xl md:grid standout grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
             >
               { stats.map((stat) => (
                 <div key={stat.label} className="flex flex-col p-6 text-center">
@@ -174,7 +174,7 @@ function Stats() {
                     { stat.label }
                   </dt>
                   <dd
-                    className="order-1 text-5xl leading-none font-extrabold text-indigo-600"
+                    className="order-1 text-5xl leading-none font-extrabold text-[#00D96D]"
                   >
                     { stat.value }
                   </dd>
@@ -293,7 +293,7 @@ function DemoImage() {
             <li>
               <div className="flex">
                 <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#00D96D] text-white">
                     <svg
                       className="h-6 w-6"
                       fill="none"

@@ -16,27 +16,40 @@ body {
 }
 /* You can override the default Infima variables here. */
 :root {
+  --white: #f9f8f9;
+  --secondary-color: #fbfafb;
+
+  --green-main: #00D96D;
+
+  --green-1: #17BD80;
+  --green-2: #0C4E32;
+  --green-21: #0f2e21;
+
+  --green-3: #0B8456;
+  --green-4: #12DA91;
+  --green-4: #12da9193;
+
   --ifm-font-size-base: 16px;
   --ifm-code-font-size: 90%;
   --ifm-background-color: var(--white);
-  --ifm-color-primary: var(--nebula-500);
+  --ifm-color-primary: var(--white2);
   --ifm-footer-background-color: var(--grey-100);
-  --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
   --ifm-heading-font-family: 'Archivo';
   --doc-sidebar-width: 350px !important;
+  --ifm-link-color: var(--green-1);
 }
 
 html[data-theme='dark'] {
+  --ifm-dropdown-hover-background-color: var(--green-21);
+
   --ifm-font-base-color: #dee0f2;
   --ifm-navbar-link-hover-color: #8b9dff;
-  --ifm-link-color: #8b9dff;
-  --ifm-menu-color-active: #8b9dff;
   --ifm-background-color: #0a141c;
   --ifm-footer-background-color: #0a141c;
-  --ifm-navbar-background-color: #21243d;
-  --ifm-menu-color-background-active: #21243d;
+  --ifm-menu-color-background-active: var(--green-21);
+  --secondary-color: #101827;
 }
 
 .app-button {
@@ -73,6 +86,10 @@ svg {
 
 html[data-theme='dark'] .main-logo {
   color: #fff;
+}
+
+.standout {
+  background-color: var(--secondary-color);
 }
 
 .canvas-bg {
