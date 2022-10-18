@@ -1,5 +1,7 @@
 @import './fragments.css';
 
+@import url('https://fonts.googleapis.com/css?family=Archivo:300,400,500,600,700,800,900');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -22,6 +24,7 @@ body {
   --ifm-menu-color-background-active: var(--ifm-color-emphasis-200);
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
+  --ifm-heading-font-family: 'Archivo';
   --doc-sidebar-width: 350px !important;
 }
 
