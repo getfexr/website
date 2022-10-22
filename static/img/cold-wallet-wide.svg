@@ -2,27 +2,27 @@
   <defs>
     <style>
       .cls-1 {
-        fill: url(#linear-gradient);
+        fill: #DAF800;
       }
 
       .cls-2 {
-        fill: url(#linear-gradient-2);
+        fill: #DAF800;
       }
 
       .cls-3 {
-        fill: url(#linear-gradient-3);
+        fill: #DAF800;
       }
 
       .cls-4 {
-        fill: url(#linear-gradient-4);
+        fill: #DAF800;
       }
 
       .cls-5 {
-        fill: url(#linear-gradient-5);
+        fill: #DAF800;
       }
 
       .cls-6 {
-        fill: url(#linear-gradient-6);
+        fill:#DAF800;
       }
 
       .cls-7 {
