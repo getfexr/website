@@ -168,7 +168,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'For Developers',
+            label: 'Learn',
             items: [
               {
                 label: 'Features',
