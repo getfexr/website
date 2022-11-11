@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 title: Address
-description: This poage explains the steps to set up blockchain based authentication on available protocols
+description: Steps to set up blockchain based authentication on available protocols
 keywords: [Fexr, Authentication, web, mobile, blockchain, login, cryptographically, secure, platform]
 ---
 
