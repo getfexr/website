@@ -88,45 +88,46 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          {
-            type: 'dropdown',
-            position: 'left',
-            label: 'Benefits',
-            items: [
-              {
-                label: 'Institutuional Custody',
-                to: 'users/wallet/institutional',
-              },
-              {
-                label: 'On-Chain Passes',
-                to: 'users/wallet/passes',
-              },
-              {
-                label: 'Integrations',
-                to: 'users/wallet/integrations',
-              },
-              {
-                label: 'PoS Merchant Payments',
-                to: 'users/wallet/pos',
-              },
-              {
-                label: 'Cold Wallet',
-                to: 'developers/payments/key-management',
-              },
-              {
-                label: 'Access NFTs',
-                to: 'developers/on-chain/access-nft',
-              },
-              {
-                label: 'Web3 Authentication',
-                to: 'developers/category/web3-authentication',
-              },
-              {
-                label: 'P2P Payments',
-                to: 'developers/payments/p2p',
-              },
-            ],
-          },
+          // TODO: add back Benifits once content is ready. 
+          // {
+          //   type: 'dropdown',
+          //   position: 'left',
+          //   label: 'Benefits',
+          //   items: [
+          //     {
+          //       label: 'Institutuional Custody',
+          //       to: 'users/wallet/institutional',
+          //     },
+          //     {
+          //       label: 'On-Chain Passes',
+          //       to: 'users/wallet/passes',
+          //     },
+          //     {
+          //       label: 'Integrations',
+          //       to: 'users/wallet/integrations',
+          //     },
+          //     {
+          //       label: 'PoS Merchant Payments',
+          //       to: 'users/wallet/pos',
+          //     },
+          //     {
+          //       label: 'Cold Wallet',
+          //       to: 'developers/payments/key-management',
+          //     },
+          //     {
+          //       label: 'Access NFTs',
+          //       to: 'developers/on-chain/access-nft',
+          //     },
+          //     {
+          //       label: 'Web3 Authentication',
+          //       to: 'developers/category/web3-authentication',
+          //     },
+          //     {
+          //       label: 'P2P Payments',
+          //       to: 'developers/payments/p2p',
+          //     },
+          //   ],
+          // },
           {
             type: 'dropdown',
             position: 'left',
@@ -168,15 +169,23 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'For Developers',
+            label: 'Learn',
             items: [
               {
-                label: 'Features',
-                to: 'developers/category/web3-authentication',
+                label: 'Wallet',
+                to: '/developers/category/borderless-with-wallet',
+              },
+              {
+                label: 'Club',
+                to: '/developers/category/club---decentralised-console',
+              },
+              {
+                label: 'Sky Connector',
+                to: '/developers/category/sky-connector',
               },
               {
                 label: 'Web3 APIs',
-                to: 'developers/category/web3-apis',
+                to: 'developers/category/web3-rpcs-api',
               },
             ],
           },
