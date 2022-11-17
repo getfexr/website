@@ -172,8 +172,16 @@ const config = {
             label: 'Learn',
             items: [
               {
-                label: 'Features',
+                label: 'Wallet',
                 to: '/developers/category/borderless-with-wallet',
+              },
+              {
+                label: 'Club',
+                to: '/developers/category/club---decentralised-console',
+              },
+              {
+                label: 'Sky Connector',
+                to: '/developers/category/sky-connector',
               },
               {
                 label: 'Web3 APIs',
