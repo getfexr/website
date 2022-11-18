@@ -15,7 +15,7 @@ Blockchain based authentication provides a secure authentication flow which can 
 
 The public address is an easy way to identify a user and verify their ownership, even when the user does not have access to an email account. This could be useful for developers who want to build applications based on blockchain.
 
-**See supported [app development platforms](/developers/apis/platforms)**.
+**See supported [app development platforms](/developers/rpcs/platforms)**.
 
 ## Handle User Authentication
 
