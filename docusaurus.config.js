@@ -88,7 +88,7 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // TODO: add back Benifits once content is ready. 
+          // TODO: add back Benifits once content is ready.
           // {
           //   type: 'dropdown',
           //   position: 'left',
@@ -135,7 +135,7 @@ const config = {
             items: [
               {
                 label: 'Wallet',
-                to: 'users/wallet/overview',
+                to: 'developers/wallet/dl',
               },
               {
                 label: 'Club',
@@ -173,7 +173,7 @@ const config = {
             items: [
               {
                 label: 'Wallet',
-                to: '/developers/category/borderless-with-wallet',
+                to: '/developers/wallet/',
               },
               {
                 label: 'Club',
@@ -181,7 +181,7 @@ const config = {
               },
               {
                 label: 'Sky Connector',
-                to: '/developers/category/sky-connector',
+                to: '/developers/sky/',
               },
               {
                 label: 'Web3 APIs',
