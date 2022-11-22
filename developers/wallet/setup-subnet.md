@@ -1,6 +1,6 @@
 ---
 sidebar_position: 12
-title: Blockchain Subnetes in Fexr.Club
+title: Blockchain subnetes in Fexr.Club
 description: How to create and manage blockchain subnets in Fexr.Club
 keywords: [Subnet, Fexr, Web3, decentralized, database, storage, authentication, login, console, create-subnet, blockchain]
 ---

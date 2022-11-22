@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Sky connector for Protocol Developers
+title: Sky connector for protocol developers
 description: How to integrate Fexr wallet with your protocol
 keywords: [Fexr, Wallet, integration, protocol, developers, connect, connect, web3, blockchain, authentication, login, cryptographically, secure, platform]
 ---

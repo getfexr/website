@@ -177,7 +177,7 @@ const config = {
               },
               {
                 label: 'Club',
-                to: '/developers/category/club---decentralised-console',
+                to: '/developers/category/club---decentralised-hosting',
               },
               {
                 label: 'Sky Connector',
