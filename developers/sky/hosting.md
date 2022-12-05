@@ -1,7 +1,8 @@
 ---
-sidebar_position: 0
-title: Supported Blockchains and Platforms
-description: Open-source Blockchain connector for mobile and web apps
+sidebar_position: 2
+title: Host Users
+description: How to host users and their data on blockchain with the Sky connector
 keywords: [Fexr, Sky, blockchain, connector, web3, decentralized, database, storage, authentication, login, console, create-subnet, blockchain]
 ---
+
 

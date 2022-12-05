@@ -1,7 +1,7 @@
 ---
 sidebar_position: 0
-title: Supported Blockchains and Platforms
-description: Open-source Blockchain connector for mobile and web apps
+title: All Web3 Protocols
+description: Blockchains that are supported by Fexr Sky
 keywords: [Fexr, Sky, blockchain, connector, web3, decentralized, database, storage, authentication, login, console, create-subnet, blockchain]
 ---
 
