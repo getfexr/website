@@ -1,10 +1,10 @@
-import React from 'react';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { Hero, Button } from '@algolia/ui-library';
-import Layout from '@theme/Layout';
-import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import WavesHeader from '@site/src/components/HomepageFeatures/WavesHeader';
+import React from "react";
+import HomepageFeatures from "@site/src/components/HomepageFeatures";
+import { Hero, Button } from "@algolia/ui-library";
+import Layout from "@theme/Layout";
+import { useBaseUrlUtils } from "@docusaurus/useBaseUrl";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
+import WavesHeader from "@site/src/components/HomepageFeatures/WavesHeader";
 
 function HomepageHeader() {
   const { withBaseUrl } = useBaseUrlUtils();
@@ -15,26 +15,19 @@ function HomepageHeader() {
         <div className="px-8 pt-40 mb-20 lg:px-28 lg:py-76">
           <h1 className="mt-50 text-white text-5xl sm:text-8xl break-normal">
             Pay creators,
-            <br />
-            {' '}
-            businesses and
-            <br />
-            {' '}
-            developers, Fexr!
+            <br /> businesses and
+            <br /> learn, Fexr!
           </h1>
         </div>
       </div>
       <Hero
         cta={[
-          <Button
-            key="get-started"
-            href={withBaseUrl('developers/roadmap')}
-          >
+          <Button key="get-started" href={withBaseUrl("learn/roadmap")}>
             Get started
           </Button>,
           <Button
             key="apply"
-            href={withBaseUrl('apply')}
+            href={withBaseUrl("apply")}
             background="green"
             color="white"
             className="apply-button"
@@ -50,10 +43,7 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      wrapperClassName="tailwind"
-      description={`${siteConfig.tagline}`}
-    >
+    <Layout wrapperClassName="tailwind" description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />

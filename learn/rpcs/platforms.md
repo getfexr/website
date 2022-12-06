@@ -7,7 +7,7 @@ keywords: [fexr, library, shell, please, add, credentials, view, contributing, u
 
 # SDK Platforms
 
-Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for developers to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/developers/partner/subnet-providers).
+Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for learn to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/learn/partner/subnet-providers).
 
 :::info
 
@@ -17,7 +17,6 @@ Fexr community currently is supporting development of client SDKs available for 
 
 View library in [NPM](https://www.npmjs.com/package/fexr)
 
-
 Javascript library for Fexr contains important RPC APIs for validation and token transfers.
 
 ### Installing
@@ -25,7 +24,9 @@ Javascript library for Fexr contains important RPC APIs for validation and token
 ```shell
 npm i --save fexr
 ```
+
 or
+
 ```shell
 yarn add fexr
 ```
@@ -56,8 +57,9 @@ View library in [Pub.dev](https://pub.dev/packages/fexr)
 ### Installing
 
 ```shell
-$ flutter pub add fexr
+flutter pub add fexr
 ```
+
 ### Add your Fexr credentials
 
 Now in your dart code you can use:
@@ -93,7 +95,6 @@ import Fexr
 Please report any issues you faced while using the library [here](https://github.com/getfexr/fexr-python/issues/).
 
 For contributing to the library, please visit [Github](https://github.com/getfexr/fexr-python/).
-
 
 ## Golang - Godoc
 

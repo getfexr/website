@@ -21,4 +21,4 @@ Signature is the proof that the user has signed the content with their private k
 
 ### How to set up Web3 Authentication on your website?
 
-Your website or app hosted anywhere can use Fexr plugins to setup Web3 authentication. Fexr provides plugins for web and mobile. You can use these plugins to authenticate users on your website or app. More details on how to use these plugins can be found [here](/developers/category/web3-rpcs-api)
+Your website or app hosted anywhere can use Fexr plugins to setup Web3 authentication. Fexr provides plugins for web and mobile. You can use these plugins to authenticate users on your website or app. More details on how to use these plugins can be found [here](/learn/category/web3-rpcs-api)

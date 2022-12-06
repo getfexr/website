@@ -2,14 +2,22 @@ import React from 'react';
 
 const timelineData = [
   {
-    title: 'Hypergreen',
-    description: 'Wallet app refresh with new design, reward program, new onboarding, and more.',
-    date: '2022 Oct',
+    title: "Fluir (upcoming)",
+    description:
+      "Ecosystem is here",
+    date: "2023 Jan",
   },
   {
-    title: 'POP',
-    description: 'Fexr is now available on the App Store and Google Play. Passport (DID) Oracles and Payments is focused.',
-    date: '2022 Mar',
+    title: "Hypergreen (stable)",
+    description:
+      "Wallet app refresh with new design, reward program, new onboarding, and more.",
+    date: "2022 Oct",
+  },
+  {
+    title: "POP",
+    description:
+      "Fexr is now available on the App Store and Google Play. Passport (DID) Oracles and Payments is focused.",
+    date: "2022 Mar",
   },
 ];
 
@@ -20,7 +28,7 @@ export default function Timeline() {
         <div className="container mx-auto flex flex-col items-start xl:flex-row">
           <div className="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 xl:mt-12 px-8">
             <p className="ml-2 font-black dark:font-normal text-orange-500 dark:text-yellow-300 uppercase tracking-loose"></p>
-            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">Working Process of Fexr</p>
+            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">We Ship Trust with Trustless Trade</p>
             <p className="text-sm md:text-base dark:text-gray-50 mb-4">
               Here’s your guide to the development progress of Fexr. We are working hard to make Fexr the best Web3 payments platform for you.
             </p>

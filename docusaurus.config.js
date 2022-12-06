@@ -38,8 +38,8 @@ const config = {
       ({
         debug: false,
         docs: {
-          path: "developers",
-          routeBasePath: "developers",
+          path: "learn",
+          routeBasePath: "learn",
           lastVersion: "current",
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
@@ -110,19 +110,19 @@ const config = {
           //     },
           //     {
           //       label: 'Cold Wallet',
-          //       to: 'developers/payments/key-management',
+          //       to: 'learn/payments/key-management',
           //     },
           //     {
           //       label: 'Access NFTs',
-          //       to: 'developers/on-chain/access-nft',
+          //       to: 'learn/on-chain/access-nft',
           //     },
           //     {
           //       label: 'Web3 Authentication',
-          //       to: 'developers/category/web3-authentication',
+          //       to: 'learn/category/web3-authentication',
           //     },
           //     {
           //       label: 'P2P Payments',
-          //       to: 'developers/payments/p2p',
+          //       to: 'learn/payments/p2p',
           //     },
           //   ],
           // },
@@ -133,7 +133,7 @@ const config = {
             items: [
               {
                 label: "Wallet",
-                to: "developers/core/dl",
+                to: "learn/core/dl",
               },
               {
                 label: "Club",
@@ -148,7 +148,7 @@ const config = {
             items: [
               {
                 label: "About us",
-                to: "developers/partner/about-us",
+                to: "learn/partner/about-us",
               },
               // {
               //   label: 'In the News',
@@ -160,7 +160,7 @@ const config = {
               },
               // {
               //   label: 'Careers',
-              //   to: 'developers/partner/contributing',
+              //   to: 'learn/partner/contributing',
               // },
             ],
           },
@@ -171,19 +171,19 @@ const config = {
             items: [
               {
                 label: "Wallet",
-                to: "/developers/core/",
+                to: "/learn/core/",
               },
               {
                 label: "Club",
-                to: "/developers/category/club---decentralised-hosting",
+                to: "/learn/category/club---decentralised-hosting",
               },
               {
                 label: "Sky Connector",
-                to: "/developers/sky/",
+                to: "/learn/sky/",
               },
               {
                 label: "Web3 APIs",
-                to: "developers/category/web3-rpcs-api",
+                to: "learn/category/web3-rpcs-api",
               },
             ],
           },
@@ -198,19 +198,19 @@ const config = {
               },
               {
                 label: "Roadmap",
-                to: "developers/roadmap",
+                to: "learn/roadmap",
               },
               {
                 label: "Partner",
-                href: "/developers/category/partner--contribute",
+                href: "/learn/category/partner--contribute",
               },
               // {
               //   label: 'Security Programs',
-              //   href: '/developers/category/partner--contribute',
+              //   href: '/learn/category/partner--contribute',
               // },
               // {
               //   label: 'Become an Affiliate',
-              //   href: '/developers/category/partner--contribute',
+              //   href: '/learn/category/partner--contribute',
               // },
             ],
           },
@@ -225,11 +225,11 @@ const config = {
         style: "light",
         links: [
           {
-            title: "Developers",
+            title: "learn",
             items: [
               {
                 label: "Docs",
-                to: "/developers/roadmap",
+                to: "/learn/roadmap",
               },
             ],
           },
