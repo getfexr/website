@@ -1,6 +1,6 @@
 ---
-slug: Announcing Fluir release - your assets on chain
-title: Announcing Fluir release - your assets on chain
+slug: Announcing Fluir release - Connect Fexr
+title: Announcing Fluir release - Connect Fexr on your web and mobile apps
 authors: [nidhin]
 tags: [Blockchain, DApp, Authentication]
 description: Announcing Fluir release - your assets on chain
@@ -16,3 +16,7 @@ Rubix community quorum is used to verify transaction run between [Fexr.Club](htt
 Following is the transaction details and analytics. Video included.
 
 [fexr-js](https://npm.com/packages/fexr) is inspired from the actively maintained [fexr-flutter](https://fexr.club). This library is used to integrate RPC communications from the web application to the blockchain full nodes. [chromium-extension](https://fexr.club) is an browser exention used to get notified about realtime wallet activity, connection status and other info. All the tools including hot wallet connector is fully open-sourced and maintained by Fexr community and core developer team.
+
+## Connect Fexr
+
+### only button you need to manage your decentralized assets
