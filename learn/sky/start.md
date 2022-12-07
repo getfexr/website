@@ -5,4 +5,9 @@ description: How to setup and start Sky in your machine or VM
 keywords: [Fexr, Sky, blockchain, connector, web3, decentralized, database, storage, authentication, login, console, create-subnet, blockchain]
 ---
 
+## First time setup
+
+Please follow the [steps here](/learn/dl#sky-web3-connector) to install Sky connector for new system.
+
+## Troubleshooting
 

@@ -71,6 +71,55 @@ When you create as new wallet,
 
 ### 10. Help from the open-source software community
 
-## Sky Web3 connector
+## Sky - Web3 connector
 
 Sky is a Web3 connector that allows you to connect to Web3 network and valdiate via blockchain protocols. It is a free and open-source software that is available for download on the [GitHub releases page](https://github.com/getfexr/sky/releases).
+
+Once you have the **Sky** executable downloaded in your system, Give the required permissions to make it executable
+
+```bash
+chmod +x sky
+```
+
+:::info use screen tool
+It is easier to run Sky in background by using *screen* commandline tool.
+If you have not installed screen, use
+For Linux
+```bash
+sudo apt-get install screen
+```
+For Mac
+```bash
+brew install screen
+```
+
+Once installed, execute the below cmd to start a screen named sky
+```bash
+screen -S sky
+```
+:::
+
+### Configuring Sky connector
+
+execute the following command to run sky:
+```bash
+./sky start
+```
+
+This will ask certain questions to input values.
+- JWT_AUTH_SECRET : A secret which should be between the length of 32 to 64 characters. (More about this on notes below)
+- Next question will be to select the address including the port for Rubix. There is a default value set, the user just needs to confirm it by entering “y” for confirmation in a normal case. This will configure Sky in the node.
+
+### Sky connector is ready, how to connect your address blockchain?
+
+Once Sky is configured, the user has to download the app and follow the onscreen instructions till a screen where the user is asked the following:
+- IP address of the node
+- OTP
+
+To get the OTP, the user has to again come back to the terminal where they have sky
+
+Authenticating Fexr App to Sky - OTP
+```bash
+./sky otp new
+```
+This command will generate a new OTP valid for 5 minutes.
