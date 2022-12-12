@@ -1,9 +1,11 @@
 ---
 sidebar_position: 1
-title: Setting up with Sky connector
+title: Setting up
 description: This page explains the steps to set up blockchain based authentication.
 keywords: [Fexr, Authentication, web, mobile, blockchain, login, cryptographically, secure, platform]
 ---
+
+# Setting up
 
 Compared to authentication flow of most of the web and mobile application today, each user is authenticated by the server of the application based on the credentials provided by the user for that application. This mainly involves password authentication and sometimes even two-factor authentication.
 
@@ -11,9 +13,9 @@ Blockchain based authentication provides a secure authentication flow which can 
 
 ## Configuring for Apps
 
-The public address is an easy way to identify a user and verify their ownership, even when the user does not have access to an email account. This could be useful for developers who want to build applications based on blockchain.
+The public address is an easy way to identify a user and verify their ownership, even when the user does not have access to an email account. This could be useful for learn who want to build applications based on blockchain.
 
-**See supported [app development platforms](/developers/rpcs/platforms)**.
+**See supported [app development platforms](/learn/rpcs/platforms)**.
 
 ## Handle User Authentication
 

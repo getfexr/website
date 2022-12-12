@@ -1,0 +1,123 @@
+---
+sidebar_position: 98
+title: Downloads & Quick-Setup
+description: Where to download Fexr wallet
+keywords: [Fexr, wallet, android, mobile, iphone, apple, apk, link, download, online]
+---
+
+## Fexr core wallet
+
+Fexr, as a Web3 asset company is owned by its users and is committed to providing the best user experience. All your secret keys and messages to interact with blockchain protocols and access various Web3 features are fully owned and managed by users on their own devices. We are proud to announce that we have released our core wallet for both Android and iOS. The wallet is available for download on the Google Play Store and Apple App Store.
+
+### Downloads
+
+Fexr core wallet is available for Android and iOS devices. You can download the Fexr wallet from the links below.
+
+| Platform | Download Link |
+| -------- | ------------- |
+| Android | [Download](https://play.google.com/store/apps/details?id=com.getfexr.core&hl=en&gl=US) |
+| iOS | [Download](https://apps.apple.com/app/fexr-wallet/id1631128786) |
+
+### Finding your subnet provider
+
+Subnet providers help with the setup of your Fexr wallet. While you hold the private keys to your wallet, you will need to find a subnet provider to help you with the hot wallet which interact with outside network (e.g. exchanges, other wallets, etc.).
+
+#### How do you find a subnet provider?
+
+Subnet providers are listed primarily in Fexr app. They can be found in the “Subnet Providers” section of the app. You can also find them on the [subnets.fexr.club](https://subnets.fexr.club)
+
+#### How do you know if they are trustworthy?
+
+At Fexr, you dont have to trust any subnet provider to keep your secrets. All your private details connected to your wallet is stored only on your device. You can verify this by checking the [source code of the communicator tool](https://github.com/getfexr/sky) used by the subnet providers. You can also verify the source code of the subnet provider by checking their github repository.
+
+### Creating wallet with a subnet provider
+
+When you create as new wallet, keys are generated within your device but a hot wallet (full node without access to secret key) is needed to verify incoming token details and trigger smart contracts when the users are offline.
+
+#### What if a subnet provider barred you from their network?
+
+Fexr work with only those protocols which allows users to manage their 
+
+### Self hosting hot wallet (node) with Sky
+
+Read [detailed instructions to install Sky](#sky---web3-connector)
+
+### Connecting to your node
+
+### External help and discussions
+
+| Platform | Join Link |
+| -------- | ------------- |
+| Telegram | [Join](https://t.me/fexr) |
+| Discord | [Join](https://discord.gg/4Z3Q2Z4) |
+| Twitter | [Follow](https://twitter.com/getfexr) |
+| Reddit | [Follow](https://www.reddit.com/r/fexr/) |
+
+## Sky - Web3 connector
+
+Sky is a Web3 connector that allows you to connect to Web3 network and valdiate via blockchain protocols. It is a free and open-source software.
+
+### 
+
+Sky is available for download on the [GitHub releases page](https://github.com/getfexr/sky/releases).
+
+Once you have the **Sky** executable downloaded in your system, Give the required permissions to make it executable
+
+```bash
+chmod +x sky
+```
+
+:::info use screen tool
+It is easier to run Sky in background by using *screen* commandline tool.
+If you have not installed screen, use
+For Linux
+```bash
+sudo apt-get install screen
+```
+For Mac
+```bash
+brew install screen
+```
+
+Once installed, execute the below cmd to start a screen named sky
+```bash
+screen -S sky
+```
+:::
+
+### Configuring Sky connector
+
+execute the following command to run sky:
+```bash
+./sky start
+```
+
+This will ask certain questions to input values.
+- `JWT_AUTH_SECRET` : A secret which should be between the length of 32 to 64 characters. (More about this on notes below)
+- Next question will be to select the address including the port for Rubix. There is a default value set, the user just needs to confirm it by entering `y` for confirmation in a normal case. This will configure Sky in the node.
+
+### Sky connector is ready, how to connect your address blockchain?
+
+Once Sky is configured, the user has to download the app and follow the onscreen instructions till a screen where the user is asked the following:
+- IP address of the node
+- OTP
+
+To get the OTP, the user has to again come back to the terminal where they have sky
+
+Authenticating Fexr App to Sky - OTP
+```bash
+./sky otp new
+```
+This command will generate a new OTP valid for **5 minutes**.
+
+### Cost of usage and Gas fee
+
+Sky connector does not require custom hardware to run blockchain nodes. It is a free and open-source software. However, there are certain costs involved in running a node. These costs are related to the network bandwidth and storage space. The user can choose to run a node on their own hardware or use a cloud service provider to run the node.
+
+#### What is Gas fee?
+
+Gas fee is the cost involved in validating a transaction on the blockchain. The cost of gas fee is dependent on the blockchain protocol you have picked to complete transaction. Sky connector does not charge any fee for running the node.
+
+### VM configuration
+
+If the user is running Sky on a VM, they need to configure the VM to allow the Sky to be connected over port `6942`. The user need to open the port `6942` in the VM firewall.
