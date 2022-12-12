@@ -133,7 +133,7 @@ const config = {
             items: [
               {
                 label: "Wallet",
-                to: "learn/core/dl",
+                to: "learn/dl",
               },
               {
                 label: "Club",
