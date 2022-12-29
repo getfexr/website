@@ -14,9 +14,10 @@ function HomepageHeader() {
       <div>
         <div className="px-8 pt-40 mb-20 lg:px-28 lg:py-76">
           <h1 className="mt-50 text-white text-5xl sm:text-8xl break-normal">
-            Pay creators,
-            <br /> businesses and
-            <br /> learn, Fexr!
+            Fexr ship <br />
+            trust with <br />
+            trustless <br />
+            trade
           </h1>
         </div>
       </div>
