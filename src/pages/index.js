@@ -28,12 +28,15 @@ function HomepageHeader() {
           </Button>,
           <Button
             key="apply"
-            href={withBaseUrl("apply")}
+            href={withBaseUrl(
+              "blog/Announcing%20Fluir%20release%20-%20Connect%20Fexr"
+            )}
+            // href={withBaseUrl("apply")}
             background="green"
             color="white"
             className="apply-button"
           >
-            Apply
+            New for 2023 blog
           </Button>,
         ]}
       />

@@ -311,7 +311,7 @@ function DemoImage() {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg leading-6 font-medium">
-                    Launched on RubixChain
+                    Launched on Rubix
                   </h4>
                   <p className="mt-2 text-base leading-6 text-description">
                      A deterministic state-machine that is designed to address the

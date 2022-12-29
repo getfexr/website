@@ -27,10 +27,10 @@ export default function Timeline() {
       <div>
         <div className="container mx-auto flex flex-col items-start xl:flex-row">
           <div className="flex flex-col w-full sticky xl:top-36 xl:w-1/3 mt-2 xl:mt-12 px-8">
-            <p className="ml-2 font-black dark:font-normal text-green-500 dark:text-green-300 uppercase tracking-loose"></p>
-            <p className="text-3xl md:text-4xl leading-normal md:leading-relaxed mb-2">We Ship Trust with Trustless Trade</p>
+            <p className="ml-2 font-black dark:font-normal text-green-500 dark:text-green-300 uppercase tracking-loose">Tell us the feature you want us to deliver</p>
+            <p className="text-2xl md:text-2xl leading-normal md:leading-relaxed mb-2">Lets develop together</p>
             <p className="text-sm md:text-base dark:text-gray-50 mb-4">
-              Here’s your guide to the development progress of Fexr. We are working hard to make Fexr the best Web3 payments platform for you.
+              Here’s your guide to the development progress of Fexr. We are working hard to make Fexr the best Web3 payments platform for you. Meanwhile, you can follow our progress and get involved in the development process.
             </p>
             <a
               href="https://github.com/getfexr"
