@@ -14,11 +14,13 @@ function Description() {
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Crypto Wallet and On-Chain Verifiable Claims using DID.
+            Your Fexr decentralised ID contain millions more combination
+            than Ethereum or Bitcoin private key
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
-            Get your decentralized wallet that can be used to store and verify claims,
-            RBT and more with your decentralized identity.
+            <a href="/blog/Optimising-image-private-key-mobile">
+              Read from developer
+            </a>
           </p>
         </div>
       </div>
@@ -150,12 +152,12 @@ function AppStores() {
 function Stats() {
   const stats = [
     {
-      label: 'Gas fee per transaction',
-      value: '0.000',
+      label: 'Core Engineers',
+      value: '3',
     },
     {
-      label: 'to complete a PoS transaction (beta)',
-      value: '< 9 secs',
+      label: 'Daily recorded transactions',
+      value: '> $1M',
     },
   ];
   return (
@@ -192,21 +194,21 @@ function HowItWorks() {
   const { withBaseUrl } = useBaseUrlUtils();
   const steps = [
     {
-      title: 'Privacy needs in web3, in one place',
-      description: (
-        <span />),
+      title:
+        "We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself",
+      description: <span />,
       image: {
-        src: withBaseUrl('img/feature_privacy.svg'),
-        alt: 'Privacy needs in web3, in one place',
+        src: withBaseUrl("img/feature_privacy.svg"),
+        alt: "Privacy needs in web3, in one place",
       },
     },
     {
-      title: 'Signing & Verification (works offline)',
-      description: (
-        <span />),
+      title:
+        "Feature now available with trusted web3 adaptors, apps and services",
+      description: <span />,
       image: {
-        src: withBaseUrl('img/feature_verified.svg'),
-        alt: 'Create an account',
+        src: withBaseUrl("img/feature_verified.svg"),
+        alt: "Create an account",
       },
     },
   ];
@@ -216,21 +218,23 @@ function HowItWorks() {
         <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
-              Decentralised APIs, Built for everyone
+              Now privately sign in with Fexr
             </h2>
             <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
-              Web3 APIs from Fexr is one of the easiest SDKs to use blockchain at scale.
+              Never linked to your personal life, Still only you can unlock or
+              lock your assets. Enjoy true power of Web3
             </p>
           </div>
         </div>
 
         <div className="py-16">
           <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
-            <div className={(function className() {
-              return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
-            }())}
+            <div
+              className={(function className() {
+                return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
+              })()}
             >
-              { steps.map((step) => (
+              {steps.map((step) => (
                 <div key={step.title}>
                   <div className="flex items-center justify-center">
                     <img
@@ -249,11 +253,9 @@ function HowItWorks() {
                   </div>
                 </div>
               ))}
-
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
@@ -271,14 +273,13 @@ function DemoImage() {
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
             Owning a wallet or address is both a convenience and responsibility.
-            <InlineLink
-              target="_blank"
-              href="https://twitter.com/getfexr"
-            >
+            <InlineLink target="_blank" href="https://twitter.com/getfexr">
               &nbsp;@getfexr
             </InlineLink>
             &nbsp;is making it easy for you, through&nbsp;
-            <InlineLink target="_blank" href="https://twitter.com/RubixChain">@RubixChain</InlineLink>
+            <InlineLink target="_blank" href="https://twitter.com/RubixChain">
+              @RubixChain
+            </InlineLink>
           </p>
           {/* <div className="pt-12 items-center justify-center flex">
             <img
@@ -287,74 +288,6 @@ function DemoImage() {
               alt="keyboard-shortcuts"
             />
           </div> */}
-        </div>
-        <div className="pt-16 w-5/6 mx-auto">
-          <ul className="md:grid md:col-gap-8 md:row-gap-10">
-            <li>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#00D96D] text-white">
-                    <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium">
-                    Launched on Rubix
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-description">
-                     A deterministic state-machine that is designed to address the
-                     scale, cost, and privacy shortcomings of blockchain protocols that rely on
-                       one sequentially organized chain of all global transactions.
-                  </p>
-                </div>
-              </div>
-            </li>
-            {/* <li className="mt-10 md:mt-0">
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium">
-                    Image based public and private keys
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-description">
-                    We have released this version with our best efforts on
-                    addressing accessibility issues and we are willing to
-                    make further changes.like to work closely with an
-                    expert in accessibility. Please contact us if you are
-                    interested.
-                  </p>
-                </div>
-              </div>
-            </li> */}
-          </ul>
         </div>
       </div>
     </div>
