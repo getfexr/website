@@ -8,6 +8,8 @@ import { InlineLink } from '@algolia/ui-library';
 import styles from './styles.module.css';
 // import CaseStudies from './case-studies';
 import CardLayoutGrid from '../CardLayoutGrid';
+import SwipeComponent from '../Carousel/SwipeComponent';
+import Headline from '../Headline';
 
 function Description() {
   return (
@@ -196,20 +198,20 @@ function HowItWorks() {
   const steps = [
     {
       title:
-        "We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself",
+        'We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself',
       description: <span />,
       image: {
-        src: withBaseUrl("img/feature_privacy.svg"),
-        alt: "Privacy needs in web3, in one place",
+        src: withBaseUrl('img/feature_privacy.svg'),
+        alt: 'Privacy needs in web3, in one place',
       },
     },
     {
       title:
-        "Feature now available with trusted web3 adaptors, apps and services",
+        'Feature now available with trusted web3 adaptors, apps and services',
       description: <span />,
       image: {
-        src: withBaseUrl("img/feature_verified.svg"),
-        alt: "Create an account",
+        src: withBaseUrl('img/feature_verified.svg'),
+        alt: 'Create an account',
       },
     },
   ];
@@ -233,7 +235,7 @@ function HowItWorks() {
             <div
               className={(function className() {
                 return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
-              })()}
+              }())}
             >
               {steps.map((step) => (
                 <div key={step.title}>
@@ -263,7 +265,7 @@ function HowItWorks() {
 }
 
 function DemoImage() {
-  const { withBaseUrl } = useBaseUrlUtils();
+  // const { withBaseUrl } = useBaseUrlUtils();
 
   return (
     <div className="py-16 lg:py-24">
@@ -295,6 +297,17 @@ function DemoImage() {
   );
 }
 
+function Clients() {
+  return (
+    <div className="mt-10 pb-20">
+      <div className="px-10 md:px-15 lg:px-20">
+      <Headline text="Clients" />
+      </div>
+      <SwipeComponent />
+    </div>
+  );
+}
+
 export default function HomepageFeatures() {
   const { withBaseUrl } = useBaseUrlUtils();
 
@@ -319,6 +332,7 @@ export default function HomepageFeatures() {
         <CardLayoutGrid />
         <Description />
         <Stats />
+        <Clients />
         <HowItWorks />
         <DemoImage />
       </div>
