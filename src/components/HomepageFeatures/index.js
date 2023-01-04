@@ -10,6 +10,7 @@ import styles from './styles.module.css';
 import CardLayoutGrid from '../CardLayoutGrid';
 import SwipeComponent from '../Carousel/SwipeComponent';
 import Headline from '../Headline';
+import FullScreenStatistics from '../FullScreenStats';
 
 function Description() {
   return (
@@ -335,6 +336,7 @@ export default function HomepageFeatures() {
         <Clients />
         <HowItWorks />
         <DemoImage />
+        <FullScreenStatistics />
       </div>
     </section>
   );
