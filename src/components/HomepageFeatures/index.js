@@ -6,7 +6,8 @@ import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
-import CaseStudies from './case-studies';
+// import CaseStudies from './case-studies';
+import CardLayoutGrid from '../CardLayoutGrid';
 
 function Description() {
   return (
@@ -315,7 +316,7 @@ export default function HomepageFeatures() {
             </div>
           </div>
         </div>
-
+        <CardLayoutGrid />
         <Description />
         <Stats />
         <HowItWorks />
