@@ -12,6 +12,7 @@ import SwipeComponent from '../Carousel/SwipeComponent';
 import Headline from '../Headline';
 import FullScreenStatistics from '../FullScreenStats';
 import TrendList from '../TrendList';
+import Faq from '../Faq';
 
 function Description() {
   return (
@@ -339,6 +340,7 @@ export default function HomepageFeatures() {
         {/* <DemoImage /> */}
         <FullScreenStatistics />
         <TrendList />
+        <Faq />
       </div>
     </section>
   );
