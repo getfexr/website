@@ -56,6 +56,11 @@ html[data-theme='dark'] {
   color: var(--ifm-background-color);
 }
 
+/* normalise button */
+button {
+  border: none;
+}
+
 /* Prism in docusaurus.config.js is responsible for rest of the colors */
 
 /* Tailwindcss */
