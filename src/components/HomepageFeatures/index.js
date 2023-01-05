@@ -11,6 +11,7 @@ import CardLayoutGrid from '../CardLayoutGrid';
 import SwipeComponent from '../Carousel/SwipeComponent';
 import Headline from '../Headline';
 import FullScreenStatistics from '../FullScreenStats';
+import TrendList from '../TrendList';
 
 function Description() {
   return (
@@ -332,11 +333,12 @@ export default function HomepageFeatures() {
         </div>
         <CardLayoutGrid />
         <Description />
-        <Stats />
+        {/* <Stats /> */}
         <Clients />
-        <HowItWorks />
-        <DemoImage />
+        {/* <HowItWorks /> */}
+        {/* <DemoImage /> */}
         <FullScreenStatistics />
+        <TrendList />
       </div>
     </section>
   );

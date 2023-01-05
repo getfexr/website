@@ -8,10 +8,19 @@ module.exports = {
   ],
   theme: {
     extend: {
+      container: {
+        center: true,
+        padding: '1rem',
+      },
       colors: {
         accent: '#00D96D',
         'accent-dark': '#00D96D',
         white: '#FFFFFF',
+        green: '#10b981',
+        orange: '#FEB240',
+        red: '#EF4444',
+        blue: '#428AF8',
+        'light-base': '#F4F4F6',
         jacarta: {
           base: '#5A5D79',
           50: '#F4F4F6',
