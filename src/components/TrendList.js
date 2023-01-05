@@ -185,9 +185,12 @@ function TrendList() {
                     );
                   })}
                 </div>
-                <a className="text-accent mt-8 block text-center text-sm font-bold tracking-tight">
+                {/* Change the span to <a> later */}
+                <span
+                  className="text-accent mt-8 block text-center text-sm font-bold tracking-tight"
+                >
                   View All Drops
-                </a>
+                </span>
               </div>
             ))}
           </div>

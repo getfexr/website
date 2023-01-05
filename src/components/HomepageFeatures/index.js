@@ -3,7 +3,7 @@
 import React from 'react';
 
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
-import { InlineLink } from '@algolia/ui-library';
+// import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
 // import CaseStudies from './case-studies';
@@ -154,150 +154,150 @@ function AppStores() {
   );
 }
 
-function Stats() {
-  const stats = [
-    {
-      label: 'Core Engineers',
-      value: '3',
-    },
-    {
-      label: 'Daily recorded transactions',
-      value: '> $1M',
-    },
-  ];
-  return (
-    <div className="pt-4 pb-12 md:pb-16">
-      <div className="relative">
-        <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
-          <div className="max-w-4xl mx-auto">
-            <dl
-              className="rounded-lg shadow-xl md:grid standout grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
-            >
-              { stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col p-6 text-center">
-                  <dt
-                    className="order-2 mt-2 text-lg leading-6 font-medium text-description"
-                  >
-                    { stat.label }
-                  </dt>
-                  <dd
-                    className="order-1 text-5xl leading-none font-extrabold text-[#00D96D]"
-                  >
-                    { stat.value }
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Stats() {
+//   const stats = [
+//     {
+//       label: 'Core Engineers',
+//       value: '3',
+//     },
+//     {
+//       label: 'Daily recorded transactions',
+//       value: '> $1M',
+//     },
+//   ];
+//   return (
+//     <div className="pt-4 pb-12 md:pb-16">
+//       <div className="relative">
+//         <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
+//           <div className="max-w-4xl mx-auto">
+//             <dl
+//               className="rounded-lg shadow-xl md:grid standout grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
+//             >
+//               { stats.map((stat) => (
+//                 <div key={stat.label} className="flex flex-col p-6 text-center">
+//                   <dt
+//                     className="order-2 mt-2 text-lg leading-6 font-medium text-description"
+//                   >
+//                     { stat.label }
+//                   </dt>
+//                   <dd
+//                     className="order-1 text-5xl leading-none font-extrabold text-[#00D96D]"
+//                   >
+//                     { stat.value }
+//                   </dd>
+//                 </div>
+//               ))}
+//             </dl>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function HowItWorks() {
-  const { withBaseUrl } = useBaseUrlUtils();
-  const steps = [
-    {
-      title:
-        'We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself',
-      description: <span />,
-      image: {
-        src: withBaseUrl('img/feature_privacy.svg'),
-        alt: 'Privacy needs in web3, in one place',
-      },
-    },
-    {
-      title:
-        'Feature now available with trusted web3 adaptors, apps and services',
-      description: <span />,
-      image: {
-        src: withBaseUrl('img/feature_verified.svg'),
-        alt: 'Create an account',
-      },
-    },
-  ];
-  return (
-    <div className="diagonal-box py-16 dark:bg-gray-800 bg-gray-200 overflow-hidden">
-      <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
-        <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
-              Now privately sign in with Fexr
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
-              Never linked to your personal life, Still only you can unlock or
-              lock your assets. Enjoy true power of Web3
-            </p>
-          </div>
-        </div>
+// function HowItWorks() {
+//   const { withBaseUrl } = useBaseUrlUtils();
+//   const steps = [
+//     {
+//       title:
+//         'We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself',
+//       description: <span />,
+//       image: {
+//         src: withBaseUrl('img/feature_privacy.svg'),
+//         alt: 'Privacy needs in web3, in one place',
+//       },
+//     },
+//     {
+//       title:
+//         'Feature now available with trusted web3 adaptors, apps and services',
+//       description: <span />,
+//       image: {
+//         src: withBaseUrl('img/feature_verified.svg'),
+//         alt: 'Create an account',
+//       },
+//     },
+//   ];
+//   return (
+//     <div className="diagonal-box py-16 dark:bg-gray-800 bg-gray-200 overflow-hidden">
+//       <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
+//         <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
+//           <div className="max-w-4xl mx-auto text-center">
+//             <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
+//               Now privately sign in with Fexr
+//             </h2>
+//             <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
+//               Never linked to your personal life, Still only you can unlock or
+//               lock your assets. Enjoy true power of Web3
+//             </p>
+//           </div>
+//         </div>
 
-        <div className="py-16">
-          <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
-            <div
-              className={(function className() {
-                return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
-              }())}
-            >
-              {steps.map((step) => (
-                <div key={step.title}>
-                  <div className="flex items-center justify-center">
-                    <img
-                      className="pl-12 h-200"
-                      src={step.image.src}
-                      alt={step.image.alt}
-                    />
-                  </div>
-                  <div className="mt-10 lg:mt-0 p-4">
-                    <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900 text-center">
-                      {step.title}
-                    </h5>
-                    <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
-                      {step.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+//         <div className="py-16">
+//           <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
+//             <div
+//               className={(function className() {
+//                 return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
+//               }())}
+//             >
+//               {steps.map((step) => (
+//                 <div key={step.title}>
+//                   <div className="flex items-center justify-center">
+//                     <img
+//                       className="pl-12 h-200"
+//                       src={step.image.src}
+//                       alt={step.image.alt}
+//                     />
+//                   </div>
+//                   <div className="mt-10 lg:mt-0 p-4">
+//                     <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900 text-center">
+//                       {step.title}
+//                     </h5>
+//                     <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
+//                       {step.description}
+//                     </p>
+//                   </div>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function DemoImage() {
-  // const { withBaseUrl } = useBaseUrlUtils();
+// function DemoImage() {
+//   // const { withBaseUrl } = useBaseUrlUtils();
 
-  return (
-    <div className="py-16 lg:py-24">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
-        <div className="text-center">
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Digital Asset Custody
-          </h3>
-          <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
-            Owning a wallet or address is both a convenience and responsibility.
-            <InlineLink target="_blank" href="https://twitter.com/getfexr">
-              &nbsp;@getfexr
-            </InlineLink>
-            &nbsp;is making it easy for you, through&nbsp;
-            <InlineLink target="_blank" href="https://twitter.com/RubixChain">
-              @RubixChain
-            </InlineLink>
-          </p>
-          {/* <div className="pt-12 items-center justify-center flex">
-            <img
-              className="w-full max-w-screen image-rendering-pixel"
-              src={withBaseUrl('img/fexr-architecture.svg')}
-              alt="keyboard-shortcuts"
-            />
-          </div> */}
-        </div>
-      </div>
-    </div>
-  );
-}
+//   return (
+//     <div className="py-16 lg:py-24">
+//       <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
+//         <div className="text-center">
+//           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
+//             Digital Asset Custody
+//           </h3>
+//           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
+//             Owning a wallet or address is both a convenience and responsibility.
+//             <InlineLink target="_blank" href="https://twitter.com/getfexr">
+//               &nbsp;@getfexr
+//             </InlineLink>
+//             &nbsp;is making it easy for you, through&nbsp;
+//             <InlineLink target="_blank" href="https://twitter.com/RubixChain">
+//               @RubixChain
+//             </InlineLink>
+//           </p>
+//           {/* <div className="pt-12 items-center justify-center flex">
+//             <img
+//               className="w-full max-w-screen image-rendering-pixel"
+//               src={withBaseUrl('img/fexr-architecture.svg')}
+//               alt="keyboard-shortcuts"
+//             />
+//           </div> */}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 function Clients() {
   return (

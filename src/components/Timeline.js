@@ -2,22 +2,22 @@ import React from 'react';
 
 const timelineData = [
   {
-    title: "Fluir (upcoming)",
+    title: 'Fluir (upcoming)',
     description:
-      "Now connect your wallet with popular web and mobile apps and sign from your phone.",
-    date: "2023 Jan",
+      'Now connect your wallet with popular web and mobile apps and sign from your phone.',
+    date: '2023 Jan',
   },
   {
-    title: "Hypergreen (stable)",
+    title: 'Hypergreen (stable)',
     description:
-      "Wallet app refresh with new design, reward program, new onboarding, and more.",
-    date: "2022 Oct",
+      'Wallet app refresh with new design, reward program, new onboarding, and more.',
+    date: '2022 Oct',
   },
   {
-    title: "Pop",
+    title: 'Pop',
     description:
-      "Fexr is now available on the App Store and Google Play. Passport (DID) Oracles and Payments is focused.",
-    date: "2022 Mar",
+      'Fexr is now available on the App Store and Google Play. Passport (DID) Oracles and Payments is focused.',
+    date: '2022 Mar',
   },
 ];
 
@@ -30,7 +30,9 @@ export default function Timeline() {
             <p className="ml-2 font-black dark:font-normal text-green-500 dark:text-green-300 uppercase tracking-loose">Tell us the feature you want us to deliver</p>
             <p className="text-2xl md:text-2xl leading-normal md:leading-relaxed mb-2">Lets develop together</p>
             <p className="text-sm md:text-base dark:text-gray-50 mb-4">
-              Here’s your guide to the development progress of Fexr. We are working hard to make Fexr the best Web3 payments platform for you. Meanwhile, you can follow our progress and get involved in the development process.
+              Here’s your guide to the development progress of Fexr.
+              We are working hard to make Fexr the best Web3 payments platform for you.
+              Meanwhile, you can follow our progress and get involved in the development process.
             </p>
             <a
               href="https://github.com/getfexr"
@@ -88,7 +90,7 @@ export default function Timeline() {
                   );
                 })}
               </div>
-              <img className="mx-auto" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
+              <img alt="illustration featuring a man near a spaceship" className="mx-auto" src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png" />
             </div>
           </div>
         </div>

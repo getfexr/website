@@ -154,7 +154,8 @@ function SwipeComponent() {
             <SwiperSlide key={id}>
               <article>
                 <span
-                  className="cursor-pointer dark:bg-jacarta-700 dark:border-jacarta-700 border-jacarta-100 rounded-2xl block border bg-white p-[1.1875rem] transition-shadow hover:shadow-lg">
+                  className="cursor-pointer dark:bg-jacarta-700 dark:border-jacarta-700 border-jacarta-100 rounded-2xl block border bg-white p-[1.1875rem] transition-shadow hover:shadow-lg"
+                >
                   <figure
                     style={{ backgroundColor: bgColor }}
                     className="w-full rounded-[0.625rem] m-0"
