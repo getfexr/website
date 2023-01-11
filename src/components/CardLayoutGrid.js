@@ -2,40 +2,10 @@ import React from 'react';
 
 const walletData = [
   {
-    id: '0Metamask',
-    image: '/img/partners/metamask.svg',
-    title: 'Metamask',
-    text: 'Start exploring blockchain applications in seconds. Trusted by over 1 million users worldwide.',
-  },
-  {
-    id: '1Coinbase',
-    image: '/img/partners/metamask.svg',
-    title: 'Coinbase',
-    text: 'The easiest and most secure crypto wallet. ... No Coinbase account required.',
-  },
-  {
-    id: '2Bitski',
-    image: '/img/partners/metamask.svg',
-    title: 'Bitski',
-    text: 'Bitski connects communities, creators and brands through unique, ownable digital content.',
-  },
-  {
-    id: '3Fortmatic',
-    image: '/img/partners/metamask.svg',
-    title: 'Fortmatic',
-    text: 'Let users access your Ethereum app from anywhere. No more browser extensions.',
-  },
-  {
-    id: '4Torus',
-    image: '/img/partners/metamask.svg',
-    title: 'Torus',
-    text: 'Open source protocol for connecting decentralised applications to mobile wallets.',
-  },
-  {
-    id: '5Wallet Connect',
-    image: '/img/partners/metamask.svg',
-    title: 'Wallet Connect',
-    text: 'Open source protocol for connecting decentralised applications to mobile wallets.',
+    id: '0Rubix',
+    image: '/img/partners/rubix.svg',
+    title: 'Rubix',
+    text: 'Rubix L1 chain is lightweight enough to run on laptops, desktops and virtual machines. Every node can be a validator while running normal business transactions in parallel.',
   },
 ];
 
