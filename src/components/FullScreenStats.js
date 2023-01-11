@@ -14,7 +14,7 @@ function FullScreenStatistics() {
             className="h-full w-full -scale-y-100"
           />
         </picture>
-        <div className="container -mt-20 lg:pb-32">
+        <div className="container lg:pb-32">
           <h2 className="mb-12 max-w-5xl font-display text-5xl text-white lg:text-[6rem]">
             Play Your Favorite Characters. Win Big Prizes.
           </h2>
