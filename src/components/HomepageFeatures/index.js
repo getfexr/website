@@ -13,6 +13,7 @@ import Headline from '../Headline';
 import FullScreenStatistics from '../FullScreenStats';
 import TrendList from '../TrendList';
 import Faq from '../Faq';
+import NewsSection from '../News/NewsSection';
 
 function Description() {
   return (
@@ -338,6 +339,7 @@ export default function HomepageFeatures() {
         <Clients />
         {/* <HowItWorks /> */}
         {/* <DemoImage /> */}
+        <NewsSection />
         <FullScreenStatistics />
         <TrendList />
         <Faq />

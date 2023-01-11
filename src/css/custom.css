@@ -124,3 +124,11 @@ html[data-theme='dark'] .showcase-border {
   margin-right: 0;
   margin-left: 1rem;
 }
+
+.two-line-ellipsis {
+  overflow: hidden;
+  width: 325px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
