@@ -25,7 +25,7 @@ function FullScreenStatistics() {
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div>
               <div>
-                <span className="text-fill-transparent inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
+                <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
                   1M+
                 </span>
               </div>
@@ -33,7 +33,7 @@ function FullScreenStatistics() {
             </div>
             <div>
               <div>
-                <span className="text-fill-transparent inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
+                <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
                   $115M
                 </span>
               </div>
@@ -41,7 +41,7 @@ function FullScreenStatistics() {
             </div>
             <div>
               <div>
-                <span className="text-fill-transparent inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
+                <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
                   4.8
                 </span>
               </div>
@@ -49,7 +49,7 @@ function FullScreenStatistics() {
             </div>
             <div>
               <div>
-                <span className="text-fill-transparent inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
+                <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
                   250+
                 </span>
               </div>

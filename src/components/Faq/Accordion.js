@@ -49,7 +49,10 @@ function FaqAccordion() {
         >
           What is tax and legal advisory?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700 text-base h-full">
+        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+          dark:text-jacarta-200
+          dark:border-jacarta-600 dark:bg-jacarta-700 text-base h-full"
+        >
           Learn how to create your very first NFT and how to create your NFT
           collections. Unique, fully 3D and built to unite the design
           multiverse. Designed and styled by Digimental.
@@ -66,7 +69,10 @@ function FaqAccordion() {
         >
           How can I stay safe and protect my NFTs ?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base">
+        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+          dark:text-jacarta-200
+          dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
+        >
           Learn how to create your very first NFT and how to create your NFT
           collections. Unique, fully 3D and built to unite the design
           multiverse. Designed and styled by Digimental.
@@ -83,7 +89,10 @@ function FaqAccordion() {
         >
           Do you give guarantee and after sales service?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4 dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base">
+        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+          dark:text-jacarta-200
+          dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
+        >
           Learn how to create your very first NFT and how to create your NFT
           collections. Unique, fully 3D and built to unite the design
           multiverse. Designed and styled by Digimental.

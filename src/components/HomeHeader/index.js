@@ -9,13 +9,13 @@ function HomepageHeader() {
       <div className="ml-auto mr-auto h-full max-w-[91rem] px-4">
         <div className="grid h-full items-center gap-4 lg:grid-cols-12">
           <div className="col-span-5 flex h-full flex-col items-center justify-center py-10 lg:items-start lg:py-20">
-            <p className="mb-10 text-xs font-bold uppercase text-jacarta-500 dark:text-jacarta-200">
+            <p className="mb-10 text-xs font-bold uppercase text-jacarta-800 dark:text-jacarta-50">
               Discover. Create. Trade.
             </p>
             <h1 className="mb-6 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
               Fexr ship trust with trustless trade
             </h1>
-            <p className="mb-8 max-w-md text-center text-lg dark:text-jacarta-200 lg:text-left">
+            <p className="mb-8 max-w-md text-center text-lg text-jacarta-600 dark:text-jacarta-50 lg:text-left">
               Begin your journey to the decentralized web with Fexr.
             </p>
             <div className="flex space-x-4">
