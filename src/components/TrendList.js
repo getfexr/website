@@ -3,7 +3,7 @@ import React from 'react';
 const collectionCategoryData = [
   {
     parentId: 1,
-    name: " Today's Drops",
+    name: " Today's Txns",
     collections: [
       {
         id: 1,
@@ -41,7 +41,7 @@ const collectionCategoryData = [
   },
   {
     parentId: 2,
-    name: 'Top Sellers',
+    name: 'Top Subscriptions',
     collections: [
       {
         id: 5,
@@ -120,7 +120,7 @@ const collectionCategoryData = [
 function TrendList() {
   return (
     <div>
-      {/* <!-- Today's Drops / Sellers / Buyers --> */}
+      {/* <!-- Today's Txns / Sellers / Buyers --> */}
       <section className="py-24 relative">
         <div className="container">
           <div className="flex flex-col space-y-5 lg:flex-row lg:space-y-0 lg:space-x-7">
@@ -146,26 +146,30 @@ function TrendList() {
                       >
                         <figure className="mr-4 shrink-0">
                           <span className="relative block pt-1">
-                            <img src={image} alt={title} className="rounded-2lg h-12 w-12" />
+                            <img
+                              src={image}
+                              alt={title}
+                              className="rounded-2lg h-12 w-12"
+                            />
                             <div className="border-solid dark:border-jacarta-600 bg-jacarta-700 absolute -left-3 top-1/2 flex h-6 w-6 -translate-y-2/4 items-center justify-center rounded-full border-2 border-white text-xs text-white">
                               {id}
                             </div>
                             {icon && (
-                            <div
-                              className="border-solid dark:border-jacarta-600 bg-green absolute -left-3 top-[60%] flex h-6 w-6 items-center justify-center rounded-full border-2 border-white"
-                              data-tippy-content="Verified Collection"
-                            >
-                              <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                viewBox="0 0 24 24"
-                                width="24"
-                                height="24"
-                                className="h-[.875rem] w-[.875rem] fill-white"
+                              <div
+                                className="border-solid dark:border-jacarta-600 bg-green absolute -left-3 top-[60%] flex h-6 w-6 items-center justify-center rounded-full border-2 border-white"
+                                data-tippy-content="Verified Collection"
                               >
-                                <path fill="none" d="M0 0h24v24H0z" />
-                                <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
-                              </svg>
-                            </div>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                  width="24"
+                                  height="24"
+                                  className="h-[.875rem] w-[.875rem] fill-white"
+                                >
+                                  <path fill="none" d="M0 0h24v24H0z" />
+                                  <path d="M10 15.172l9.192-9.193 1.415 1.414L10 18l-6.364-6.364 1.414-1.414z" />
+                                </svg>
+                              </div>
                             )}
                           </span>
                         </figure>
@@ -186,17 +190,15 @@ function TrendList() {
                   })}
                 </div>
                 {/* Change the span to <a> later */}
-                <span
-                  className="text-accent mt-8 block text-center text-sm font-bold tracking-tight"
-                >
-                  View All Drops
+                <span className="text-accent mt-8 block text-center text-sm font-bold tracking-tight">
+                  View All Txns
                 </span>
               </div>
             ))}
           </div>
         </div>
       </section>
-      {/* <!-- end today's drops / sellers / buyers --> */}
+      {/* <!-- end today's Txns / sellers / buyers --> */}
     </div>
   );
 }

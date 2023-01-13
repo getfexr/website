@@ -15,7 +15,7 @@
     "prepare": "husky install"
   },
   "lint-staged": {
-    "*.{js,jsx,mdx}": "eslint --cache --fix"
+    "*.{js,jsx}": "eslint --cache --fix"
   },
   "dependencies": {
     "@algolia/ui-library": "^5.86.0",

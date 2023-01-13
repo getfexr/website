@@ -16,11 +16,12 @@ function FullScreenStatistics() {
         </picture>
         <div className="container lg:pb-32">
           <h2 className="mb-12 max-w-5xl font-display text-5xl text-white lg:text-[6rem]">
-            Play Your Favorite Characters. Win Big Prizes.
+            We dont track you / we cant track you
           </h2>
           <p className="mb-20 max-w-4xl text-3xl font-medium text-white lg:ml-36">
-            We empower artists, creators, and players to build the platform they always envisioned,
-            providing the means to unleash your creativity and earn income.
+            Selfhost or fork from our open source codebase and verify yourself.
+            A core team less than 10 impacting daily transactions of more than 1M
+
           </p>
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div>

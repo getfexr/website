@@ -6,28 +6,37 @@ import 'swiper/css/pagination';
 
 const financialData = [
   {
-    title: 'Expanding the Global NFT Ecosystem: A Preview of Chain Expansion',
-    desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
+    tag: 'cointelegraph',
+    title:
+      'Multiparty computation could offer increased protection for crypto wallets',
+    desc: 'With MPC, A quorum of these shares can distributively sign a message…',
     id: 1,
-    date: '5 Feb, 2022',
+    date: '12 Jan, 2023',
+    link: 'https://cointelegraph.com/news/multi-party-computation-could-offer-increased-protection-for-crypto-wallets',
   },
   {
+    tag: 'Hack',
     title: 'OpenSea Acquires Gem to Invest in Pro Experience',
     desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
     id: 2,
     date: '5 Feb, 2022',
+    link: '/single_post/post_1',
   },
   {
-    title: '10 Marketing Trends That You Should Be Prepared for in 2022',
-    desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
+    tag: 'Times of India',
+    title: 'Secure and user-friendly self-custodial wallets are the future',
+    desc: 'FTX collapse has brought about increased awareness of self-custody wallets...',
     id: 3,
-    date: '5 Feb, 2022',
+    date: '25 December, 2022',
+    link: 'https://timesofindia.indiatimes.com/blogs/voices/secure-and-user-friendly-self-custodial-wallets-are-the-future/',
   },
   {
+    tag: 'Anouncement',
     title: '10 Marketing Trends That You Should Be Prepared for in 2022',
     desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
     id: 4,
     date: '5 Feb, 2022',
+    link: '/single_post/post_1',
   },
 ];
 
@@ -54,7 +63,7 @@ function NewsCarousel() {
     >
       {financialData.map((item) => {
         const {
-          id, title, desc, date,
+          id, title, desc, date, tag, link,
         } = item;
         return (
           <SwiperSlide className="text-white overflow-visible" key={id}>
@@ -62,7 +71,7 @@ function NewsCarousel() {
               <div className="mb-4 flex flex-wrap gap-4 text-2xs dark:text-jacarta-300">
                 <div className="flex flex-wrap items-center space-x-2">
                   <span className="text-accent">
-                    <a href="/single_post/post_1" className="uppercase">Finance</a>
+                    <a href="/single_post/post_1" className="uppercase">{tag}</a>
                   </span>
                 </div>
                 <span>
@@ -71,7 +80,7 @@ function NewsCarousel() {
               </div>
 
               <h2 className="mb-5 font-display text-xl text-jacarta-700 hover:text-accent dark:text-white dark:hover:text-accent">
-                <a href="/single_post/post_1" className="two-line-ellipsis">
+                <a href={link} className="two-line-ellipsis">
                   {title}
                 </a>
               </h2>

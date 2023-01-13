@@ -178,7 +178,7 @@ const config = {
                 to: '/learn/category/club---decentralised-hosting',
               },
               {
-                label: 'Sky Connector',
+                label: 'Sky 2FA & connector',
                 to: '/learn/sky/',
               },
               {

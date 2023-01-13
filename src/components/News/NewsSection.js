@@ -9,10 +9,11 @@ function NewsSection() {
         <div className="container">
           <div className="mx-auto mb-12 max-w-sm text-center">
             <h2 className="mb-6 text-center font-display text-3xl font-medium text-jacarta-700 dark:text-white">
-              Financial News
+              True power of Web3 is in Self Custody
             </h2>
             <p className="text-lg dark:text-jacarta-300">
-              Here are the best features that makes Xhibiter the most powerful, and fast.
+              Never linked to your personal life, Still only you can transfer or
+              verify ownership of your assets.
             </p>
           </div>
 

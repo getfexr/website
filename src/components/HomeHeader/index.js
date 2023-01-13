@@ -27,12 +27,10 @@ function HomepageHeader() {
               </a>
 
               <a
-                href={withBaseUrl(
-                  'blog/Announcing%20Fluir%20release%20-%20Connect%20Fexr',
-                )}
+                href="https://calendly.com/fexr/one-on-one"
                 className="rounded-full bg-white py-3 px-8 text-center font-semibold text-accent shadow-white-volume transition-all hover:bg-accent-dark hover:text-white hover:shadow-accent-volume"
               >
-                Read the blogs
+                Schedule a Demo
               </a>
             </div>
           </div>
@@ -58,7 +56,7 @@ function HomepageHeader() {
                       3x
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
-                      Increased Profits
+                      New wallets than last month
                     </span>
                   </div>
                 </div>
@@ -85,7 +83,7 @@ function HomepageHeader() {
                     +10k
                   </span>
                   <span className="mb-5 block font-display text-sm text-jacarta-600">
-                    Happy customers
+                    Transacted in the last 24 hours
                   </span>
                 </div>
               </div>

@@ -145,3 +145,7 @@ html[data-theme='dark'] .showcase-border {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent),
     var(--tw-shadow);
 }
+
+a {
+  font-family: var(--ifm-heading-font-family);
+}
