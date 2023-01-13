@@ -15,14 +15,6 @@ const financialData = [
     link: 'https://cointelegraph.com/news/multi-party-computation-could-offer-increased-protection-for-crypto-wallets',
   },
   {
-    tag: 'Hack',
-    title: 'OpenSea Acquires Gem to Invest in Pro Experience',
-    desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
-    id: 2,
-    date: '5 Feb, 2022',
-    link: '/single_post/post_1',
-  },
-  {
     tag: 'Times of India',
     title: 'Secure and user-friendly self-custodial wallets are the future',
     desc: 'FTX collapse has brought about increased awareness of self-custody wallets...',
@@ -32,10 +24,11 @@ const financialData = [
   },
   {
     tag: 'Anouncement',
-    title: '10 Marketing Trends That You Should Be Prepared for in 2022',
-    desc: 'The goal of this new editor is to make adding rich content to WordPress simple…',
+    title:
+      'Announcing Fluir release for Fexr. Connect your web and mobile apps',
+    desc: ' ‘Fluir’ is a big leap in the support for app developer, merchant service…',
     id: 4,
-    date: '5 Feb, 2022',
+    date: '21 December, 2022',
     link: '/single_post/post_1',
   },
 ];

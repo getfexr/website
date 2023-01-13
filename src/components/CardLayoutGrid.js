@@ -12,7 +12,7 @@ const walletData = [
 function CardLayoutGrid() {
   return (
     <div>
-      <div className="pt-[5.5rem] lg:pt-24">
+      <div>
         {/* <!-- Wallet --> */}
         <section className="dark:bg-jacarta-800 relative pb-20 pt-28">
           <div className="container">

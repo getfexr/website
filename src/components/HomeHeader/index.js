@@ -53,7 +53,7 @@ function HomepageHeader() {
                   </span>
                   <div className="text-left">
                     <span className="block font-display text-3xl text-green">
-                      3x
+                      150%
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
                       New wallets than last month
@@ -62,7 +62,7 @@ function HomepageHeader() {
                 </div>
               </div>
               <img
-                src="/img/hero_consultant_main.jpg"
+                src="/img/hero_main.png"
                 alt="placeholder"
                 className="inline-block rounded-2.5xl"
               />

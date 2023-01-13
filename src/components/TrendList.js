@@ -142,7 +142,7 @@ function TrendList() {
                     return (
                       <div
                         key={id}
-                        className="cursor-pointer border-solid border-jacarta-100 dark:bg-jacarta-700 rounded-2xl flex bg-white py-4 px-3 transition-shadow hover:shadow-lg dark:border-transparent"
+                        className="cursor-pointer dark:bg-jacarta-700 rounded-2xl flex bg-white py-4 px-3 transition-shadow hover:shadow-lg"
                       >
                         <figure className="mr-4 shrink-0">
                           <span className="relative block pt-1">
@@ -175,7 +175,7 @@ function TrendList() {
                         </figure>
                         <div className="flex flex-col justify-center">
                           <div>
-                            <span className="font-display text-jacarta-700 hover:text-accent font-semibold dark:text-white">
+                            <span className="font-display text-jacarta-700 hover:text-accent dark:text-white">
                               {title}
                             </span>
                           </div>

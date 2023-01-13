@@ -32,7 +32,7 @@ function Faq() {
               <div className="mt-12 md:flex md:space-x-8 lg:justify-end">
                 <div className="relative mb-8 max-w-[13.125rem] self-end rounded-2.5xl bg-green p-8 shadow-2xl">
                   <img
-                    src="/images/patterns/pattern_circle_1.png"
+                    src="/img/patterns/pattern_circle_1.png"
                     className="absolute -top-10 -left-8 -z-10 animate-fly dark:z-0 dark:opacity-10"
                     alt=""
                   />
@@ -49,14 +49,14 @@ function Faq() {
                   </div>
                 </div>
                 <img
-                  src="/images/crypto-consultant/faq.jpg"
+                  src="/img/faq.jpg"
                   className="mb-8 inline-block rounded-2.5xl"
                   alt=""
                 />
               </div>
               <div className="relative">
                 <img
-                  src="/images/patterns/pattern_circle_2.png"
+                  src="/img/patterns/pattern_circle_2.png"
                   className="absolute -bottom-8 right-12 animate-fly dark:opacity-10"
                   alt=""
                 />

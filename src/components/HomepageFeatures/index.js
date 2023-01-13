@@ -8,10 +8,10 @@ import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 // import CaseStudies from './case-studies';
 import CardLayoutGrid from '../CardLayoutGrid';
-import SwipeComponent from '../Carousel/SwipeComponent';
-import Headline from '../Headline';
+// import SwipeComponent from '../Carousel/SwipeComponent';
+// import Headline from '../Headline';
 import FullScreenStatistics from '../FullScreenStats';
-import TrendList from '../TrendList';
+// import TrendList from "../TrendList";
 import Faq from '../Faq';
 import NewsSection from '../News/NewsSection';
 import SignInWith from '../SignInWith';
@@ -22,8 +22,8 @@ function Description() {
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Your Fexr decentralised ID on Rubix has millions more combination
-            than Ethereum or Bitcoin private key
+            Fexr generated decentralised ID on Rubix has millions more
+            combination than Ethereum or Bitcoin private key
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
             <a href="/blog/Optimising-image-private-key-mobile">
@@ -164,7 +164,8 @@ function AppStores() {
         Your secrets and keys, only in your pocket
       </h2>
       <p className="mb-16 text-lg text-gray-500">
-        Download Fexr. It&apos;s fee-free. Coming soon for all your screens.
+        Get Fexr and own your blockchain infra. Coming soon for all your
+        screens.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
@@ -343,16 +344,16 @@ function AppStores() {
 //   );
 // }
 
-function Clients() {
-  return (
-    <div className="mt-10 pb-20">
-      <div className="px-10 md:px-15 lg:px-20">
-        <Headline text="Feature only available with trusted web3 adaptors in popular apps and services" />
-      </div>
-      <SwipeComponent />
-    </div>
-  );
-}
+// function Clients() {
+//   return (
+//     <div className="mt-10 pb-20">
+//       <div className="px-10 md:px-15 lg:px-20">
+//         <Headline text="Now available with trusted Web3 apps and services" />
+//       </div>
+//       <SwipeComponent />
+//     </div>
+//   );
+// }
 
 export default function HomepageFeatures() {
   const { withBaseUrl } = useBaseUrlUtils();
@@ -379,12 +380,12 @@ export default function HomepageFeatures() {
         <Description />
         {/* <Stats /> */}
         <SignInWith />
-        <Clients />
+        {/* <Clients /> */}
         {/* <HowItWorks /> */}
         {/* <DemoImage /> */}
         <NewsSection />
         <FullScreenStatistics />
-        <TrendList />
+        {/* <TrendList /> */}
         <Faq />
       </div>
     </section>

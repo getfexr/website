@@ -9,9 +9,16 @@ const browseCategoryData = [
   {
     id: '0Virtual Worlds',
     image: '/img/partner-categories/cat_1.png',
-    title: 'Virtual Worlds',
+    title: 'Validator.Social',
     href: '#',
     bgColor: 'rgb(70 199 227)',
+  },
+  {
+    id: '1Sport',
+    image: '/img/partner-categories/cat_1.png',
+    title: 'Cycle360.tech',
+    href: '#',
+    bgColor: 'rgb(115 126 242)',
   },
   {
     id: '1Sport',
@@ -21,25 +28,11 @@ const browseCategoryData = [
     bgColor: 'rgb(115 126 242)',
   },
   {
-    id: '0Virtual Worlds',
-    image: '/img/partner-categories/cat_1.png',
-    title: 'Virtual Worlds',
-    href: '#',
-    bgColor: 'rgb(70 199 227)',
-  },
-  {
     id: '1Sport',
     image: '/img/partner-categories/cat_1.png',
     title: 'Sport',
     href: '#',
     bgColor: 'rgb(115 126 242)',
-  },
-  {
-    id: '0Virtual Worlds',
-    image: '/img/partner-categories/cat_1.png',
-    title: 'Virtual Worlds',
-    href: '#',
-    bgColor: 'rgb(70 199 227)',
   },
   {
     id: '1Sport',
@@ -80,7 +73,7 @@ function SwipeComponent() {
           },
         }}
         className=" card-slider-4-columns !py-5"
-        style={{ transform: 'scaleX(1.2)' }}
+        style={{ transform: 'scaleX(1)' }}
       >
         {browseCategoryData.map((item) => {
           const {
