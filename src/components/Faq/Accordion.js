@@ -44,18 +44,21 @@ function FaqAccordion() {
         icon={<Icon id={1} open={open} />}
       >
         <AccordionHeader
-          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-md"
+          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-sm"
           onClick={() => handleOpen(1)}
         >
-          What is tax and legal advisory?
+          Is the Fexr wallet safe?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+        <AccordionBody
+          className="accordion-body border-t border-jacarta-100 bg-white p-4
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 text-base h-full"
         >
-          Learn how to create your very first NFT and how to create your NFT
-          collections. Unique, fully 3D and built to unite the design
-          multiverse. Designed and styled by Digimental.
+          Fexr is a non-custodial wallet, which means that you are in full
+          control. Your private keys are stored locally on your device and never
+          leave it. Fexr does not have access to your funds and cannot freeze or
+          take them. Fexr is open-source and all plugins are available on GitHub
+          public repository.
         </AccordionBody>
       </Accordion>
       <Accordion
@@ -64,18 +67,20 @@ function FaqAccordion() {
         icon={<Icon id={2} open={open} />}
       >
         <AccordionHeader
-          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-md"
+          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-sm"
           onClick={() => handleOpen(2)}
         >
-          How can I stay safe and protect my NFTs ?
+          Is Fexr free?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+        <AccordionBody
+          className="accordion-body border-t border-jacarta-100 bg-white p-4
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
-          Learn how to create your very first NFT and how to create your NFT
-          collections. Unique, fully 3D and built to unite the design
-          multiverse. Designed and styled by Digimental.
+          Yes, Fexr is free to use. We do not charge any fees for using the
+          wallet. Fexr also has some great, subscription-based features,
+          including Fexr.Club, which is a console for Fexr users to rent high
+          bandwidth blockchain nodes for fast transfers and earn rewards.
         </AccordionBody>
       </Accordion>
       <Accordion
@@ -84,18 +89,38 @@ function FaqAccordion() {
         icon={<Icon id={3} open={open} />}
       >
         <AccordionHeader
-          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-md"
+          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-sm"
           onClick={() => handleOpen(3)}
         >
-          Do you give guarantee and after sales service?
+          Why are Fexr.Club details not visible in the website?
         </AccordionHeader>
-        <AccordionBody className="accordion-body border-t border-jacarta-100 bg-white p-4
+        <AccordionBody
+          className="accordion-body border-t border-jacarta-100 bg-white p-4
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
-          Learn how to create your very first NFT and how to create your NFT
-          collections. Unique, fully 3D and built to unite the design
-          multiverse. Designed and styled by Digimental.
+          Fexr.Club is a P2P subscription-aggregator and community passes service
+          and we are not ready to disclose the details yet.
+          We will announce the launch of Fexr.Club soon.
+        </AccordionBody>
+      </Accordion>
+      <Accordion
+        className="mb-5 overflow-hidden rounded-lg border border-jacarta-100 dark:border-jacarta-600"
+        open={open === 4}
+        icon={<Icon id={4} open={open} />}
+      >
+        <AccordionHeader
+          className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-sm"
+          onClick={() => handleOpen(4)}
+        >
+          Does Fexr allow me to create NFTs?
+        </AccordionHeader>
+        <AccordionBody
+          className="accordion-body border-t border-jacarta-100 bg-white p-4
+          dark:text-jacarta-200
+          dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
+        >
+          This feature will be soon available to every user. Stay tuned!
         </AccordionBody>
       </Accordion>
     </div>

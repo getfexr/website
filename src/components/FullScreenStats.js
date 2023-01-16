@@ -16,34 +16,33 @@ function FullScreenStatistics() {
         </picture>
         <div className="container lg:pb-32">
           <h2 className="mb-12 max-w-5xl font-display text-5xl text-white lg:text-[6rem]">
-            We dont track you / we cant track you
+            Free and decentralised community Passes
           </h2>
           <p className="mb-20 max-w-4xl text-3xl font-medium text-white lg:ml-36">
             Selfhost or fork from our open source codebase and verify yourself.
-            A core team less than 10 impacting daily transactions of more than 1M
-
+            Optionally use fully automated and secure fexr.club for hosting.
           </p>
           <div className="grid grid-cols-2 gap-8 md:grid-cols-4">
             <div>
               <div>
                 <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
-                  1M+
+                  100+
                 </span>
               </div>
-              <span className="text-lg text-white">Active Users</span>
+              <span className="text-lg text-white">Fexr.Club Users</span>
             </div>
             <div>
               <div>
                 <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
-                  $115M
+                  --
                 </span>
               </div>
-              <span className="text-lg text-white">Already Earned</span>
+              <span className="text-lg text-white">Passes Created</span>
             </div>
             <div>
               <div>
                 <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
-                  4.8
+                  --
                 </span>
               </div>
               <span className="text-lg text-white">Average Ratings</span>
@@ -51,10 +50,10 @@ function FullScreenStatistics() {
             <div>
               <div>
                 <span className="text-white inline-block bg-gradient-to-r from-[#FFE993] to-[#FFB770] bg-clip-text font-display text-5xl font-semibold">
-                  250+
+                  --
                 </span>
               </div>
-              <span className="text-lg text-white">NFT Collections</span>
+              <span className="text-lg text-white">Subscriptions Listed</span>
             </div>
           </div>
         </div>

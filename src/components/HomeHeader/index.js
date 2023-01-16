@@ -28,9 +28,9 @@ function HomepageHeader() {
 
               <a
                 href="https://calendly.com/fexr/one-on-one"
-                className="rounded-full bg-white py-3 px-8 text-center font-semibold text-accent shadow-white-volume transition-all hover:bg-accent-dark hover:text-white hover:shadow-accent-volume"
+                className="rounded-full bg-white py-3 px-8 text-center font-semibold text-accent shadow-white-volume transition-all hover:bg-accent-dark hover:text-white"
               >
-                Schedule a Demo
+                Request a demo
               </a>
             </div>
           </div>

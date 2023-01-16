@@ -1,7 +1,9 @@
 import React from 'react';
+import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 import FaqAccordion from './Accordion';
 
 function Faq() {
+  const { withBaseUrl } = useBaseUrlUtils();
   return (
     <div>
       {/* <!-- FAQ --> */}
@@ -12,10 +14,7 @@ function Faq() {
               <h2 className="mb-6 font-display text-3xl font-medium text-jacarta-700 dark:text-white">
                 Frequently Asked Questions
               </h2>
-              <p className="mb-12 text-lg dark:text-jacarta-300">
-                The most comprehensive complete-system warranty in the solar
-                industry. Hassle-free replacement, repair or reimbursement.
-              </p>
+              <p className="mb-12 text-lg dark:text-jacarta-300" />
 
               <FaqAccordion />
 
@@ -24,7 +23,7 @@ function Faq() {
                 {' '}
                 {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
                 <a href="#" className="text-accent">
-                  support@getfexr.com
+                  info@fexr.club
                 </a>
               </p>
             </div>
@@ -38,18 +37,18 @@ function Faq() {
                   />
                   <div>
                     <span className="mb-4 block font-display text-base text-white">
-                      Individual Investors
+                      RPCs &amp; Integrations
                     </span>
                     <span className="mb-4 block font-display text-4xl text-white">
-                      7,000+
+                      10+
                     </span>
                     <span className="block text-base text-white">
-                      Sed do eiusmod tempor.
+                      With popular Web3 services
                     </span>
                   </div>
                 </div>
                 <img
-                  src="/img/faq.jpg"
+                  src="/img/apis.png"
                   className="mb-8 inline-block rounded-2.5xl"
                   alt=""
                 />
@@ -76,13 +75,21 @@ function Faq() {
 
                   <div className="text-left">
                     <span className="mb-4 block font-display text-base text-white">
-                      Invested to date
+                      Read the
+                      {' '}
+                      <a
+                        href={withBaseUrl(
+                          'learn/category/club---decentralised-hosting',
+                        )}
+                      >
+                        Docs
+                      </a>
                     </span>
                     <span className="mb-4 block font-display text-4xl text-white">
-                      $3.7B
+                      --/day
                     </span>
                     <span className="block text-base text-white">
-                      Sed do eiusmod tempor.
+                      Incoming Fexr.Club requests
                     </span>
                   </div>
                 </div>

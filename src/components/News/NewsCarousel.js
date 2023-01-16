@@ -29,7 +29,7 @@ const financialData = [
     desc: ' ‘Fluir’ is a big leap in the support for app developer, merchant service…',
     id: 4,
     date: '21 December, 2022',
-    link: '/single_post/post_1',
+    link: '/blog/Announcing%20Fluir%20release%20-%20Connect%20Fexr',
   },
 ];
 
