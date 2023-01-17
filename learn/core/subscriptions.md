@@ -7,7 +7,7 @@ keywords: [Subscriptions, Fexr, Web3, decentralized, database, storage, authenti
 
 :::info
 
-Subscriptions are currently in beta. If you would like to try it out, please contact us at [support mail](mailto:support@getfexr.com).
+Subscriptions are currently in beta. If you would like to try it out, please contact us at [support mail](mailto:info@fexr.club).
 
 :::
 

@@ -3,10 +3,18 @@
 import React from 'react';
 
 import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
-import { InlineLink } from '@algolia/ui-library';
+// import { InlineLink } from '@algolia/ui-library';
 
 import styles from './styles.module.css';
-import CaseStudies from './case-studies';
+// import CaseStudies from './case-studies';
+import CardLayoutGrid from '../CardLayoutGrid';
+// import SwipeComponent from '../Carousel/SwipeComponent';
+// import Headline from '../Headline';
+import FullScreenStatistics from '../FullScreenStats';
+// import TrendList from "../TrendList";
+import Faq from '../Faq';
+import NewsSection from '../News/NewsSection';
+import SignInWith from '../SignInWith';
 
 function Description() {
   return (
@@ -14,11 +22,13 @@ function Description() {
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Crypto Wallet and On-Chain Verifiable Claims using DID.
+            Fexr generated decentralised ID on Rubix has millions more
+            combination than Ethereum or Bitcoin private key
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
-            Get your decentralized wallet that can be used to store and verify claims,
-            RBT and more with your decentralized identity.
+            <a href="/blog/Optimising-image-private-key-mobile">
+              Read from Allen, IT
+            </a>
           </p>
         </div>
       </div>
@@ -28,18 +38,52 @@ function Description() {
 
 const icons = {
   apple() {
-    return (<svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z" /></svg>
+    return (
+      <svg
+        className="ml-2 -mr-1 w-5 h-5"
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 384 512"
+      >
+        <path
+          fill="currentColor"
+          d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"
+        />
+      </svg>
     );
   },
   google() {
     return (
-      <svg className="ml-2 -mr-1 w-5 h-5" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="apple" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-        <path fill="currentColor" xmlns="http://www.w3.org/2000/svg" d="M12.786 12.316a.5.5 0 0 0-.152-.355L2.705 2.352a.5.5 0 0 0-.822.201 1.926 1.926 0 0 0-.106.614v18.151c0 .376.106.729.314 1.049a.502.502 0 0 0 .773.082l9.775-9.775a.505.505 0 0 0 .147-.358zM13.352 11.265a.498.498 0 0 0 .702-.005l2.525-2.525a.502.502 0 0 0-.113-.792L4.624 1.458a.502.502 0 0 0-.632.158.502.502 0 0 0 .061.649l9.299 9zM21.217 10.544l-2.924-1.602a.503.503 0 0 0-.594.085l-2.915 2.915a.5.5 0 0 0 .006.712l2.906 2.813a.503.503 0 0 0 .588.079l2.933-1.606c.63-.345 1.006-.98 1.006-1.698s-.376-1.353-1.006-1.698zM14.071 13.351a.5.5 0 0 0-.701.006l-8.32 8.32a.498.498 0 0 0 .594.791l10.804-5.916a.499.499 0 0 0 .107-.798l-2.484-2.403z" />
+      <svg
+        className="ml-2 -mr-1 w-5 h-5"
+        aria-hidden="true"
+        focusable="false"
+        data-prefix="fab"
+        data-icon="apple"
+        role="img"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+      >
+        <path
+          fill="currentColor"
+          xmlns="http://www.w3.org/2000/svg"
+          d="M12.786 12.316a.5.5 0 0 0-.152-.355L2.705 2.352a.5.5 0 0 0-.822.201 1.926 1.926 0 0 0-.106.614v18.151c0 .376.106.729.314 1.049a.502.502 0 0 0 .773.082l9.775-9.775a.505.505 0 0 0 .147-.358zM13.352 11.265a.498.498 0 0 0 .702-.005l2.525-2.525a.502.502 0 0 0-.113-.792L4.624 1.458a.502.502 0 0 0-.632.158.502.502 0 0 0 .061.649l9.299 9zM21.217 10.544l-2.924-1.602a.503.503 0 0 0-.594.085l-2.915 2.915a.5.5 0 0 0 .006.712l2.906 2.813a.503.503 0 0 0 .588.079l2.933-1.606c.63-.345 1.006-.98 1.006-1.698s-.376-1.353-1.006-1.698zM14.071 13.351a.5.5 0 0 0-.701.006l-8.32 8.32a.498.498 0 0 0 .594.791l10.804-5.916a.499.499 0 0 0 .107-.798l-2.484-2.403z"
+        />
       </svg>
     );
   },
   windows() {
-    return (<svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 24 24"><path fill="currentColor" d="M22 2 11.2 3.6v8l10.8-.1V2zM10.2 12.5 2 12.4v6.8l8.1 1.1.1-7.8zM2 4.8v6.8h8.1V3.7L2 4.8zm9.1 7.7v7.9L22 22v-9.4l-10.9-.1z" /></svg>);
+    return (
+      <svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 24 24">
+        <path
+          fill="currentColor"
+          d="M22 2 11.2 3.6v8l10.8-.1V2zM10.2 12.5 2 12.4v6.8l8.1 1.1.1-7.8zM2 4.8v6.8h8.1V3.7L2 4.8zm9.1 7.7v7.9L22 22v-9.4l-10.9-.1z"
+        />
+      </svg>
+    );
   },
   fuchsia() {
     return (
@@ -116,28 +160,36 @@ function AppStores() {
   ];
   return (
     <section>
-      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">Your priv** keys, only in your pocket</h2>
-      <p className="mb-16 text-lg text-gray-500">Download Fexr. It&apos;s fee-free. Coming soon for all your screens.</p>
+      <h2 className="mb-1 text-3xl font-extrabold leading-tight text-gray-900 dark:text-gray-100">
+        Your secrets and keys, only in your pocket
+      </h2>
+      <p className="mb-16 text-lg text-gray-500">
+        Get Fexr and own your blockchain infra. Coming soon for all your
+        screens.
+      </p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
-        { stores.map((store) => (
+        {stores.map((store) => (
           <button
             key={store.store}
             type="button"
-            onClick={
-              (e) => {
-                e.preventDefault(); window.open(store.link, '_blank');
-              }
-            }
+            onClick={(e) => {
+              e.preventDefault();
+              window.open(store.link, '_blank');
+            }}
             className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80
             cursor-pointer disabled:cursor-not-allowed"
             disabled={store.comingSoon}
           >
             <div className="grid grid-cols-1 gap-1 place-items-center justify-center">
-              { store.comingSoon ? <span className="inline">Coming soon</span> : <span className="inline">Available on</span> }
+              {store.comingSoon ? (
+                <span className="inline">Coming soon</span>
+              ) : (
+                <span className="inline">Available on</span>
+              )}
               <div className="h-full w-full flex mx-auto place-content-center">
-                <strong>{ store.store }</strong>
-                { store.icon ? <store.icon /> : null }
+                <strong>{store.store}</strong>
+                {store.icon ? <store.icon /> : null}
               </div>
             </div>
           </button>
@@ -147,219 +199,161 @@ function AppStores() {
   );
 }
 
-function Stats() {
-  const stats = [
-    {
-      label: 'Gas fee per transaction',
-      value: '0.000',
-    },
-    {
-      label: 'to complete a PoS transaction (beta)',
-      value: '< 9 secs',
-    },
-  ];
-  return (
-    <div className="pt-4 pb-12 md:pb-16">
-      <div className="relative">
-        <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
-          <div className="max-w-4xl mx-auto">
-            <dl
-              className="rounded-lg shadow-xl md:grid standout grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
-            >
-              { stats.map((stat) => (
-                <div key={stat.label} className="flex flex-col p-6 text-center">
-                  <dt
-                    className="order-2 mt-2 text-lg leading-6 font-medium text-description"
-                  >
-                    { stat.label }
-                  </dt>
-                  <dd
-                    className="order-1 text-5xl leading-none font-extrabold text-[#00D96D]"
-                  >
-                    { stat.value }
-                  </dd>
-                </div>
-              ))}
-            </dl>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Stats() {
+//   const stats = [
+//     {
+//       label: 'Core Engineers',
+//       value: '3',
+//     },
+//     {
+//       label: 'Daily recorded transactions',
+//       value: '> $1M',
+//     },
+//   ];
+//   return (
+//     <div className="pt-4 pb-12 md:pb-16">
+//       <div className="relative">
+//         <div className="relative max-w-screen-xl mx-auto px-4 lg:px-6">
+//           <div className="max-w-4xl mx-auto">
+//             <dl
+//               className="rounded-lg shadow-xl md:grid standout grid-flow-col divide-y md:divide-y-0 md:divide-x divide-gray-100 dark:divide-gray-800"
+//             >
+//               { stats.map((stat) => (
+//                 <div key={stat.label} className="flex flex-col p-6 text-center">
+//                   <dt
+//                     className="order-2 mt-2 text-lg leading-6 font-medium text-description"
+//                   >
+//                     { stat.label }
+//                   </dt>
+//                   <dd
+//                     className="order-1 text-5xl leading-none font-extrabold text-[#00D96D]"
+//                   >
+//                     { stat.value }
+//                   </dd>
+//                 </div>
+//               ))}
+//             </dl>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function HowItWorks() {
-  const { withBaseUrl } = useBaseUrlUtils();
-  const steps = [
-    {
-      title: 'Privacy needs in web3, in one place',
-      description: (
-        <span />),
-      image: {
-        src: withBaseUrl('img/feature_privacy.svg'),
-        alt: 'Privacy needs in web3, in one place',
-      },
-    },
-    {
-      title: 'Signing & Verification (works offline)',
-      description: (
-        <span />),
-      image: {
-        src: withBaseUrl('img/feature_verified.svg'),
-        alt: 'Create an account',
-      },
-    },
-  ];
-  return (
-    <div className="diagonal-box py-16 dark:bg-gray-800 bg-gray-200 overflow-hidden">
-      <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
-        <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
-          <div className="max-w-4xl mx-auto text-center">
-            <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
-              Decentralised APIs, Built for everyone
-            </h2>
-            <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
-              Web3 APIs from Fexr is one of the easiest SDKs to use blockchain at scale.
-            </p>
-          </div>
-        </div>
+// function HowItWorks() {
+//   const { withBaseUrl } = useBaseUrlUtils();
+//   const steps = [
+//     {
+//       title:
+//         'We dont track you / we cant track you - Selfhost or fork from our open source codebase and verify yourself',
+//       description: <span />,
+//       image: {
+//         src: withBaseUrl('img/feature_privacy.svg'),
+//         alt: 'Privacy needs in web3, in one place',
+//       },
+//     },
+//     {
+//       title:
+//         'Feature now available with trusted web3 adaptors, apps and services',
+//       description: <span />,
+//       image: {
+//         src: withBaseUrl('img/feature_verified.svg'),
+//         alt: 'Create an account',
+//       },
+//     },
+//   ];
+//   return (
+//     <div className="diagonal-box py-16 dark:bg-gray-800 bg-gray-200 overflow-hidden">
+//       <div className="diagonal-content max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
+//         <div className="max-w-screen-xl mx-auto pt-6 px-4 md:px-6 lg:px-8">
+//           <div className="max-w-4xl mx-auto text-center">
+//             <h2 className="text-3xl leading-9 font-extrabold dark:text-gray-100 text-gray-900 md:text-4xl md:leading-10">
+//               Now privately sign in with Fexr
+//             </h2>
+//             <p className="mt-4 max-w-2xl text-xl leading-7 dark:text-gray-400 text-gray-500 lg:mx-auto">
+//               Never linked to your personal life, Still only you can unlock or
+//               lock your assets. Enjoy true power of Web3
+//             </p>
+//           </div>
+//         </div>
 
-        <div className="py-16">
-          <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
-            <div className={(function className() {
-              return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
-            }())}
-            >
-              { steps.map((step) => (
-                <div key={step.title}>
-                  <div className="flex items-center justify-center">
-                    <img
-                      className="pl-12 h-200"
-                      src={step.image.src}
-                      alt={step.image.alt}
-                    />
-                  </div>
-                  <div className="mt-10 lg:mt-0 p-4">
-                    <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900 text-center">
-                      {step.title}
-                    </h5>
-                    <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
-                      {step.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
+//         <div className="py-16">
+//           <div className="max-w-xl mx-auto px-4 md:px-6 lg:max-w-screen-lg lg:px-8 ">
+//             <div
+//               className={(function className() {
+//                 return `lg:grid lg:gap-8 lg:grid-cols-${steps.length}`;
+//               }())}
+//             >
+//               {steps.map((step) => (
+//                 <div key={step.title}>
+//                   <div className="flex items-center justify-center">
+//                     <img
+//                       className="pl-12 h-200"
+//                       src={step.image.src}
+//                       alt={step.image.alt}
+//                     />
+//                   </div>
+//                   <div className="mt-10 lg:mt-0 p-4">
+//                     <h5 className="text-lg leading-6 font-medium dark:text-gray-100 text-gray-900 text-center">
+//                       {step.title}
+//                     </h5>
+//                     <p className="mt-2 text-base leading-6 dark:text-gray-400 text-gray-600">
+//                       {step.description}
+//                     </p>
+//                   </div>
+//                 </div>
+//               ))}
+//             </div>
+//           </div>
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-            </div>
-          </div>
-        </div>
+// function DemoImage() {
+//   // const { withBaseUrl } = useBaseUrlUtils();
 
-      </div>
-    </div>
-  );
-}
+//   return (
+//     <div className="py-16 lg:py-24">
+//       <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
+//         <div className="text-center">
+//           <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
+//             Digital Asset Custody
+//           </h3>
+//           <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
+//             Owning a wallet or address is both a convenience and responsibility.
+//             <InlineLink target="_blank" href="https://twitter.com/getfexr">
+//               &nbsp;@getfexr
+//             </InlineLink>
+//             &nbsp;is making it easy for you, through&nbsp;
+//             <InlineLink target="_blank" href="https://twitter.com/RubixChain">
+//               @RubixChain
+//             </InlineLink>
+//           </p>
+//           {/* <div className="pt-12 items-center justify-center flex">
+//             <img
+//               className="w-full max-w-screen image-rendering-pixel"
+//               src={withBaseUrl('img/fexr-architecture.svg')}
+//               alt="keyboard-shortcuts"
+//             />
+//           </div> */}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function DemoImage() {
-  const { withBaseUrl } = useBaseUrlUtils();
-
-  return (
-    <div className="py-16 lg:py-24">
-      <div className="max-w-screen-xl mx-auto px-4 md:px-6 lg:px-8">
-        <div className="text-center">
-          <h3 className="mt-2 text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Digital Asset Custody
-          </h3>
-          <p className="mt-4 max-w-3xl mx-auto text-center text-xl text-description lg:mx-auto">
-            Owning a wallet or address is both a convenience and responsibility.
-            <InlineLink
-              target="_blank"
-              href="https://twitter.com/getfexr"
-            >
-              &nbsp;@getfexr
-            </InlineLink>
-            &nbsp;is making it easy for you, through&nbsp;
-            <InlineLink target="_blank" href="https://twitter.com/RubixChain">@RubixChain</InlineLink>
-          </p>
-          {/* <div className="pt-12 items-center justify-center flex">
-            <img
-              className="w-full max-w-screen image-rendering-pixel"
-              src={withBaseUrl('img/fexr-architecture.svg')}
-              alt="keyboard-shortcuts"
-            />
-          </div> */}
-        </div>
-        <div className="pt-16 w-5/6 mx-auto">
-          <ul className="md:grid md:col-gap-8 md:row-gap-10">
-            <li>
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-[#00D96D] text-white">
-                    <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium">
-                    Launched on RubixChain
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-description">
-                     A deterministic state-machine that is designed to address the
-                     scale, cost, and privacy shortcomings of blockchain protocols that rely on
-                       one sequentially organized chain of all global transactions.
-                  </p>
-                </div>
-              </div>
-            </li>
-            {/* <li className="mt-10 md:mt-0">
-              <div className="flex">
-                <div className="flex-shrink-0">
-                  <div className="flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
-                    <svg
-                      className="h-6 w-6"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth="2"
-                        d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <div className="ml-4">
-                  <h4 className="text-lg leading-6 font-medium">
-                    Image based public and private keys
-                  </h4>
-                  <p className="mt-2 text-base leading-6 text-description">
-                    We have released this version with our best efforts on
-                    addressing accessibility issues and we are willing to
-                    make further changes.like to work closely with an
-                    expert in accessibility. Please contact us if you are
-                    interested.
-                  </p>
-                </div>
-              </div>
-            </li> */}
-          </ul>
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Clients() {
+//   return (
+//     <div className="mt-10 pb-20">
+//       <div className="px-10 md:px-15 lg:px-20">
+//         <Headline text="Now available with trusted Web3 apps and services" />
+//       </div>
+//       <SwipeComponent />
+//     </div>
+//   );
+// }
 
 export default function HomepageFeatures() {
   const { withBaseUrl } = useBaseUrlUtils();
@@ -382,11 +376,17 @@ export default function HomepageFeatures() {
             </div>
           </div>
         </div>
-
+        <CardLayoutGrid />
         <Description />
-        <Stats />
-        <HowItWorks />
-        <DemoImage />
+        {/* <Stats /> */}
+        <SignInWith />
+        {/* <Clients /> */}
+        {/* <HowItWorks /> */}
+        {/* <DemoImage /> */}
+        <NewsSection />
+        <FullScreenStatistics />
+        {/* <TrendList /> */}
+        <Faq />
       </div>
     </section>
   );

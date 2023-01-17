@@ -9,7 +9,7 @@ Fexr.Club is a decentralized platform for businesses and validators to create an
 
 :::info
 
-Subnets are currently in private beta. If you would like to try it out, please contact us at [support mail](mailto:support@getfexr.com).
+Subnets are currently in private beta. If you would like to try it out, please contact us at [support mail](mailto:info@fexr.club).
 
 :::
 

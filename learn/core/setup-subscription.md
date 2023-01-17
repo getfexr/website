@@ -11,7 +11,7 @@ Fexr is a transparent move forward for businesses who want to provide their cust
 
 :::info
 
-Businesses are currently in private beta. If you would like to try it out, please contact us at [support mail](mailto:support@getfexr.com).
+Businesses are currently in private beta. If you would like to try it out, please contact us at [support mail](mailto:info@fexr.club).
 
 :::
 
