@@ -13,7 +13,7 @@ function HomepageHeader() {
               Discover. Create. Trade.
             </p>
             <h1 className="mb-6 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
-              Fexr ship trust with trustless trade
+              Fexr ships trust with trustless trade
             </h1>
             <p className="mb-8 max-w-md text-center text-lg text-jacarta-600 dark:text-jacarta-50 lg:text-left">
               Begin your journey to the decentralized web with Fexr.
