@@ -10,13 +10,19 @@ function HomepageHeader() {
         <div className="grid h-full items-center gap-4 lg:grid-cols-12">
           <div className="col-span-5 flex h-full flex-col items-center justify-center py-10 lg:items-start lg:py-20">
             <p className="mb-10 text-xs font-bold uppercase text-jacarta-800 dark:text-jacarta-50">
-              Discover. Create. Trade.
+              A Comprehensive Web3 Solution for Everyday Use, Built for Everyone
             </p>
             <h1 className="mb-6 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
-              Fexr ships trust with trustless trade
+              P2P Subscriptions.
+              <br />
+              Effortless Sign-In with DID.
+              <br />
+              Self-Custody.
             </h1>
-            <p className="mb-8 max-w-md text-center text-lg text-jacarta-600 dark:text-jacarta-50 lg:text-left">
-              Begin your journey to the decentralized web with Fexr.
+            <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-400 lg:text-left lg:text-lg">
+              Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
+              Secure 2FA with Sky, Effortless Web and Mobile App Sign-In with Checkout Extension,
+              and Self-Custody Payments with Mobile Wallet.
             </p>
             <div className="flex space-x-4">
               <a
@@ -53,7 +59,7 @@ function HomepageHeader() {
                   </span>
                   <div className="text-left">
                     <span className="block font-display text-3xl text-green">
-                      150%
+                      64%
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
                       New wallets than last month
@@ -80,7 +86,7 @@ function HomepageHeader() {
                     <path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" />
                   </svg>
                   <span className="block font-display text-3xl text-[#737EF2]">
-                    +10k
+                    +5k USD
                   </span>
                   <span className="mb-5 block font-display text-sm text-jacarta-600">
                     Transacted in the last 24 hours
