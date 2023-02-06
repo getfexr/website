@@ -12,11 +12,18 @@ function HomepageHeader() {
             <p className="mb-10 text-xs font-bold uppercase text-jacarta-800 dark:text-jacarta-50">
               A Comprehensive Web3 Solution for Everyday Use, Built for Everyone
             </p>
-            <h1 className="mb-6 text-center font-display text-3xl text-jacarta-700 dark:text-white lg:text-left lg:text-3xl">
-              Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
-              Secure 2FA with Sky, Effortless Sign-In with Checkout Extension,
-              and Self-Custody Payments with Mobile Wallet
+            <h1 className="mb-6 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
+              P2P Subscriptions.
+              <br />
+              Effortless Sign-In with DID.
+              <br />
+              Self-Custody.
             </h1>
+            <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-400 lg:text-left lg:text-lg">
+              Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
+              Secure 2FA with Sky, Effortless Web and Mobile App Sign-In with Checkout Extension,
+              and Self-Custody Payments with Mobile Wallet.
+            </p>
             <div className="flex space-x-4">
               <a
                 href={withBaseUrl('learn/roadmap')}
