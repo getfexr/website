@@ -1,6 +1,9 @@
 @import './fragments.css';
 
-@import url('https://fonts.googleapis.com/css?family=Archivo:300,400,500,600,700,800,900');
+@font-face {
+  font-family: 'ApfelGrotezk';
+  src: url('/static/ApfelGrotezk-Regular.otf');
+}
 
 @tailwind base;
 @tailwind components;
@@ -37,7 +40,7 @@ body {
   --ifm-footer-background-color: var(--grey-100);
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
-  --ifm-heading-font-family: 'Archivo';
+  --ifm-heading-font-family: 'ApfelGrotezk';
   --doc-sidebar-width: 350px !important;
   --ifm-link-color: var(--green-1);
 }
