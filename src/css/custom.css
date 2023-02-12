@@ -15,12 +15,13 @@
 }
 
 body {
-  font-family: 'Outfit';
+  font-family: 'ApfelGrotezk';
 }
 /* You can override the default Infima variables here. */
 :root {
-  --white: #f9f8f9;
-  --secondary-color: #fbfafb;
+  --white: #FEFFFE;
+  --grey: #FEFFFE;
+  --secondary-color: #FEFFFE;
 
   --green-main: #00D96D;
 
@@ -37,7 +38,7 @@ body {
   --ifm-code-font-size: 90%;
   --ifm-background-color: var(--white);
   --ifm-color-primary: var(--white2);
-  --ifm-footer-background-color: var(--grey-100);
+  --ifm-footer-background-color: var(--white);
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
   --ifm-heading-font-family: 'ApfelGrotezk';
@@ -48,12 +49,12 @@ body {
 html[data-theme='dark'] {
   --ifm-dropdown-hover-background-color: var(--green-21);
 
-  --ifm-font-base-color: #dee0f2;
-  --ifm-navbar-link-hover-color: #8b9dff;
-  --ifm-background-color: #0a141c;
-  --ifm-footer-background-color: #0a141c;
+  --ifm-font-base-color: #111010;
+  --ifm-navbar-link-hover-color: #111010;
+  --ifm-background-color: #111010;
+  --ifm-footer-background-color: #111010;
   --ifm-menu-color-background-active: var(--green-21);
-  --secondary-color: #101827;
+  --secondary-color: #111010;
 }
 
 .app-button {
@@ -86,7 +87,7 @@ svg {
 }
 
 .main-logo {
-  color: #21243d;
+  color: #111010;
 }
 
 .apply-button:hover {
@@ -109,7 +110,7 @@ html[data-theme='dark'] .main-logo {
 }
 
 html[data-theme='dark'] .showcase-border {
-  border-color: rgba(55, 65, 81, 1);
+  border-color: #111010;
 }
 
 .diagonal-box {

@@ -129,7 +129,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Accounts',
+            label: 'Identity & Key Management',
             items: [
               {
                 label: 'Wallet',
@@ -144,7 +144,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Who we are',
+            label: 'P2P Subscriptions',
             items: [
               {
                 label: 'About us',
@@ -167,7 +167,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Learn',
+            label: 'Developer tools & Licenses',
             items: [
               {
                 label: 'Wallet',
@@ -187,33 +187,33 @@ const config = {
               },
             ],
           },
-          {
-            type: 'dropdown',
-            position: 'right',
-            label: 'Community',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'Roadmap',
-                to: 'learn/roadmap',
-              },
-              {
-                label: 'Partner',
-                href: '/learn/category/partner--contribute',
-              },
-              // {
-              //   label: 'Security Programs',
-              //   href: '/learn/category/partner--contribute',
-              // },
-              // {
-              //   label: 'Become an Affiliate',
-              //   href: '/learn/category/partner--contribute',
-              // },
-            ],
-          },
+          // {
+          //   type: 'dropdown',
+          //   position: 'right',
+          //   label: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'Roadmap',
+          //       to: 'learn/roadmap',
+          //     },
+          //     {
+          //       label: 'Partner',
+          //       href: '/learn/category/partner--contribute',
+          //     },
+          //     // {
+          //     //   label: 'Security Programs',
+          //     //   href: '/learn/category/partner--contribute',
+          //     // },
+          //     // {
+          //     //   label: 'Become an Affiliate',
+          //     //   href: '/learn/category/partner--contribute',
+          //     // },
+          //   ],
+          // },
           {
             href: 'https://github.com/getfexr/',
             label: 'GitHub',
