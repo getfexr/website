@@ -127,24 +127,15 @@ const config = {
           //   ],
           // },
           {
-            type: 'dropdown',
+            type: 'default',
             position: 'left',
             label: 'Identity & Key Management',
-            items: [
-              {
-                label: 'Wallet',
-                to: 'learn/dl',
-              },
-              {
-                label: 'Club',
-                to: 'https://fexr.club/',
-              },
-            ],
+            to: 'learn/category/identity---key',
           },
           {
             type: 'dropdown',
             position: 'left',
-            label: 'P2P Subscriptions',
+            label: 'Passes & P2P Subscriptions',
             items: [
               {
                 label: 'About us',
@@ -171,7 +162,7 @@ const config = {
             items: [
               {
                 label: 'Wallet',
-                to: '/learn/core/',
+                to: '/learn/developer-licensing/',
               },
               {
                 label: 'Club',
