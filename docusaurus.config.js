@@ -86,134 +86,110 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // TODO: add back Benifits once content is ready.
-          // {
-          //   type: 'dropdown',
-          //   position: 'left',
-          //   label: 'Benefits',
-          //   items: [
-          //     {
-          //       label: 'Institutuional Custody',
-          //       to: 'users/core/institutional',
-          //     },
-          //     {
-          //       label: 'On-Chain Passes',
-          //       to: 'users/core/passes',
-          //     },
-          //     {
-          //       label: 'Integrations',
-          //       to: 'users/core/integrations',
-          //     },
-          //     {
-          //       label: 'PoS Merchant Payments',
-          //       to: 'users/core/pos',
-          //     },
-          //     {
-          //       label: 'Cold Wallet',
-          //       to: 'learn/payments/key-management',
-          //     },
-          //     {
-          //       label: 'Access NFTs',
-          //       to: 'learn/on-chain/access-nft',
-          //     },
-          //     {
-          //       label: 'Web3 Authentication',
-          //       to: 'learn/category/web3-authentication',
-          //     },
-          //     {
-          //       label: 'P2P Payments',
-          //       to: 'learn/payments/p2p',
-          //     },
-          //   ],
-          // },
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Accounts',
+            label: 'Identity & Key Management',
             items: [
               {
-                label: 'Wallet',
+                label: 'Download Wallet',
                 to: 'learn/dl',
               },
               {
-                label: 'Club',
-                to: 'https://fexr.club/',
+                label: 'Learn',
+                to: 'learn/category/identity--key-management',
+              },
+              {
+                label: 'Security Policy',
+                to: 'learn/identity-and-key/core/secret',
               },
             ],
           },
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Who we are',
+            label: 'Passes & P2P Subscriptions',
             items: [
               {
-                label: 'About us',
-                to: 'learn/partner/about-us',
+                label: 'View Club',
+                to: 'https://fexr.club/',
               },
               // {
-              //   label: 'In the News',
-              //   to: 'https://www.google.com/search?q=Fexr+core+rubix&oq=Fexr+core+rubix&aqs=chrome..69i57j69i60l3.290j0j1&sourceid=chrome&ie=UTF-8',
+              //   label: "Creating a Subscription",
+              //   to: "https://fexr.club/onboarding?sub=1",
+              // },
+              // {
+              //   label: "Creating a Pass",
+              //   to: "https://fexr.club/onboarding?pass=1",
               // },
               {
-                label: 'Newsletter',
-                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
+                label: 'Learn',
+                to: 'learn/category/community-passes--p2p-subscriptions',
               },
-              // {
-              //   label: 'Careers',
-              //   to: 'learn/partner/contributing',
-              // },
             ],
           },
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Learn',
+            label: 'Developer tools & Licensing',
             items: [
-              {
-                label: 'Wallet',
-                to: '/learn/core/',
-              },
-              {
-                label: 'Club',
-                to: '/learn/category/club---decentralised-hosting',
-              },
               {
                 label: 'Sky 2FA & connector',
-                to: '/learn/sky/',
+                to: 'learn/category/sky-2fa--connector',
               },
               {
-                label: 'Web3 APIs',
+                label: 'API',
                 to: 'learn/category/web3-rpcs-api',
               },
-            ],
-          },
-          {
-            type: 'dropdown',
-            position: 'right',
-            label: 'Community',
-            items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Learn',
+                to: 'learn/category/developer-tools--licensing',
+              },
+              {
+                label: 'About Fexr',
+                to: 'learn/developer-licensing/partner/about-us',
               },
               {
                 label: 'Roadmap',
                 to: 'learn/roadmap',
               },
+              // {
+              //   label: "Careers",
+              //   to: "https://validator.social/jobs/@fexr",
+              // },
               {
-                label: 'Partner',
-                href: '/learn/category/partner--contribute',
+                label: 'Blog',
+                to: '/blog',
               },
-              // {
-              //   label: 'Security Programs',
-              //   href: '/learn/category/partner--contribute',
-              // },
-              // {
-              //   label: 'Become an Affiliate',
-              //   href: '/learn/category/partner--contribute',
-              // },
             ],
           },
+          // {
+          //   type: 'dropdown',
+          //   position: 'right',
+          //   label: 'Community',
+          //   items: [
+          //     {
+          //       label: 'Blog',
+          //       to: '/blog',
+          //     },
+          //     {
+          //       label: 'Roadmap',
+          //       to: 'learn/roadmap',
+          //     },
+          //     {
+          //       label: 'Partner',
+          //       href: '/learn/category/partner--contribute',
+          //     },
+          //     // {
+          //     //   label: 'Security Programs',
+          //     //   href: '/learn/category/partner--contribute',
+          //     // },
+          //     // {
+          //     //   label: 'Become an Affiliate',
+          //     //   href: '/learn/category/partner--contribute',
+          //     // },
+          //   ],
+          // },
           {
             href: 'https://github.com/getfexr/',
             label: 'GitHub',
