@@ -7,7 +7,7 @@ keywords: [fexr, library, shell, please, add, credentials, view, contributing, u
 
 # SDK Platforms
 
-Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for learn to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](/learn/partner/subnet-providers).
+Fexr community currently is supporting development of client SDKs available for free in popular package managers including NPM, Pub.dev, PyPi, and Cargo. These client libraries provide functionalities for learn to integrate and test payment and identity related services. Before you integrate your service with Fexr, make sure you have secured the credentials to access your gateway or use from any of the [providers](learn/developer-licensing/partner/subnet-providers).
 
 :::info
 

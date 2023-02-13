@@ -11,7 +11,7 @@ Sky connector is an open source tool that allows you to integrate Fexr wallet wi
 
 ## How to use Sky connector?
 
-Read the [documentation](/learn/sky) to learn how to use Sky connector.
+Read the [documentation](/learn/category/sky-2fa--connector) to learn how to use Sky connector.
 
 ### Available for my protocol?
 
