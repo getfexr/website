@@ -127,10 +127,23 @@ const config = {
           //   ],
           // },
           {
-            type: 'default',
+            type: 'dropdown',
             position: 'left',
             label: 'Identity & Key Management',
-            to: 'learn/category/identity---key',
+            items: [
+              {
+                label: 'Download Wallet',
+                to: 'learn/dl',
+              },
+              {
+                label: 'Learn',
+                to: 'learn/category/identity',
+              },
+              {
+                label: 'Security Policy',
+                to: 'learn/category/identity',
+              },
+            ],
           },
           {
             type: 'dropdown',
@@ -138,17 +151,25 @@ const config = {
             label: 'Passes & P2P Subscriptions',
             items: [
               {
-                label: 'About us',
-                to: 'learn/partner/about-us',
+                label: 'View Club',
+                to: 'https://fexr.club/',
+              },
+              {
+                label: 'Creating a Subscription',
+                to: 'https://fexr.club/onboarding?sub=1',
+              },
+              {
+                label: 'Creating a Pass',
+                to: 'https://fexr.club/onboarding?pass=1',
+              },
+              {
+                label: 'Learn',
+                to: 'learn/category/pass',
               },
               // {
               //   label: 'In the News',
               //   to: 'https://www.google.com/search?q=Fexr+core+rubix&oq=Fexr+core+rubix&aqs=chrome..69i57j69i60l3.290j0j1&sourceid=chrome&ie=UTF-8',
               // },
-              {
-                label: 'Newsletter',
-                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
-              },
               // {
               //   label: 'Careers',
               //   to: 'learn/partner/contributing',
@@ -161,20 +182,24 @@ const config = {
             label: 'Developer tools & Licenses',
             items: [
               {
-                label: 'Wallet',
-                to: '/learn/developer-licensing/',
-              },
-              {
-                label: 'Club',
-                to: '/learn/category/club---decentralised-hosting',
-              },
-              {
                 label: 'Sky 2FA & connector',
                 to: '/learn/sky/',
               },
               {
-                label: 'Web3 APIs',
+                label: 'API',
                 to: 'learn/category/web3-rpcs-api',
+              },
+              {
+                label: 'Learn',
+                to: 'learn/category/pass',
+              },
+              {
+                label: 'About Fexr',
+                to: 'learn/partner/about-us',
+              },
+              {
+                label: 'Newsletter',
+                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
               },
             ],
           },
