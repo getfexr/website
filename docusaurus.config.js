@@ -97,11 +97,11 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: 'learn/category/identity',
+                to: 'learn/category/identity--key-management',
               },
               {
                 label: 'Security Policy',
-                to: 'learn/category/identity',
+                to: 'learn/identity-and-key/core/secret',
               },
             ],
           },
@@ -114,28 +114,28 @@ const config = {
                 label: 'View Club',
                 to: 'https://fexr.club/',
               },
-              {
-                label: 'Creating a Subscription',
-                to: 'https://fexr.club/onboarding?sub=1',
-              },
-              {
-                label: 'Creating a Pass',
-                to: 'https://fexr.club/onboarding?pass=1',
-              },
+              // {
+              //   label: "Creating a Subscription",
+              //   to: "https://fexr.club/onboarding?sub=1",
+              // },
+              // {
+              //   label: "Creating a Pass",
+              //   to: "https://fexr.club/onboarding?pass=1",
+              // },
               {
                 label: 'Learn',
-                to: 'learn/category/pass',
+                to: 'learn/category/community-passes--p2p-subscriptions',
               },
             ],
           },
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Developer tools & Licenses',
+            label: 'Developer tools & Licensing',
             items: [
               {
                 label: 'Sky 2FA & connector',
-                to: '/learn/sky/',
+                to: 'learn/category/sky-2fa--connector',
               },
               {
                 label: 'API',
@@ -143,23 +143,23 @@ const config = {
               },
               {
                 label: 'Learn',
-                to: 'learn/category/pass',
+                to: 'learn/category/developer-tools--licensing',
               },
               {
                 label: 'About Fexr',
-                to: 'learn/partner/about-us',
+                to: 'learn/developer-licensing/partner/about-us',
               },
               {
                 label: 'Roadmap',
                 to: 'learn/roadmap',
               },
+              // {
+              //   label: "Careers",
+              //   to: "https://validator.social/jobs/@fexr",
+              // },
               {
-                label: 'Careers',
-                to: 'learn/partner/careers',
-              },
-              {
-                label: 'Newsletter',
-                to: 'https://www.getrevue.co/profile/getfexr?via=twitter-profile',
+                label: 'Blog',
+                to: '/blog',
               },
             ],
           },
