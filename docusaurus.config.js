@@ -86,46 +86,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          // TODO: add back Benifits once content is ready.
-          // {
-          //   type: 'dropdown',
-          //   position: 'left',
-          //   label: 'Benefits',
-          //   items: [
-          //     {
-          //       label: 'Institutuional Custody',
-          //       to: 'users/core/institutional',
-          //     },
-          //     {
-          //       label: 'On-Chain Passes',
-          //       to: 'users/core/passes',
-          //     },
-          //     {
-          //       label: 'Integrations',
-          //       to: 'users/core/integrations',
-          //     },
-          //     {
-          //       label: 'PoS Merchant Payments',
-          //       to: 'users/core/pos',
-          //     },
-          //     {
-          //       label: 'Cold Wallet',
-          //       to: 'learn/payments/key-management',
-          //     },
-          //     {
-          //       label: 'Access NFTs',
-          //       to: 'learn/on-chain/access-nft',
-          //     },
-          //     {
-          //       label: 'Web3 Authentication',
-          //       to: 'learn/category/web3-authentication',
-          //     },
-          //     {
-          //       label: 'P2P Payments',
-          //       to: 'learn/payments/p2p',
-          //     },
-          //   ],
-          // },
           {
             type: 'dropdown',
             position: 'left',
@@ -166,14 +126,6 @@ const config = {
                 label: 'Learn',
                 to: 'learn/category/pass',
               },
-              // {
-              //   label: 'In the News',
-              //   to: 'https://www.google.com/search?q=Fexr+core+rubix&oq=Fexr+core+rubix&aqs=chrome..69i57j69i60l3.290j0j1&sourceid=chrome&ie=UTF-8',
-              // },
-              // {
-              //   label: 'Careers',
-              //   to: 'learn/partner/contributing',
-              // },
             ],
           },
           {
@@ -196,6 +148,14 @@ const config = {
               {
                 label: 'About Fexr',
                 to: 'learn/partner/about-us',
+              },
+              {
+                label: 'Roadmap',
+                to: 'learn/roadmap',
+              },
+              {
+                label: 'Careers',
+                to: 'learn/partner/careers',
               },
               {
                 label: 'Newsletter',
