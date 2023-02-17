@@ -1,41 +1,19 @@
-# Website
+API/SDK/Crypto Documentation Repository
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+Nidhin Mahesh
+I'm having a documentation site for apis, SDKs and crypto wallet. Write a description for the repository
 
-```
-$ yarn
-```
+The documentation repository is a comprehensive resource for developers seeking to integrate with APIs, SDKs, and crypto wallets. This repository provides detailed information, guides, and examples on how to use and interact with various APIs, SDKs, and crypto wallets.
 
-### Local Development
+The repository is organized into different sections, each dedicated to a specific API, SDK, or crypto wallet. Each section contains documentation that covers the core concepts, implementation details, and best practices for using the particular tool.
 
-```
-$ yarn start
-```
+The API documentation section provides a complete reference for all available endpoints, request and response formats, and error handling for each API. It also includes example code snippets in popular programming languages to help developers get started quickly.
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+The SDK documentation section provides comprehensive information on how to integrate the SDK with different platforms and programming languages. It includes installation instructions, getting started guides, and code examples that illustrate how to use the SDK in different scenarios.
 
-### Build
+The crypto wallet documentation section provides detailed information on how to create and manage a crypto wallet, including setting up the wallet, storing and transferring crypto assets, and interacting with other blockchain technologies.
 
-```
-$ yarn build
-```
+In addition to the API, SDK, and crypto wallet documentation, the repository also includes best practices, troubleshooting guides, and frequently asked questions to help developers overcome common challenges and get the most out of the tools they are working with.
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+Overall, this documentation repository is an invaluable resource for developers looking to build applications with APIs, SDKs, and crypto wallets. It provides a one-stop-shop for all the information and guidance needed to get started with these powerful tools.
