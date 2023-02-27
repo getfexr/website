@@ -124,7 +124,7 @@ const config = {
               // },
               {
                 label: 'Learn',
-                to: 'learn/category/community-passes--p2p-subscriptions',
+                to: 'learn/p2p-subscriptions/',
               },
             ],
           },

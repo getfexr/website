@@ -19,7 +19,7 @@ function HomepageHeader() {
               <br />
               Self-Custody.
             </h1>
-            <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-400 lg:text-left lg:text-lg">
+            <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-600 lg:text-left lg:text-lg">
               Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
               Secure 2FA with Sky, Effortless Web and Mobile App Sign-In with Checkout Extension,
               and Self-Custody Payments with Mobile Wallet.
