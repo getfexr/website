@@ -111,17 +111,13 @@ const config = {
             label: 'Passes & P2P Subscriptions',
             items: [
               {
-                label: 'View Club',
+                label: 'Create Subscription',
                 to: 'https://fexr.club/',
               },
-              // {
-              //   label: "Creating a Subscription",
-              //   to: "https://fexr.club/onboarding?sub=1",
-              // },
-              // {
-              //   label: "Creating a Pass",
-              //   to: "https://fexr.club/onboarding?pass=1",
-              // },
+              {
+                label: 'Create Pass',
+                to: 'https://fexr.club/onboarding?pass=1',
+              },
               {
                 label: 'Learn',
                 to: 'learn/p2p-subscriptions/',
@@ -134,11 +130,7 @@ const config = {
             label: 'Developer tools & Licensing',
             items: [
               {
-                label: 'Sky 2FA & connector',
-                to: 'learn/category/sky-2fa--connector',
-              },
-              {
-                label: 'API',
+                label: 'RPCs & APIs',
                 to: 'learn/category/web3-rpcs-api',
               },
               {
@@ -146,7 +138,7 @@ const config = {
                 to: 'learn/category/developer-tools--licensing',
               },
               {
-                label: 'About Fexr',
+                label: 'Company',
                 to: 'learn/developer-licensing/partner/about-us',
               },
               {
@@ -158,7 +150,7 @@ const config = {
               //   to: "https://validator.social/jobs/@fexr",
               // },
               {
-                label: 'Blog',
+                label: 'Announcements',
                 to: '/blog',
               },
             ],

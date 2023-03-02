@@ -50,7 +50,7 @@ html[data-theme='dark'] {
   --ifm-dropdown-hover-background-color: var(--green-21);
 
   --ifm-font-base-color: #111010;
-  --ifm-navbar-link-hover-color: #111010;
+  --ifm-navbar-link-hover-color: var(--green-1);
   --ifm-background-color: #111010;
   --ifm-footer-background-color: #111010;
   --ifm-menu-color-background-active: var(--green-21);

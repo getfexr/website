@@ -21,8 +21,8 @@ function HomepageHeader() {
             </h1>
             <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-600 lg:text-left lg:text-lg">
               Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
-              Secure 2FA with Sky, Effortless Web and Mobile App Sign-In with Checkout Extension,
-              and Self-Custody Payments with Mobile Wallet.
+              Secure 2FA with Sky, Effortless Web and Mobile App Sign-In with
+              Checkout Extension, and Self-Custody Payments with Mobile Wallet.
             </p>
             <div className="flex space-x-4">
               <a
@@ -36,7 +36,7 @@ function HomepageHeader() {
                 href="https://calendly.com/fexr/one-on-one"
                 className="rounded-full bg-white py-3 px-8 text-center font-semibold text-accent shadow-white-volume transition-all hover:bg-accent-dark hover:text-white"
               >
-                Request a demo
+                Inquire Within
               </a>
             </div>
           </div>
