@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_position: 1
 title: Transaction alerts
 description: How to set up transaction alerts using Webhooks
 keywords: [Subnet, Fexr, Web3, decentralized, database, storage, authentication, login, console, create-subnet, blockchain]
