@@ -61,7 +61,7 @@ function FullScreenStatistics() {
                 </span>
               </div>
               <span className="text-lg text-white">
-                Easy steps to create your Subscription
+                Easy steps to create your Subscription or Pass
               </span>
             </div>
           </div>
