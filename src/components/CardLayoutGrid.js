@@ -14,7 +14,7 @@ function CardLayoutGrid() {
     <div>
       <div>
         {/* <!-- Wallet --> */}
-        <section className="dark:bg-jacarta-800 relative pb-20 pt-28">
+        <section className="relative pb-20 pt-28">
           <div className="container">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3 md:gap-[1.875rem]">
               {walletData.map((item) => {

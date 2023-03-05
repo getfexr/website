@@ -5,7 +5,7 @@ function NewsSection() {
   return (
     <div>
       {/* <!-- Blog --> */}
-      <section className="financial-section bg-light-base py-40 dark:bg-jacarta-900 ">
+      <section className="financial-section py-40">
         <div className="container">
           <div className="mx-auto mb-12 max-w-sm text-center">
             <h2 className="mb-6 text-center font-display text-3xl font-medium text-jacarta-700 dark:text-white">
