@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
-title: Transaction Alerts
-description: How to set up transaction alerts using Webhooks
+title: Real-Time Alerts
+description: Integrating Discord and Telegram Webhooks with Fexr Crypto Wallet.
 keywords: [Real-time transaction alerts,Chat apps,Telegram,Discord,Cryptocurrencies,Digital assets,Portfolio,Market movements,Informed decisions,Buying,Selling,Holding,Community,Engaging experience,Success]
 ---
 

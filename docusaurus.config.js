@@ -101,7 +101,7 @@ const config = {
               },
               {
                 label: 'Security Policy',
-                to: 'learn/identity-and-key/secret',
+                to: 'learn/identity-and-key/security-privacy-policy',
               },
             ],
           },
@@ -110,18 +110,19 @@ const config = {
             position: 'left',
             label: 'Passes & P2P Subscriptions',
             items: [
-              {
-                label: 'Create Subscription',
-                to: 'https://fexr.club/',
-              },
-              {
-                label: 'Create Pass',
-                to: 'https://fexr.club/onboarding?pass=1',
-              },
-              {
-                label: 'Console',
-                to: 'https://fexr.club/onboarding?pass=1',
-              },
+              // todo: add these back in when we have the pages
+              // {
+              //   label: 'Create Subscription',
+              //   to: 'https://fexr.club/subs',
+              // },
+              // {
+              //   label: 'Create Pass',
+              //   to: 'https://fexr.club/pass',
+              // },
+              // {
+              //   label: 'Go to Dashboard',
+              //   to: 'https://fexr.club/dash',
+              // },
               {
                 label: 'Learn',
                 to: 'learn/p2p-subscriptions/',
@@ -134,13 +135,18 @@ const config = {
             label: 'Developer tools & Licensing',
             items: [
               {
-                label: 'RPCs & APIs',
-                to: 'learn/category/web3-rpc',
+                label: 'Apply',
+                to: '/apply',
               },
-              {
-                label: 'Learn',
-                to: 'learn/category/developer-tools--licensing',
-              },
+              // todo: add these back in when we have the pages
+              // {
+              //   label: 'RPCs & APIs',
+              //   to: 'learn/category/web3-rpc',
+              // },
+              // {
+              //   label: 'Learn',
+              //   to: 'learn/category/developer-tools--licensing',
+              // },
               {
                 label: 'Company',
                 to: 'learn/about',
@@ -149,10 +155,6 @@ const config = {
                 label: 'Roadmap',
                 to: 'learn/roadmap',
               },
-              // {
-              //   label: "Careers",
-              //   to: "https://validator.social/jobs/@fexr",
-              // },
               {
                 label: 'Announcements',
                 to: '/blog',

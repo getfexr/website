@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
-title: Transactions
-description: How to send and receive transactions using Fexr wallet
+title: Transactions in Self-Custody
+description: How to send and receive transactions in Fexr wallet
 keywords: [Fexr Crypto,Self-custody wallet,Connected businesses,Transaction requests,Payment requests,Invoice payments,Subscription payments,Cross-border payments,Online purchases,Bill payments,Global payments,Cryptocurrency transactions,Digital wallets,Payment processing,Blockchain technology,Cryptocurrency use cases]
 ---
 
@@ -17,6 +17,12 @@ Fexr wallet screenshot from send-to page
 
 One of the key benefits of using Fexr's mobile device signing feature for P2P transactions is enhanced privacy. By keeping the transaction signing process on the user's mobile device, Fexr ensures that private keys are never exposed to other devices or networks. This feature provides an added layer of security and privacy for users. Let's delve into the details of [how it works](/blog/Optimising-image-private-key-mobile).
 
+## Offline Transaction Signing or Cold Wallet
+
+Cold wallet mode can be particularly useful for offline transactions when using Fexr crypto wallet. This is because cold wallet mode stores private keys offline, away from internet-connected devices, making them less vulnerable to hacking attempts and cyber attacks. When conducting offline transactions, users can simply connect their cold/offline wallet device to a computer or mobile phone and sign the transaction using their private key, without exposing it to potential security threats. This helps to ensure the security and integrity of the transaction, providing users with greater peace of mind when conducting offline transactions.
+
+In Fexr, when the user turns on the offline transaction mode in the settings, the device will not receive transaction requests directly. Instead, the user can generate a QR code for the transaction on a device that is connected to the internet, such as a mobile phone or computer or another Fexr wallet hosting the transaction for the cold wallet. This QR code can be scanned by the cold wallet device, which will then sign the transaction using its offline private keys. Signature can be exported in form of a JSON file to complete the transaction. This allows the user to conduct offline transactions securely without exposing their private keys to potential security threats. By offering this feature, Fexr provides users with greater flexibility and control over their wallet security and usage.
+
 ## Convenient Transaction Requests with Web Apps and Services
 
 Fexr's web extension and offline PWA  **checkout** ( available at https://checkout.fexr.club ) feature makes it easier for users to request P2P transactions across different networks. Allowing connected businesses to request transactions from a browser opens up a wide range of use cases for Fexr Crypto self-custody wallet. Here are a few examples:
@@ -25,7 +31,7 @@ Fexr wallet is a versatile tool for businesses to facilitate payment requests fr
 
 Subscription payments are also made easier with Fexr wallet. Businesses can send payment requests to customers' wallets when subscription payments are due, streamlining the payment process for both parties. Additionally, Fexr wallet can facilitate cross-border payments, making it easier for businesses to receive payments from customers in different countries and currencies.
 
-## Supported Networks, Fees, and Features
+## Fees and Limits
 
 To ensure a smooth transaction process, it's important for Fexr users to have a clear understanding of the networks that are supported for P2P transactions, as well as any fees or limits that may apply.
 

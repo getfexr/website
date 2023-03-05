@@ -23,7 +23,7 @@ const financialData = [
     link: 'https://timesofindia.indiatimes.com/blogs/voices/secure-and-user-friendly-self-custodial-wallets-are-the-future/',
   },
   {
-    tag: 'Anouncement',
+    tag: 'Announcements',
     title:
       'Announcing Fluir release for Fexr. Connect your web and mobile apps',
     desc: ' ‘Fluir’ is a big leap in the support for app developer, merchant service…',
