@@ -5,7 +5,7 @@ function Faq() {
   return (
     <div>
       {/* <!-- FAQ --> */}
-      <section className="relative py-24 dark:bg-jacarta-800">
+      <section className="relative py-24">
         <div className="container">
           <div className="justify-between lg:flex lg:space-x-20">
             <div className="lg:w-[45%]">
