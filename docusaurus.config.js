@@ -92,12 +92,8 @@ const config = {
             label: 'Identity & Key Management',
             items: [
               {
-                label: 'Download Wallet',
-                to: 'learn/identity-and-key/dl',
-              },
-              {
-                label: 'Onboarding',
-                to: 'learn/category/identity--key-management',
+                label: 'Download & Setup Wallet',
+                to: 'learn/identity-and-key',
               },
               {
                 label: 'Security Policy',
@@ -138,13 +134,8 @@ const config = {
                 label: 'Apply',
                 to: '/apply',
               },
-              // todo: add these back in when we have the pages
               {
-                label: 'RPCs & APIs',
-                to: 'learn/developer-licensing/apis',
-              },
-              {
-                label: 'Build Feature',
+                label: 'Connect Checkout',
                 to: 'learn/developer-licensing',
               },
               {

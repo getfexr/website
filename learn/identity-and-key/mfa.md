@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-title: FIDO & Multi-Factor Authentication
+title: FIDO & Multi-Factor Auth
 description: Enhancing Fexr Wallet Security with FIDO and MFA
 keywords: [FIDO, MFA, Fast Identity Online, Multi-Factor Authentication, Fexr Wallet, Security, Unauthorized Access, Assets]
 ---

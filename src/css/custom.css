@@ -19,6 +19,11 @@
       font-size: 111px;
     }
 }
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 64px;
+  }
+}
 
 body {
   font-family: 'ApfelGrotezk';
