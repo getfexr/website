@@ -27,7 +27,7 @@ function Description() {
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
             <a href="/blog/Optimising-image-private-key-mobile">
-              Read from Allen, IT
+              Read from Allen, Lead Engineer
             </a>
           </p>
         </div>
