@@ -19,8 +19,7 @@ function FullScreenStatistics() {
             A Convenient Way to Access Global & Exclusive Content
           </h2>
           <p className="mb-20 max-w-4xl text-3xl font-medium text-white lg:ml-36">
-            Explore the benefits of passes and P2P subscriptions for accessing
-            exclusive content. Learn how these convenient payment options can
+            Learn how these convenient payment options can
             save you money while unlocking premium features and services.
             Discover the top platforms offering passes and P2P subscriptions
             today.
