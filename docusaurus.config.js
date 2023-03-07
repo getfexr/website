@@ -96,7 +96,7 @@ const config = {
                 to: 'learn/identity-and-key/dl',
               },
               {
-                label: 'Learn',
+                label: 'Onboarding',
                 to: 'learn/category/identity--key-management',
               },
               {
@@ -124,7 +124,7 @@ const config = {
               //   to: 'https://fexr.club/dash',
               // },
               {
-                label: 'Learn',
+                label: 'Start Monetizing',
                 to: 'learn/p2p-subscriptions/',
               },
             ],
@@ -139,14 +139,14 @@ const config = {
                 to: '/apply',
               },
               // todo: add these back in when we have the pages
-              // {
-              //   label: 'RPCs & APIs',
-              //   to: 'learn/category/web3-rpc',
-              // },
-              // {
-              //   label: 'Learn',
-              //   to: 'learn/category/developer-tools--licensing',
-              // },
+              {
+                label: 'RPCs & APIs',
+                to: 'learn/developer-licensing/apis',
+              },
+              {
+                label: 'Build Feature',
+                to: 'learn/developer-licensing',
+              },
               {
                 label: 'Company',
                 to: 'learn/about',
