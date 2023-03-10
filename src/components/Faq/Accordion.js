@@ -119,7 +119,7 @@ function FaqAccordion() {
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
-          A4. Fexr.Club is a community platform that allows users to access
+          A4. Fexr.Club is an invite only subscription platform that allows users to access
           exclusive services and products, such as community passes and P2P
           subscription aggregators.
         </AccordionBody>
