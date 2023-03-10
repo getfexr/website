@@ -14,6 +14,17 @@
   src: url('/static/Outfit-VariableFont_wght.ttf');
 }
 
+@media screen and (min-width: 992px) {
+  h1 {
+      font-size: 111px;
+    }
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 64px;
+  }
+}
+
 body {
   font-family: 'ApfelGrotezk';
 }
@@ -50,7 +61,7 @@ html[data-theme='dark'] {
   --ifm-dropdown-hover-background-color: var(--green-21);
 
   --ifm-font-base-color: #111010;
-  --ifm-navbar-link-hover-color: #111010;
+  --ifm-navbar-link-hover-color: var(--green-1);
   --ifm-background-color: #111010;
   --ifm-footer-background-color: #111010;
   --ifm-menu-color-background-active: var(--green-21);
@@ -64,6 +75,14 @@ html[data-theme='dark'] {
 /* normalise button */
 button {
   border: none;
+}
+
+.table-of-contents__link--active {
+  color: var(--green-1);
+}
+
+.table-of-contents__link:hover {
+  color: var(--green-1);
 }
 
 /* Prism in docusaurus.config.js is responsible for rest of the colors */

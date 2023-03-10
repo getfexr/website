@@ -23,7 +23,7 @@ const financialData = [
     link: 'https://timesofindia.indiatimes.com/blogs/voices/secure-and-user-friendly-self-custodial-wallets-are-the-future/',
   },
   {
-    tag: 'Anouncement',
+    tag: 'Announcements',
     title:
       'Announcing Fluir release for Fexr. Connect your web and mobile apps',
     desc: ' ‘Fluir’ is a big leap in the support for app developer, merchant service…',
@@ -60,7 +60,7 @@ function NewsCarousel() {
         } = item;
         return (
           <SwiperSlide className="text-white overflow-visible" key={id}>
-            <article className="rounded-2.5xl bg-white p-12 dark:bg-jacarta-700">
+            <article className="rounded-2.5xl p-12">
               <div className="mb-4 flex flex-wrap gap-4 text-2xs dark:text-jacarta-300">
                 <div className="flex flex-wrap items-center space-x-2">
                   <span className="text-accent">
