@@ -4780,7 +4780,7 @@ packages:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  /tokenized asset-random-string/2.0.0:
+  /crypto-random-string/2.0.0:
     resolution: {integrity: sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==}
     engines: {node: '>=8'}
     dev: false
@@ -10592,7 +10592,7 @@ packages:
     resolution: {integrity: sha512-uNaeirEPvpZWSgzwsPGtU2zVSTrn/8L5q/IexZmH0eH6SA73CmAA5U4GwORTxQAZs95TAXLNqeLoPPNO5gZfWg==}
     engines: {node: '>=8'}
     dependencies:
-      tokenized asset-random-string: 2.0.0
+      crypto-random-string: 2.0.0
     dev: false
 
   /unist-builder/2.0.3:
