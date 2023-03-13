@@ -15,7 +15,7 @@ const collectionCategoryData = [
       },
       {
         id: 2,
-        title: 'Cryptopank',
+        title: 'Tokenized Assetpank',
         image: '/img/avatar.jpg',
         icon: true,
         amount: '6,548,133',

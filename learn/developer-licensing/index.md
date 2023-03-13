@@ -2,7 +2,7 @@
 sidebar_position: 0
 title: Zero Trust Checkout with Fexr
 description: p
-keywords: [Fexr, Subscription, Cryptocurrency, On-Chain Reviews, SEO]
+keywords: [Fexr, Subscription, Tokenized Asset, On-Chain Reviews, SEO]
 ---
 
 Fexr is a leader in giving ownership back to users. Its mission is to create a decentralized financial system that empowers individuals and businesses to take control of their financial lives. With Fexr's Zero Trust Checkout, users can enjoy complete ownership and control over their transactions, from start to finish.
@@ -17,7 +17,7 @@ At the heart of Fexr's Zero Trust Checkout is its verifiable DID ownership proof
 
 ## Fight Fraud & Copycats
 
-Fexr's Zero Trust Checkout is designed to fight fraud and copycats, empowering users to take control of their financial lives. Traditional payment processing systems rely on trust and reputation to ensure that transactions are legitimate, but these systems are vulnerable to fraudsters and copycats who can easily impersonate trusted merchants or hijack payment flows. Fexr's Zero Trust Checkout eliminates this risk by independently verifying and authenticating every transaction, using advanced cryptography and blockchain technology to prevent fraud and copycats.
+Fexr's Zero Trust Checkout is designed to fight fraud and copycats, empowering users to take control of their financial lives. Traditional payment processing systems rely on trust and reputation to ensure that transactions are legitimate, but these systems are vulnerable to fraudsters and copycats who can easily impersonate trusted merchants or hijack payment flows. Fexr's Zero Trust Checkout eliminates this risk by independently verifying and authenticating every transaction, using advanced tokenized assetgraphy and blockchain technology to prevent fraud and copycats.
 
 ### A New Standard for Secure and Reliable Transactions
 

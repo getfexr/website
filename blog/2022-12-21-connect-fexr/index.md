@@ -7,7 +7,7 @@ description: Announcing Fluir release - your assets on chain
 keywords: [Blockchain, DID, App, Image, Private Key, Mobile, IoT, Computation, Optimisation, Rubix, Fexr, SHA3]
 ---
 
-I would like to take this space to update you on the latest improvements and features coming to Fexr in Q1 2023. Mobile wallet has been a great way to secure secrets for multiple Web3 wallets without fear during a time when even top crypto exchanges are getting exposed to hacks and frauds.
+I would like to take this space to update you on the latest improvements and features coming to Fexr in Q1 2023. Mobile wallet has been a great way to secure secrets for multiple Web3 wallets without fear during a time when even top tokenized asset exchanges are getting exposed to hacks and frauds.
 
 ## Link web and mobile apps with Fexr
 

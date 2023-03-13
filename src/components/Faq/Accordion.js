@@ -55,7 +55,7 @@ function FaqAccordion() {
           dark:border-jacarta-600 dark:bg-jacarta-700 text-base h-full"
         >
           A1. Fexr wallet is a self-custody wallet that allows you to manage
-          your cryptocurrency holdings securely and privately. It also offers a
+          your tokenized asset holdings securely and privately. It also offers a
           range of additional features, such as access to exclusive services and
           lower transaction fees.
         </AccordionBody>
@@ -202,7 +202,7 @@ function FaqAccordion() {
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
           A8. Sky APIs and SDKs are developer tools and licensing services that
-          allow developers to build and integrate cryptocurrency-related
+          allow developers to build and integrate tokenized asset-related
           features into their applications and services.
         </AccordionBody>
       </Accordion>
