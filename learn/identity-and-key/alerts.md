@@ -2,7 +2,7 @@
 sidebar_position: 2
 title: Real-Time Alerts
 description: Integrating Discord and Telegram Webhooks with Fexr Tokenized Asset Wallet.
-keywords: [Real-time transaction alerts,Chat apps,Telegram,Discord,Tokenized Assetcurrencies,Digital assets,Portfolio,Market movements,Informed decisions,Buying,Selling,Holding,Community,Engaging experience,Success]
+keywords: [Real-time transaction alerts,Chat apps,Telegram,Discord,Tokenized Assets,Digital assets,Portfolio,Market movements,Informed decisions,Buying,Selling,Holding,Community,Engaging experience,Success]
 ---
 
 Integrating Discord and Telegram webhooks for real-time alerts is a great feature for any tokenized asset wallet, including Fexr, because it allows users to stay informed and in control of their transactions. Real-time alerts can provide valuable insights and updates on the status of transactions, helping users to quickly identify and address any issues that may arise.
