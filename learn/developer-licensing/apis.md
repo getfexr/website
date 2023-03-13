@@ -2,7 +2,7 @@
 sidebar_position: 1
 title: Web3 RPCs & APIs
 description: nkn
-keywords: [Fexr, Subscription, Cryptocurrency, On-Chain Reviews, SEO]
+keywords: [Fexr, Subscription, Tokenized Asset, On-Chain Reviews, SEO]
 ---
 We're thrilled to inform you that we are putting the final touches on our APIs and RPCs for external applications to integrate with Fexr. We know you are eagerly waiting to leverage our platform and we are working tirelessly to make that possible.
 

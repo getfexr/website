@@ -8,11 +8,11 @@ const financialData = [
   {
     tag: 'cointelegraph',
     title:
-      'Multiparty computation could offer increased protection for crypto wallets',
+      'Multiparty computation could offer increased protection for tokenized asset wallets',
     desc: 'With MPC, A quorum of these shares can distributively sign a message…',
     id: 1,
     date: '12 Jan, 2023',
-    link: 'https://cointelegraph.com/news/multi-party-computation-could-offer-increased-protection-for-crypto-wallets',
+    link: 'https://cointelegraph.com/news/multi-party-computation-could-offer-increased-protection-for-tokenized asset-wallets',
   },
   {
     tag: 'Times of India',

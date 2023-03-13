@@ -2,10 +2,10 @@
 sidebar_position: 0
 title: Download & Setup
 description: How to download and setup Fexr wallet
-keywords: [Fexr crypto wallet,Decentralized identity (DID),BIP-39 standard,Secure web3 wallet,Easy-to-use crypto wallet,Blockchain technology,Crypto transfers,Digital identity,Fexr support,Android wallet,iOS wallet,Fexr download,Fexr setup,Fexr documentation,Crypto security]
+keywords: [Fexr tokenized asset wallet,Decentralized identity (DID),BIP-39 standard,Secure web3 wallet,Easy-to-use tokenized asset wallet,Blockchain technology,Tokenized Asset transfers,Digital identity,Fexr support,Android wallet,iOS wallet,Fexr download,Fexr setup,Fexr documentation,Tokenized Asset security]
 ---
 
-To download and set up the Fexr crypto wallet, please follow these steps:
+To download and set up the Fexr tokenized asset wallet, please follow these steps:
 
 Go to the Fexr website: Open your web browser and navigate to the Fexr website (<https://getfexr.com>).
 
