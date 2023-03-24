@@ -53,7 +53,7 @@ body {
   --hero-skew: -10deg;
   --ifm-font-family-base: 'Outfit';
   --ifm-heading-font-family: 'ApfelGrotezk';
-  --doc-sidebar-width: 400px !important;
+  --doc-sidebar-width: 300px !important;
   --ifm-link-color: var(--green-1);
 }
 

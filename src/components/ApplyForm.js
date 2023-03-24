@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const purposeOptions = [
   'Identity & Key Management',
   'Passes & P2P Subscriptions',
-  'Developer tools & Licensing',
+  'Developer tools & Governance',
 ];
 
 const responseOptions = [

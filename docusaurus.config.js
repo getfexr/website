@@ -96,6 +96,10 @@ const config = {
                 to: 'learn/identity-and-key',
               },
               {
+                label: 'Checkout',
+                to: 'https://checkout.fexr.club',
+              },
+              {
                 label: 'Security Policy',
                 to: 'learn/identity-and-key/security-privacy-policy',
               },
@@ -128,7 +132,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'right',
-            label: 'Developer tools & Licensing',
+            label: 'Developer tools & Governance',
             items: [
               {
                 label: 'Apply',
