@@ -111,18 +111,18 @@ const config = {
             label: 'Passes & P2P Subscriptions',
             items: [
               // todo: add these back in when we have the pages
-              // {
-              //   label: 'Create Subscription',
-              //   to: 'https://fexr.club/subs',
-              // },
-              // {
-              //   label: 'Create Pass',
-              //   to: 'https://fexr.club/pass',
-              // },
-              // {
-              //   label: 'Go to Dashboard',
-              //   to: 'https://fexr.club/dash',
-              // },
+              {
+                label: 'Create Subscription',
+                to: 'https://fexr.club/subs',
+              },
+              {
+                label: 'Create Pass',
+                to: 'https://fexr.club/pass',
+              },
+              {
+                label: 'Go to Dashboard',
+                to: 'https://fexr.club/dash',
+              },
               {
                 label: 'Start Monetizing',
                 to: 'learn/p2p-subscriptions/',
@@ -151,7 +151,7 @@ const config = {
                 to: 'learn/roadmap',
               },
               {
-                label: 'Announcements',
+                label: 'Usecases & Announcements',
                 to: '/blog',
               },
             ],

@@ -85,7 +85,7 @@ const icons = {
       </svg>
     );
   },
-  fuchsia() {
+  linux() {
     return (
       <svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 300 300">
         <path
@@ -105,7 +105,7 @@ const icons = {
       </svg>
     );
   },
-  fdroid() {
+  web() {
     return (
       <svg className="ml-2 -mr-1 w-5 h-5" viewBox="0 0 300 300">
         <path
@@ -140,22 +140,22 @@ function AppStores() {
     {
       store: 'Mac OS',
       icon: icons.apple,
-      comingSoon: true,
+      inviteOnly: true,
     },
     {
       store: 'Windows',
       icon: icons.windows,
-      comingSoon: true,
+      inviteOnly: true,
     },
     {
-      store: 'Fuchsia OS',
-      icon: icons.fuchsia,
-      comingSoon: true,
+      store: 'Linux GUI',
+      icon: icons.linux,
+      inviteOnly: true,
     },
     {
-      store: 'F-Droid',
-      icon: icons.fdroid,
-      comingSoon: true,
+      store: 'Dashboard',
+      icon: icons.web,
+      inviteOnly: true,
     },
   ];
   return (
@@ -164,8 +164,7 @@ function AppStores() {
         Your secrets and keys, only in your pocket
       </h2>
       <p className="mb-16 text-lg text-gray-500">
-        Get Fexr and own your blockchain infra. Coming soon for all your
-        screens.
+        Self custody wallets for all platforms to store your digital assets.
       </p>
 
       <div className="grid sm:grid-cols-2 gap-4 place-items-center">
@@ -179,11 +178,11 @@ function AppStores() {
             }}
             className="app-button font-medium font-sm rounded-lg text-gray-100 dark:text-gray-900 text-sm px-6 py-3.5 w-48 bg-gray-900 dark:bg-gray-100 disabled:opacity-80
             cursor-pointer disabled:cursor-not-allowed"
-            disabled={store.comingSoon}
+            // disabled={store.inviteOnly}
           >
             <div className="grid grid-cols-1 gap-1 place-items-center justify-center">
-              {store.comingSoon ? (
-                <span className="inline">Coming soon</span>
+              {store.inviteOnly ? (
+                <span className="inline">Invite only</span>
               ) : (
                 <span className="inline">Available on</span>
               )}
