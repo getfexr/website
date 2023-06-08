@@ -1,6 +1,6 @@
 ---
 sidebar_position: 0
-title: Monetize Your Content with Fexr's Subscription Platform
+title: Club Checkout for all
 description: How Creators and Freelancers Can Use Fexr's Subscription Listing Platform to Monetize Their Content
 keywords: [Fexr, Subscription, Tokenized Asset, On-Chain Reviews, SEO]
 ---

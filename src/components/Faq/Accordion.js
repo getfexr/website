@@ -120,12 +120,12 @@ function FaqAccordion() {
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
           A4. Fexr.Club is an invite only subscription platform that allows users to access
-          exclusive services and products, such as community passes and P2P
-          subscription aggregators. It should be noted that the Fexr Club platform 
-          is specifically designed for P2P subscriptions, and it is important to 
-          distinguish this from the Fexr Wallet product. These two products have 
-          distinct functionalities and features, and while they can work together 
-          to provide a seamless user experience, it is important to keep in 
+          exclusive services and products, such as club passes and P2P
+          subscription aggregators. It should be noted that the Fexr Club platform
+          is specifically designed for P2P subscriptions, and it is important to
+          distinguish this from the Fexr Wallet product. These two products have
+          distinct functionalities and features, and while they can work together
+          to provide a seamless user experience, it is important to keep in
           mind that they serve different purposes.
         </AccordionBody>
       </Accordion>
@@ -158,15 +158,15 @@ function FaqAccordion() {
           className="accordion-button relative flex w-full items-center justify-between bg-white px-4 py-3 text-left font-display text-jacarta-700 dark:bg-jacarta-700 dark:text-white text-sm"
           onClick={() => handleOpen(6)}
         >
-          Q6. What are community passes?
+          Q6. What are club passes?
         </AccordionHeader>
         <AccordionBody
           className="accordion-body border-t border-jacarta-100 bg-white p-4
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
-          A6. Community passes are exclusive access tokens that allow you to
-          participate in various community events, products, and services.
+          A6. Club passes are exclusive access tokens that allow you to
+          participate in various club events, products, and services.
         </AccordionBody>
       </Accordion>
       <Accordion

@@ -38,8 +38,8 @@ const config = {
       ({
         debug: false,
         docs: {
-          path: 'learn',
-          routeBasePath: 'learn',
+          path: 'products',
+          routeBasePath: 'products',
           lastVersion: 'current',
           sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
@@ -93,7 +93,7 @@ const config = {
             items: [
               {
                 label: 'Download & Setup Wallet',
-                to: 'learn/identity-and-key',
+                to: 'products/identity-and-key',
               },
               {
                 label: 'Checkout',
@@ -101,7 +101,7 @@ const config = {
               },
               {
                 label: 'Security Policy',
-                to: 'learn/identity-and-key/security-privacy-policy',
+                to: 'products/identity-and-key/security-privacy-policy',
               },
             ],
           },
@@ -125,7 +125,7 @@ const config = {
               },
               {
                 label: 'Start Monetizing',
-                to: 'learn/p2p-subscriptions/',
+                to: 'products/p2p-subscriptions/',
               },
             ],
           },
@@ -140,15 +140,15 @@ const config = {
               },
               {
                 label: 'Connect Checkout',
-                to: 'learn/developer-licensing',
+                to: 'products/developer-licensing',
               },
               {
                 label: 'Company',
-                to: 'learn/about',
+                to: 'products/about',
               },
               {
                 label: 'Roadmap',
-                to: 'learn/roadmap',
+                to: 'products/roadmap',
               },
               {
                 label: 'Usecases & Announcements',
@@ -167,16 +167,16 @@ const config = {
         style: 'light',
         // links: [
         //   {
-        //     title: 'learn',
+        //     title: 'products',
         //     items: [
         //       {
         //         label: 'Docs',
-        //         to: '/learn/roadmap',
+        //         to: '/products/roadmap',
         //       },
         //     ],
         //   },
         //   {
-        //     title: 'Community',
+        //     title: 'Club',
         //     items: [
         //       {
         //         label: 'Telegram',

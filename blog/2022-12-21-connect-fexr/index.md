@@ -40,6 +40,6 @@ We used three active mainnet nodes to test the first insider version of Fluir bu
 
 [Validator.Social](https://validator.social) is a new social network subnet run by validators to support other validators. [Cycle360.tech](https://cycle360.tech) is an open-source supply chain tracker managed on blockchain. Both are the asset verifiers and payment receivers in this real-case scenario. [Fexr.Club](https://fexr.club) is the Web3 console maintained by Fexr. A user hosted with [Fexr.Club](https://fexr.club) is transfering to a node hosted by [Validator.Social](https://validator.social), both the transactions had happened via locally configured Sky connector tool to communicate and also provide hot wallet to the sender and receiver wallets.
 
-Rubix community quorum (type one transaction) is used to verify transaction run between [Fexr.Club](https://fexr.club), [Cycle360.tech](https://cycle360.tech) and [Validator.Social](https://validator.social). All transactions used UI interface and does not include CLI commands or triggers to support or initiate transaction in foreground or background.
+Rubix club quorum (type one transaction) is used to verify transaction run between [Fexr.Club](https://fexr.club), [Cycle360.tech](https://cycle360.tech) and [Validator.Social](https://validator.social). All transactions used UI interface and does not include CLI commands or triggers to support or initiate transaction in foreground or background.
 
 Transaction details and analytics will be shared in the next blog post.
