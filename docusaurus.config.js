@@ -131,6 +131,10 @@ const config = {
             label: 'Developer tools & Licensing',
             items: [
               {
+                label: 'Web and Mobile SDK',
+                to: '/learn/developer-licensing/SDK',
+              },
+              {
                 label: 'Apply',
                 to: '/apply',
               },
