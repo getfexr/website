@@ -1,8 +1,8 @@
 ---
 sidebar_position: 0
 title: Web and Mobile SDK
-description: Fexr SDK: Your toolbox for creating engaging, decentralized communities and identities, and streamlining transactions across multiple blockchain protocols
-keywords: [Fexr SDK: Your toolbox for creating engaging, decentralized communities and identities, and streamlining transactions across multiple blockchain protocols]
+description: Fexr SDK - Your toolbox for creating engaging, decentralized communities and identities, and streamlining transactions across multiple blockchain protocols
+keywords: [Fexr SDK, Decentralized Communities, Decentralized Identities, Transactions, Multiple Blockchain Protocols, Sustainable Rewards, Decentralized Gateways, Verified Checkout, Club Creation, User Engagement, Rubix Protocol, Gas Fees, Clearing Network]
 ---
 
 The Fexr SDK is a multi-purpose toolkit for developers keen on exploring and leveraging the power of the Rubix protocol, a low gas fee decentralized network. By utilizing the Fexr SDK, you can make full use of the Rubix network and in the future, even utilize it as a clearing network, thus negating the crippling effects of high gas fees commonly experienced in other networks.
