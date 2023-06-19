@@ -1,0 +1,40 @@
+---
+sidebar_position: 1
+title: Platforms, Setup and Hosting
+description: Discover the power of Web3.0 with Fexr SDK - Simplify the process of decentralized identity creation, Club interactions, and enable fast, secure and efficient cross-chain transactions on the Rubix protocol.
+keywords: [Fexr SDK, Setup, Hosting, Decentralized Identity, Rubix Protocol, Cross-chain Transactions, Blockchain Integration, Club Interactions, Secure Transactions, Decentralized Hosting, Web3.0 Integration]
+---
+
+import Lottie from 'lottie-react';
+import AndroidAnim from '/static/img/platforms/android.json';
+import FlutterAnim from '/static/img/platforms/flutter.json';
+
+
+<div style={{ display: 'flex', justifyContent: 'center', marginBottom: '2rem' }}>
+  <div
+    style={{ width: '200px', height: '200px', marginRight: '1rem', cursor: 'pointer' }}
+    onClick={() => {
+      // Handle click for Android animation
+    }}
+  >
+    <Lottie animationData={AndroidAnim} loop autoplay />
+  </div>
+  <div
+    style={{ width: '150px', height: '150px', cursor: 'pointer' }}
+    onClick={() => {
+      // Handle click for Flutter animation
+    }}
+  >
+    <Lottie animationData={FlutterAnim} loop autoplay />
+  </div>
+</div>
+
+
+## Android SDK
+
+To get started with the `fexr` package, you need to install it in your project. Depending on whether you're using npm or Yarn as your package manager, the commands will differ slightly.
+
+For npm, use:
+
+```bash
+npm install --save fexr
