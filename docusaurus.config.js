@@ -119,9 +119,13 @@ const config = {
               //   label: 'Go to Dashboard',
               //   to: 'https://fexr.club/dash',
               // },
+              // {
+              //   label: "Start Monetizing",
+              //   to: "learn/p2p-subscriptions/",
+              // },
               {
-                label: 'Start Monetizing',
-                to: 'learn/p2p-subscriptions/',
+                label: 'View Fexr.Club Discord Server',
+                to: 'https://discord.gg/CF5Q6jJR4f',
               },
             ],
           },
@@ -140,7 +144,7 @@ const config = {
               },
               {
                 label: 'Connect Checkout',
-                to: 'learn/developer-licensing',
+                to: 'learn/developer-licensing/checkout',
               },
               {
                 label: 'Company',
