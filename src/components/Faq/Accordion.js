@@ -76,7 +76,7 @@ function FaqAccordion() {
           dark:text-jacarta-200
           dark:border-jacarta-600 dark:bg-jacarta-700 h-full text-base"
         >
-          A2. Identity and key management refers to the process of securely
+          A2. ID and key management refers to the process of securely
           managing and storing your private keys and personal information to
           ensure the safety of your digital assets.
         </AccordionBody>

@@ -89,15 +89,15 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Identity & Key Management',
+            label: 'ID & Key Management',
             items: [
               {
                 label: 'Download & Setup Wallet',
-                to: 'learn/identity-and-key',
+                to: 'learn/id-and-key',
               },
               {
                 label: 'Security Policy',
-                to: 'learn/identity-and-key/security-privacy-policy',
+                to: 'learn/id-and-key/security-privacy-policy',
               },
             ],
           },
@@ -136,15 +136,11 @@ const config = {
             items: [
               {
                 label: 'Web and Mobile SDK',
-                to: '/learn/developer-licensing/SDK',
+                to: '/learn/developer-licensing/',
               },
               {
                 label: 'Apply',
                 to: '/apply',
-              },
-              {
-                label: 'Connect Checkout',
-                to: 'learn/developer-licensing/checkout',
               },
               {
                 label: 'Company',

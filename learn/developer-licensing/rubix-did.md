@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
-title: Rubix Data Tokens = Sustainable User Rewards
+sidebar_position: 1
+title: Decentralized ID & Data with Rubix
 description: Discover the power of Web3.0 with Fexr SDK - Simplify the process of decentralized identity creation, Club interactions, and enable fast, secure and efficient cross-chain transactions on the Rubix protocol.
-keywords: [Fexr SDK, Setup, Hosting, Decentralized Identity, Rubix Protocol, Cross-chain Transactions, Blockchain Integration, Club Interactions, Secure Transactions, Decentralized Hosting, Web3.0 Integration]
+keywords: [Fexr SDK, Setup, Hosting, Decentralized ID, Rubix Protocol, Cross-chain Transactions, Blockchain Integration, Club Interactions, Secure Transactions, Decentralized Hosting, Web3.0 Integration]
 ---
 
 The Rubix network is designed to handle high frequency transactions efficiently, making it a suitable choice for Fexr users. The network's architecture is based on Proofchains, each bound by a unique utility token. Transactions within a Proofchain are validated individually and sequentially, but transactions across different Proofchains are validated asynchronously and in parallel. This design allows for high transaction throughput and quick finality, as each transaction achieves finality on its own without waiting to be pooled with unrelated transactions.
@@ -23,7 +23,7 @@ These SDKs could provide a range of functionalities, such as:
 
 1. **Transaction Management:** This could include functions for creating, signing, and submitting transactions to the Rubix network. This would allow developers to integrate transaction capabilities into their applications without having to understand the low-level details of how transactions are processed on the network.
 
-2. **Identity Management:** Given the importance of Decentralized Identifiers (DIDs) in the Rubix network, the SDKs could provide functions for managing these identifiers. This could include creating new DIDs, managing private and public keys, and authenticating users.
+2. **ID Management:** Given the importance of Decentralized Identifiers (DIDs) in the Rubix network, the SDKs could provide functions for managing these identifiers. This could include creating new DIDs, managing private and public keys, and authenticating users.
 
 3. **Data Storage and Retrieval:** If the Rubix network uses a system like the InterPlanetary File System (IPFS) for data storage, the SDKs could provide functions for storing and retrieving data from this system.
 
@@ -31,31 +31,4 @@ By providing these tools, Fexr could make it easier for developers and brands to
 
 As a result, Fexr could play a crucial role in bringing decentralized technology to the next billion consumers. By lowering the barriers to entry for developers and brands, it could accelerate the adoption of this technology and help to realize its potential benefits.
 
-## Creating Decentralized Identity for your users
-
-<Tabs
-  groupId="language"
-  defaultValue="flutter"
-  values={[
-    { label: 'Flutter', value: 'flutter', }
-  ]
-}>
-<TabItem value="flutter">
-
-```js
-  void rbtPay() {
-    txnPayload payload = txnPayload(
-        "senderAddress",
-        "receiverAddress",
-        0.1,
-        "comment",
-        "quorumList");
-
-    payload.fexrId = md5.convert(utf8.encode(payload.toString())).toString();
-    print(widget.wallet.wallet.gateway);
-    api.PayService().initRubixTxn(widget.wallet.wallet.gateway, payload);
-  }
-```
-
-</TabItem>
-</Tabs>
+## Data Tokens on IPFS

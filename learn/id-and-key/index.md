@@ -15,7 +15,7 @@ Install the app: Once the download is complete, open the app and follow the inst
 
 Create a new wallet: Once the app is installed, open it and click on the "Create new wallet" button to create a new wallet. Follow the instructions to set up your wallet and create a strong access code. Fexr wallet uses the ECDSA and Image based Non-Linear Secret Share standard for generating seed phrases, which is a 12-word phrase that is used to recover your wallet if you lose your password or device.
 
-Set up decentralized identity: Fexr wallet allows you to create a decentralized identity (DID) without linking to any personal information. Your DID can be used for any apps built over the supported blockchains by Fexr.
+Set up decentralized ID: Fexr wallet allows you to create a decentralized identity (DID) without linking to any personal information. Your DID can be used for any apps built over the supported blockchains by Fexr.
 
 Transfer funds: To transfer funds to your wallet, click on the "Wallets" tab in the app, select your network and copy your wallet address from available addresses. You can then use this address to receive funds from any supported blockchain. To send funds, click on the "Send" button in activity tab in the app. Select a known contact or click Add Contact button and enter the recipient's address and the name you want to identify as. Verify the transaction details and enter the amount to confirm the transaction.
 

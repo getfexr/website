@@ -23,7 +23,7 @@ While the secret keys for addresses are secured in the mobile wallet, setting up
 
 ## Choose between your wallet providers
 
-This is made possible in Fexr wallets by intelligently syncing the latest state of web3 Identity, on-chain assets, and provenance of linked user within their mobile wallet, allowing users to backup, disconnect and connect a different node provider anytime during their operation. This ensures a competitive development environment for app builder and service providers under the same platform.  Users can easily switch their node provider for a specialised service without having to worry about losing their data or having access issues.
+This is made possible in Fexr wallets by intelligently syncing the latest state of web3 ID, on-chain assets, and provenance of linked user within their mobile wallet, allowing users to backup, disconnect and connect a different node provider anytime during their operation. This ensures a competitive development environment for app builder and service providers under the same platform.  Users can easily switch their node provider for a specialised service without having to worry about losing their data or having access issues.
 
 ## One address, multiple owners
 

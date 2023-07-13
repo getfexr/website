@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const purposeOptions = [
-  'Identity & Key Management',
+  'ID & Key Management',
   'Passes & P2P Subscriptions',
   'Developer tools & Licensing',
 ];
