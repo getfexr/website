@@ -21,9 +21,9 @@ Fexr, in the context of a decentralized network like Rubix, could be a platform 
 
 These SDKs could provide a range of functionalities, such as:
 
-1. **Transaction Management:** This could include functions for creating, signing, and submitting transactions to the Rubix network. This would allow developers to integrate transaction capabilities into their applications without having to understand the low-level details of how transactions are processed on the network.
+1. **Transaction Ownership:** This could include functions for creating, signing, and submitting transactions to the Rubix network. This would allow developers to integrate transaction capabilities into their applications without having to understand the low-level details of how transactions are processed on the network.
 
-2. **ID Management:** Given the importance of Decentralized Identifiers (DIDs) in the Rubix network, the SDKs could provide functions for managing these identifiers. This could include creating new DIDs, managing private and public keys, and authenticating users.
+2. **ID Ownership:** Given the importance of Decentralized Identifiers (DIDs) in the Rubix network, the SDKs could provide functions for managing these identifiers. This could include creating new DIDs, managing private and public keys, and authenticating users.
 
 3. **Data Storage and Retrieval:** If the Rubix network uses a system like the InterPlanetary File System (IPFS) for data storage, the SDKs could provide functions for storing and retrieving data from this system.
 

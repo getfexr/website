@@ -1,8 +1,0 @@
----
-sidebar_position: 0
-title: Upcoming - Club Launch
-description: With this update, we're delighted to introduce the much-anticipated Fexr Club feature! Now creators can establish their own Clubs, foster their community, and earn sustainable rewards, while users can join their favorite clubs, engage with like-minded peers, and participate in exclusive events. This documentation provides a comprehensive guide for both creators and users, detailing the steps to create or join a club, navigate the platform, and make the most out of the Fexr Club experience. Dive in and explore!
-keywords: [Fexr Club, Club Creation, User Onboarding, Club Management, Digital Assets, Sustainable Rewards, Club Subscription, Creator Dashboard, User Interaction, Community Building, Self Custody Wallet, Club Events, Digital Community, Club News, Membership Management, Cross-Platform Insight, AI-Prompts, Event Scheduling, Privacy Settings, Release Notes]
----
-
-With this update, we're delighted to introduce the much-anticipated Fexr Club feature! Now creators can establish their own Clubs, foster their community, and earn sustainable rewards, while users can join their favorite clubs, engage with like-minded peers, and participate in exclusive events. This documentation provides a comprehensive guide for both creators and users, detailing the steps to create or join a club, navigate the platform, and make the most out of the Fexr Club experience. Dive in and explore!

@@ -1,24 +1,30 @@
 ---
 sidebar_position: 0
-title: Download & Setup
-description: How to download and setup Fexr wallet
-keywords: [Fexr tokenized asset wallet,Decentralized identity (DID),BIP-39 standard,Secure web3 wallet,Easy-to-use tokenized asset wallet,Blockchain technology,Tokenized Asset transfers,Digital identity,Fexr support,Android wallet,iOS wallet,Fexr download,Fexr setup,Fexr documentation,Tokenized Asset security]
+title: Quick Start Guide - Setup Fexr self custody on your mobile
+description: Get started with Fexr self custody on your mobile in no time! This guide provides a step-by-step walkthrough to download the Fexr app, create and secure your wallet, and begin transacting with ease and security.
+keywords: [Fexr Self Custody, Mobile Wallet Setup, Fexr App Download, Cryptocurrency Wallet, Secure Mobile Wallet, Fexr Wallet Backup, Fexr Wallet Recovery Phrase, Fexr Wallet Transactions, Fexr Mobile App, Cross-Platform Wallet, NLSS Security, Decentralized Identity, Digital Wallet Guide, Quick Start Cryptocurrency, Fexr Wallet Creation, Fexr Wallet Security, Fexr User Guide, Mobile Cryptocurrency Wallet, Fexr Wallet Tutorial, Fexr Wallet Setup Guide]
 ---
 
-To download and set up the Fexr tokenized asset wallet, please follow these steps:
+## Download the Fexr - Self Custody App
 
-Go to the Fexr website: Open your web browser and navigate to the Fexr website (<https://getfexr.com>).
+Start by downloading the Fexr - Self Custody App from your device's app store. It's available for both Android and iOS devices. Simply search for "Fexr" in the Google Play Store or Apple App Store and download the app to your device.
 
-Download the app: Click on the "Download" button at the top of the page to download the Fexr app for your device. Fexr wallet is available for both Android and iOS devices.
+## Open the App -  Create a New Wallet by Joining a Club 
 
-Install the app: Once the download is complete, open the app and follow the installation instructions to install it on your device.
+Once you've downloaded and opened the app, you can create a new wallet by joining a Club. In Fexr, Clubs are groups created by creators. Each Club has a default network, and as a Club member, you'll generate keys for your chosen Club. Joining a Club allows you to interact with the Club ecosystem using the key generated on your self-custody wallet. Even if the Club ceases to exist, your assets remain with you. Joining a Club is easy - simply select the Club using a checkbox and continue to the next page to create keys.
 
-Create a new wallet: Once the app is installed, open it and click on the "Create new wallet" button to create a new wallet. Follow the instructions to set up your wallet and create a strong access code. Fexr wallet uses the ECDSA and Image based Non-Linear Secret Share standard for generating seed phrases, which is a 12-word phrase that is used to recover your wallet if you lose your password or device.
+## With Just a Name and Language You Speak
 
-Set up decentralized ID: Fexr wallet allows you to create a decentralized identity (DID) without linking to any personal information. Your DID can be used for any apps built over the supported blockchains by Fexr.
+Creating a wallet in Fexr is simple and requires minimal information. All you need is your name and the language you speak. Fexr supports a wide range of languages, including English, Spanish, French, German, Chinese (Simplified and Traditional), Japanese, Korean, Arabic, Portuguese, Russian, Italian, Dutch, Turkish, Polish, Swedish, Danish, Norwegian, Finnish, and Greek.
 
-Transfer funds: To transfer funds to your wallet, click on the "Wallets" tab in the app, select your network and copy your wallet address from available addresses. You can then use this address to receive funds from any supported blockchain. To send funds, click on the "Send" button in activity tab in the app. Select a known contact or click Add Contact button and enter the recipient's address and the name you want to identify as. Verify the transaction details and enter the amount to confirm the transaction.
+## Full Backup Your Wallet to Another Device
 
-Use the wallet for other apps: Fexr wallet can be used for any apps built over the supported blockchains by Fexr. You can use your DID to log in to these apps without having to provide any personal information.
+Fexr provides an easy way to backup your wallet to another device. The backup option is available in the settings at the bottom of the settings page. It's a one-click setup - all you need is another mobile device with the Fexr wallet installed and waiting to receive the backup on the create wallet page.
 
-Fexr wallet is the most secure and easy to use web3 wallet for commons. We recommend giving it a try and exploring its features. If you have any questions or issues, you can contact Fexr support for assistance.
+## Hard Keys: Sign Transactions Securely with Ledger or Thin-C device
+
+Fexr allows you to sign transactions securely using a Ledger or Thin-C device. The Thin-C device from Ensurity and Ledger Nano S have been tested and are confirmed to work with Fexr. You can connect your device on the create wallet page, and the wallet will automatically use it for key creation. Later, during transactions, you'll need to connect your device before initiating the transaction.
+
+## Use Biometric to Unlock
+
+For added security, Fexr allows you to unlock your wallet using biometric data. This feature is available on devices that support biometric unlock features, such as fingerprint or face recognition. This provides an additional layer of security and convenience, ensuring that only you can access your wallet.

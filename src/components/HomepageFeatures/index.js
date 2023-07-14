@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 import CardLayoutGrid from '../CardLayoutGrid';
 // import SwipeComponent from '../Carousel/SwipeComponent';
 // import Headline from '../Headline';
-import FullScreenStatistics from '../FullScreenStats';
+// import FullScreenStatistics from '../FullScreenStats';
 // import TrendList from "../TrendList";
 import Faq from '../Faq';
 import NewsSection from '../News/NewsSection';
@@ -21,9 +21,10 @@ function Description() {
     <div className="py- mt-10 overflow-hidden">
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
-          <h3 className="text-center text-3xl leading-8 font-extrabold tracking-tight md:text-4xl md:leading-10">
-            Fexr generated decentralised ID on Rubix has millions more
-            combination than Ethereum or Bitcoin private key
+          <h3 className="text-center text-3xl leading-8 tracking-tight md:text-4xl md:leading-10">
+            Fexr: Bridging Boundaries with Cross-Platform NLSS
+            <br />
+            Security Simplified, Everywhere!
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
             <a href="/blog/Optimising-image-private-key-mobile">
@@ -384,7 +385,7 @@ export default function HomepageFeatures() {
         {/* <HowItWorks /> */}
         {/* <DemoImage /> */}
         <NewsSection />
-        <FullScreenStatistics />
+        {/* <FullScreenStatistics /> */}
         {/* <TrendList /> */}
         <Faq />
       </div>

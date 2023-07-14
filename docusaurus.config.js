@@ -89,7 +89,7 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'ID & Key Management',
+            label: 'ID & Key Ownership',
             items: [
               {
                 label: 'Download & Setup Wallet',
@@ -97,7 +97,7 @@ const config = {
               },
               {
                 label: 'Security Policy',
-                to: 'learn/id-and-key/security-privacy-policy',
+                to: 'learn/id-and-key/terms-privacy-policy',
               },
             ],
           },

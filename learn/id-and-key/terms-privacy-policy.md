@@ -1,6 +1,6 @@
 ---
 sidebar_position: 4
-title: Security and Privacy Policy
+title: Terms and Privacy Policy
 description: Fexr Self Custody Wallet Security and Privacy Policy
 keywords: [Fexr self custody wallet, security, privacy, policy, personal information, on-chain activity, decentralized network, encryption, SSL encryption, third-party services, Validator.Social, email information, trend analysis, portfolio performance, tokenized asset market]
 ---
@@ -25,11 +25,7 @@ Any on-chain activity that you initiate through the Fexr self custody wallet wil
 
 ## Third-Party Services
 
-Fexr self custody wallet offers users the option to share their email information with Validator.Social, which is an email subscription service that provides trend analysis on user portfolios. By choosing to share their email information, users can receive additional insights into their portfolio's performance and stay up-to-date on the latest trends in the tokenized asset market.
-
-It is important to note that Validator.Social is a third-party service and is not directly affiliated with Fexr. Therefore, any data sharing between users and Validator.Social is subject to Validator.Social's own privacy policy and terms of service. We encourage our users to review these policies carefully before sharing any personal information with Validator.Social.
-
-We are committed to protecting our users' privacy and security and will continue to monitor and evaluate our third-party partnerships to ensure they align with our values and standards.
+We are committed to protecting our users' privacy and security and will continue to monitor and evaluate our third-party partnerships to ensure they align with our values and standards. Currently no data is shared with any third-party service whatsoever.
 
 ## Changes to Privacy Policy
 

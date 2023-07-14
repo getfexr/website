@@ -1,13 +1,13 @@
 ---
 sidebar_position: 1
-title: Transactions in Self-Custody
+title: Your On-Chain transactions
 description: How to send and receive transactions in Fexr wallet
 keywords: [Fexr Tokenized Asset,Self-custody wallet,Connected businesses,Transaction requests,Payment requests,Invoice payments,Subscription payments,Cross-border payments,Online purchases,Bill payments,Global payments,Tokenized Asset transactions,Digital wallets,Payment processing,Blockchain technology,Tokenized Asset use cases]
 ---
 
 Enabling P2P transactions across multiple networks with mobile device signing and payment requests through web apps is a great feature for Fexr users. It allows for a seamless and secure transaction process, ensuring that users can confidently transfer funds across different networks without the need for intermediaries. With mobile device signing, users have complete control over their private keys, making it a highly secure option for self-custody wallets.
 
-The ability to initiate transactions through web apps or services connected with checkout is also highly convenient for users. By using checkout web extension or checkout PWA on their device, users can easily connect to other web apps they use and initiate transactions with just a few clicks. This feature saves users time and streamlines the transaction process, making it easier for them to manage their tokenized asset assets on the go. The combination of security and convenience makes this feature a great addition to Fexr's self-custody wallet, and it's no surprise that it is highly valued by its users.
+The ability to initiate transactions through web apps or services connected with checkout is also highly convenient for users. By using checkout web app or checkout PWA on their device, users can easily connect to other web apps they use and initiate transactions with just a few clicks. This feature saves users time and streamlines the transaction process, making it easier for them to manage their tokenized asset assets on the go. The combination of security and convenience makes this feature a great addition to Fexr's self-custody wallet, and it's no surprise that it is highly valued by its users.
 
 ## Mobile Device Signing for Enhanced Security
 

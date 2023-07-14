@@ -6,9 +6,11 @@ keywords: [Fexr SDK, Setup, Hosting, Decentralized ID, Rubix Protocol, Cross-cha
 ---
 
 To be added
+## Community Checkout
 
-## Community Checkout (Rubix)
 
-## Verified Checkout
+## Checkout Dev Kit
 
-## Checkout Dev Kit (Future)
+## Verifying Brand Owned Clubs (Soon)
+
+### We would love to call it the **Verified Checkout**
