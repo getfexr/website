@@ -9,10 +9,10 @@ function HomepageHeader() {
       <div className="ml-auto mr-auto h-full max-w-[91rem] px-4">
         <div className="grid h-full items-center gap-4 lg:grid-cols-12">
           <div className="col-span-5 flex h-full flex-col items-center justify-center py-10 lg:items-start lg:py-20">
-            <p className="mb-10 text-xs font-bold uppercase text-jacarta-800 dark:text-jacarta-50">
+            <p className="mb-10 text-xs uppercase text-jacarta-800 dark:text-jacarta-50">
               A Comprehensive Web3 Solution for Everyday Use, Built for Everyone
             </p>
-            <h1 className="mb-6 text-center font-display text-5xl text-jacarta-700 dark:text-white lg:text-left lg:text-6xl">
+            <h1 className="mb-6 text-center font-display text-4xl text-jacarta-700 dark:text-white lg:text-left lg:text-5xl">
               P2P Subscriptions.
               <br />
               Effortless Sign-In with DID.
@@ -21,8 +21,8 @@ function HomepageHeader() {
             </h1>
             <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-600 lg:text-left lg:text-lg">
               Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
-              Effortless Web and Mobile App Sign-In with
-              Checkout Extension, and Self-Custody Payments with Mobile Wallet.
+              Effortless Web Sign-In with Checkout, and Self-Custody Payments
+              with Mobile Wallet.
             </p>
             <div className="flex space-x-4">
               <a
@@ -62,7 +62,7 @@ function HomepageHeader() {
                       64%
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
-                      New wallets than last month
+                      Security Efficacy Metric
                     </span>
                   </div>
                 </div>
@@ -89,7 +89,7 @@ function HomepageHeader() {
                     +5k USD
                   </span>
                   <span className="mb-5 block font-display text-sm text-jacarta-600">
-                    Transacted in the last 24 hours
+                    User Empowerment Metric
                   </span>
                 </div>
               </div>

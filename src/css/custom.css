@@ -1,8 +1,8 @@
-@import './fragments.css';
+@import "./fragments.css";
 
 @font-face {
-  font-family: 'ApfelGrotezk';
-  src: url('/static/ApfelGrotezk-Regular.otf');
+  font-family: "ApfelGrotezk";
+  src: url("/static/ApfelGrotezk-Regular.otf");
 }
 
 @tailwind base;
@@ -10,54 +10,72 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Outfit';
-  src: url('/static/Outfit-VariableFont_wght.ttf');
+  font-family: "Outfit";
+  src: url("/static/Outfit-VariableFont_wght.ttf");
 }
 
 @media screen and (min-width: 992px) {
   h1 {
-      font-size: 111px;
-    }
+    font-size: 60px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
 }
 @media screen and (max-width: 992px) {
   h1 {
-    font-size: 64px;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
   }
 }
 
 body {
-  font-family: 'ApfelGrotezk';
+  font-family: "ApfelGrotezk";
 }
 /* You can override the default Infima variables here. */
 :root {
-  --white: #FEFFFE;
-  --grey: #FEFFFE;
-  --secondary-color: #FEFFFE;
+  --white: #fefffe;
+  --grey: #fefffe;
+  --secondary-color: #fefffe;
 
-  --green-main: #00D96D;
+  --green-main: #00d96d;
 
-  --green-1: #17BD80;
+  --green-1: #17bd80;
   --green-11: #12a568;
-  --green-2: #0C4E32;
+  --green-2: #0c4e32;
   --green-21: #0f2e21;
 
-  --green-3: #0B8456;
-  --green-4: #12DA91;
+  --green-3: #0b8456;
+  --green-4: #12da91;
   --green-5: #43f086;
 
-  --ifm-font-size-base: 16px;
-  --ifm-code-font-size: 90%;
+  --ifm-font-size-base: 18px;
+  --ifm-code-font-size: 100%;
   --ifm-background-color: var(--white);
   --ifm-color-primary: var(--white2);
   --ifm-footer-background-color: var(--white);
   --hero-skew: -10deg;
-  --ifm-font-family-base: 'Outfit';
-  --ifm-heading-font-family: 'ApfelGrotezk';
-  --doc-sidebar-width: 400px !important;
+  --ifm-font-family-base: "ApfelGrotezk";
+  --ifm-heading-font-family: "ApfelGrotezk";
+  --doc-sidebar-width: 300px !important;
   --ifm-link-color: var(--green-1);
 }
 
-html[data-theme='dark'] {
+html[data-theme="dark"] {
   --ifm-dropdown-hover-background-color: var(--green-21);
 
   --ifm-font-base-color: #111010;
@@ -113,7 +131,7 @@ svg {
   color: #fff;
 }
 
-html[data-theme='dark'] .main-logo {
+html[data-theme="dark"] .main-logo {
   color: #fff;
 }
 
@@ -128,7 +146,7 @@ html[data-theme='dark'] .main-logo {
   left: 0;
 }
 
-html[data-theme='dark'] .showcase-border {
+html[data-theme="dark"] .showcase-border {
   border-color: #111010;
 }
 
@@ -157,16 +175,18 @@ html[data-theme='dark'] .showcase-border {
 }
 
 .shadow-accent-volume {
-  --tw-shadow: 5px 5px 10px rgba(108, 106, 213, 0.25), inset 2px 2px 6px var(--green-5), inset -5px -5px 10px var(--green-11);
-  --tw-shadow-colored: 5px 5px 10px var(--tw-shadow-color), inset 2px 2px 6px var(--tw-shadow-color),
+  --tw-shadow: 5px 5px 10px rgba(108, 106, 213, 0.25),
+    inset 2px 2px 6px var(--green-5), inset -5px -5px 10px var(--green-11);
+  --tw-shadow-colored: 5px 5px 10px var(--tw-shadow-color),
+    inset 2px 2px 6px var(--tw-shadow-color),
     inset -5px -5px 10px var(--tw-shadow-color);
 }
 
 .shadow-accent-volume,
 .shadow-xl {
   box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent), var(--tw-ring-shadow, 0 0 transparent),
-    var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
 }
 
 a {

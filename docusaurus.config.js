@@ -89,15 +89,15 @@ const config = {
           {
             type: 'dropdown',
             position: 'left',
-            label: 'Identity & Key Management',
+            label: 'ID & Key Ownership',
             items: [
               {
                 label: 'Download & Setup Wallet',
-                to: 'learn/identity-and-key',
+                to: 'learn/id-and-key',
               },
               {
                 label: 'Security Policy',
-                to: 'learn/identity-and-key/security-privacy-policy',
+                to: 'learn/id-and-key/terms-privacy-policy',
               },
             ],
           },
@@ -119,9 +119,13 @@ const config = {
               //   label: 'Go to Dashboard',
               //   to: 'https://fexr.club/dash',
               // },
+              // {
+              //   label: "Start Monetizing",
+              //   to: "learn/p2p-subscriptions/",
+              // },
               {
-                label: 'Start Monetizing',
-                to: 'learn/p2p-subscriptions/',
+                label: 'View Fexr.Club Discord Server',
+                to: 'https://discord.gg/CF5Q6jJR4f',
               },
             ],
           },
@@ -131,12 +135,12 @@ const config = {
             label: 'Developer tools & Licensing',
             items: [
               {
-                label: 'Apply',
-                to: '/apply',
+                label: 'Web and Mobile SDK',
+                to: '/learn/developer-licensing/',
               },
               {
-                label: 'Connect Checkout',
-                to: 'learn/developer-licensing',
+                label: 'Apply',
+                to: '/apply',
               },
               {
                 label: 'Company',
@@ -202,7 +206,8 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Copyright © ${new Date().getFullYear()} Fexr`,
+        copyright: `
+Fexr is meticulously crafted to prioritize user retention by leveraging sustainable rewards and delivering an intuitive user experience with minimal steps. While it focuses on fostering lasting engagement, Fexr's vision extends beyond its current scope, as it plans to venture into the realm of wearables in the near future`,
       },
       prism: {
         theme: defaultCodeTheme,
