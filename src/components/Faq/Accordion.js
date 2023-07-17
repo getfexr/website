@@ -121,7 +121,12 @@ function FaqAccordion() {
         >
           A4. Fexr.Club is an invite only subscription platform that allows users to access
           exclusive services and products, such as community passes and P2P
-          subscription aggregators.
+          subscription aggregators. It should be noted that the Fexr Club platform 
+          is specifically designed for P2P subscriptions, and it is important to 
+          distinguish this from the Fexr Wallet product. These two products have 
+          distinct functionalities and features, and while they can work together 
+          to provide a seamless user experience, it is important to keep in 
+          mind that they serve different purposes.
         </AccordionBody>
       </Accordion>
       <Accordion
