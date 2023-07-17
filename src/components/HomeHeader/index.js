@@ -59,10 +59,11 @@ function HomepageHeader() {
                   </span>
                   <div className="text-left">
                     <span className="block font-display text-3xl text-green">
-                      64%
+                      98%
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
-                      Security Efficacy Metric
+                      success rate for secure transactions and zero compromised
+                      user wallets to date
                     </span>
                   </div>
                 </div>
@@ -86,10 +87,10 @@ function HomepageHeader() {
                     <path d="M12.001 4.529c2.349-2.109 5.979-2.039 8.242.228 2.262 2.268 2.34 5.88.236 8.236l-8.48 8.492-8.478-8.492c-2.104-2.356-2.025-5.974.236-8.236 2.265-2.264 5.888-2.34 8.244-.228z" />
                   </svg>
                   <span className="block font-display text-3xl text-[#737EF2]">
-                    +5k USD
+                    ~ 100%
                   </span>
                   <span className="mb-5 block font-display text-sm text-jacarta-600">
-                    User Empowerment Metric
+                    of our active users engage in self-custody transactions
                   </span>
                 </div>
               </div>
