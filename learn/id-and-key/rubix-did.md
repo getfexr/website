@@ -31,4 +31,6 @@ By providing these tools, Fexr could make it easier for developers and brands to
 
 As a result, Fexr could play a crucial role in bringing decentralized technology to the next billion consumers. By lowering the barriers to entry for developers and brands, it could accelerate the adoption of this technology and help to realize its potential benefits.
 
-## Data Tokens on IPFS
+## Data Tokens on  Decentralized Storage
+
+Awaiting documentation from Rubix team

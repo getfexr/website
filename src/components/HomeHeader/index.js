@@ -21,7 +21,8 @@ function HomepageHeader() {
             </h1>
             <p className="mb-10 text-center text-jacarta-600 dark:text-jacarta-600 lg:text-left lg:text-lg">
               Empower Your Digital Life: P2P Subscriptions with Fexr.Club,
-              Effortless Web Sign-In with Checkout, and Self-Custody Payments with Mobile Wallet.
+              Effortless Web Sign-In with Checkout, and Self-Custody Payments
+              with Mobile Wallet.
             </p>
             <div className="flex space-x-4">
               <a
@@ -61,7 +62,7 @@ function HomepageHeader() {
                       64%
                     </span>
                     <span className="block font-display text-sm text-jacarta-600">
-                      New wallets than last month
+                      Security Efficacy Metric
                     </span>
                   </div>
                 </div>
@@ -88,7 +89,7 @@ function HomepageHeader() {
                     +5k USD
                   </span>
                   <span className="mb-5 block font-display text-sm text-jacarta-600">
-                    Transacted in the last 24 hours
+                    User Empowerment Metric
                   </span>
                 </div>
               </div>

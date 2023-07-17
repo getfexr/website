@@ -36,9 +36,9 @@ export default function Timeline() {
             </p>
             <a
               href="https://github.com/getfexr"
-              className="bg-transparent mr-auto dark:hover:bg-green-500 hover:bg-green-500 text-green-500 dark:text-green-300 dark:hover:text-black hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-green-300 hover:border-transparent"
+              className="bg-transparent mr-auto dark:hover:bg-green-500 hover:bg-green-500 text-green-500 dark:text-green-300 dark:hover:text-black dark:hover:text-white rounded shadow hover:shadow-lg py-2 px-4 border border-green-300 hover:border-transparent"
             >
-              Learn More
+              View Source Code
             </a>
           </div>
           <div className="ml-0 md:ml-12 xl:w-2/3 sticky">

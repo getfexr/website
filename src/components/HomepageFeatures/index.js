@@ -22,13 +22,13 @@ function Description() {
       <div className="relative max-w-xl mx-auto px-4 md:px-6 lg:px-8 lg:max-w-screen-xl">
         <div className="relative">
           <h3 className="text-center text-3xl leading-8 tracking-tight md:text-4xl md:leading-10">
-            Fexr: Bridging Boundaries with Cross-Platform NLSS
+            Bridging Boundaries with Cross-Platform NLSS
             <br />
             Security Simplified, Everywhere!
           </h3>
           <p className="mt-4 max-w-3xl mx-auto text-center text-xl leading-7 text-description">
             <a href="/blog/Optimising-image-private-key-mobile">
-              Read from Allen Iype, Lead Engineer
+              Read from Allen, Rubix Core Engineer
             </a>
           </p>
         </div>
