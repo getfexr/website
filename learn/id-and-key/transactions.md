@@ -38,7 +38,3 @@ To ensure a smooth transaction process, it's important for Fexr users to have a 
 | Chain         | Ticker | Subnet        | Fee  | Minimum Amount  | Maximum Amount  | TPS | Consensus Algorithm | Smart Contract Support |
 | ------------- | ------------- | -------------| -------------- | ------------------------- | ------------------------- | ----------------------------- | ------------------- | ---------------------- |
 | Rubix Modular L1  | RBT      | Subnet 1      | 0         | 0.001                       | 1000                      | 100                           | Proof of Pledge      | Yes                    |
-
-### [Real-Time Transaction Monitoring and Notifications](/learn/id-and-key/alerts.md)
-
-Fexr's P2P transaction feature provides users with the ability to monitor their transactions in real-time and receive notifications for each step of the process. This is a critical feature for traders and investors who need to stay on top of their tokenized asset assets. Let's explore how this feature works and why it's so valuable for users [here](/learn/id-and-key/alerts.md).

@@ -32,4 +32,4 @@ Experience the power of Web3.0 with the Fexr SDK. This toolkit simplifies the pr
 
 ---
 
-We will also foster an active community forum or support channel where users can ask questions, share insights, and provide feedback on the documentation. Join us on [Discord to get involved!](!https://discord.gg/CF5Q6jJR4f)
+We will also foster an active community forum or support channel where users can ask questions, share insights, and provide feedback on the documentation. Join us on [Discord to get involved!](https://discord.gg/CF5Q6jJR4f)
