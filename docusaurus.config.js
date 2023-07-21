@@ -207,7 +207,7 @@ const config = {
         //   },
         // ],
         copyright: `
-Fexr is meticulously crafted to prioritize user retention by leveraging sustainable rewards and delivering an intuitive user experience with minimal steps. While it focuses on fostering lasting engagement, Fexr's vision extends beyond its current scope, as it plans to venture into the realm of wearables in the near future`,
+Fexr is meticulously crafted to prioritize user retention by leveraging sustainable rewards and delivering an intuitive user experience with minimal steps.`,
       },
       prism: {
         theme: defaultCodeTheme,
