@@ -9,7 +9,7 @@ keywords: [Fexr, Fexr.Club, Rewards System, Financial Systems, Community, Moneti
 
 > **Note:** This article discusses features of Fexr.Club, which is set to launch in later 2024. The functionalities and offerings are forward-looking and may be subject to changes before the official launch. We appreciate your patience as we work diligently to bring this innovative platform to life.
 
-> **Call for Contribution:** The development process is led by limited developers who is dedicated to realizing our vision. If you're passionate about making a significant contribution to this endeavor and believe in the potential of Fexr.Club, we invite you to join hands with us. Serious contributors are welcomed to step in and participate by reaching out to me [via mail](mailto:nidhin@fexr.club). Together, we can accelerate the journey towards a groundbreaking launch and shape the future of finance and community engagement.
+> **Call for Contribution:** The development process is led by limited developers who are dedicated to realizing our vision. If you're passionate about making a significant contribution to this endeavor and believe in the potential of Fexr.Club, we invite you to join hands with us. Serious contributors are welcomed to step in and participate by reaching out to me [via mail](mailto:nidhin@fexr.club). Together, we can accelerate the journey towards a groundbreaking launch and shape the future of reward economics and community engagement.
 
 In the age of artifical intelligence, blockchain, and decentralized finance, it's easy to get carried away by the allure of new models that promise to redefine commerce and community engagement. At the forefront of this revolution is Fexr.Club, a platform that leverages the best of decentralized technology to offer brands and communities unique ways to monetize and grow. But before you make any assumptions, let's set the record straight: Fexr.Club is not here to replace your bank or your mutual fund. It's here to complement regulated financial systems by providing a robust reward mechanism within a community-based setting. 
 
@@ -34,6 +34,8 @@ It is essential to understand that Fexr.Club operates alongside regulated financ
 ## Regulatory Compliance
 
 Transparency is at the heart of Fexr.Club, and this extends to our commitment to compliance. The platform works in harmony with financial regulations to ensure a safe and secure environment for all participants. In essence, we offer the best of both worlds: the innovation and engagement of decentralized systems with the security and reliability of traditional financial infrastructures.
+
+![Fexr.Club Technical Architecture](./service-desk-ad.png)
 
 ## The Future of Fexr.Club: Infinite Possibilities
 
