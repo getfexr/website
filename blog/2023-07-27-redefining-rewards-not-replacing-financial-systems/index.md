@@ -7,7 +7,7 @@ description: While we do offer a new way to engage with finance, it’s essentia
 keywords: [Fexr, Fexr.Club, Rewards System, Financial Systems, Community, Monetization, Web3, Decentralization]
 ---
 
-> **Note:** This article discusses features of Fexr.Club, which is set to launch in later 2024. The functionalities and offerings are forward-looking and may be subject to changes before the official launch.
+> **Note:** This article discusses features of Fexr.Club, which is set to launch in later 2024. The functionalities and offerings are forward-looking and may be subject to changes before the official launch. We appreciate your patience as we work diligently to bring this innovative platform to life. The development process is led by a sole developer who is dedicated to realizing our vision. If you're passionate about making a significant contribution to this endeavor and believe in the potential of Fexr.Club, we invite you to join hands with us. Serious contributors are welcomed to step in and participate by reaching out to us at nidhin@fexr.club. Together, we can accelerate the journey towards a groundbreaking launch and shape the future of finance and community engagement.
 
 In the age of Web3, blockchain, and decentralized finance, it's easy to get carried away by the allure of new models that promise to redefine commerce and community engagement. At the forefront of this revolution is Fexr.Club, a platform that leverages the best of decentralized technology to offer brands and communities unique ways to monetize and grow. But before you make any assumptions, let's set the record straight: Fexr.Club is not here to replace your bank or your mutual fund. It's here to complement regulated financial systems by providing a robust reward mechanism within a community-based setting. 
 
@@ -18,6 +18,8 @@ In the age of Web3, blockchain, and decentralized finance, it's easy to get carr
 2. **Public and Verified Gateways:** Fexr.Club offers a selection of vetted decentralized protocols which are rated and reviewed by the community. These trusted platforms provide secure and efficient means for clubs to transact and grow.
 
 3. **Web Platform for Club Creation:** At its core, Fexr.Club facilitates the creation and management of community-based clubs. These clubs can, in turn, offer verified checkouts and unique experiences, providing both brands and communities opportunities for audience monetization.
+
+![Fexr.Club Technical Architecture](./fexr-technical-arch-color.png)
 
 ## The Fourth Pillar: Shared Identity Analytics & Crowd Protection
 
