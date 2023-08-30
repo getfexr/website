@@ -55,6 +55,8 @@ The design of Fexr.Club inherently promotes network effects. As more clubs join 
 
 ### Low Barrier to Entry, High Value to User
 
+![Low Barrier to Entry, High Value to User](./low-barrier-high-value.png)
+
 Unlike some other platforms that require significant upfront investment, Fexr.Club offers a low barrier to entry, making it accessible for a broad range of users. This inclusive approach, coupled with high user value through the rewards system, increases the user adoption rate, thereby growing the potential market size.
 
 ## Conclusion: Don't Miss Out on the Future
