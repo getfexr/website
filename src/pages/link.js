@@ -1,57 +1,80 @@
-const baseAppUrl = 'fexr://';
-const appStoreUrl = 'https://apps.apple.com/vn/app/fexr-wallet/id1631128786';
-const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.getfexr.core';
+import Layout from '@theme/Layout';
+import React, { useEffect } from 'react';
 
-const urlParams = new URLSearchParams(window.location.search);
-const userStatus = urlParams.get('userStatus');
-const clubId = urlParams.get('clubId');
-const callbackUrl = urlParams.get('callback');
+function LinkPage() {
+  useEffect(() => {
+    function runClientSideLogic() {
+      const baseAppUrl = 'fexr://';
+      const appStoreUrl = 'https://apps.apple.com/vn/app/fexr-wallet/id1631128786';
+      const playStoreUrl = 'https://play.google.com/store/apps/details?id=com.getfexr.core';
 
-function getMobileOperatingSystem() {
-  const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  if (/android/i.test(userAgent)) return 'Android';
-  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) return 'iOS';
-  return 'unknown';
-}
+      const urlParams = new URLSearchParams(window.location.search);
+      const userStatus = urlParams.get('userStatus');
+      const clubId = urlParams.get('clubId');
+      const callbackUrl = urlParams.get('callback');
 
-function openApp() {
-  window.location = `${baseAppUrl}?userStatus=${userStatus}&clubId=${clubId}`;
-}
+      function getMobileOperatingSystem() {
+        const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+        if (/android/i.test(userAgent)) return 'Android';
+        if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) return 'iOS';
+        return 'unknown';
+      }
 
-function openAppStore() {
-  window.location = appStoreUrl;
-}
+      function openApp() {
+        window.location = `${baseAppUrl}?userStatus=${userStatus}&clubId=${clubId}`;
+      }
 
-function openPlayStore() {
-  window.location = playStoreUrl;
-}
+      function openAppStore() {
+        window.location = appStoreUrl;
+      }
 
-function checkAppPresence() {
-  const startTime = new Date().getTime();
-  const timeout = setTimeout(() => {
-    const endTime = new Date().getTime();
-    if (endTime - startTime < 1500) {
-      const os = getMobileOperatingSystem();
-      if (os === 'Android') openPlayStore();
-      else if (os === 'iOS') openAppStore();
+      function openPlayStore() {
+        window.location = playStoreUrl;
+      }
+
+      function checkAppPresence() {
+        const startTime = new Date().getTime();
+        const timeout = setTimeout(() => {
+          const endTime = new Date().getTime();
+          if (endTime - startTime < 1500) {
+            const os = getMobileOperatingSystem();
+            if (os === 'Android') openPlayStore();
+            else if (os === 'iOS') openAppStore();
+          }
+        }, 1000);
+
+        window.addEventListener('pagehide', () => clearTimeout(timeout));
+        openApp();
+      }
+
+      function postData() {
+        if (callbackUrl) {
+          fetch(callbackUrl, {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ userStatus, clubId }),
+          });
+        }
+      }
+
+      postData();
+      checkAppPresence();
     }
-  }, 1000);
 
-  window.addEventListener('pagehide', () => clearTimeout(timeout));
-  openApp();
+    if (typeof window !== 'undefined') {
+      runClientSideLogic();
+    }
+  }, []);
+
+  return (
+    <Layout>
+      <div className="grid h-min-screen place-items-center py-10">
+        <div>Redirecting...</div>
+      </div>
+    </Layout>
+  );
 }
 
-function postData() {
-  if (callbackUrl) {
-    fetch(callbackUrl, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({ userStatus, clubId }),
-    });
-  }
-}
-
-postData();
-checkAppPresence();
+export default LinkPage;
