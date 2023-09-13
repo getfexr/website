@@ -24,12 +24,23 @@ function LinkPage() {
         window.location = `${baseAppUrl}?userStatus=${userStatus}&clubId=${clubId}`;
       }
 
-      function openAppStore() {
-        window.location = appStoreUrl;
-      }
+      // Ask the user's preference
+      function askUserPreference() {
+        const userChoice = window.confirm(
+          'Do you want to continue on your mobile device?',
+        );
 
-      function openPlayStore() {
-        window.location = playStoreUrl;
+        if (userChoice) {
+          const os = getMobileOperatingSystem();
+          if (os === 'Android') {
+            window.location = playStoreUrl;
+          } else if (os === 'iOS') {
+            window.location = appStoreUrl;
+          }
+        } else {
+          // Open the web link
+          window.location = `https://fexr.club/${clubId}`;
+        }
       }
 
       function checkAppPresence() {
@@ -37,9 +48,8 @@ function LinkPage() {
         const timeout = setTimeout(() => {
           const endTime = new Date().getTime();
           if (endTime - startTime < 1500) {
-            const os = getMobileOperatingSystem();
-            if (os === 'Android') openPlayStore();
-            else if (os === 'iOS') openAppStore();
+            // App not detected, ask user's preference
+            askUserPreference();
           }
         }, 1000);
 
