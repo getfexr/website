@@ -41,6 +41,6 @@ Fexr reserves the right to modify or amend this Cancellation and Refund Policy a
 
 By using Fexr API services, you acknowledge and agree to this Cancellation and Refund Policy as well as any future revisions or modifications.
 
-*Last Updated: [Date]*
+*Last Updated: 19th September 2023*
 
 Please note that this policy is a sample and should be customized to meet the specific terms and conditions of your service. It's important to ensure that your policy complies with applicable laws and regulations in your jurisdiction.
