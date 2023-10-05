@@ -27,7 +27,7 @@ function LinkPage() {
       // Ask the user's preference
       function askUserPreference() {
         const userChoice = window.confirm(
-          'Do you want to continue on your mobile app?',
+          'Open on Fexr app?. Cancel to continue on web',
         );
 
         if (userChoice) {
