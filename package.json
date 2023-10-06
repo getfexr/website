@@ -54,7 +54,7 @@
     "install": "^0.13.0",
     "lint-staged": "^13.2.2",
     "npm": "^8.19.4",
-    "postcss": "^8.4.24"
+    "postcss": "^8.4.31"
   },
   "browserslist": {
     "production": [
