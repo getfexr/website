@@ -1,0 +1,194 @@
+@import "./fragments.css";
+
+@font-face {
+  font-family: "ApfelGrotezk";
+  src: url("/static/ApfelGrotezk-Regular.otf");
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/static/Outfit-VariableFont_wght.ttf");
+}
+
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 40px;
+    font-weight: 400;
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 400;
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+body {
+  font-family: "ApfelGrotezk";
+}
+/* You can override the default Infima variables here. */
+:root {
+  --white: #fefffe;
+  --grey: #fefffe;
+  --secondary-color: #fefffe;
+
+  --green-main: #00d96d;
+
+  --green-1: #17bd80;
+  --green-11: #12a568;
+  --green-2: #0c4e32;
+  --green-21: #0f2e21;
+
+  --green-3: #0b8456;
+  --green-4: #12da91;
+  --green-5: #43f086;
+
+  --ifm-font-size-base: 18px;
+  --ifm-code-font-size: 100%;
+  --ifm-background-color: var(--white);
+  --ifm-color-primary: var(--white2);
+  --ifm-footer-background-color: var(--white);
+  --hero-skew: -10deg;
+  --ifm-font-family-base: "ApfelGrotezk";
+  --ifm-heading-font-family: "ApfelGrotezk";
+  --doc-sidebar-width: 300px !important;
+  --ifm-link-color: var(--green-1);
+}
+
+html[data-theme="dark"] {
+  --ifm-dropdown-hover-background-color: var(--green-21);
+
+  --ifm-font-base-color: #111010;
+  --ifm-navbar-link-hover-color: var(--green-1);
+  --ifm-background-color: #111010;
+  --ifm-footer-background-color: #111010;
+  --ifm-menu-color-background-active: var(--green-21);
+  --secondary-color: #111010;
+}
+
+.app-button {
+  color: var(--ifm-background-color);
+}
+
+/* normalise button */
+button {
+  border: none;
+}
+
+.table-of-contents__link--active {
+  color: var(--green-1);
+}
+
+.table-of-contents__link:hover {
+  color: var(--green-1);
+}
+
+/* Prism in docusaurus.config.js is responsible for rest of the colors */
+
+/* Tailwindcss */
+
+.tailwind dd,
+.tailwind dt {
+  margin: 0;
+}
+
+.tailwind ol,
+.tailwind ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+svg {
+  display: inline-block;
+}
+
+.main-logo {
+  color: #111010;
+}
+
+.apply-button:hover {
+  color: #fff;
+}
+
+html[data-theme="dark"] .main-logo {
+  color: #fff;
+}
+
+.standout {
+  background-color: var(--secondary-color);
+}
+
+.canvas-bg {
+  z-index: -1;
+  position: absolute;
+  top: -40px;
+  left: 0;
+}
+
+html[data-theme="dark"] .showcase-border {
+  border-color: #111010;
+}
+
+.diagonal-box {
+  transform: skewY(-6deg);
+}
+
+.diagonal-content {
+  transform: skewY(6deg);
+}
+
+.dropdown > .navbar__link:after {
+  display: none;
+}
+
+.navbar__brand {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+
+.two-line-ellipsis {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.shadow-accent-volume {
+  --tw-shadow: 5px 5px 10px rgba(108, 106, 213, 0.25),
+    inset 2px 2px 6px var(--green-5), inset -5px -5px 10px var(--green-11);
+  --tw-shadow-colored: 5px 5px 10px var(--tw-shadow-color),
+    inset 2px 2px 6px var(--tw-shadow-color),
+    inset -5px -5px 10px var(--tw-shadow-color);
+}
+
+.shadow-accent-volume,
+.shadow-xl {
+  box-shadow: 0 0 transparent, 0 0 transparent, var(--tw-shadow);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 transparent),
+    var(--tw-ring-shadow, 0 0 transparent), var(--tw-shadow);
+}
+
+a {
+  font-family: var(--ifm-heading-font-family);
+}
