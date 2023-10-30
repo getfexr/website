@@ -16,7 +16,7 @@ function FeatureSection() {
             Robust Tech Foundation enabling
           </h2>
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">
-            Decentralized Value Stream Mapping For All
+            Value Stream Mapping for the Modern Age: A Decentralized Vision
           </h1>
         </div>
         <div class="flex flex-wrap -m-4">

@@ -12,99 +12,99 @@ const meta = {
 const config = {
   title: `${meta.title} | ${meta.tagline}`,
   tagline: meta.tagline, // goes in meta description
-  url: 'https://getfexr.com',
-  baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  url: "https://getfexr.com",
+  baseUrl: "/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'getfexr', // Usually your GitHub org/user name.
-  projectName: 'website/docs', // Usually your repo name.
+  organizationName: "getfexr", // Usually your GitHub org/user name.
+  projectName: "website/docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         debug: false,
         docs: {
-          path: 'learn',
-          routeBasePath: 'learn',
-          lastVersion: 'current',
-          sidebarPath: require.resolve('./sidebars.js'),
+          path: "learn",
+          routeBasePath: "learn",
+          lastVersion: "current",
+          sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/getfexr/website/tree/main/',
+          editUrl: "https://github.com/getfexr/website/tree/main/",
         },
         blog: {
           showReadingTime: true,
           // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/getfexr/website/tree/feature/main/',
+          editUrl: "https://github.com/getfexr/website/tree/feature/main/",
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         gtag: {
-          trackingID: 'G-8WENR5WPXE',
+          trackingID: "G-8WENR5WPXE",
           anonymizeIP: true,
         },
         sitemap: {
-          changefreq: 'weekly',
+          changefreq: "weekly",
           priority: 0.5,
-          ignorePatterns: ['/tags/**'],
-          filename: 'sitemap.xml',
+          ignorePatterns: ["/tags/**"],
+          filename: "sitemap.xml",
         },
       }),
     ],
   ],
-  plugins: ['tailwind-loader'],
+  plugins: ["tailwind-loader"],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       algolia: {
-        apiKey: '481c294cd5afa8803f32c1b027d0806f',
-        indexName: 'dev_getfexr',
-        appId: 'AJ4WOFLLGX',
+        apiKey: "481c294cd5afa8803f32c1b027d0806f",
+        indexName: "dev_getfexr",
+        appId: "AJ4WOFLLGX",
         contextualSearch: true,
         searchPagePath: false,
       },
       navbar: {
         hideOnScroll: false,
-        title: '',
+        title: "",
         logo: {
-          alt: 'Fexr Logo',
-          src: 'img/logo.svg',
+          alt: "Fexr Logo",
+          src: "img/logo.svg",
         },
         items: [
           {
-            type: 'dropdown',
-            position: 'left',
-            label: 'ID & Key Ownership',
+            type: "dropdown",
+            position: "left",
+            label: "ID & Key Ownership",
             items: [
               {
-                label: 'Download & Setup Wallet',
-                to: 'learn/id-and-key',
+                label: "Download & Setup Wallet",
+                to: "learn/id-and-key",
               },
               {
-                label: 'Security Policy',
-                to: 'learn/id-and-key/terms-privacy-policy',
+                label: "Security Policy",
+                to: "learn/id-and-key/terms-privacy-policy",
               },
             ],
           },
           {
-            type: 'dropdown',
-            position: 'left',
-            label: 'Passes & P2P Subscriptions',
+            type: "dropdown",
+            position: "left",
+            label: "Passes & P2P Subscriptions",
             items: [
               // todo: add these back in when we have the pages
               // {
@@ -124,90 +124,127 @@ const config = {
               //   to: "learn/p2p-subscriptions/",
               // },
               {
-                label: 'View Fexr.Club Discord Server',
-                to: 'https://discord.gg/CF5Q6jJR4f',
+                label: "View Fexr.Club Discord Server",
+                to: "https://discord.gg/CF5Q6jJR4f",
               },
             ],
           },
           {
-            type: 'dropdown',
-            position: 'right',
-            label: 'Developer tools & Licensing',
+            type: "dropdown",
+            position: "right",
+            label: "Developer tools & Licensing",
             items: [
               {
-                label: 'Web and Mobile SDK',
-                to: '/learn/developer-licensing/',
+                label: "Web and Mobile SDK",
+                to: "/learn/developer-licensing/",
               },
               {
-                label: 'Apply',
-                to: '/apply',
+                label: "Apply",
+                to: "/apply",
               },
               {
-                label: 'Company',
-                to: 'learn/about',
+                label: "Company",
+                to: "learn/about",
               },
               {
-                label: 'Roadmap',
-                to: 'learn/roadmap',
+                label: "Roadmap",
+                to: "learn/roadmap",
               },
               {
-                label: 'Announcements',
-                to: '/blog',
+                label: "Announcements",
+                to: "/blog",
               },
             ],
           },
           {
-            href: 'https://github.com/getfexr/',
-            label: 'GitHub',
-            position: 'right',
+            href: "https://github.com/getfexr/",
+            label: "GitHub",
+            position: "right",
           },
         ],
       },
       footer: {
-        style: 'light',
+        style: "dark",
         links: [
           {
-            title: 'learn',
+            title: "API",
             items: [
               {
-                label: 'Docs',
-                to: '/learn/roadmap',
+                label: "BeginnerBridgeAPI",
+                to: "/learn/roadmap",
+              },
+              {
+                label: "BridgeBoardMetrics",
+                to: "/learn/roadmap",
+              },
+              {
+                label: "ServiceDeskAPI",
+                to: "/learn/roadmap",
               },
             ],
           },
           {
-            title: 'Community',
+            title: "IAM",
             items: [
               {
-                label: 'Telegram',
-                href: 'https://t.me/getfexr',
+                label: "Micro Listings",
+                to: "/learn/roadmap",
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/getfexr',
+                label: "Sessions",
+                to: "/learn/roadmap",
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/getfexr',
+                label: "KYC & Flags",
+                to: "/learn/roadmap",
+              },
+              {
+                label: "Moderators & VIPs",
+                to: "/learn/roadmap",
+              },
+              {
+                label: "Live & Levels",
+                to: "/learn/roadmap",
+              },
+              {
+                label: "Signed Forms",
+                to: "/learn/roadmap",
               },
             ],
           },
           {
-            title: 'More',
+            title: "Community",
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Telegram",
+                href: "https://t.me/getfexr",
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/getfexr/',
+                label: "Discord",
+                href: "https://discordapp.com/invite/getfexr",
+              },
+              {
+                label: "Twitter",
+                href: "https://twitter.com/getfexr",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "Blog",
+                to: "/blog",
+              },
+              {
+                label: "GitHub",
+                href: "https://github.com/getfexr/",
               },
             ],
           },
         ],
         copyright: `
-More at help@fexr[.]club`,
+Contact help@fexr[.]club for more`,
       },
       prism: {
         theme: defaultCodeTheme,
