@@ -165,49 +165,49 @@ const config = {
       },
       footer: {
         style: 'light',
-        // links: [
-        //   {
-        //     title: 'learn',
-        //     items: [
-        //       {
-        //         label: 'Docs',
-        //         to: '/learn/roadmap',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Telegram',
-        //         href: 'https://t.me/getfexr',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/getfexr',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/getfexr',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'Blog',
-        //         to: '/blog',
-        //       },
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/getfexr/',
-        //       },
-        //     ],
-        //   },
-        // ],
+        links: [
+          {
+            title: 'learn',
+            items: [
+              {
+                label: 'Docs',
+                to: '/learn/roadmap',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Telegram',
+                href: 'https://t.me/getfexr',
+              },
+              {
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/getfexr',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/getfexr',
+              },
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'GitHub',
+                href: 'https://github.com/getfexr/',
+              },
+            ],
+          },
+        ],
         copyright: `
-Fexr is meticulously crafted to prioritize user retention by leveraging sustainable rewards and delivering an intuitive user experience with minimal steps.`,
+More at help@fexr[.]club`,
       },
       prism: {
         theme: defaultCodeTheme,
