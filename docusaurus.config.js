@@ -89,7 +89,7 @@ const config = {
           {
             type: "dropdown",
             position: "left",
-            label: "Start Building",
+            label: "Get Started",
             items: [
               {
                 label: "Download & Setup Wallet",
@@ -157,8 +157,8 @@ const config = {
             ],
           },
           {
-            href: "https://github.com/getfexr/",
-            label: "GitHub",
+            href: "https://discord.gg/CF5Q6jJR4f",
+            label: "Discord",
             position: "right",
           },
         ],
