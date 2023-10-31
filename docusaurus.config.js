@@ -89,7 +89,7 @@ const config = {
           {
             type: "dropdown",
             position: "left",
-            label: "ID & Key Ownership",
+            label: "Start Building",
             items: [
               {
                 label: "Download & Setup Wallet",
@@ -104,7 +104,7 @@ const config = {
           {
             type: "dropdown",
             position: "left",
-            label: "Passes & P2P Subscriptions",
+            label: "Community 101",
             items: [
               // todo: add these back in when we have the pages
               // {
@@ -132,7 +132,7 @@ const config = {
           {
             type: "dropdown",
             position: "right",
-            label: "Developer tools & Licensing",
+            label: "More",
             items: [
               {
                 label: "Web and Mobile SDK",
@@ -195,7 +195,7 @@ const config = {
                 to: "/learn/roadmap",
               },
               {
-                label: "KYC & Flags",
+                label: "KYC & Compliance",
                 to: "/learn/roadmap",
               },
               {

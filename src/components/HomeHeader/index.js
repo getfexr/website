@@ -1,30 +1,67 @@
 import React from 'react';
-import { useBaseUrlUtils } from '@docusaurus/useBaseUrl';
 
 function HomepageHeader() {
-  const { withBaseUrl } = useBaseUrlUtils();
 
   return (
     <section class="text-gray-600 body-font">
-      <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
-        <img
-          class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded"
-          alt="hero"
-          src="https://dummyimage.com/720x600"
-        />
-        <div class="text-center lg:w-2/3 w-full">
-          <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
-            Unraveling the Tale Behind Fexr
+      <div class="container px-5 py-24 mx-auto flex flex-wrap">
+        <div class="flex w-full mb-20 flex-wrap">
+          <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
+            A Better Funnel
           </h1>
-          <p class="mb-8 leading-relaxed">
-            Venture into our journey, understanding the essence and inspiration
-            behind the name Fexr. Paint a visual narrative that lures the
-            visitor into our world.
+          <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+            We've crafted an unparalleled experience, emphasizing swift
+            interactions within premium communities. Our funnel is devoid of
+            bottlenecks, ensuring sustained interactions and rewarding users for
+            their community engagements.
           </p>
-          <div class="flex justify-center">
-            <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">
-              Dive In
-            </button>
+        </div>
+        <div class="flex flex-wrap md:-m-2 -m-1">
+          <div class="flex flex-wrap w-1/2">
+            <div class="md:p-2 p-1 w-1/2">
+              <img
+                alt="gallery"
+                class="w-full object-cover h-full object-center block"
+                src="https://dummyimage.com/500x300"
+              />
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img
+                alt="gallery"
+                class="w-full object-cover h-full object-center block"
+                src="https://dummyimage.com/501x301"
+              />
+            </div>
+            <div class="md:p-2 p-1 w-full">
+              <img
+                alt="gallery"
+                class="w-full h-full object-cover object-center block"
+                src="https://dummyimage.com/600x360"
+              />
+            </div>
+          </div>
+          <div class="flex flex-wrap w-1/2">
+            <div class="md:p-2 p-1 w-full">
+              <img
+                alt="gallery"
+                class="w-full h-full object-cover object-center block"
+                src="https://dummyimage.com/601x361"
+              />
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img
+                alt="gallery"
+                class="w-full object-cover h-full object-center block"
+                src="https://dummyimage.com/502x302"
+              />
+            </div>
+            <div class="md:p-2 p-1 w-1/2">
+              <img
+                alt="gallery"
+                class="w-full object-cover h-full object-center block"
+                src="https://dummyimage.com/503x303"
+              />
+            </div>
           </div>
         </div>
       </div>

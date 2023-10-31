@@ -355,175 +355,413 @@ function TransparentEvolution() {
     </section>
   );
 }
-
-function BrandEngagement() {
+function Pricing() {
   return (
-    <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
-        <div class="flex flex-wrap w-full mb-20 flex-col items-center text-center">
-          <h1 class="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">
-            Reimagine Brand Engagement with Fexr
+    <section class="text-gray-600 body-font overflow-hidden">
+      <div class="container px-5 py-2 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
+            Predictable pricing, no surprises
           </h1>
-          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
-            Fexr isn't just another tool; it's a revolution. We've crafted an
-            unparalleled experience, emphasizing swift interactions within
-            premium communities. Our funnel is devoid of bottlenecks, ensuring
-            sustained interactions and rewarding users for their community
-            engagements.
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
+            Start building for free, collaborate with a team, then scale to
+            millions of audience.
           </p>
+          <div class="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
+            <button class="py-1 px-4 bg-blue-500 text-white focus:outline-none">
+              Monthly
+            </button>
+            <button class="py-1 px-4 focus:outline-none">Annually</button>
+          </div>
         </div>
         <div class="flex flex-wrap -m-4">
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                START
+              </h2>
+              <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+                Free
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                Button
                 <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  class="w-6 h-6"
+                  class="w-4 h-4 ml-auto"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Shooting Stars
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
               </p>
             </div>
           </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-blue-500 flex flex-col relative overflow-hidden">
+              <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
+                POPULAR
+              </span>
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                PRO
+              </h2>
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$38</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">
+                Button
                 <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  class="w-6 h-6"
+                  class="w-4 h-4 ml-auto"
                   viewBox="0 0 24 24"
                 >
-                  <circle cx="6" cy="6" r="3"></circle>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <path d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"></path>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                The Catalyzer
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
               </p>
             </div>
           </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                BUSINESS
+              </h2>
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$56</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                Button
                 <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  class="w-6 h-6"
+                  class="w-4 h-4 ml-auto"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Neptune
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
               </p>
             </div>
           </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"></path>
-                </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Melanchole
+          <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
+            <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
+              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+                SPECIAL
               </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>$72</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              </h1>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
               </p>
-            </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Bunker
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Tumeric plaid portland
               </p>
-            </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 rounded-lg">
-              <div class="w-10 h-10 inline-flex items-center justify-center rounded-full bg-blue-100 text-blue-500 mb-4">
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
+              </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Mixtape chillwave tumeric
+              </p>
+              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
+                Button
                 <svg
                   fill="none"
                   stroke="currentColor"
                   stroke-linecap="round"
                   stroke-linejoin="round"
                   stroke-width="2"
-                  class="w-6 h-6"
+                  class="w-4 h-4 ml-auto"
                   viewBox="0 0 24 24"
                 >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                  <path d="M5 12h14M12 5l7 7-7 7"></path>
                 </svg>
-              </div>
-              <h2 class="text-lg text-gray-900 font-medium title-font mb-2">
-                Ramona Falls
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              </button>
+              <p class="text-xs text-gray-500 mt-3">
+                Literally you probably haven't heard of them jean shorts.
               </p>
             </div>
           </div>
         </div>
-        <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
-          Button
-        </button>
       </div>
     </section>
   );
@@ -535,10 +773,10 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="w-full">
-        <BrandEngagement />
         <TransparentEvolution />
         <SetupDemo />
         <FeatureSection />
+        <Pricing/>
       </div>
     </section>
   );
