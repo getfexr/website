@@ -36,6 +36,54 @@ function SDK() {
       ),
     },
     {
+      name: "Some Forum",
+      image: "https://dummyimage.com/720x600",
+      title: "Value Stream Mapping for the Modern Age",
+      description:
+        "A structured approach to visualize communications and information flow...",
+      link: "/process-maps",
+      icon: (
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-5 h-5 mr-3"
+          viewBox="0 0 24 24"
+        >
+          <path d="M12.5,2.5v4c0,0.3-0.2,0.5-0.5,0.5h-4C7.7,7,7.5,6.8,7.5,6.5v-4C7.5,2.2,7.7,2,8,2h4C12.3,2,12.5,2.2,12.5,2.5z M11.5,3h-3v3h3V3z"></path>
+          <path d="M15.5,2.5v4c0,0.3,0.2,0.5,0.5,0.5h4c0.3,0,0.5-0.2,0.5-0.5v-4c0-0.3-0.2-0.5-0.5-0.5h-4C15.7,2,15.5,2.2,15.5,2.5z M16.5,3h3v3h-3V3z"></path>
+          <path d="M11.5,21.5v-4c0-0.3,0.2-0.5,0.5-0.5h4c0.3,0,0.5,0.2,0.5,0.5v4c0,0.3-0.2,0.5-0.5,0.5h-4C11.7,22,11.5,21.8,11.5,21.5z M12.5,21h3v-3h-3V21z"></path>
+          <path d="M8.5,21.5v-4c0-0.3-0.2-0.5-0.5-0.5h-4C3.7,17,3.5,17.2,3.5,17.5v4c0,0.3,0.2,0.5,0.5,0.5h4C8.3,22,8.5,21.8,8.5,21.5z M7.5,21h-3v-3h3V21z"></path>
+        </svg>
+      ),
+    },
+    {
+      name: "Some Other Forum",
+      image: "https://dummyimage.com/720x600",
+      title: "Value Stream Mapping for the Modern Age",
+      description:
+        "A structured approach to visualize communications and information flow...",
+      link: "/process-maps",
+      icon: (
+        <svg
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          class="w-5 h-5 mr-3"
+          viewBox="0 0 24 24"
+        >
+          <path d="M12.5,2.5v4c0,0.3-0.2,0.5-0.5,0.5h-4C7.7,7,7.5,6.8,7.5,6.5v-4C7.5,2.2,7.7,2,8,2h4C12.3,2,12.5,2.2,12.5,2.5z M11.5,3h-3v3h3V3z"></path>
+          <path d="M15.5,2.5v4c0,0.3,0.2,0.5,0.5,0.5h4c0.3,0,0.5-0.2,0.5-0.5v-4c0-0.3-0.2-0.5-0.5-0.5h-4C15.7,2,15.5,2.2,15.5,2.5z M16.5,3h3v3h-3V3z"></path>
+          <path d="M11.5,21.5v-4c0-0.3,0.2-0.5,0.5-0.5h4c0.3,0,0.5,0.2,0.5,0.5v4c0,0.3-0.2,0.5-0.5,0.5h-4C11.7,22,11.5,21.8,11.5,21.5z M12.5,21h3v-3h-3V21z"></path>
+          <path d="M8.5,21.5v-4c0-0.3-0.2-0.5-0.5-0.5h-4C3.7,17,3.5,17.2,3.5,17.5v4c0,0.3,0.2,0.5,0.5,0.5h4C8.3,22,8.5,21.8,8.5,21.5z M7.5,21h-3v-3h3V21z"></path>
+        </svg>
+      ),
+    },
+    {
       name: "Flutter",
       image: "https://dummyimage.com/720x600",
       title: "Ensuring Safety in Crowded Areas",
@@ -129,7 +177,7 @@ function SDK() {
                 <div class="flex flex-wrap -m-12">
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">API</span>
-        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Roof party normcore before they sold out, cornhole vape</h2>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Developer Endorsement from that tech stack</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
           <a class="text-indigo-500 inline-flex items-center">Try It Out
@@ -160,7 +208,7 @@ function SDK() {
       </div>
       <div class="p-12 md:w-1/2 flex flex-col items-start">
         <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">API</span>
-        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Pinterest DIY dreamcatcher gentrify single-origin coffee</h2>
+        <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Generate FOMO on this feature</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
           <a class="text-indigo-500 inline-flex items-center">Try It Out
@@ -420,10 +468,11 @@ function Pricing() {
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                START
+                FRIENDS AND FANS
               </h2>
-              <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
-                Free
+              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
+                <span>₹25</span>
+                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -439,7 +488,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Create upto 2 Clubs
+                Vexillologist pitchfork
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -456,6 +505,38 @@ function Pricing() {
                   </svg>
                 </span>
                 Tumeric plaid portland
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Hexagon neutra unicorn
+              </p>
+              <p class="flex items-center text-gray-600 mb-2">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Vexillologist pitchfork
               </p>
               <p class="flex items-center text-gray-600 mb-6">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -498,10 +579,10 @@ function Pricing() {
                 POPULAR
               </span>
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                PRO
+                STATUPS AND SMALL BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>$38</span>
+                <span>€120</span>
                 <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
@@ -590,10 +671,10 @@ function Pricing() {
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                BUSINESS
+                MEDIUM-SIZED BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>$56</span>
+                <span>$399</span>
                 <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
@@ -698,11 +779,10 @@ function Pricing() {
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
               <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
-                SPECIAL
+                LARGE ENTERPRISE AND CORP
               </h2>
-              <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>$72</span>
-                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+              <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+                Custom
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -718,7 +798,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Vexillologist pitchfork
+                Create upto 2 Clubs
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -735,38 +815,6 @@ function Pricing() {
                   </svg>
                 </span>
                 Tumeric plaid portland
-              </p>
-              <p class="flex items-center text-gray-600 mb-2">
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Hexagon neutra unicorn
-              </p>
-              <p class="flex items-center text-gray-600 mb-2">
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                Vexillologist pitchfork
               </p>
               <p class="flex items-center text-gray-600 mb-6">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
