@@ -446,6 +446,27 @@ function TransparentEvolution() {
   );
 }
 function Pricing() {
+    const [billingCycle, setBillingCycle] = useState("monthly");
+
+    const basePrices = {
+      friendsAndFans: 25,
+      startupsAndSmallBusiness: 120,
+      mediumSizedBusiness: 399,
+      // Add other plans as needed
+    };
+
+    const calculatePrice = (basePrice) => {
+      return billingCycle === "annually" ? basePrice * 10 : basePrice;
+    };
+
+    const calculateAnnualDiscountPrice = (basePrice) => {
+      const annualPrice = basePrice * 12; // Price without discount
+      return annualPrice - annualPrice * annualDiscountRate;
+    };
+
+    // Determine the billing period text based on the billing cycle
+    const billingPeriod = billingCycle === "annually" ? "yr" : "mo";
+
   return (
     <section class="text-gray-600 body-font overflow-hidden">
       <div class="container px-5 py-2 mx-auto">
@@ -454,14 +475,26 @@ function Pricing() {
             Predictable pricing, no surprises
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            Start building for free, collaborate with a team, then scale to
-            millions of audience.
+            Fight fraud in the golden age of fraud, collaborate with a team,
+            then scale to millions of audience.
           </p>
-          <div class="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
-            <button class="py-1 px-4 bg-blue-500 text-white focus:outline-none">
+          <div className="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
+            <button
+              className={`py-1 px-4 focus:outline-none ${
+                billingCycle === "monthly" ? "bg-blue-500 text-white" : ""
+              }`}
+              onClick={() => setBillingCycle("monthly")}
+            >
               Monthly
             </button>
-            <button class="py-1 px-4 focus:outline-none">Annually</button>
+            <button
+              className={`py-1 px-4 focus:outline-none ${
+                billingCycle === "annually" ? "bg-blue-500 text-white" : ""
+              }`}
+              onClick={() => setBillingCycle("annually")}
+            >
+              Annually
+            </button>
           </div>
         </div>
         <div class="flex flex-wrap -m-4">
@@ -471,9 +504,16 @@ function Pricing() {
                 FRIENDS AND FANS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>₹25</span>
-                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                <span>${calculatePrice(basePrices.friendsAndFans)}</span>
+                <span className="text-lg ml-1 font-normal text-gray-500">
+                  {billingCycle}
+                </span>
               </h1>
+              {billingCycle === "annually" && (
+                <span className="text-sm font-normal text-orange-500">
+                  2 months free
+                </span>
+              )}
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
@@ -488,7 +528,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Vexillologist pitchfork
+                Upto 2 Clubs
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -539,23 +579,11 @@ function Pricing() {
                 Vexillologist pitchfork
               </p>
               <p class="flex items-center text-gray-600 mb-6">
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0"></span>
                 Mixtape chillwave tumeric
               </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Button
+                Get Started
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -582,9 +610,18 @@ function Pricing() {
                 STATUPS AND SMALL BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>€120</span>
-                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                <span>
+                  ${calculatePrice(basePrices.startupsAndSmallBusiness)}
+                </span>
+                <span className="text-lg ml-1 font-normal text-gray-500">
+                  {billingCycle}
+                </span>
               </h1>
+              {billingCycle === "annually" && (
+                <span className="text-sm font-normal text-orange-500">
+                  2 months free
+                </span>
+              )}
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
@@ -599,7 +636,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Priced per Club
+                Upto 20 Clubs
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -650,7 +687,7 @@ function Pricing() {
                 Mixtape chillwave tumeric
               </p>
               <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">
-                Button
+                Most Popular
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -674,9 +711,16 @@ function Pricing() {
                 MEDIUM-SIZED BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
-                <span>$399</span>
-                <span class="text-lg ml-1 font-normal text-gray-500">/mo</span>
+                <span>${calculatePrice(basePrices.mediumSizedBusiness)}</span>
+                <span className="text-lg ml-1 font-normal text-gray-500">
+                  {billingCycle}
+                </span>
               </h1>
+              {billingCycle === "annually" && (
+                <span className="text-sm font-normal text-orange-500">
+                  2 months free
+                </span>
+              )}
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
@@ -691,7 +735,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Vexillologist pitchfork
+                Unlimited Clubs
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -739,7 +783,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Vexillologist pitchfork
+                Vexillologist pitchforks
               </p>
               <p class="flex items-center text-gray-600 mb-6">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -758,7 +802,7 @@ function Pricing() {
                 Mixtape chillwave tumeric
               </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Button
+                Get Started
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -782,7 +826,7 @@ function Pricing() {
                 LARGE ENTERPRISE AND CORP
               </h2>
               <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
-                Custom
+                Contact Us
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -798,7 +842,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Create upto 2 Clubs
+                Unlimited Clubs
               </p>
               <p class="flex items-center text-gray-600 mb-2">
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
@@ -833,7 +877,7 @@ function Pricing() {
                 Mixtape chillwave tumeric
               </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Button
+                Contact Us
                 <svg
                   fill="none"
                   stroke="currentColor"
