@@ -293,7 +293,7 @@ function SetupDemo() {
                 of community engagement with Fexr.
               </p>
               <a class="text-blue-500 inline-flex items-center">
-                Schedule in Calendly
+                Book a Demo
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -340,11 +340,31 @@ function TransparentEvolution() {
                 class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M3 18H7M10 18H21M5 21H12M16 21H19M8.8 15C6.14903 15 4 12.9466 4 10.4137C4 8.31435 5.6 6.375 8 6C8.75283 4.27403 10.5346 3 12.6127 3C15.2747 3 17.4504 4.99072 17.6 7.5C19.0127 8.09561 20 9.55741 20 11.1402C20 13.2719 18.2091 15 16 15L8.8 15Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
               </svg>
               <span class="title-font font-medium">
-                Crowd Protection
+                Structured Data Extraction using AI
               </span>
             </div>
           </div>
@@ -359,11 +379,31 @@ function TransparentEvolution() {
                 class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M7 10.0737C7.47142 10.0449 8.05259 10 8.8 10H15.2C15.9474 10 16.5286 10.0449 17 10.0737M7 10.0737C6.41168 10.1096 5.99429 10.1904 5.63803 10.3719C5.07354 10.6595 4.6146 11.1185 4.32698 11.683C4 12.3247 4 13.1648 4 14.8449V16.2449C4 17.9251 4 18.7652 4.32698 19.4069C4.6146 19.9714 5.07354 20.4303 5.63803 20.7179C6.27976 21.0449 7.11984 21.0449 8.8 21.0449H15.2C16.8802 21.0449 17.7202 21.0449 18.362 20.7179C18.9265 20.4303 19.3854 19.9714 19.673 19.4069C20 18.7652 20 17.9251 20 16.2449V14.8449C20 13.1648 20 12.3247 19.673 11.683C19.3854 11.1185 18.9265 10.6595 18.362 10.3719C18.0057 10.1904 17.5883 10.1096 17 10.0737M7 10.0737V8.04492C7 5.2835 9.23858 3.04492 12 3.04492C14.7614 3.04492 17 5.2835 17 8.04492V10.0737M10 18L10.2857 17M14 18L13.7143 17M10.2857 17L10.8308 15.0922C11.1799 13.8702 11.3545 13.2592 11.6244 13.1058C11.8573 12.9733 12.1427 12.9733 12.3756 13.1058C12.6455 13.2592 12.8201 13.8702 13.1692 15.0922L13.7143 17M10.2857 17H13.7143"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
               </svg>
               <span class="title-font font-medium">
-                Web3 User Onboarding
+                User Onboarding using Blockchains
               </span>
             </div>
           </div>
@@ -378,28 +418,31 @@ function TransparentEvolution() {
                 class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
-              </svg>
-              <span class="title-font font-medium">Web3 Wallet Checkout</span>
-            </div>
-          </div>
-          <div class="p-2 sm:w-1/2 w-full">
-            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
-              <svg
-                fill="none"
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="3"
-                class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
-                viewBox="0 0 24 24"
-              >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M4 14L9 19L20 8M6 8.88889L9.07692 12L16 5"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
               </svg>
               <span class="title-font font-medium">
-                Process Maps
+                Chat with AI models and Community Leads
               </span>
             </div>
           </div>
@@ -414,10 +457,32 @@ function TransparentEvolution() {
                 class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M9 12L11 14L15 10M12 3L13.9101 4.87147L16.5 4.20577L17.2184 6.78155L19.7942 7.5L19.1285 10.0899L21 12L19.1285 13.9101L19.7942 16.5L17.2184 17.2184L16.5 19.7942L13.9101 19.1285L12 21L10.0899 19.1285L7.5 19.7942L6.78155 17.2184L4.20577 16.5L4.87147 13.9101L3 12L4.87147 10.0899L4.20577 7.5L6.78155 6.78155L7.5 4.20577L10.0899 4.87147L12 3Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
               </svg>
-              <span class="title-font font-medium">Open Loyality</span>
+              <span class="title-font font-medium">
+                Micro Listings for On-Chain Txns
+              </span>
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
@@ -431,15 +496,76 @@ function TransparentEvolution() {
                 class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
                 viewBox="0 0 24 24"
               >
-                <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                <path d="M22 4L12 14.01l-3-3"></path>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M4 8L6 20H18L20 8M4 8L5.71624 9.37299C6.83218 10.2657 7.39014 10.7121 7.95256 10.7814C8.4453 10.8421 8.94299 10.7173 9.34885 10.4314C9.81211 10.1051 10.0936 9.4483 10.6565 8.13476L12 5M4 8C4.55228 8 5 7.55228 5 7C5 6.44772 4.55228 6 4 6C3.44772 6 3 6.44772 3 7C3 7.55228 3.44772 8 4 8ZM20 8L18.2838 9.373C17.1678 10.2657 16.6099 10.7121 16.0474 10.7814C15.5547 10.8421 15.057 10.7173 14.6511 10.4314C14.1879 10.1051 13.9064 9.4483 13.3435 8.13476L12 5M20 8C20.5523 8 21 7.55228 21 7C21 6.44772 20.5523 6 20 6C19.4477 6 19 6.44772 19 7C19 7.55228 19.4477 8 20 8ZM12 5C12.5523 5 13 4.55228 13 4C13 3.44772 12.5523 3 12 3C11.4477 3 11 3.44772 11 4C11 4.55228 11.4477 5 12 5ZM12 4H12.01M20 7H20.01M4 7H4.01"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
               </svg>
-              <span class="title-font font-medium">Compliance Info</span>
+              <span class="title-font font-medium">
+                Cross Brand Loyality Programs
+              </span>
+            </div>
+          </div>
+          <div class="p-2 sm:w-1/2 w-full">
+            <div class="bg-gray-100 rounded flex p-4 h-full items-center">
+              <svg
+                fill="none"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="3"
+                class="text-blue-500 w-6 h-6 flex-shrink-0 mr-4"
+                viewBox="0 0 24 24"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    {" "}
+                    <path
+                      d="M10.063 8.5C10.0219 8.34019 10 8.17265 10 8C10 6.89543 10.8954 6 12 6C12.1413 6 12.2792 6.01466 12.4122 6.04253M5 4L3 3M19 4L21 3M4 10H3M21 10H20M5.6 21H18.4C18.9601 21 19.2401 21 19.454 20.891C19.6422 20.7951 19.7951 20.6422 19.891 20.454C20 20.2401 20 19.9601 20 19.4V18.6C20 18.0399 20 17.7599 19.891 17.546C19.7951 17.3578 19.6422 17.2049 19.454 17.109C19.2401 17 18.9601 17 18.4 17H5.6C5.03995 17 4.75992 17 4.54601 17.109C4.35785 17.2049 4.20487 17.3578 4.10899 17.546C4 17.7599 4 18.0399 4 18.6V19.4C4 19.9601 4 20.2401 4.10899 20.454C4.20487 20.6422 4.35785 20.7951 4.54601 20.891C4.75992 21 5.03995 21 5.6 21ZM17 14V8C17 5.23858 14.7614 3 12 3C9.23858 3 7 5.23858 7 8V14H17Z"
+                      stroke="#000000"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></path>{" "}
+                  </g>
+                </svg>
+              </svg>
+              <span class="title-font font-medium">
+                Compliance and Crowd Protection
+              </span>
             </div>
           </div>
         </div>
         <button class="flex mx-auto mt-16 text-white bg-blue-500 border-0 py-2 px-8 focus:outline-none hover:bg-blue-600 rounded text-lg">
-          Button
+          View All Products
         </button>
       </div>
     </section>
@@ -698,7 +824,7 @@ function Pricing() {
               <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
                 POPULAR
               </span>
-              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
                 STATUPS AND SMALL BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
@@ -1101,6 +1227,22 @@ function Pricing() {
                 </span>
                 SSO for Fexr Club
               </p>
+              <p class="flex items-center text-gray-600 mb-6">
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Private Discord channel
+              </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                 Get Started
                 <svg
@@ -1122,10 +1264,10 @@ function Pricing() {
           </div>
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 class="text-sm tracking-widest title-font mb-1 font-medium">
+              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
                 LARGE ENTERPRISE AND CORP
               </h2>
-              <h1 class="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
+              <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
                 Contact Us
               </h1>
               <p class="flex items-center text-gray-600 mb-2">
@@ -1366,7 +1508,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Private Slack channel
+                Private Discord channel
               </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
                 Contact Us
