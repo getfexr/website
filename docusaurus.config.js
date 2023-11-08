@@ -78,9 +78,17 @@ const config = {
         contextualSearch: true,
         searchPagePath: false,
       },
+      announcementBar: {
+        id: "support_us",
+        content:
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+        backgroundColor: "#fafbfc",
+        textColor: "#091E42",
+        isCloseable: false,
+      },
       navbar: {
-        hideOnScroll: false,
-        title: "",
+        hideOnScroll: true,
+        title: "Fexr",
         logo: {
           alt: "Fexr Logo",
           src: "img/logo.svg",

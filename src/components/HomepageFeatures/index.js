@@ -287,9 +287,7 @@ function SetupDemo() {
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p class="leading-relaxed text-lg mb-4">
-                Unlock the potential of blockchain and community synergy.
-                Explore firsthand how Fexr can empower your group. Reach out
-                today to schedule your personalized demo and discover the future
+                Reach out today to schedule your personalized demo and discover the future
                 of community engagement with Fexr.
               </p>
               <a class="text-blue-500 inline-flex items-center">
@@ -495,7 +493,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Micro Listings for On-Chain Txns
+                Activate Micro Listings & Passes
               </span>
             </div>
           </div>
@@ -573,7 +571,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Augment your existing ERP with Full Data Ownership
+                Augment your existing ERP & CRM with Full Data Ownership
               </span>
             </div>
           </div>
