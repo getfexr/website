@@ -38,8 +38,8 @@ const config = {
       ({
         debug: false,
         docs: {
-          path: "learn",
-          routeBasePath: "learn",
+          path: "community101",
+          routeBasePath: "community101",
           lastVersion: "current",
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
@@ -95,19 +95,9 @@ const config = {
         },
         items: [
           {
-            type: "dropdown",
             position: "left",
-            label: "Get Started",
-            items: [
-              {
-                label: "Download & Setup Wallet",
-                to: "learn/id-and-key",
-              },
-              {
-                label: "Security Policy",
-                to: "learn/id-and-key/terms-privacy-policy",
-              },
-            ],
+            label: "Dashboard",
+            href: "https://fexr.club",
           },
           {
             type: "dropdown",
@@ -129,7 +119,7 @@ const config = {
               // },
               // {
               //   label: "Start Monetizing",
-              //   to: "learn/p2p-subscriptions/",
+              //   to: "community101/p2p-subscriptions/",
               // },
               {
                 label: "View Fexr.Club Discord Server",
@@ -144,7 +134,7 @@ const config = {
             items: [
               {
                 label: "Web and Mobile SDK",
-                to: "/learn/developer-licensing/",
+                to: "/community101/developer-licensing/",
               },
               {
                 label: "Apply",
@@ -152,11 +142,11 @@ const config = {
               },
               {
                 label: "Company",
-                to: "learn/about",
+                to: "community101/about",
               },
               {
                 label: "Roadmap",
-                to: "learn/roadmap",
+                to: "community101/roadmap",
               },
               {
                 label: "Announcements",
@@ -179,15 +169,15 @@ const config = {
             items: [
               {
                 label: "BeginnerBridgeAPI",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "BridgeBoardMetrics",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "ServiceDeskAPI",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
             ],
           },
@@ -196,27 +186,27 @@ const config = {
             items: [
               {
                 label: "Micro Listings",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "Sessions",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "KYC & Compliance",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "Moderators & VIPs",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "Live & Levels",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
               {
                 label: "Signed Forms",
-                to: "/learn/roadmap",
+                to: "/community101/roadmap",
               },
             ],
           },

@@ -176,7 +176,7 @@ function SDK() {
                 />
                 <div class="flex flex-wrap -m-12">
       <div class="p-12 md:w-1/2 flex flex-col items-start">
-        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">API</span>
+        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">COMMUNITY</span>
         <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Developer Endorsement from that tech stack</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric. Cray pug you probably haven't heard of them hexagon kickstarter craft beer pork chic.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
@@ -207,7 +207,7 @@ function SDK() {
         </a>
       </div>
       <div class="p-12 md:w-1/2 flex flex-col items-start">
-        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">API</span>
+        <span class="inline-block py-1 px-2 rounded bg-indigo-50 text-indigo-500 text-xs font-medium tracking-widest">COMMUNITY</span>
         <h2 class="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Generate FOMO on this feature</h2>
         <p class="leading-relaxed mb-8">Live-edge letterpress cliche, salvia fanny pack humblebrag narwhal portland. VHS man braid palo santo hoodie brunch trust fund. Bitters hashtag waistcoat fashion axe chia unicorn. Plaid fixie chambray 90's, slow-carb etsy tumeric.</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
@@ -813,7 +813,7 @@ function Pricing() {
                 Email support
               </p>
               <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Get Started
+                Start 10 Day Free Trial
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -827,7 +827,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                An affordable starter package perfect for managing up to 2 clubs
+                with essential features for small communities.
               </p>
             </div>
           </div>
@@ -1027,7 +1028,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                The 'Most Popular' plan, offering a balanced range of resources
+                for up to 20 clubs, tailored for growing businesses.
               </p>
             </div>
           </div>
@@ -1270,7 +1272,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                A comprehensive plan for unlimited club growth with advanced
+                features and support, designed for medium-sized businesses.
               </p>
             </div>
           </div>
@@ -1537,7 +1540,9 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                Literally you probably haven't heard of them jean shorts.
+                A fully customizable solution with dedicated support, ensuring
+                large enterprises get exactly what they need for scalability and
+                compliance.
               </p>
             </div>
           </div>
