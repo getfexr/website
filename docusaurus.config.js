@@ -96,7 +96,7 @@ const config = {
         items: [
           {
             position: "left",
-            label: "Dashboard",
+            label: "Login",
             href: "https://fexr.club",
           },
           {

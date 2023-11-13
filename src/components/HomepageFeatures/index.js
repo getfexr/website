@@ -652,7 +652,10 @@ function Pricing() {
                   2 months free
                 </span>
               )}
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -668,7 +671,10 @@ function Pricing() {
                 </span>
                 Upto 2 Clubs
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -684,7 +690,10 @@ function Pricing() {
                 </span>
                 200MB database storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -700,7 +709,10 @@ function Pricing() {
                 </span>
                 2.5 GB file storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -716,7 +728,10 @@ function Pricing() {
                 </span>
                 10GB bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -732,7 +747,8 @@ function Pricing() {
                 </span>
                 100MB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -748,7 +764,8 @@ function Pricing() {
                 </span>
                 2,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -764,7 +781,8 @@ function Pricing() {
                 </span>
                 50,000 Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -780,7 +798,8 @@ function Pricing() {
                 </span>
                 10 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -796,7 +815,8 @@ function Pricing() {
                 </span>
                 7-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -853,7 +873,10 @@ function Pricing() {
                   2 months free
                 </span>
               )}
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -869,7 +892,10 @@ function Pricing() {
                 </span>
                 Upto 20 Clubs
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -885,7 +911,10 @@ function Pricing() {
                 </span>
                 2GB database storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -901,7 +930,10 @@ function Pricing() {
                 </span>
                 25 GB file storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -917,7 +949,8 @@ function Pricing() {
                 </span>
                 100GB bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -933,7 +966,8 @@ function Pricing() {
                 </span>
                 1GB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -949,7 +983,8 @@ function Pricing() {
                 </span>
                 20,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -965,7 +1000,8 @@ function Pricing() {
                 </span>
                 500,000 Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -981,7 +1017,8 @@ function Pricing() {
                 </span>
                 100 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -997,7 +1034,8 @@ function Pricing() {
                 </span>
                 7-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1049,7 +1087,10 @@ function Pricing() {
                   2 months free
                 </span>
               )}
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1065,7 +1106,10 @@ function Pricing() {
                 </span>
                 Unlimited Clubs
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1081,7 +1125,10 @@ function Pricing() {
                 </span>
                 8GB database storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1097,7 +1144,10 @@ function Pricing() {
                 </span>
                 100 GB file storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1113,7 +1163,8 @@ function Pricing() {
                 </span>
                 250GB bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1129,7 +1180,8 @@ function Pricing() {
                 </span>
                 5GB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1145,7 +1197,8 @@ function Pricing() {
                 </span>
                 100,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1161,7 +1214,8 @@ function Pricing() {
                 </span>
                 2M Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1177,7 +1231,8 @@ function Pricing() {
                 </span>
                 500 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1193,7 +1248,8 @@ function Pricing() {
                 </span>
                 28-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1209,7 +1265,8 @@ function Pricing() {
                 </span>
                 Priority email support & SLAs
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1225,7 +1282,8 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1241,7 +1299,8 @@ function Pricing() {
                 </span>
                 SSO for Fexr Club
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1285,7 +1344,10 @@ function Pricing() {
               <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
                 Contact Us
               </h1>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1301,7 +1363,10 @@ function Pricing() {
                 </span>
                 Unlimited Clubs
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1317,7 +1382,10 @@ function Pricing() {
                 </span>
                 Custom database storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1333,7 +1401,10 @@ function Pricing() {
                 </span>
                 Custom file storage
               </p>
-              <p class="flex items-center text-gray-600 mb-2">
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1349,7 +1420,8 @@ function Pricing() {
                 </span>
                 Custom bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1365,7 +1437,8 @@ function Pricing() {
                 </span>
                 Custom document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1381,7 +1454,8 @@ function Pricing() {
                 </span>
                 Custom monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1397,7 +1471,8 @@ function Pricing() {
                 </span>
                 Custom Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1413,7 +1488,8 @@ function Pricing() {
                 </span>
                 Custom concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1429,7 +1505,8 @@ function Pricing() {
                 </span>
                 Custom log retention period
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1445,7 +1522,8 @@ function Pricing() {
                 </span>
                 Designated Support manager & SLAs
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1461,7 +1539,8 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1477,7 +1556,8 @@ function Pricing() {
                 </span>
                 SSO for Fexr Club
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1493,7 +1573,8 @@ function Pricing() {
                 </span>
                 SOC2
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1509,7 +1590,8 @@ function Pricing() {
                 </span>
                 On-premise support
               </p>
-              <p class="flex items-center text-gray-600 mb-6">
+              <p class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}>
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
