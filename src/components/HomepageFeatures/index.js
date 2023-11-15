@@ -376,7 +376,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Structured Data Extraction using AI
+                Structured Data Extraction using AI on existing Data Sources or Customer Forms
               </span>
             </div>
           </div>
@@ -858,7 +858,7 @@ function Pricing() {
                 POPULAR
               </span>
               <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
-                STATUPS AND SMALL BUSINESS
+                STARTUPS AND SMALL BUSINESS
               </h2>
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                 <span>
