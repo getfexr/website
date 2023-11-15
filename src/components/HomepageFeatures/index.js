@@ -415,7 +415,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                User Onboarding using Blockchains
+                User Onboarding using Blockchain Wallet
               </span>
             </div>
           </div>
@@ -493,7 +493,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Activate Micro Listings & Passes
+                Activate and Engage Micro Listings & Passes
               </span>
             </div>
           </div>
@@ -532,7 +532,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Cross Brand Loyality Programs
+                Cross Brand Revenue Sharing and Loyality Programs
               </span>
             </div>
           </div>
