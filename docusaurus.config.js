@@ -38,8 +38,8 @@ const config = {
       ({
         debug: false,
         docs: {
-          path: "community101",
-          routeBasePath: "community101",
+          path: "learn",
+          routeBasePath: "learn",
           lastVersion: "current",
           sidebarPath: require.resolve("./sidebars.js"),
           // Remove this to remove the "edit this page" links.
@@ -119,7 +119,7 @@ const config = {
               // },
               // {
               //   label: "Start Monetizing",
-              //   to: "community101/p2p-subscriptions/",
+              //   to: "learn/p2p-subscriptions/",
               // },
               {
                 label: "View Fexr.Club Discord Server",
@@ -134,7 +134,7 @@ const config = {
             items: [
               {
                 label: "Web and Mobile SDK",
-                to: "/community101/developer-licensing/",
+                to: "/learn/developer-licensing/",
               },
               {
                 label: "Apply",
@@ -142,11 +142,11 @@ const config = {
               },
               {
                 label: "Company",
-                to: "community101/about",
+                to: "learn/about",
               },
               {
                 label: "Roadmap",
-                to: "community101/roadmap",
+                to: "learn/roadmap",
               },
               {
                 label: "Announcements",
@@ -169,15 +169,15 @@ const config = {
             items: [
               {
                 label: "BeginnerBridgeAPI",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "BridgeBoardMetrics",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "ServiceDeskAPI",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
             ],
           },
@@ -186,27 +186,27 @@ const config = {
             items: [
               {
                 label: "Micro Listings",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "Sessions",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "KYC & Compliance",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "Moderators & VIPs",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "Live & Levels",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
               {
                 label: "Signed Forms",
-                to: "/community101/roadmap",
+                to: "/learn/roadmap",
               },
             ],
           },
