@@ -376,7 +376,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Structured Data Extraction using AI on existing Data Sources or Customer Forms
+                Structured Data Extraction and Data Clean Rooms
               </span>
             </div>
           </div>

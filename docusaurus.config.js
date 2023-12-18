@@ -88,7 +88,7 @@ const config = {
       },
       navbar: {
         hideOnScroll: true,
-        title: "Fexr",
+        title: "",
         logo: {
           alt: "Fexr Logo",
           src: "img/logo.svg",
@@ -97,7 +97,7 @@ const config = {
           {
             position: "left",
             label: "Login",
-            href: "https://fexr.club",
+            href: "https://fexr.club/login",
           },
           {
             type: "dropdown",
