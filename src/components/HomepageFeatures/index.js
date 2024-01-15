@@ -375,7 +375,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Structured Data Extraction and Data Clean Rooms
+                Structured Data Extraction and Data Clean Rooms (Experimental)
               </span>
             </div>
           </div>
@@ -531,7 +531,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Cross Brand Revenue Sharing and Loyality Programs
+                Free and Cross-Compatible Customer Wallets
               </span>
             </div>
           </div>
