@@ -375,7 +375,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Structured Data Extraction and Data Clean Rooms (Experimental)
+                Custom Data Aggregation and Anonymization Tool (Experimental)
               </span>
             </div>
           </div>
