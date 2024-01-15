@@ -375,7 +375,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Custom Data Aggregation and Anonymization Tool (Experimental)
+                Custom data aggregation and anonymization tool (Experimental)
               </span>
             </div>
           </div>
@@ -413,9 +413,7 @@ function TransparentEvolution() {
                   </g>
                 </svg>
               </svg>
-              <span class="title-font font-medium">
-                User Onboarding using Blockchain Wallet
-              </span>
+              <span class="title-font font-medium">Projections on demand volatility and facilities</span>
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
@@ -453,7 +451,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                AI Conversational Agents and Community Leads
+                AI conversational agents and Community Leads
               </span>
             </div>
           </div>
@@ -492,7 +490,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Activate and Engage Micro Listings & Passes
+                Activate and engage micro listings & passes
               </span>
             </div>
           </div>
@@ -531,7 +529,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Free and Cross-Compatible Customer Wallets
+                Minimal and cross-compatible customer wallets
               </span>
             </div>
           </div>
@@ -570,7 +568,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Augment your existing ERP & CRM with Full Data Ownership
+                Augment your existing ERP & CRM with full data ownership
               </span>
             </div>
           </div>
