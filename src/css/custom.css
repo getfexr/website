@@ -1,5 +1,10 @@
 @import "./fragments.css";
 
+
+@font-face {
+  font-family: "CalSans";
+  src: url("/static/CalSans-SemiBold.ttf");
+}
 @font-face {
   font-family: "ApfelGrotezk";
   src: url("/static/ApfelGrotezk-Regular.otf");
@@ -8,6 +13,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/static/Outfit-VariableFont_wght.ttf");
+}
 
 @font-face {
   font-family: "Outfit";
@@ -193,13 +203,12 @@ a {
   font-family: var(--ifm-heading-font-family);
 }
 
-/* Change the navbar background */
-.navbar {
-  --ifm-navbar-background-color: #3D9970; /* Replace #YOUR_COLOR_HERE with your chosen hex color */
-}
-
 /* Change the navbar title font size and weight */
 .navbar__title {
   font-size: 16px; /* Set the font size to 20px */
   font-weight: 300; /* Set the font weight to '300' for a thinner look */
+}
+
+h1 {
+    font-family: 'CalSans', sans-serif;
 }

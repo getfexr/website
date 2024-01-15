@@ -291,7 +291,7 @@ function SetupDemo() {
                 of community engagement with Fexr.
               </p>
               <a class="text-blue-500 inline-flex items-center">
-                Book a Demo
+                Schedule Meet
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -321,9 +321,8 @@ function TransparentEvolution() {
             A Transparent Evolution
           </h1>
           <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            While we pride ourselves on innovation, we honor the pillars that
-            have held us firm. Dive into features that, while existing, are now
-            showcased with a renewed transparency and flair.
+            Understand Your Audience Better. Simple, Effective AI Tools for Real
+            Growth. Transform Engagement into Success
           </p>
         </div>
         <div class="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
@@ -1642,7 +1641,7 @@ export default function HomepageFeatures() {
       <div className="w-full">
         <TransparentEvolution />
         <SetupDemo />
-        <SDK />
+        {/* TODO: bring this back in 2025 JAN (1/2): <SDK /> */}
         <Pricing/>
       </div>
     </section>

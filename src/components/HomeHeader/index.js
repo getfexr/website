@@ -7,13 +7,13 @@ function HomepageHeader() {
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-            Accelerating Engagement: A Faster Funnel, A Better Business.
+            Accelerating Engagement. A Faster Funnel, A Better Business.
           </h1>
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
             We've crafted an unparalleled experience, emphasizing swift
-            interactions within premium communities. Our funnel is devoid of
-            bottlenecks, ensuring sustained interactions and rewarding users for
-            their community engagements.
+            interactions within premium communities. 
+            <a href="https://fexr.club/form/1234"> Contact </a>our integration
+            expert to learn more.
           </p>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">

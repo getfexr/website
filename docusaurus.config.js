@@ -81,7 +81,7 @@ const config = {
       announcementBar: {
         id: "support_us",
         content:
-          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/1234">this survey</a>',
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: false,
@@ -96,37 +96,37 @@ const config = {
         items: [
           {
             position: "left",
-            label: "Login",
-            href: "https://fexr.club/login",
+            label: "Dashboard",
+            href: "https://fexr.club/dashboard",
           },
-          {
-            type: "dropdown",
-            position: "left",
-            label: "Community 101",
-            items: [
-              // todo: add these back in when we have the pages
-              // {
-              //   label: 'Create Subscription',
-              //   to: 'https://fexr.club/subs',
-              // },
-              // {
-              //   label: 'Create Pass',
-              //   to: 'https://fexr.club/pass',
-              // },
-              // {
-              //   label: 'Go to Dashboard',
-              //   to: 'https://fexr.club/dash',
-              // },
-              // {
-              //   label: "Start Monetizing",
-              //   to: "learn/p2p-subscriptions/",
-              // },
-              {
-                label: "View Fexr.Club Discord Server",
-                to: "https://discord.gg/CF5Q6jJR4f",
-              },
-            ],
-          },
+          // {
+          //   type: "dropdown",
+          //   position: "left",
+          //   label: "Social",
+          //   items: [
+          //     // todo: add these back in when we have the pages
+          //     // {
+          //     //   label: 'Create Subscription',
+          //     //   to: 'https://fexr.club/subs',
+          //     // },
+          //     // {
+          //     //   label: 'Create Pass',
+          //     //   to: 'https://fexr.club/pass',
+          //     // },
+          //     // {
+          //     //   label: 'Go to Dashboard',
+          //     //   to: 'https://fexr.club/dash',
+          //     // },
+          //     // {
+          //     //   label: "Start Monetizing",
+          //     //   to: "learn/p2p-subscriptions/",
+          //     // },
+          //     {
+          //       label: "Discord",
+          //       to: "https://discord.gg/CF5Q6jJR4f",
+          //     },
+          //   ],
+          // },
           {
             type: "dropdown",
             position: "right",
@@ -164,52 +164,53 @@ const config = {
       footer: {
         style: "dark",
         links: [
-          {
-            title: "API",
-            items: [
-              {
-                label: "BeginnerBridgeAPI",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "BridgeBoardMetrics",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "ServiceDeskAPI",
-                to: "/learn/roadmap",
-              },
-            ],
-          },
-          {
-            title: "IAM",
-            items: [
-              {
-                label: "Micro Listings",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "Sessions",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "KYC & Compliance",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "Moderators & VIPs",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "Live & Levels",
-                to: "/learn/roadmap",
-              },
-              {
-                label: "Signed Forms",
-                to: "/learn/roadmap",
-              },
-            ],
-          },
+          // TODO: Bring this back in 2025 JAN (2/2)
+          // {
+          //   title: "API",
+          //   items: [
+          //     {
+          //       label: "BeginnerBridgeAPI",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "BridgeBoardMetrics",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "ServiceDeskAPI",
+          //       to: "/learn/roadmap",
+          //     },
+          //   ],
+          // },
+          // {
+          //   title: "IAM",
+          //   items: [
+          //     {
+          //       label: "Micro Listings",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "Sessions",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "KYC & Compliance",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "Moderators & VIPs",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "Live & Levels",
+          //       to: "/learn/roadmap",
+          //     },
+          //     {
+          //       label: "Signed Forms",
+          //       to: "/learn/roadmap",
+          //     },
+          //   ],
+          // },
           {
             title: "Community",
             items: [
