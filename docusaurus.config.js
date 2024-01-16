@@ -81,7 +81,7 @@ const config = {
       announcementBar: {
         id: "support_us",
         content:
-          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/1234">this survey</a>',
+          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a>',
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: false,

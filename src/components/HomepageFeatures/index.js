@@ -607,7 +607,7 @@ function Pricing() {
       <div class="container px-5 py-2 mx-auto">
         <div class="flex flex-col text-center w-full mb-20">
           <h1 class="sm:text-4xl text-3xl font-medium title-font mb-2 text-gray-900">
-            Predictable pricing, no surprises
+            Predictable pricing, best of Fexr
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
             Fight fraud in the golden age of fraud, collaborate with a team,
