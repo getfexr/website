@@ -287,8 +287,7 @@ function SetupDemo() {
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p class="leading-relaxed text-lg mb-4">
-                Reach out today to schedule your personalized demo and discover the future
-                of community engagement with Fexr.
+                More than 1/3rd your subscription payment goes directly to the Community Lead helping you with your integration.
               </p>
               <a class="text-blue-500 inline-flex items-center">
                 Schedule Meet

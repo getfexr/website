@@ -12,7 +12,7 @@ function HomepageHeader() {
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
             We've crafted an unparalleled experience, emphasizing swift
             interactions within premium communities.
-            <a href="https://fexr.club/form/clqxj80bd00007kxnla4jgr7m">
+            <a href="https://fexr.club/form/clricavou0000ilxn1um335cr">
               {" "}
               Contact{" "}
             </a>
