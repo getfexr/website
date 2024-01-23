@@ -71,6 +71,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+      },
       algolia: {
         apiKey: "481c294cd5afa8803f32c1b027d0806f",
         indexName: "dev_getfexr",
@@ -127,32 +131,36 @@ const config = {
           //     },
           //   ],
           // },
+          // {
+          //   type: "dropdown",
+          //   position: "right",
+          //   label: "More",
+          //   items: [
+          //     {
+          //       label: "Web and Mobile SDK",
+          //       to: "/learn/developer-licensing/",
+          //     },
+          //     {
+          //       label: "Apply",
+          //       to: "/apply",
+          //     },
+          //     {
+          //       label: "Company",
+          //       to: "learn/about",
+          //     },
+          //     {
+          //       label: "Roadmap",
+          //       to: "learn/roadmap",
+          //     },
+          //     {
+          //       label: "Announcements",
+          //       to: "/blog",
+          //     },
+          //   ],
+          // },
           {
-            type: "dropdown",
-            position: "right",
-            label: "More",
-            items: [
-              {
-                label: "Web and Mobile SDK",
-                to: "/learn/developer-licensing/",
-              },
-              {
-                label: "Apply",
-                to: "/apply",
-              },
-              {
-                label: "Company",
-                to: "learn/about",
-              },
-              {
-                label: "Roadmap",
-                to: "learn/roadmap",
-              },
-              {
-                label: "Announcements",
-                to: "/blog",
-              },
-            ],
+            label: "Features",
+            to: "/learn/features",
           },
           {
             href: "https://discord.gg/CF5Q6jJR4f",
