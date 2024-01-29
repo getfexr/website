@@ -32,7 +32,7 @@ function HomepageHeader() {
               <img
                 alt="gallery"
                 class="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/600x360"
+                src="./img/landing/600x360.png"
               />
             </div>
           </div>
@@ -55,7 +55,7 @@ function HomepageHeader() {
               <img
                 alt="gallery"
                 class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/503x303"
+                src="./img/landing/503x303.png"
               />
             </div>
           </div>
