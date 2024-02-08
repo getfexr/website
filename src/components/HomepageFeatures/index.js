@@ -251,28 +251,32 @@ function SetupDemo() {
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-2 mx-auto flex flex-col">
         <div class="lg:w-4/6 mx-auto">
-          <div class="rounded-lg h-64 overflow-hidden">
+          {/* <div class="rounded-lg h-64 overflow-hidden">
             <img
               alt="content"
               class="object-cover object-center h-full w-full"
               src="./img/landing/1200x500.png"
             />
-          </div>
+          </div> */}
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-1/3 text-center sm:pr-1 sm:py-3">
-              <img
+              {/* <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
                 src="./img/landing/become-FCL.png"
-              />
+              /> */}
             </div>
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <h1 class="leading-relaxed text-lg mb-4">
-                More than 1/3rd of your subscription cost goes directly to
-                your Community Lead for helping with tech integrations followed
-                by campaigns. Imagine Patreon for your favorite data-generating business instead of video based contents.
+                More than 1/3rd of your subscription cost goes directly to your
+                Community Lead for helping with tech integrations followed by
+                campaigns. Imagine Patreon for your favourite data-generating
+                business instead of video based contents.
               </h1>
-              <a class="text-blue-500 inline-flex items-center">
+              <a
+                class="text-blue-500 inline-flex items-center"
+                href="https://fexr.club/form/clricavou0000ilxn1um335cr"
+              >
                 Schedule Meet
                 <svg
                   fill="none"
@@ -297,7 +301,27 @@ function SetupDemo() {
 function TransparentEvolution() {
   return (
     <section class="text-gray-600 body-font">
-      <div class="container px-5 py-24 mx-auto">
+      <div
+        class="container px-5 py-24 mx-auto"
+        style={{ position: "relative" }}
+      >
+        <video
+          autoPlay
+          loop
+          muted
+          style={{
+            position: "absolute",
+            width: "100%",
+            left: "50%",
+            top: "50%",
+            height: "100%",
+            objectFit: "cover",
+            transform: "translate(-50%, -50%)",
+            zIndex: "-1",
+          }}
+        >
+          <source src="./img/landing/transparent.mp4" type="video/mp4" />
+        </video>
         <div class="text-center mb-20">
           <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
             A Transparent Evolution
@@ -513,7 +537,8 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Create Club Member IDs secured with Blockchain standards for interoperability
+                Create Club Member IDs secured with Blockchain standards for
+                interoperability
               </span>
             </div>
           </div>
@@ -601,20 +626,27 @@ function Pricing() {
           <div className="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
             <button
               className={`py-1 px-4 focus:outline-none ${
-                billingCycle === "monthly" ? "bg-blue-500 text-white" : ""
+                billingCycle === "monthly"
+                  ? "bg-gray-300 text-green"
+                  : "bg-gray-100 text-black"
               }`}
               onClick={() => setBillingCycle("monthly")}
             >
               Monthly
             </button>
             <button
-              className={`py-1 px-4 focus:outline-none ${
-                billingCycle === "annually" ? "bg-blue-500 text-white" : ""
+              className={`py-4 px-4 focus:outline-none ${
+                billingCycle === "annually"
+                  ? "bg-gray-300 text-green"
+                  : "bg-gray-100 text-black"
               }`}
               onClick={() => setBillingCycle("annually")}
             >
               Annually
             </button>
+          </div>
+          <div className="text-center mt-2">
+            {billingCycle === "annually"}
           </div>
         </div>
         <div class="flex flex-wrap -m-4">
@@ -689,7 +721,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                200MB database storage
+                1GB database storage
               </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
@@ -708,7 +740,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                2.5 GB file storage
+                5GB file storage
               </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
@@ -865,8 +897,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                An affordable starter package perfect for managing up to 2 clubs
-                with essential features for small communities.
+                An affordable starter package perfect for managing one clubs
+                with essential features for your club.
               </p>
             </div>
           </div>
@@ -1120,8 +1152,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                The 'Most Popular' plan, offering a balanced range of resources
-                for up to 20 clubs, tailored for growing businesses.
+                The 'Most Popular' plan, offering a balanced range of resources,
+                tailored for growing businesses.
               </p>
             </div>
           </div>
@@ -1428,7 +1460,7 @@ function Pricing() {
               </button>
               <p class="text-xs text-gray-500 mt-3">
                 A comprehensive plan for unlimited club growth with advanced
-                features and support, designed for medium-sized businesses.
+                features and support.
               </p>
             </div>
           </div>
@@ -1764,9 +1796,8 @@ function Pricing() {
                 </svg>
               </button>
               <p class="text-xs text-gray-500 mt-3">
-                A fully customizable solution with dedicated support, ensuring
-                large enterprises get exactly what they need for scalability and
-                compliance.
+                Ensuring every business owner get exactly what they need for
+                scalability and compliance.
               </p>
             </div>
           </div>
