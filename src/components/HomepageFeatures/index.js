@@ -255,11 +255,11 @@ function SetupDemo() {
             <img
               alt="content"
               class="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1200x500"
+              src="./img/landing/1200x500.png"
             />
           </div>
           <div class="flex flex-col sm:flex-row mt-10">
-            <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="sm:w-1/3 text-center sm:pr-1 sm:py-3">
               <img
                 alt="content"
                 class="object-cover object-center h-full w-full"
@@ -269,8 +269,8 @@ function SetupDemo() {
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <h1 class="leading-relaxed text-lg mb-4">
                 More than 1/3rd of your subscription payment goes directly to
-                the Community Leads helping you with your integration followed
-                by campaigns.
+                the Community Leads helping Clubs with tech integrations followed
+                by campaigns. Imagine Patreon for your favorite data-generating business instead of video based contents.
               </h1>
               <a class="text-blue-500 inline-flex items-center">
                 Schedule Meet
@@ -395,7 +395,9 @@ function TransparentEvolution() {
                   </g>
                 </svg>
               </svg>
-              <span class="title-font font-medium">Projections on demand volatility and facilities</span>
+              <span class="title-font font-medium">
+                Projections on demand volatility and facilities
+              </span>
             </div>
           </div>
           <div class="p-2 sm:w-1/2 w-full">
@@ -433,7 +435,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                AI conversational agents and Community Leads
+                AI Conversational Agents and Community Lead Program
               </span>
             </div>
           </div>
@@ -511,7 +513,8 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Minimalistic cross-compatible customer wallets
+                Create Club IDs secured with Blockchain standards for
+                sustainability and interoperability
               </span>
             </div>
           </div>
@@ -592,8 +595,9 @@ function Pricing() {
             Predictable pricing, best of Fexr
           </h1>
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
-            Fight fraud in the golden age of fraud, collaborate with a team,
-            then scale to millions of audience.
+            Fexr operates on a simple tier-based and pay-as-you-go model,
+            charging only for the resources you use.
+            <strong> Forget platform cuts and hidden fees.</strong>
           </p>
           <div className="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
             <button
@@ -617,9 +621,9 @@ function Pricing() {
         <div class="flex flex-wrap -m-4">
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
+              {/* <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
                 FRIENDS AND FANS
-              </h2>
+              </h2> */}
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                 <span>${calculatePrice(basePrices.friendsAndFans)}</span>
                 <span className="text-lg ml-1 font-normal text-gray-500">
@@ -648,7 +652,26 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Upto 2 Clubs
+                Unlimited Members
+              </p>
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                1 Club
               </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
@@ -726,8 +749,10 @@ function Pricing() {
                 </span>
                 100MB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -743,8 +768,10 @@ function Pricing() {
                 </span>
                 2,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -760,8 +787,10 @@ function Pricing() {
                 </span>
                 50,000 Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -777,8 +806,10 @@ function Pricing() {
                 </span>
                 10 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -794,8 +825,10 @@ function Pricing() {
                 </span>
                 7-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -811,8 +844,15 @@ function Pricing() {
                 </span>
                 Email support
               </p>
-              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Start 10 Day Free Trial
+              <button
+                onClick={() =>
+                  (window.location.href = "https://fexr.club/dashboard")
+                }
+                class="flex items-center mt-auto text-white bg-black border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                <a href="https://fexr.club/dashboard">
+                  Start 10 Day Free Trial
+                </a>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -836,9 +876,9 @@ function Pricing() {
               <span class="bg-blue-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
                 POPULAR
               </span>
-              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
+              {/* <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
                 STARTUPS AND SMALL BUSINESS
-              </h2>
+              </h2> */}
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                 <span>
                   ${calculatePrice(basePrices.startupsAndSmallBusiness)}
@@ -869,7 +909,26 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Upto 20 Clubs
+                Unlimited Members
+              </p>
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Upto 8 Clubs
               </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
@@ -928,8 +987,10 @@ function Pricing() {
                 </span>
                 100GB bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -945,8 +1006,10 @@ function Pricing() {
                 </span>
                 1GB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -962,8 +1025,10 @@ function Pricing() {
                 </span>
                 20,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -979,8 +1044,10 @@ function Pricing() {
                 </span>
                 500,000 Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -996,8 +1063,10 @@ function Pricing() {
                 </span>
                 100 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1013,8 +1082,10 @@ function Pricing() {
                 </span>
                 7-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1030,8 +1101,13 @@ function Pricing() {
                 </span>
                 Email support
               </p>
-              <button class="flex items-center mt-auto text-white bg-blue-500 border-0 py-2 px-4 w-full focus:outline-none hover:bg-blue-600 rounded">
-                Most Popular
+              <button
+                onClick={() =>
+                  (window.location.href = "https://fexr.club/dashboard")
+                }
+                class="flex items-center mt-auto text-white bg-black border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                <a href="https://fexr.club/dashboard">Most Popular</a>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -1052,9 +1128,9 @@ function Pricing() {
           </div>
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
+              {/* <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
                 MEDIUM-SIZED BUSINESS
-              </h2>
+              </h2> */}
               <h1 class="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                 <span>${calculatePrice(basePrices.mediumSizedBusiness)}</span>
                 <span className="text-lg ml-1 font-normal text-gray-500">
@@ -1066,6 +1142,25 @@ function Pricing() {
                   2 months free
                 </span>
               )}
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Unlimited Members
+              </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
                 style={{ fontSize: "14px" }}
@@ -1142,8 +1237,10 @@ function Pricing() {
                 </span>
                 250GB bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1159,8 +1256,10 @@ function Pricing() {
                 </span>
                 5GB document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1176,8 +1275,10 @@ function Pricing() {
                 </span>
                 100,000 monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1193,8 +1294,10 @@ function Pricing() {
                 </span>
                 2M Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1210,8 +1313,10 @@ function Pricing() {
                 </span>
                 500 concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1227,8 +1332,10 @@ function Pricing() {
                 </span>
                 28-day log retention
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1244,8 +1351,10 @@ function Pricing() {
                 </span>
                 Priority email support & SLAs
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1261,8 +1370,10 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1278,8 +1389,10 @@ function Pricing() {
                 </span>
                 SSO for Fexr Club
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1295,8 +1408,13 @@ function Pricing() {
                 </span>
                 Private Discord channel
               </p>
-              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Get Started
+              <button
+                onClick={() =>
+                  (window.location.href = "https://fexr.club/dashboard")
+                }
+                class="flex items-center mt-auto text-white bg-black border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                <a href="https://fexr.club/dashboard">Get Started</a>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -1317,12 +1435,31 @@ function Pricing() {
           </div>
           <div class="p-4 xl:w-1/4 md:w-1/2 w-full">
             <div class="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
-              <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
-                LARGE ENTERPRISE AND CORP
-              </h2>
+              {/* <h2 class="text-xs tracking-widest title-font mb-1 font-medium">
+                FOR ALL
+              </h2> */}
               <h1 class="text-3xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
-                Contact Us
+                Pay as you go
               </h1>
+              <p
+                class="flex items-center text-gray-600 mb-2"
+                style={{ fontSize: "14px" }}
+              >
+                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
+                  <svg
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.5"
+                    class="w-3 h-3"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M20 6L9 17l-5-5"></path>
+                  </svg>
+                </span>
+                Unlimited Members
+              </p>
               <p
                 class="flex items-center text-gray-600 mb-2"
                 style={{ fontSize: "14px" }}
@@ -1399,8 +1536,10 @@ function Pricing() {
                 </span>
                 Custom bandwidth
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1416,8 +1555,10 @@ function Pricing() {
                 </span>
                 Custom document uploads
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1433,8 +1574,10 @@ function Pricing() {
                 </span>
                 Custom monthly active users
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1450,8 +1593,10 @@ function Pricing() {
                 </span>
                 Custom Edge Function calls
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1467,8 +1612,10 @@ function Pricing() {
                 </span>
                 Custom concurrent Realtime connections
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1484,8 +1631,10 @@ function Pricing() {
                 </span>
                 Custom log retention period
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1501,8 +1650,10 @@ function Pricing() {
                 </span>
                 Designated Support manager & SLAs
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1518,8 +1669,10 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1535,8 +1688,10 @@ function Pricing() {
                 </span>
                 SSO for Fexr Club
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1552,8 +1707,10 @@ function Pricing() {
                 </span>
                 SOC2
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1569,8 +1726,10 @@ function Pricing() {
                 </span>
                 On-premise support
               </p>
-              <p class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}>
+              <p
+                class="flex items-center text-gray-600 mb-6"
+                style={{ fontSize: "14px" }}
+              >
                 <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -1586,8 +1745,13 @@ function Pricing() {
                 </span>
                 Private Discord channel
               </p>
-              <button class="flex items-center mt-auto text-white bg-gray-400 border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded">
-                Contact Us
+              <button
+                onClick={() =>
+                  (window.location.href = "https://fexr.club/dashboard")
+                }
+                class="flex items-center mt-auto text-white bg-black border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
+              >
+                <a href="https://fexr.club/dashboard">Contact Us</a>
                 <svg
                   fill="none"
                   stroke="currentColor"

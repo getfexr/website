@@ -16,7 +16,7 @@ function HomepageHeader() {
               {" "}
               Contact{" "}
             </a>
-            our integration expert to learn more.
+            to learn more.
           </p>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
