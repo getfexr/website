@@ -513,8 +513,7 @@ function TransparentEvolution() {
                 </svg>
               </svg>
               <span class="title-font font-medium">
-                Create Club IDs secured with Blockchain standards for
-                sustainability and interoperability
+                Create Club IDs secured with Blockchain standards for interoperability
               </span>
             </div>
           </div>
