@@ -1,5 +1,10 @@
 @import "./fragments.css";
 
+
+@font-face {
+  font-family: "CalSans";
+  src: url("/static/CalSans-SemiBold.ttf");
+}
 @font-face {
   font-family: "ApfelGrotezk";
   src: url("/static/ApfelGrotezk-Regular.otf");
@@ -8,6 +13,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Outfit";
+  src: url("/static/Outfit-VariableFont_wght.ttf");
+}
 
 @font-face {
   font-family: "Outfit";
@@ -52,7 +62,7 @@ body {
   --grey: #fefffe;
   --secondary-color: #fefffe;
 
-  --green-main: #00d96d;
+  --green-main: #3D9970;
 
   --green-1: #17bd80;
   --green-11: #12a568;
@@ -191,4 +201,35 @@ html[data-theme="dark"] .showcase-border {
 
 a {
   font-family: var(--ifm-heading-font-family);
+}
+
+/* Change the navbar title font size and weight */
+.navbar__title {
+  font-size: 16px; /* Set the font size to 20px */
+  font-weight: 300; /* Set the font weight to '300' for a thinner look */
+}
+
+h1 {
+    font-family: 'CalSans', sans-serif;
+}
+
+#upcoming-section {
+    position: relative;
+}
+
+#upcoming-section::after {
+    content: "The product is in technical preview and you can use it for free in 2024";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Black background with 50% opacity */
+    color: #fff; /* White text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }

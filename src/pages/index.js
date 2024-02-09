@@ -8,7 +8,7 @@ import HomeHeader from '@site/src/components/HomeHeader';
 function HomepageHeader() {
   return (
     <div className="uil-pb-24 min-h-screen">
-      <WavesHeader />
+      {/* <WavesHeader /> */}
       <HomeHeader />
     </div>
   );

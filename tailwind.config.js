@@ -13,8 +13,8 @@ module.exports = {
         padding: '1rem',
       },
       colors: {
-        accent: '#00D96D',
-        'accent-dark': '#00D96D',
+        accent: '#3D9970',
+        'accent-dark': '#000',
         white: '#FFFFFF',
         green: '#10b981',
         orange: '#FEB240',
