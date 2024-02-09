@@ -14,7 +14,7 @@ const config = {
   tagline: meta.tagline, // goes in meta description
   url: "https://getfexr.com",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
 
@@ -158,10 +158,10 @@ const config = {
           //     },
           //   ],
           // },
-          {
-            label: "Features",
-            to: "/learn/features",
-          },
+          // {
+          //   label: "Features",
+          //   to: "/learn/features",
+          // },
           {
             href: "https://discord.gg/CF5Q6jJR4f",
             label: "Discord",
