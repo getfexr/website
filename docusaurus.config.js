@@ -95,7 +95,7 @@ const config = {
         title: "",
         logo: {
           alt: "Fexr Logo",
-          src: "img/logo.svg",
+          src: "img/logoCC.png",
         },
         items: [
           {
