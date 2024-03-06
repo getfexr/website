@@ -251,7 +251,7 @@ const config = {
           },
         ],
         copyright: `
-Contact help@fexr[.]club for more`,
+Contact nidhin@fexr[.]club for more`,
       },
       prism: {
         theme: defaultCodeTheme,
