@@ -621,7 +621,7 @@ function Pricing() {
           <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-500">
             Fexr operates on a simple tier-based and pay-as-you-go model,
             charging only for the resources you use.
-            <strong> Forget platform cuts and hidden fees.</strong>
+            <strong> Soon accepting cryptocurrency payments, such as Bitcoin (BTC), Ethereum (ETH), and Tether (USDT), for various fees.</strong>
           </p>
           <div className="flex mx-auto border-2 border-blue-500 rounded overflow-hidden mt-6">
             <button
