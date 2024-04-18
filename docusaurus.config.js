@@ -12,96 +12,96 @@ const meta = {
 const config = {
   title: `${meta.title} | ${meta.tagline}`,
   tagline: meta.tagline, // goes in meta description
-  url: "https://getfexr.com",
-  baseUrl: "/",
-  onBrokenLinks: "warn",
-  onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
+  url: 'https://getfexr.com',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
+  onBrokenMarkdownLinks: 'warn',
+  favicon: 'img/favicon.ico',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "getfexr", // Usually your GitHub org/user name.
-  projectName: "website/docs", // Usually your repo name.
+  organizationName: 'getfexr', // Usually your GitHub org/user name.
+  projectName: 'website/docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         debug: false,
         docs: {
-          path: "learn",
-          routeBasePath: "learn",
-          lastVersion: "current",
-          sidebarPath: require.resolve("./sidebars.js"),
+          path: 'learn',
+          routeBasePath: 'learn',
+          lastVersion: 'current',
+          sidebarPath: require.resolve('./sidebars.js'),
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/getfexr/website/tree/main/",
+          editUrl: 'https://github.com/getfexr/website/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/getfexr/website/tree/feature/main/",
+          editUrl: 'https://github.com/getfexr/website/tree/feature/main/',
         },
         theme: {
-          customCss: require.resolve("./src/css/custom.css"),
+          customCss: require.resolve('./src/css/custom.css'),
         },
         gtag: {
-          trackingID: "G-8WENR5WPXE",
+          trackingID: 'G-8WENR5WPXE',
           anonymizeIP: true,
         },
         sitemap: {
-          changefreq: "weekly",
+          changefreq: 'weekly',
           priority: 0.5,
-          ignorePatterns: ["/tags/**"],
-          filename: "sitemap.xml",
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
         },
       }),
     ],
   ],
-  plugins: ["tailwind-loader"],
+  plugins: ['tailwind-loader'],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        defaultMode: "light",
+        defaultMode: 'light',
         disableSwitch: true,
       },
       algolia: {
-        apiKey: "481c294cd5afa8803f32c1b027d0806f",
-        indexName: "dev_getfexr",
-        appId: "AJ4WOFLLGX",
+        apiKey: '481c294cd5afa8803f32c1b027d0806f',
+        indexName: 'dev_getfexr',
+        appId: 'AJ4WOFLLGX',
         contextualSearch: true,
         searchPagePath: false,
       },
       announcementBar: {
-        id: "support_us",
+        id: 'support_us',
         content:
-          'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a>',
-        backgroundColor: "#fafbfc",
-        textColor: "#091E42",
+          'Answer this <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a> to get 73% off on BASIC plan.',
+        backgroundColor: '#fafbfc',
+        textColor: '#091E42',
         isCloseable: false,
       },
       navbar: {
         hideOnScroll: true,
-        title: "",
+        title: '',
         logo: {
-          alt: "Fexr Logo",
-          src: "img/logoCC.png",
+          alt: 'Fexr Logo',
+          src: 'img/logoCC.png',
         },
         items: [
           {
-            position: "left",
-            label: "Dashboard",
-            href: "https://fexr.club/dashboard",
+            position: 'left',
+            label: 'Dashboard',
+            href: 'https://fexr.club/dashboard',
           },
           // {
           //   type: "dropdown",
@@ -163,14 +163,14 @@ const config = {
           //   to: "/learn/features",
           // },
           {
-            href: "https://discord.gg/CF5Q6jJR4f",
-            label: "Discord",
-            position: "right",
+            href: 'https://discord.gg/CF5Q6jJR4f',
+            label: 'Discord',
+            position: 'right',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           // TODO: Bring this back in 2025 JAN (2/2)
           // {
@@ -220,32 +220,32 @@ const config = {
           //   ],
           // },
           {
-            title: "Community",
+            title: 'Community',
             items: [
               {
-                label: "Telegram",
-                href: "https://t.me/getfexr",
+                label: 'Telegram',
+                href: 'https://t.me/getfexr',
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/getfexr",
+                label: 'Discord',
+                href: 'https://discordapp.com/invite/getfexr',
               },
               {
-                label: "Twitter",
-                href: "https://twitter.com/getfexr",
+                label: 'Twitter',
+                href: 'https://twitter.com/getfexr',
               },
             ],
           },
           {
-            title: "More",
+            title: 'More',
             items: [
               {
-                label: "Blog",
-                to: "/blog",
+                label: 'Blog',
+                to: '/blog',
               },
               {
-                label: "GitHub",
-                href: "https://github.com/getfexr/",
+                label: 'GitHub',
+                href: 'https://github.com/getfexr/',
               },
             ],
           },
