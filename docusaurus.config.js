@@ -82,10 +82,19 @@ const config = {
         contextualSearch: true,
         searchPagePath: false,
       },
+      //TODO: uncomment this and remove the beta announcement bar
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:
+      //     'Participate <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a>. Get 73% off on BASIC plan.',
+      //   backgroundColor: '#fafbfc',
+      //   textColor: '#091E42',
+      //   isCloseable: false,
+      // },
       announcementBar: {
         id: 'support_us',
         content:
-          'Participate <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a>. Get 73% off on BASIC plan.',
+          'Discover the power of our self-custody wallet now, while our club platform undergoes enhancements.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
