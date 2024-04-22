@@ -85,7 +85,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:
-          'Answer this <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a> to get 73% off on BASIC plan.',
+          'Participate <a target="_blank" rel="noopener noreferrer" href="https://fexr.club/form/clrgtdxop0000q1xndczafnky">this survey</a>. Get 73% off on BASIC plan.',
         backgroundColor: '#fafbfc',
         textColor: '#091E42',
         isCloseable: false,
