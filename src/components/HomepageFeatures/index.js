@@ -527,25 +527,6 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                50,000 Edge Function calls
-              </p>
-              <p
-                class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}
-              >
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
                 10 concurrent Realtime connections
               </p>
               <p
@@ -766,25 +747,6 @@ function Pricing() {
                   </svg>
                 </span>
                 20,000 monthly active users
-              </p>
-              <p
-                class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}
-              >
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
-                500,000 Edge Function calls
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
@@ -1034,25 +996,6 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                2M Edge Function calls
-              </p>
-              <p
-                class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}
-              >
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
                 500 concurrent Realtime connections
               </p>
               <p
@@ -1112,7 +1055,7 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p
+              {/* <p
                 class="flex items-center text-gray-600 mb-6"
                 style={{ fontSize: "14px" }}
               >
@@ -1130,7 +1073,7 @@ function Pricing() {
                   </svg>
                 </span>
                 SSO for Fexr Club
-              </p>
+              </p> */}
               <p
                 class="flex items-center text-gray-600 mb-6"
                 style={{ fontSize: "14px" }}
@@ -1148,7 +1091,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Private Discord channel
+                Deployments and build containers in an isolated network with dedicated IP addresses in a region of their choice and logically separated from other containers.
               </p>
               <button
                 onClick={() =>
@@ -1156,7 +1099,7 @@ function Pricing() {
                 }
                 class="flex items-center mt-auto text-white bg-black border-0 py-2 px-4 w-full focus:outline-none hover:bg-gray-500 rounded"
               >
-                <a href="https://fexr.club/dashboard">Get Started</a>
+                <a href="https://fexr.club/dashboard">Fexr Secure Compute</a>
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -1333,25 +1276,6 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Custom Edge Function calls
-              </p>
-              <p
-                class="flex items-center text-gray-600 mb-6"
-                style={{ fontSize: "14px" }}
-              >
-                <span class="w-4 h-4 mr-2 inline-flex items-center justify-center bg-gray-400 text-white rounded-full flex-shrink-0">
-                  <svg
-                    fill="none"
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2.5"
-                    class="w-3 h-3"
-                    viewBox="0 0 24 24"
-                  >
-                    <path d="M20 6L9 17l-5-5"></path>
-                  </svg>
-                </span>
                 Custom concurrent Realtime connections
               </p>
               <p
@@ -1411,7 +1335,7 @@ function Pricing() {
                 </span>
                 Additional Club member roles
               </p>
-              <p
+              {/* <p
                 class="flex items-center text-gray-600 mb-6"
                 style={{ fontSize: "14px" }}
               >
@@ -1429,7 +1353,7 @@ function Pricing() {
                   </svg>
                 </span>
                 SSO for Fexr Club
-              </p>
+              </p> */}
               <p
                 class="flex items-center text-gray-600 mb-6"
                 style={{ fontSize: "14px" }}
@@ -1447,7 +1371,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                SOC2
+                Fexr Secure Compute
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
