@@ -274,7 +274,7 @@ function SetupDemo() {
                 class="text-blue-500 inline-flex items-center"
                 href="https://fexr.club/form/clricavou0000ilxn1um335cr"
               >
-                Schedule Meet
+                Fill out the form and we'll be in touch to set up a call, go over your needs and develop a plan together.
                 <svg
                   fill="none"
                   stroke="currentColor"
