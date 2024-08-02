@@ -483,7 +483,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                100MB document uploads
+                100MB document embeddings
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
@@ -721,7 +721,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                1GB document uploads
+                1GB document embeddings
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
@@ -952,7 +952,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                5GB document uploads
+                5GB document embeddings
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
@@ -1232,7 +1232,7 @@ function Pricing() {
                     <path d="M20 6L9 17l-5-5"></path>
                   </svg>
                 </span>
-                Custom document uploads
+                Custom document embeddings
               </p>
               <p
                 class="flex items-center text-gray-600 mb-6"
