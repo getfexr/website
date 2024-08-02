@@ -270,11 +270,8 @@ function SetupDemo() {
               <h1 class="leading-relaxed text-lg mb-4">
                 With Fexr.Club, over one-third of your subscription fee directly supports your Community Lead, who assists with tech integrations and drives impactful campaigns. Imagine a Patreon designed for your favorite data-driven business, not just video content. Join Fexr.Club and empower your business with dedicated community support and market-driven insights.
               </h1>
-              <a
-                class="text-blue-500 inline-flex items-center"
-                href="https://fexr.club/form/clricavou0000ilxn1um335cr"
-              >
-                Fill out the form and we'll be in touch to set up a call, go over your needs and develop a plan together.
+              <a class="leading-relaxed text-lg mb-4" href='https://outlook.office365.com/owa/calendar/FexrDemo@fexr.club/bookings/'>
+                We'll be in touch to set up a call, go over your needs and develop a plan together.
                 <svg
                   fill="none"
                   stroke="currentColor"
